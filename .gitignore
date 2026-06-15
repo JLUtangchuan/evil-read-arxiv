@@ -8,6 +8,9 @@ web/.env.local
 start-web.sh
 evil-read-arxiv.service
 
+# Large binary caches
+data/paper_images/
+
 # OS
 .DS_Store
 Thumbs.db
