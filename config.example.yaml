@@ -203,9 +203,16 @@ research_domains:
       - "cs.CY"
     priority: 2
 
-# Excluded keywords (optional, papers containing these will be filtered out)
+# Excluded keywords (optional, papers containing these will be filtered out completely)
 excluded_keywords:
   - "workshop"
+
+# Negative keywords (optional, matching reduces relevance by 3x the normal boost)
+# Unlike excluded_keywords which remove the paper entirely, negative_keywords
+# only penalize the score — the paper still appears but ranks lower.
+# negative_keywords:
+#   - "distillation"
+#   - "pruning"
 
 # Custom common words filter list (optional)
 # These words will be skipped during automatic keyword linking (wikilink replacement)

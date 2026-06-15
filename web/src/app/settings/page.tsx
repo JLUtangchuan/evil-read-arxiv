@@ -6,6 +6,8 @@ import { fetchSettings, saveSettings, updatePreferences } from "@/lib/api";
 import { useLanguage } from "@/components/LanguageContext";
 
 const MODEL_OPTIONS = [
+  "deepseek-v4-pro[1m]",
+  "deepseek-v4-flash",
   "claude-opus-4-6",
   "claude-sonnet-4-6",
   "claude-haiku-4-5-20251001",

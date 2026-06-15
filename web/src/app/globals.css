@@ -95,3 +95,90 @@ body {
   background: var(--border);
   border-radius: 2px;
 }
+
+/* Cool Papers Kimi FAQ styling */
+.kimi-content .faq-q {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  font-weight: 600;
+  color: var(--accent-purple);
+}
+.kimi-content .faq-q:first-child {
+  margin-top: 0;
+}
+.kimi-content .faq-a {
+  margin-bottom: 1em;
+  padding: 0.75em 1em;
+  background: var(--bg-card);
+  border-left: 3px solid var(--accent-purple);
+  border-radius: 0 8px 8px 0;
+}
+.kimi-content .faq-a p {
+  margin: 0.3em 0;
+}
+.kimi-content .faq-a ul,
+.kimi-content .faq-a ol {
+  margin: 0.3em 0;
+  padding-left: 1.5em;
+}
+.kimi-content .faq-a li {
+  margin: 0.15em 0;
+}
+.kimi-content .faq-a h1,
+.kimi-content .faq-a h2,
+.kimi-content .faq-a h3,
+.kimi-content .faq-a h4,
+.kimi-content .faq-a h5,
+.kimi-content .faq-a h6 {
+  margin: 0.5em 0 0.3em;
+  color: var(--accent-green);
+  font-weight: 600;
+}
+.kimi-content .faq-a h3 { font-size: 1.1em; }
+.kimi-content .faq-a h4 { font-size: 1em; }
+.kimi-content .faq-a code {
+  background: var(--bg-primary);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--accent-orange);
+}
+.kimi-content .faq-a pre {
+  background: var(--bg-primary);
+  padding: 0.75em 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0.5em 0;
+}
+.kimi-content .faq-a pre code {
+  background: none;
+  padding: 0;
+  color: var(--text-primary);
+}
+.kimi-content a {
+  color: var(--accent-blue);
+  text-decoration: underline;
+}
+.kimi-content strong {
+  color: var(--accent-green);
+}
+.kimi-content em {
+  color: var(--accent-orange);
+  font-style: italic;
+}
+
+/* KaTeX dark theme overrides */
+.kimi-content .katex {
+  color: var(--text-primary);
+}
+.kimi-content .katex-error {
+  color: var(--accent-red);
+  border: 1px dashed var(--accent-red);
+  padding: 0 2px;
+}
+.kimi-content .katex-display {
+  margin: 0.5em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+

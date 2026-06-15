@@ -4,6 +4,7 @@ const translations: Record<Language, Record<string, string>> = {
   zh: {
     // Nav
     "nav.papers": "论文",
+    "nav.citations": "引用",
     "nav.favorites": "收藏",
     "nav.settings": "设置",
 
@@ -13,6 +14,8 @@ const translations: Record<Language, Record<string, string>> = {
     "paper.methodSummary": "方法概要",
     "paper.keyResults": "关键结果",
     "paper.deepDive": "深入了解",
+    "paper.coolPapers": "Cool Papers 解读",
+    "paper.loadingCoolPapers": "正在加载 Kimi 解读...",
     "paper.loadingAnalysis": "正在分析...",
 
     // Feedback buttons
@@ -20,11 +23,16 @@ const translations: Record<Language, Record<string, string>> = {
     "feedback.neutral": "一般",
     "feedback.dislike": "不感兴趣",
     "feedback.viewOriginal": "原文",
+    "feedback.viewCnPdf": "中文版",
 
     // Papers page
     "papers.today": "今天",
     "papers.thisWeek": "最近一周",
     "papers.thisMonth": "最近一个月",
+    "papers.history": "历史",
+    "papers.viewingHistory": "正在查看 {date} 的历史论文",
+    "papers.loadingHistory": "正在加载 {date} 的历史论文...",
+    "papers.noHistoryData": "{date} 暂无历史数据",
     "papers.searchPlaceholder": "今天想看什么方向？例如：多模态大模型、机器人抓取...",
     "papers.searchPlaceholderCompact": "今天想看什么方向？",
     "papers.filtering": "筛选中...",
@@ -58,6 +66,41 @@ const translations: Record<Language, Record<string, string>> = {
     "favorites.rename": "重命名",
     "favorites.deleteFolder": "删除文件夹",
 
+    // Citations page
+    "citations.title": "引用搜索",
+    "citations.description": "输入论文标题，查找引用了该论文的所有后续研究",
+    "citations.searchPlaceholder": "输入论文标题，例如：Attention Is All You Need...",
+    "citations.search": "搜索",
+    "citations.searching": "搜索中...",
+    "citations.searchingDesc": "正在 Semantic Scholar 中搜索引用关系...",
+    "citations.retry": "重试",
+    "citations.matchedPaper": "匹配论文",
+    "citations.citedBy": "被引 {count} 次",
+    "citations.filters": "筛选条件",
+    "citations.minYear": "起始年份",
+    "citations.maxYear": "截止年份",
+    "citations.minCitations": "最少引用数",
+    "citations.applyFilters": "应用筛选",
+    "citations.showingResults": "显示 {filtered} / {total} 篇引用论文",
+    "citations.noResults": "没有符合筛选条件的论文",
+    "citations.untitled": "无标题",
+    "citations.emptyHint": "输入一篇论文的标题，查找哪些论文引用了它",
+    "citations.history": "搜索历史",
+    "citations.noHistory": "暂无搜索记录",
+    "citations.deleteHistory": "删除记录",
+    "citations.cachedLabel": "（缓存于 {date}）",
+    "citations.filterByTitleAuthor": "搜索标题或作者...",
+    "citations.filterByYear": "年份",
+    "citations.filterByCitations": "引用数范围",
+    "citations.resetFilters": "重置筛选",
+    "citations.sortCitationsDesc": "引用数 ↓",
+    "citations.sortCitationsAsc": "引用数 ↑",
+    "citations.sortYearDesc": "年份 ↓",
+    "citations.sortYearAsc": "年份 ↑",
+    "citations.coolPapers": "Cool Papers (Kimi) 中文解读",
+    "citations.loadingCoolPapers": "正在加载 Cool Papers 中文解读...",
+    "citations.clickForDetail": "点击左侧论文查看详情",
+
     // Settings page
     "settings.claudeConfig": "Claude 模型配置",
     "settings.claudeConfigDesc": "已内置默认 API，无需配置即可使用。以下选项仅用于自定义覆盖。",
@@ -84,6 +127,7 @@ const translations: Record<Language, Record<string, string>> = {
   en: {
     // Nav
     "nav.papers": "Papers",
+    "nav.citations": "Citations",
     "nav.favorites": "Favorites",
     "nav.settings": "Settings",
 
@@ -93,6 +137,8 @@ const translations: Record<Language, Record<string, string>> = {
     "paper.methodSummary": "Method Overview",
     "paper.keyResults": "Key Results",
     "paper.deepDive": "Deep Dive",
+    "paper.coolPapers": "Cool Papers (Kimi)",
+    "paper.loadingCoolPapers": "Loading Kimi summary...",
     "paper.loadingAnalysis": "Analyzing...",
 
     // Feedback buttons
@@ -100,11 +146,16 @@ const translations: Record<Language, Record<string, string>> = {
     "feedback.neutral": "OK",
     "feedback.dislike": "Not Interested",
     "feedback.viewOriginal": "Paper",
+    "feedback.viewCnPdf": "中文版",
 
     // Papers page
     "papers.today": "Today",
     "papers.thisWeek": "This Week",
     "papers.thisMonth": "This Month",
+    "papers.history": "History",
+    "papers.viewingHistory": "Viewing historical papers from {date}",
+    "papers.loadingHistory": "Loading historical papers for {date}...",
+    "papers.noHistoryData": "No historical data for {date}",
     "papers.searchPlaceholder": "What topics interest you? e.g., multimodal LLM, robot grasping...",
     "papers.searchPlaceholderCompact": "What topics interest you?",
     "papers.filtering": "Filtering...",
@@ -137,6 +188,41 @@ const translations: Record<Language, Record<string, string>> = {
     "favorites.removeFavorite": "Remove from favorites",
     "favorites.rename": "Rename",
     "favorites.deleteFolder": "Delete folder",
+
+    // Citations page
+    "citations.title": "Citation Search",
+    "citations.description": "Enter a paper title to find all papers that cite it",
+    "citations.searchPlaceholder": "Enter paper title, e.g.: Attention Is All You Need...",
+    "citations.search": "Search",
+    "citations.searching": "Searching...",
+    "citations.searchingDesc": "Searching citation relationships via Semantic Scholar...",
+    "citations.retry": "Retry",
+    "citations.matchedPaper": "Matched Paper",
+    "citations.citedBy": "Cited {count} times",
+    "citations.filters": "Filters",
+    "citations.minYear": "From Year",
+    "citations.maxYear": "To Year",
+    "citations.minCitations": "Min Citations",
+    "citations.applyFilters": "Apply Filters",
+    "citations.showingResults": "Showing {filtered} of {total} citing papers",
+    "citations.noResults": "No papers match the filter criteria",
+    "citations.untitled": "Untitled",
+    "citations.emptyHint": "Enter a paper title to discover which papers cite it",
+    "citations.history": "Search History",
+    "citations.noHistory": "No search history",
+    "citations.deleteHistory": "Delete",
+    "citations.cachedLabel": "(cached {date})",
+    "citations.filterByTitleAuthor": "Search by title or author...",
+    "citations.filterByYear": "Year",
+    "citations.filterByCitations": "Citation Range",
+    "citations.resetFilters": "Reset Filters",
+    "citations.sortCitationsDesc": "Citations ↓",
+    "citations.sortCitationsAsc": "Citations ↑",
+    "citations.sortYearDesc": "Year ↓",
+    "citations.sortYearAsc": "Year ↑",
+    "citations.coolPapers": "Cool Papers (Kimi) Chinese Summary",
+    "citations.loadingCoolPapers": "Loading Cool Papers summary...",
+    "citations.clickForDetail": "Click a paper on the left to view details",
 
     // Settings page
     "settings.claudeConfig": "Claude Model Configuration",

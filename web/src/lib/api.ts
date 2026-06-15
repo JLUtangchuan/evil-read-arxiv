@@ -20,12 +20,21 @@ async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> {
   return res.json();
 }
 
-export async function fetchPapers(date?: string, range?: string): Promise<PapersResponse> {
+export async function fetchPapers(
+  date?: string,
+  range?: string,
+  source?: string
+): Promise<PapersResponse> {
   const params = new URLSearchParams();
   if (date) params.set("date", date);
   if (range) params.set("range", range);
+  if (source) params.set("source", source);
   const qs = params.toString();
   return fetchJson(`${BASE}/papers${qs ? `?${qs}` : ""}`);
+}
+
+export async function fetchHistoryDates(): Promise<string[]> {
+  return fetchJson(`${BASE}/papers/history-dates`);
 }
 
 export async function fetchAnalysis(arxivId: string, title?: string, abstract?: string): Promise<PaperAnalysis> {
@@ -145,4 +154,12 @@ export async function filterPapers(
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ date, focus }),
   });
+}
+
+export async function fetchKimiSummary(arxivId: string): Promise<string> {
+  const res = await fetch(`${BASE}/papers/${encodeURIComponent(arxivId)}/kimi`);
+  if (!res.ok) {
+    throw new Error(`Kimi summary fetch failed: ${res.status}`);
+  }
+  return res.text();
 }

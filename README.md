@@ -463,3 +463,7 @@ MIT License
 - [Semantic Scholar](https://www.semanticscholar.org/) - AI 驱动的学术研究平台
 - [Claude Code](https://claude.ai/claude-code) - AI 辅助的代码和写作工具
 - [Obsidian](https://obsidian.md/) - 强大的知识管理工具
+# evil-read-arxiv
+# evil-read-arxiv
+# evil-read-arxiv
+# evil-read-arxiv

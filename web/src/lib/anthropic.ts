@@ -2,9 +2,9 @@ import Anthropic from "@anthropic-ai/sdk";
 import { promises as fs } from "fs";
 import path from "path";
 
-const DEFAULT_API_KEY = "YOUR_API_KEY";
-const DEFAULT_BASE_URL = "YOUR_BASE_URL";
-const DEFAULT_MODEL = "claude-sonnet-4-6";
+const DEFAULT_API_KEY = "";
+const DEFAULT_BASE_URL = "https://api.anthropic.com";
+const DEFAULT_MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
 
 const SETTINGS_PATH = path.join(process.cwd(), "..", "data", "api_settings.json");
 

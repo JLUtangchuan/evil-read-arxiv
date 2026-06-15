@@ -6,6 +6,7 @@ import { useLanguage } from "@/components/LanguageContext";
 
 const NAV_ITEMS = [
   { href: "/papers", icon: "📱", labelKey: "nav.papers" },
+  { href: "/citations", icon: "🔗", labelKey: "nav.citations" },
   { href: "/favorites", icon: "⭐", labelKey: "nav.favorites" },
   { href: "/settings", icon: "⚙️", labelKey: "nav.settings" },
 ];

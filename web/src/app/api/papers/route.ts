@@ -10,6 +10,11 @@ import {
   saveResearchConfig,
 } from "@/lib/data";
 import { searchPapers } from "@/lib/python-bridge";
+import {
+  fetchPapersFromGitHub,
+  mapGithubPaperToPaper,
+} from "@/lib/github-history";
+import { scoreAndRank } from "@/lib/scoring";
 import path from "path";
 import type { Paper } from "@/lib/types";
 import { type Language, prompts } from "@/lib/i18n";
@@ -171,12 +176,69 @@ async function translateFocusToEnglish(
   }
 }
 
+async function handleGithubRequest(date: string) {
+  try {
+    const cacheKey = `github_${date}`;
+
+    let cached = await getCachedPapers(cacheKey);
+    if (!cached) {
+      const rawPapers = await fetchPapersFromGitHub(date);
+      const papers = rawPapers.map((r) => mapGithubPaperToPaper(r, date));
+
+      cached = { date, papers, total: papers.length };
+      await cachePapers(cacheKey, cached);
+    }
+
+    // Detect raw (unmapped) cache from warm-up script: raw papers have "AI" field
+    // instead of "affiliations". Re-map if needed.
+    const needsMapping =
+      cached.papers.length > 0 && !("affiliations" in cached.papers[0]);
+    if (needsMapping) {
+      const mapped = cached.papers.map((p: Record<string, unknown>) =>
+        mapGithubPaperToPaper(
+          p as unknown as import("@/lib/github-history").GithubRawPaper,
+          date
+        )
+      );
+      cached = { date, papers: mapped, total: mapped.length };
+      await cachePapers(cacheKey, cached); // overwrite raw cache with mapped
+    }
+    const papers = cached.papers;
+
+    // Apply relevance scoring using user's research config (always fresh)
+    const config = await getResearchConfig();
+    const scoredPapers = scoreAndRank(papers, config);
+
+    const feedback = await getFeedback();
+    const papersWithFeedback = mergeFeedback(scoredPapers, feedback);
+
+    return NextResponse.json({
+      date: cached.date,
+      papers: papersWithFeedback,
+      total: papersWithFeedback.length,
+    });
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown error";
+    const status = message.includes("No historical data") ? 404 : 500;
+    return NextResponse.json(
+      { error: `Failed to fetch historical papers: ${message}` },
+      { status }
+    );
+  }
+}
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const date =
     searchParams.get("date") || new Date().toISOString().slice(0, 10);
   const focus = searchParams.get("focus") || "";
   const range = searchParams.get("range") || ""; // "week" | "month" | ""
+  const source = searchParams.get("source") || "arxiv"; // "arxiv" | "github"
+
+  // ── GitHub historical papers branch ──
+  if (source === "github") {
+    return handleGithubRequest(date);
+  }
 
   const days = range === "week" ? 7 : range === "month" ? 30 : 1;
 
@@ -196,7 +258,7 @@ export async function GET(request: NextRequest) {
       // Translate Chinese focus to English keywords for arXiv search
       let searchFocus = focus;
       let client: Anthropic | null = null;
-      let model = "claude-sonnet-4-6";
+      let model = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
       if (focus) {
         try {
           const resolved = await createAnthropicClientWithSettings();

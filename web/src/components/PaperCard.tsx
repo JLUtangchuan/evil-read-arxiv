@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import type { Paper, PaperAnalysis, PaperImage } from "@/lib/types";
-import { fetchAnalysis, fetchPaperImages } from "@/lib/api";
+import { fetchAnalysis, fetchPaperImages, fetchKimiSummary } from "@/lib/api";
 import { useLanguage } from "@/components/LanguageContext";
 import FeedbackButtons from "./FeedbackButtons";
 
@@ -26,6 +26,9 @@ export default function PaperCard({ paper, onFeedback }: PaperCardProps) {
   const [loadingAnalysis, setLoadingAnalysis] = useState(false);
   const [loadingImages, setLoadingImages] = useState(false);
   const [showAnalysis, setShowAnalysis] = useState(!!paper.highlights);
+  const [kimiHtml, setKimiHtml] = useState<string | null>(null);
+  const [loadingKimi, setLoadingKimi] = useState(false);
+  const [showKimi, setShowKimi] = useState(false);
   const [lightboxImg, setLightboxImg] = useState<string | null>(null);
 
   // Reset state and load images when paper changes
@@ -37,6 +40,9 @@ export default function PaperCard({ paper, onFeedback }: PaperCardProps) {
     setImages(paper.images || []);
     setShowAnalysis(!!paper.highlights);
     setLoadingAnalysis(false);
+    setKimiHtml(null);
+    setLoadingKimi(false);
+    setShowKimi(false);
     setLightboxImg(null);
 
     // Load images (lightweight, cached on server)
@@ -62,6 +68,19 @@ export default function PaperCard({ paper, onFeedback }: PaperCardProps) {
       .then((data) => setAnalysis(data))
       .catch((err) => console.error("Analysis failed:", err))
       .finally(() => setLoadingAnalysis(false));
+  };
+
+  const handleCoolPapers = () => {
+    if (kimiHtml) {
+      setShowKimi(true);
+      return;
+    }
+    setShowKimi(true);
+    setLoadingKimi(true);
+    fetchKimiSummary(paper.arxiv_id)
+      .then((html) => setKimiHtml(html))
+      .catch((err) => console.error("Kimi summary failed:", err))
+      .finally(() => setLoadingKimi(false));
   };
 
   const domainColor =
@@ -216,6 +235,26 @@ export default function PaperCard({ paper, onFeedback }: PaperCardProps) {
           </>
         ) : null}
 
+        {/* Cool Papers (Kimi) button & content */}
+        {!showKimi ? (
+          <button
+            onClick={handleCoolPapers}
+            className="w-full py-2.5 lg:py-3 rounded-lg border border-[var(--accent-purple)]/40 bg-[var(--accent-purple)]/10 text-[var(--accent-purple)] text-sm lg:text-base font-medium hover:bg-[var(--accent-purple)]/20 transition-colors flex items-center justify-center gap-2"
+          >
+            <span>🧠</span>
+            {t("paper.coolPapers")}
+          </button>
+        ) : loadingKimi ? (
+          <div className="text-center text-xs text-[var(--text-secondary)] py-1">
+            {t("paper.loadingCoolPapers")}
+          </div>
+        ) : kimiHtml ? (
+          <div
+            className="kimi-content bg-[var(--bg-secondary)] rounded-lg p-3 lg:p-4 text-sm lg:text-base leading-relaxed text-[var(--text-primary)]"
+            dangerouslySetInnerHTML={{ __html: kimiHtml }}
+          />
+        ) : null}
+
         {/* Keywords */}
         <div className="flex flex-wrap gap-1.5 lg:gap-2 pt-1 pb-2">
           {paper.matched_keywords.map((kw) => (
@@ -236,6 +275,9 @@ export default function PaperCard({ paper, onFeedback }: PaperCardProps) {
           onFeedback={onFeedback}
           onViewPaper={() =>
             window.open(paper.arxiv_url || paper.pdf_url, "_blank")
+          }
+          onViewCnPdf={() =>
+            window.open(`https://hjfy.top/arxiv/${paper.arxiv_id}`, "_blank")
           }
         />
       </div>

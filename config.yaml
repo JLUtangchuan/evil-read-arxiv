@@ -1,5 +1,5 @@
 language: zh
-vault_path: /home/woan/ObsidianVault
+vault_path: /mnt/d/OneDrive/Note/OBSIDIAN Note/Obsidian笔记/400 知识/402 论文学习
 papers_dir: 20_Research/Papers
 research_domains:
   VLA模型:
@@ -27,6 +27,7 @@ research_domains:
       - imitation learning
       - behavior cloning
       - robot transformer
+      - diffusion model
     arxiv_categories:
       - cs.RO
       - cs.CV
@@ -34,36 +35,58 @@ research_domains:
       - cs.LG
       - cs.CL
     priority: 5
-  世界模型:
+  自动驾驶:
     keywords:
-      - world model
-      - world simulator
-      - video prediction
-      - video generation
-      - physical simulation
-      - dynamics model
-      - environment model
-      - predictive model
-      - neural simulator
-      - Sora
-      - Genie
-      - UniSim
-      - model-based reinforcement learning
-      - imagination
-      - dreamer
-      - latent dynamics
-      - physical reasoning
-      - physics simulation
-      - scene understanding
-      - 3D generation
-      - 4D generation
-      - video diffusion
+      - autonomous driving
+      - self-driving
+      - autonomous vehicle
+      - end-to-end driving
+      - trajectory prediction
+      - motion prediction
+      - motion planning
+      - behavior prediction
+      - trajectory planning
+      - occupancy prediction
+      - occupancy network
+      - bird eye view
+      - BEV perception
+      - LiDAR perception
+      - 3D object detection
+      - lane detection
+      - HD map
+      - vector map
+      - map-free driving
+      - sensor fusion
+      - multi-view perception
+      - surround-view
+      - temporal fusion
+      - world model driving
+      - driving scene generation
+      - CARLA simulator
+      - nuScenes
+      - Waymo Open Dataset
+      - imitation learning driving
+      - planning-oriented
+      - scene understanding driving
+      - interactive prediction
+      - V2X
+      - vehicle-to-everything
+      - autonomous racing
+      - decision making driving
+      - PNC
+      - collision avoidance
+      - safety-critical driving
+      - closed-loop evaluation
+      - open-loop evaluation
+      - ILQR
+      - model predictive control
+      - diffusion policy driving
+      - neural radiance field driving
     arxiv_categories:
       - cs.CV
+      - cs.RO
       - cs.AI
       - cs.LG
-      - cs.RO
-      - cs.GR
     priority: 5
   强化学习:
     keywords:
@@ -112,26 +135,83 @@ research_domains:
       - cs.LG
       - cs.AI
     priority: 5
-  绳驱连续体机器人:
-    keywords:
-      - tendon driven continuum robot
-      - hyper-redundant manipulator
-      - cable driven continuum
-      - shape estimation continuum
-      - continuum robot kinematics
-      - tendon actuation
-      - soft continuum manipulator
-      - continuum robot control
-      - Magnus expansion robot
-      - reconfigurable continuum
-      - flexible robot arm
-      - continuum mechanics robotics
-      - wire driven robot
-    arxiv_categories:
-      - cs.RO
-      - eess.SY
-      - cs.SY
-    priority: 5
 excluded_keywords:
   - workshop
-semantic_scholar_api_key: ''
+negative_keywords:
+  - clinical
+  - medical
+  - patient
+  - disease
+  - diagnosis
+  - diagnostic
+  - therapeutic
+  - drug
+  - pharmaceutical
+  - surgery
+  - surgical
+  - radiology
+  - radiographic
+  - histopathology
+  - pathology
+  - tumor
+  - cancer
+  - lesion
+  - biomarker
+  - genomic
+  - gene
+  - protein
+  - molecular
+  - DNA
+  - RNA
+  - cell
+  - cellular
+  - tissue
+  - biology
+  - biological
+  - biomedical
+  - biomechanics
+  - biomolecular
+  - microbiome
+  - immunology
+  - neuroscience
+  - brain
+  - neural activity
+  - EEG
+  - fMRI
+  - MRI
+  - CT scan
+  - X-ray
+  - ultrasound
+  - echocardiography
+  - endoscopy
+  - dermatology
+  - ophthalmology
+  - cardiology
+  - oncology
+  - chemistry
+  - chemical
+  - catalyst
+  - catalysis
+  - polymer
+  - nanoparticle
+  - nanomaterial
+  - material science
+  - alloy
+  - semiconductor
+  - crystallography
+  - spectroscopy
+  - chromatography
+  - electrochemical
+  - drug discovery
+  - clinical trial
+  - epidemiology
+  - pharmacology
+  - anatomy
+  - physiology
+  - pathology
+  - virology
+  - bacteria
+  - antibiotic
+  - vaccination
+  - vaccine
+semantic_scholar_api_key: 's2k-ah4zs51rkD8ihP2dZxySxMT6zAOY5v5WjbOkCO4w'

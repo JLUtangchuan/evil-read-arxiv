@@ -247,3 +247,98 @@ export async function getFavoritePapers(): Promise<Paper[]> {
 
   return allPapers;
 }
+
+// --- Citations Cache ---
+
+const CITATIONS_CACHE_DIR = path.join(DATA_DIR, "citations_cache");
+const CITATIONS_INDEX_PATH = path.join(CITATIONS_CACHE_DIR, "_index.json");
+
+export interface CitationCacheEntry {
+  paperId: string;
+  title: string;
+  year: number | null;
+  citationCount: number;
+  searchedAt: string; // ISO timestamp
+}
+
+export interface CitationCacheData {
+  paper: {
+    title: string;
+    year: number | null;
+    citationCount: number;
+    paperId: string;
+    externalIds: Record<string, string>;
+    url: string;
+  };
+  citations: {
+    title: string;
+    year: number | null;
+    citationCount: number;
+    authors: string[];
+    venue: string;
+    externalIds: { ArXiv: string; DOI: string };
+    paperId: string;
+    publicationDate: string;
+  }[];
+  totalCitations: number;
+  cachedAt: string;
+}
+
+export async function getCachedCitations(
+  paperId: string
+): Promise<CitationCacheData | null> {
+  const safe = paperId.replace(/[^a-zA-Z0-9._-]/g, "_");
+  const filePath = path.join(CITATIONS_CACHE_DIR, `${safe}.json`);
+  try {
+    const raw = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(raw) as CitationCacheData;
+  } catch {
+    return null;
+  }
+}
+
+export async function cacheCitations(
+  paperId: string,
+  data: CitationCacheData
+) {
+  const safe = paperId.replace(/[^a-zA-Z0-9._-]/g, "_");
+  await ensureDir(CITATIONS_CACHE_DIR);
+  await writeJson(path.join(CITATIONS_CACHE_DIR, `${safe}.json`), data);
+
+  // Update index
+  const index = await getCitationHistory();
+  const existing = index.findIndex((e) => e.paperId === paperId);
+  const entry: CitationCacheEntry = {
+    paperId: data.paper.paperId,
+    title: data.paper.title,
+    year: data.paper.year,
+    citationCount: data.paper.citationCount,
+    searchedAt: data.cachedAt,
+  };
+  if (existing >= 0) {
+    index[existing] = entry;
+  } else {
+    index.unshift(entry);
+  }
+  // Keep max 50 history entries
+  await writeJson(CITATIONS_INDEX_PATH, index.slice(0, 50));
+}
+
+export async function getCitationHistory(): Promise<CitationCacheEntry[]> {
+  return readJson(CITATIONS_INDEX_PATH, []);
+}
+
+export async function deleteCitationCache(paperId: string) {
+  const safe = paperId.replace(/[^a-zA-Z0-9._-]/g, "_");
+  const filePath = path.join(CITATIONS_CACHE_DIR, `${safe}.json`);
+  try {
+    await fs.unlink(filePath);
+  } catch {
+    // ignore if not found
+  }
+  const index = await getCitationHistory();
+  await writeJson(
+    CITATIONS_INDEX_PATH,
+    index.filter((e) => e.paperId !== paperId)
+  );
+}

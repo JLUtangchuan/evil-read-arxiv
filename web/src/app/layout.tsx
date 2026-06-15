@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "katex/dist/katex.min.css";
 import NavBar from "@/components/NavBar";
 import Providers from "@/components/Providers";
 
@@ -14,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="zh" className="dark">
+    <html lang="zh" className="dark" suppressHydrationWarning>
       <body className="h-dvh flex flex-col">
         <Providers>
           <main className="flex-1 min-h-0 overflow-hidden">{children}</main>

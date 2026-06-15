@@ -90,6 +90,7 @@ export interface ResearchConfig {
   papers_dir: string;
   research_domains: Record<string, ResearchDomain>;
   excluded_keywords: string[];
+  negative_keywords?: string[];
   semantic_scholar_api_key?: string;
 }
 

@@ -77,20 +77,30 @@ export async function GET(
       // Try direct parse first
       analysis = JSON.parse(text);
     } catch {
-      // Try extracting JSON from markdown code block
+      // Try extracting JSON from markdown code block or free text
       const codeBlockMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/);
       const jsonStr = codeBlockMatch
         ? codeBlockMatch[1].trim()
-        : (text.match(/\{[\s\S]*\}/) || [""])[0];
+        : (text.match(/\{[\s\S]*\}/)?.[0] || "");
 
       if (jsonStr) {
         try {
           analysis = JSON.parse(jsonStr);
         } catch {
-          // Last resort: extract fields manually with regex
+          // Last resort: extract fields with regex (handles multiline values)
           const extract = (key: string) => {
-            const m = text.match(new RegExp(`"${key}"\\s*:\\s*"([^"]*(?:\\\\"[^"]*)*)"`));
-            return m ? m[1].replace(/\\"/g, '"') : "";
+            // Match "key": "value" where value can contain escaped quotes
+            const re = new RegExp(
+              `"${key}"\\s*:\\s*"([\\s\\S]*?)(?:"\\s*[,}]|"$)`,
+              "m"
+            );
+            const m = text.match(re);
+            if (!m) {
+              // Try with the jsonStr extracted earlier
+              const m2 = jsonStr.match(re);
+              return m2 ? m2[1].replace(/\\"/g, '"').replace(/\\n/g, "\n") : "";
+            }
+            return m[1].replace(/\\"/g, '"').replace(/\\n/g, "\n");
           };
           analysis = {
             contribution: extract("contribution"),
@@ -99,10 +109,12 @@ export async function GET(
             results: extract("results"),
           };
           if (!analysis.contribution && !analysis.innovation) {
+            console.error("DeepSeek raw response:", text.slice(0, 500));
             throw new Error("Failed to parse analysis response");
           }
         }
       } else {
+        console.error("DeepSeek raw response:", text.slice(0, 500));
         throw new Error("Failed to parse analysis response");
       }
     }

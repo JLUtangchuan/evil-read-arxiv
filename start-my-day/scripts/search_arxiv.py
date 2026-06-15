@@ -70,6 +70,9 @@ RELEVANCE_TITLE_KEYWORD_BOOST = 0.5
 RELEVANCE_SUMMARY_KEYWORD_BOOST = 0.3
 RELEVANCE_CATEGORY_MATCH_BOOST = 1.0
 
+# 负相关关键词惩罚倍率（匹配到扣 3x 正常加分）
+NEGATIVE_KEYWORD_PENALTY_MULTIPLIER = 3.0
+
 # 新近性阈值（天） -> 对应评分
 RECENCY_THRESHOLDS = [
     (30, 3.0),
@@ -620,24 +623,28 @@ def calculate_relevance_score(
     paper: Dict,
     domains: Dict,
     excluded_keywords: List[str],
-    focus_keywords: List[str] = None
+    focus_keywords: List[str] = None,
+    negative_keywords: List[str] = None
 ) -> Tuple[float, Optional[str], List[str]]:
     """
     计算论文与研究兴趣的相关性评分
 
     当有 focus_keywords 时，以 focus 匹配为主导（高权重），
     已有兴趣域仅作为参考加分。
+    negative_keywords 匹配时以 3x 倍率扣分。
 
     Args:
         paper: 论文信息
         domains: 研究领域配置
-        excluded_keywords: 排除关键词
+        excluded_keywords: 排除关键词（匹配直接筛掉）
         focus_keywords: 用户今日关注的关键词
+        negative_keywords: 负相关关键词（匹配扣 3x 正常分）
 
     Returns:
         (相关性评分, 匹配的领域, 匹配的关键词列表)
     """
     focus_keywords = focus_keywords or []
+    negative_keywords = negative_keywords or []
     title = paper.get('title', '').lower()
     summary = paper.get('summary', '').lower() if 'summary' in paper else paper.get('abstract', '').lower()
     categories = set(paper.get('categories', []))
@@ -692,6 +699,17 @@ def calculate_relevance_score(
             best_domain = domain_name
             domain_matched_keywords = dm_keywords
 
+    # ---- 负相关关键词惩罚 ----
+    negative_penalty = 0.0
+    for nk in negative_keywords:
+        nk_lower = nk.lower().strip()
+        if not nk_lower:
+            continue
+        if nk_lower in title:
+            negative_penalty += RELEVANCE_TITLE_KEYWORD_BOOST * NEGATIVE_KEYWORD_PENALTY_MULTIPLIER
+        elif nk_lower in summary:
+            negative_penalty += RELEVANCE_SUMMARY_KEYWORD_BOOST * NEGATIVE_KEYWORD_PENALTY_MULTIPLIER
+
     # ---- 合并评分 ----
     if focus_keywords:
         # Focus 模式：focus 为主，域匹配为辅（0.3 权重）
@@ -703,6 +721,9 @@ def calculate_relevance_score(
         total_score = max_domain_score
         all_matched = domain_matched_keywords
         matched_domain = best_domain
+
+    # 应用负相关惩罚，不低于 0
+    total_score = max(0, total_score - negative_penalty)
 
     return total_score, matched_domain, all_matched
 
@@ -848,13 +869,16 @@ def filter_and_score_papers(
     """
     domains = config.get('research_domains', {})
     excluded_keywords = config.get('excluded_keywords', [])
+    negative_keywords = config.get('negative_keywords', [])
 
     scored_papers = []
 
     for paper in papers:
         # 计算相关性
         relevance, matched_domain, matched_keywords = calculate_relevance_score(
-            paper, domains, excluded_keywords, focus_keywords=focus_keywords or []
+            paper, domains, excluded_keywords,
+            focus_keywords=focus_keywords or [],
+            negative_keywords=negative_keywords,
         )
 
         # 如果相关性为0，跳过

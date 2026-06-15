@@ -7,6 +7,7 @@ interface FeedbackButtonsProps {
   currentFeedback?: "like" | "neutral" | "dislike";
   onFeedback: (rating: "like" | "neutral" | "dislike" | undefined) => void;
   onViewPaper: () => void;
+  onViewCnPdf?: () => void;
 }
 
 function HeartIcon({ filled }: { filled: boolean }) {
@@ -87,6 +88,7 @@ export default function FeedbackButtons({
   currentFeedback,
   onFeedback,
   onViewPaper,
+  onViewCnPdf,
 }: FeedbackButtonsProps) {
   const [animating, setAnimating] = useState<string | null>(null);
   const { t } = useLanguage();
@@ -143,6 +145,16 @@ export default function FeedbackButtons({
         <ExternalLinkIcon />
         <span className="text-xs lg:text-sm font-medium">{t("feedback.viewOriginal")}</span>
       </button>
+
+      {onViewCnPdf && (
+        <button
+          onClick={onViewCnPdf}
+          className="flex items-center gap-1.5 lg:gap-2 px-4 lg:px-5 py-2 lg:py-2.5 rounded-full text-[var(--text-secondary)] hover:bg-emerald-500/10 hover:text-[var(--accent-green)] transition-all duration-200 active:scale-95"
+        >
+          <span className="text-base lg:text-lg">📄</span>
+          <span className="text-xs lg:text-sm font-medium">{t("feedback.viewCnPdf")}</span>
+        </button>
+      )}
     </div>
   );
 }

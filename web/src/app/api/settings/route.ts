@@ -10,7 +10,7 @@ export async function GET() {
 
     const settings: AppSettings = {
       claude: {
-        model: apiSettings.model || "claude-sonnet-4-6",
+        model: apiSettings.model || process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6",
         api_key: apiSettings.api_key || "",
         max_tokens: 4096,
       },
