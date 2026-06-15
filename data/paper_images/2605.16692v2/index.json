@@ -1,0 +1,92 @@
+[
+  {
+    "filename": "cheap_reanalyze_aggregate_page1.png",
+    "url": "/api/images/2605.16692v2/cheap_reanalyze_aggregate_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "cheap_reanalyze_page1.png",
+    "url": "/api/images/2605.16692v2/cheap_reanalyze_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "component_ablation_aggregate_page1.png",
+    "url": "/api/images/2605.16692v2/component_ablation_aggregate_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "component_ablation_per_task_grid_page1.png",
+    "url": "/api/images/2605.16692v2/component_ablation_per_task_grid_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig4_dog-stand_50k_page1.png",
+    "url": "/api/images/2605.16692v2/fig4_dog-stand_50k_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig4_quadruped-walk_50k_page1.png",
+    "url": "/api/images/2605.16692v2/fig4_quadruped-walk_50k_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig4_reacher-hard_50k_page1.png",
+    "url": "/api/images/2605.16692v2/fig4_reacher-hard_50k_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "hb_pessimism_scope_aggregate_page1.png",
+    "url": "/api/images/2605.16692v2/hb_pessimism_scope_aggregate_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "hb_pessimism_scope_page1.png",
+    "url": "/api/images/2605.16692v2/hb_pessimism_scope_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "method_overview_page1.png",
+    "url": "/api/images/2605.16692v2/method_overview_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "normalized_aggregate_auc_overall_page1.png",
+    "url": "/api/images/2605.16692v2/normalized_aggregate_auc_overall_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "normalized_aggregate_curves_page1.png",
+    "url": "/api/images/2605.16692v2/normalized_aggregate_curves_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "per_task_easy_dmc_page1.png",
+    "url": "/api/images/2605.16692v2/per_task_easy_dmc_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "per_task_hard_dmc_page1.png",
+    "url": "/api/images/2605.16692v2/per_task_hard_dmc_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "per_task_humanoidbench_page1.png",
+    "url": "/api/images/2605.16692v2/per_task_humanoidbench_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "pessimism_ablation_page1.png",
+    "url": "/api/images/2605.16692v2/pessimism_ablation_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "planner_exploitation_heatmap_page1.png",
+    "url": "/api/images/2605.16692v2/planner_exploitation_heatmap_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "utd_humanoid_walk_page1.png",
+    "url": "/api/images/2605.16692v2/utd_humanoid_walk_page1.png",
+    "source": "arxiv"
+  }
+]

@@ -1,0 +1,352 @@
+{
+  "date": "2026-05-29",
+  "papers": [
+    {
+      "arxiv_id": "2510.13626",
+      "title": "LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action Models",
+      "authors": [
+        {
+          "authorId": "2385785349",
+          "affiliations": []
+        },
+        {
+          "authorId": "2182224120",
+          "affiliations": [
+            "Fudan University"
+          ]
+        },
+        {
+          "authorId": "2348888995",
+          "affiliations": []
+        },
+        {
+          "authorId": "2264773695",
+          "affiliations": []
+        },
+        {
+          "authorId": "2387222800",
+          "affiliations": []
+        },
+        {
+          "authorId": "2385785398",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371306698",
+          "affiliations": []
+        },
+        {
+          "authorId": "2386416920",
+          "affiliations": []
+        },
+        {
+          "authorId": "2302704871",
+          "affiliations": []
+        },
+        {
+          "authorId": "2132200788",
+          "affiliations": []
+        },
+        {
+          "authorId": "2243662006",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371292918",
+          "affiliations": []
+        },
+        {
+          "authorId": "2350155100",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [
+        "Fudan University"
+      ],
+      "summary": "Visual-Language-Action (VLA) models report impressive success rates on robotic manipulation benchmarks, yet these results may mask fundamental weaknesses in robustness. We perform a systematic vulnerability analysis by introducing controlled perturbations across seven dimensions: objects layout, camera viewpoints, robot initial states, language instructions, light conditions, background textures and sensor noise. We comprehensively analyzed multiple state-of-the-art models and revealed consistent brittleness beneath apparent competence. Our analysis exposes critical weaknesses: models exhibit extreme sensitivity to perturbation factors, including camera viewpoints and robot initial states, with performance dropping from 95% to below 30% under modest perturbations. Surprisingly, models are largely insensitive to language variations, with further experiments revealing that models tend to ignore language instructions completely. Our findings challenge the assumption that high benchmark scores equate to true competency and highlight the need for evaluation practices that assess reliability under realistic variation.",
+      "original_abstract": "Visual-Language-Action (VLA) models report impressive success rates on robotic manipulation benchmarks, yet these results may mask fundamental weaknesses in robustness. We perform a systematic vulnerability analysis by introducing controlled perturbations across seven dimensions: objects layout, camera viewpoints, robot initial states, language instructions, light conditions, background textures and sensor noise. We comprehensively analyzed multiple state-of-the-art models and revealed consistent brittleness beneath apparent competence. Our analysis exposes critical weaknesses: models exhibit extreme sensitivity to perturbation factors, including camera viewpoints and robot initial states, with performance dropping from 95% to below 30% under modest perturbations. Surprisingly, models are largely insensitive to language variations, with further experiments revealing that models tend to ignore language instructions completely. Our findings challenge the assumption that high benchmark scores equate to true competency and highlight the need for evaluation practices that assess reliability under realistic variation.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "robotic manipulation"
+      ],
+      "scores": {
+        "relevance": 1.1,
+        "recency": 0,
+        "popularity": 0.99,
+        "quality": 1.1,
+        "recommendation": 3.14
+      },
+      "pdf_url": "https://arxiv.org/pdf/2510.13626",
+      "arxiv_url": "https://www.semanticscholar.org/paper/dfa5ba43d6df553bb3a8cf3fc1cf2d1210cc10c3"
+    },
+    {
+      "arxiv_id": "2506.01844",
+      "title": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+      "authors": [
+        {
+          "authorId": "2067292515",
+          "affiliations": []
+        },
+        {
+          "authorId": "2252792786",
+          "affiliations": []
+        },
+        {
+          "authorId": "2365036806",
+          "affiliations": []
+        },
+        {
+          "authorId": "2365036530",
+          "affiliations": []
+        },
+        {
+          "authorId": "2365038732",
+          "affiliations": []
+        },
+        {
+          "authorId": "103370422",
+          "affiliations": []
+        },
+        {
+          "authorId": "2365040243",
+          "affiliations": []
+        },
+        {
+          "authorId": "2365040760",
+          "affiliations": []
+        },
+        {
+          "authorId": "2365040415",
+          "affiliations": []
+        },
+        {
+          "authorId": "2316862322",
+          "affiliations": []
+        },
+        {
+          "authorId": "2365040178",
+          "affiliations": []
+        },
+        {
+          "authorId": "2260814209",
+          "affiliations": []
+        },
+        {
+          "authorId": "2365594921",
+          "affiliations": []
+        },
+        {
+          "authorId": "7535126",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Vision-language models (VLMs) pretrained on large-scale multimodal datasets encode rich visual and linguistic knowledge, making them a strong foundation for robotics. Rather than training robotic policies from scratch, recent approaches adapt VLMs into vision-language-action (VLA) models that enable natural language-driven perception and control. However, existing VLAs are typically massive--often with billions of parameters--leading to high training costs and limited real-world deployability. Moreover, they rely on academic and industrial datasets, overlooking the growing availability of community-collected data from affordable robotic platforms. In this work, we present SmolVLA, a small, efficient, and community-driven VLA that drastically reduces both training and inference costs, while retaining competitive performance. SmolVLA is designed to be trained on a single GPU and deployed on consumer-grade GPUs or even CPUs. To further improve responsiveness, we introduce an asynchronous inference stack decoupling perception and action prediction from action execution, allowing higher control rates with chunked action generation. Despite its compact size, SmolVLA achieves performance comparable to VLAs that are 10x larger. We evaluate SmolVLA on a range of both simulated as well as real-world robotic benchmarks and release all code, pretrained models, and training data.",
+      "original_abstract": "Vision-language models (VLMs) pretrained on large-scale multimodal datasets encode rich visual and linguistic knowledge, making them a strong foundation for robotics. Rather than training robotic policies from scratch, recent approaches adapt VLMs into vision-language-action (VLA) models that enable natural language-driven perception and control. However, existing VLAs are typically massive--often with billions of parameters--leading to high training costs and limited real-world deployability. Moreover, they rely on academic and industrial datasets, overlooking the growing availability of community-collected data from affordable robotic platforms. In this work, we present SmolVLA, a small, efficient, and community-driven VLA that drastically reduces both training and inference costs, while retaining competitive performance. SmolVLA is designed to be trained on a single GPU and deployed on consumer-grade GPUs or even CPUs. To further improve responsiveness, we introduce an asynchronous inference stack decoupling perception and action prediction from action execution, allowing higher control rates with chunked action generation. Despite its compact size, SmolVLA achieves performance comparable to VLAs that are 10x larger. We evaluate SmolVLA on a range of both simulated as well as real-world robotic benchmarks and release all code, pretrained models, and training data.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "action prediction"
+      ],
+      "scores": {
+        "relevance": 0.4,
+        "recency": 0,
+        "popularity": 1.44,
+        "quality": 1.1,
+        "recommendation": 2.99
+      },
+      "pdf_url": "https://arxiv.org/pdf/2506.01844",
+      "arxiv_url": "https://www.semanticscholar.org/paper/6ab4d113676d00e74b55e918fee4c7affaa8652f"
+    },
+    {
+      "arxiv_id": "2507.04447",
+      "title": "DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge",
+      "authors": [
+        {
+          "authorId": "2282545418",
+          "affiliations": []
+        },
+        {
+          "authorId": "2331868768",
+          "affiliations": []
+        },
+        {
+          "authorId": "3424017",
+          "affiliations": []
+        },
+        {
+          "authorId": "2314085002",
+          "affiliations": []
+        },
+        {
+          "authorId": "2328936584",
+          "affiliations": []
+        },
+        {
+          "authorId": "2107990526",
+          "affiliations": []
+        },
+        {
+          "authorId": "2056965063",
+          "affiliations": [
+            "University of Illinois, Urbana-Champaign"
+          ]
+        },
+        {
+          "authorId": "2346731923",
+          "affiliations": []
+        },
+        {
+          "authorId": "2334325487",
+          "affiliations": []
+        },
+        {
+          "authorId": "2287041015",
+          "affiliations": []
+        },
+        {
+          "authorId": "2242612318",
+          "affiliations": []
+        },
+        {
+          "authorId": "2247938835",
+          "affiliations": []
+        },
+        {
+          "authorId": "2346309936",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [
+        "University of Illinois, Urbana-Champaign"
+      ],
+      "summary": "Recent advances in vision-language-action (VLA) models have shown promise in integrating image generation with action prediction to improve generalization and reasoning in robot manipulation. However, existing methods are limited to challenging image-based forecasting, which suffers from redundant information and lacks comprehensive and critical world knowledge, including dynamic, spatial and semantic information. To address these limitations, we propose DreamVLA, a novel VLA framework that integrates comprehensive world knowledge forecasting to enable inverse dynamics modeling, thereby establishing a perception-prediction-action loop for manipulation tasks. Specifically, DreamVLA introduces a dynamic-region-guided world knowledge prediction, integrated with the spatial and semantic cues, which provide compact yet comprehensive representations for action planning. This design aligns with how humans interact with the world by first forming abstract multimodal reasoning chains before acting. To mitigate interference among the dynamic, spatial and semantic information during training, we adopt a block-wise structured attention mechanism that masks their mutual attention, preventing information leakage and keeping each representation clean and disentangled. Moreover, to model the conditional distribution over future actions, we employ a diffusion-based transformer that disentangles action representations from shared latent features. Extensive experiments on both real-world and simulation environments demonstrate that DreamVLA achieves 76.7% success rate on real robot tasks and 4.44 average length on the CALVIN ABC-D benchmarks.",
+      "original_abstract": "Recent advances in vision-language-action (VLA) models have shown promise in integrating image generation with action prediction to improve generalization and reasoning in robot manipulation. However, existing methods are limited to challenging image-based forecasting, which suffers from redundant information and lacks comprehensive and critical world knowledge, including dynamic, spatial and semantic information. To address these limitations, we propose DreamVLA, a novel VLA framework that integrates comprehensive world knowledge forecasting to enable inverse dynamics modeling, thereby establishing a perception-prediction-action loop for manipulation tasks. Specifically, DreamVLA introduces a dynamic-region-guided world knowledge prediction, integrated with the spatial and semantic cues, which provide compact yet comprehensive representations for action planning. This design aligns with how humans interact with the world by first forming abstract multimodal reasoning chains before acting. To mitigate interference among the dynamic, spatial and semantic information during training, we adopt a block-wise structured attention mechanism that masks their mutual attention, preventing information leakage and keeping each representation clean and disentangled. Moreover, to model the conditional distribution over future actions, we employ a diffusion-based transformer that disentangles action representations from shared latent features. Extensive experiments on both real-world and simulation environments demonstrate that DreamVLA achieves 76.7% success rate on real robot tasks and 4.44 average length on the CALVIN ABC-D benchmarks.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "action prediction"
+      ],
+      "scores": {
+        "relevance": 0.4,
+        "recency": 0,
+        "popularity": 0.45,
+        "quality": 2,
+        "recommendation": 1.81
+      },
+      "pdf_url": "https://arxiv.org/pdf/2507.04447",
+      "arxiv_url": "https://www.semanticscholar.org/paper/f374c4d9407566e349ab861c5d51720b211e37f9"
+    },
+    {
+      "arxiv_id": "2506.13757",
+      "title": "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning",
+      "authors": [
+        {
+          "authorId": "2292466757",
+          "affiliations": []
+        },
+        {
+          "authorId": "2324784985",
+          "affiliations": []
+        },
+        {
+          "authorId": "2316585215",
+          "affiliations": []
+        },
+        {
+          "authorId": "2334386538",
+          "affiliations": []
+        },
+        {
+          "authorId": "2333367109",
+          "affiliations": []
+        },
+        {
+          "authorId": "2316674209",
+          "affiliations": []
+        },
+        {
+          "authorId": "2367691803",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Recent advancements in Vision-Language-Action (VLA) models have shown promise for end-to-end autonomous driving by leveraging world knowledge and reasoning capabilities. However, current VLA models often struggle with physically infeasible action outputs, complex model structures, or unnecessarily long reasoning. In this paper, we propose AutoVLA, a novel VLA model that unifies reasoning and action generation within a single autoregressive generation model for end-to-end autonomous driving. AutoVLA performs semantic reasoning and trajectory planning directly from raw visual inputs and language instructions. We tokenize continuous trajectories into discrete, feasible actions, enabling direct integration into the language model. For training, we employ supervised fine-tuning to equip the model with dual thinking modes: fast thinking (trajectory-only) and slow thinking (enhanced with chain-of-thought reasoning). To further enhance planning performance and efficiency, we introduce a reinforcement fine-tuning method based on Group Relative Policy Optimization (GRPO), reducing unnecessary reasoning in straightforward scenarios. Extensive experiments across real-world and simulated datasets and benchmarks, including nuPlan, nuScenes, Waymo, and CARLA, demonstrate the competitive performance of AutoVLA in both open-loop and closed-loop settings. Qualitative results showcase the adaptive reasoning and accurate planning capabilities of AutoVLA in diverse scenarios.",
+      "original_abstract": "Recent advancements in Vision-Language-Action (VLA) models have shown promise for end-to-end autonomous driving by leveraging world knowledge and reasoning capabilities. However, current VLA models often struggle with physically infeasible action outputs, complex model structures, or unnecessarily long reasoning. In this paper, we propose AutoVLA, a novel VLA model that unifies reasoning and action generation within a single autoregressive generation model for end-to-end autonomous driving. AutoVLA performs semantic reasoning and trajectory planning directly from raw visual inputs and language instructions. We tokenize continuous trajectories into discrete, feasible actions, enabling direct integration into the language model. For training, we employ supervised fine-tuning to equip the model with dual thinking modes: fast thinking (trajectory-only) and slow thinking (enhanced with chain-of-thought reasoning). To further enhance planning performance and efficiency, we introduce a reinforcement fine-tuning method based on Group Relative Policy Optimization (GRPO), reducing unnecessary reasoning in straightforward scenarios. Extensive experiments across real-world and simulated datasets and benchmarks, including nuPlan, nuScenes, Waymo, and CARLA, demonstrate the competitive performance of AutoVLA in both open-loop and closed-loop settings. Qualitative results showcase the adaptive reasoning and accurate planning capabilities of AutoVLA in diverse scenarios.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "自动驾驶",
+      "matched_keywords": [
+        "autonomous driving",
+        "trajectory planning",
+        "nuScenes"
+      ],
+      "scores": {
+        "relevance": 0.2,
+        "recency": 0,
+        "popularity": 0.63,
+        "quality": 1.2,
+        "recommendation": 1.58
+      },
+      "pdf_url": "https://arxiv.org/pdf/2506.13757",
+      "arxiv_url": "https://www.semanticscholar.org/paper/989d24f3ab2c35b0698c42b800caab5246f6eb53"
+    },
+    {
+      "arxiv_id": "2507.16815",
+      "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+      "authors": [
+        {
+          "authorId": "2268723514",
+          "affiliations": []
+        },
+        {
+          "authorId": "2333795724",
+          "affiliations": []
+        },
+        {
+          "authorId": "2239064269",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332289950",
+          "affiliations": []
+        },
+        {
+          "authorId": "41015732",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Vision-language-action (VLA) reasoning tasks require agents to interpret multimodal instructions, perform long-horizon planning, and act adaptively in dynamic environments. Existing approaches typically train VLA models in an end-to-end fashion, directly mapping inputs to actions without explicit reasoning, which hinders their ability to plan over multiple steps or adapt to complex task variations. In this paper, we propose ThinkAct, a dual-system framework that bridges high-level reasoning with low-level action execution via reinforced visual latent planning. ThinkAct trains a multimodal LLM to generate embodied reasoning plans guided by reinforcing action-aligned visual rewards based on goal completion and trajectory consistency. These reasoning plans are compressed into a visual plan latent that conditions a downstream action model for robust action execution on target environments. Extensive experiments on embodied reasoning and robot manipulation benchmarks demonstrate that ThinkAct enables few-shot adaptation, long-horizon planning, and self-correction behaviors in complex embodied AI tasks.",
+      "original_abstract": "Vision-language-action (VLA) reasoning tasks require agents to interpret multimodal instructions, perform long-horizon planning, and act adaptively in dynamic environments. Existing approaches typically train VLA models in an end-to-end fashion, directly mapping inputs to actions without explicit reasoning, which hinders their ability to plan over multiple steps or adapt to complex task variations. In this paper, we propose ThinkAct, a dual-system framework that bridges high-level reasoning with low-level action execution via reinforced visual latent planning. ThinkAct trains a multimodal LLM to generate embodied reasoning plans guided by reinforcing action-aligned visual rewards based on goal completion and trajectory consistency. These reasoning plans are compressed into a visual plan latent that conditions a downstream action model for robust action execution on target environments. Extensive experiments on embodied reasoning and robot manipulation benchmarks demonstrate that ThinkAct enables few-shot adaptation, long-horizon planning, and self-correction behaviors in complex embodied AI tasks.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "embodied AI"
+      ],
+      "scores": {
+        "relevance": 0.2,
+        "recency": 0,
+        "popularity": 0.39,
+        "quality": 1.2,
+        "recommendation": 1.22
+      },
+      "pdf_url": "https://arxiv.org/pdf/2507.16815",
+      "arxiv_url": "https://www.semanticscholar.org/paper/996f5d92e6c6a6b88a98657e7a664bcc29cb5c14"
+    }
+  ],
+  "total": 5
+}

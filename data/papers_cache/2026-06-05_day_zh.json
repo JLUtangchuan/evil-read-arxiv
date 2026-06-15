@@ -1,0 +1,385 @@
+{
+  "date": "2026-06-05",
+  "papers": [
+    {
+      "arxiv_id": "2606.07451v1",
+      "title": "TEVI: Text-Conditioned Editing of Visual Representations via Sparse Autoencoders for Improved Vision-Language Alignment",
+      "authors": [
+        "Sweta Mahajan",
+        "Sukrut Rao",
+        "Jiahao Xie",
+        "Alexander Koller",
+        "Bernt Schiele"
+      ],
+      "affiliations": [],
+      "summary": "Vision-language models such as CLIP are highly useful for diverse tasks due to their shared image-text embedding space. Despite this, the image and text embeddings are often poorly aligned, affecting downstream performance. Recent work has shown that this can be attributed to an information imbalance: images contain more information than their captions describe. In this work, we propose TEVI, a framework that uses captions as a signal for what to retain from image embeddings. Specifically, we use sparse autoencoders to disentangle image embeddings and train a masking module to selectively reconstruct the embedding based on a given caption. In a controlled setup with synthetic captions, we show that TEVI is effective at preserving caption-described attributes while discarding others. By applying TEVI to CLIP models trained on natural images, we further achieve improved retrieval performance across coarse-grained short-caption (MS COCO, Flickr) and fine-grained long-caption (IIW, DOCCI) benchmarks, with stronger gains on richer captions, and improved robustness on the RoCOCO benchmark.",
+      "original_abstract": "Vision-language models such as CLIP are highly useful for diverse tasks due to their shared image-text embedding space. Despite this, the image and text embeddings are often poorly aligned, affecting downstream performance. Recent work has shown that this can be attributed to an information imbalance: images contain more information than their captions describe. In this work, we propose TEVI, a framework that uses captions as a signal for what to retain from image embeddings. Specifically, we use sparse autoencoders to disentangle image embeddings and train a masking module to selectively reconstruct the embedding based on a given caption. In a controlled setup with synthetic captions, we show that TEVI is effective at preserving caption-described attributes while discarding others. By applying TEVI to CLIP models trained on natural images, we further achieve improved retrieval performance across coarse-grained short-caption (MS COCO, Flickr) and fine-grained long-caption (IIW, DOCCI) benchmarks, with stronger gains on richer captions, and improved robustness on the RoCOCO benchmark.",
+      "published_date": "2026-06-05T16:54:40Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 4,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 1.2,
+        "recommendation": 9.73
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07451v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.07451v1"
+    },
+    {
+      "arxiv_id": "2606.07512v1",
+      "title": "MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism",
+      "authors": [
+        "Cong Chen",
+        "Guo Gan",
+        "Kaixiang Ji",
+        "ChaoYang Zhang",
+        "Zhen Yang",
+        "Guangming Yao",
+        "Hao Chen",
+        "Jingdong Chen",
+        "Yi Yuan",
+        "Chunhua Shen"
+      ],
+      "affiliations": [],
+      "summary": "Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduce MemDreamer to decouple perception and reasoning, shifting long-video understanding into an agentic exploration process. As a plug-and-play framework, it incrementally streams videos to construct a Hierarchical Graph Memory, a top-down three-tier architecture for semantic abstraction, anchored by a foundational graph capturing spatiotemporal and causal relations. During inference, the reasoning model employs agentic tool-augmented retrieval, navigating hierarchies, searching nodes, and traversing logical edges via an Observation-Reason-Action loop. Experiments show MemDreamer achieves SOTA results across four mainstream benchmarks, narrowing the gap with human experts to only 3.7 points. It constrains the reasoning context window to merely 2% of full-context ingestion while delivering a 12.5 point absolute accuracy gain. Furthermore, statistical analysis uncovers a strong positive linear correlation between an VLM's performance on logic reasoning and long-video understanding benchmarks, establishing agentic capability scaling as a new paradigm for multimodal comprehension.",
+      "original_abstract": "Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduce MemDreamer to decouple perception and reasoning, shifting long-video understanding into an agentic exploration process. As a plug-and-play framework, it incrementally streams videos to construct a Hierarchical Graph Memory, a top-down three-tier architecture for semantic abstraction, anchored by a foundational graph capturing spatiotemporal and causal relations. During inference, the reasoning model employs agentic tool-augmented retrieval, navigating hierarchies, searching nodes, and traversing logical edges via an Observation-Reason-Action loop. Experiments show MemDreamer achieves SOTA results across four mainstream benchmarks, narrowing the gap with human experts to only 3.7 points. It constrains the reasoning context window to merely 2% of full-context ingestion while delivering a 12.5 point absolute accuracy gain. Furthermore, statistical analysis uncovers a strong positive linear correlation between an VLM's performance on logic reasoning and long-video understanding benchmarks, establishing agentic capability scaling as a new paradigm for multimodal comprehension.",
+      "published_date": "2026-06-05T17:59:21Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 2,
+        "recommendation": 8.67
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07512v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.07512v1"
+    },
+    {
+      "arxiv_id": "2606.07226v2",
+      "title": "DEFINED: A Data-Efficient Computational Framework for Fine-Grained Creativity Assessment in Debate Scenarios",
+      "authors": [
+        "Tongzhou Yu",
+        "Mingjia Li",
+        "Hong Qian",
+        "Wenkai Wang",
+        "Zongbao Zhang",
+        "Yaoyu Jiang",
+        "Xiangfeng Wang",
+        "Aimin Zhou",
+        "Jiajun Guo"
+      ],
+      "affiliations": [],
+      "summary": "Human creativity has emerged as a critical competency in the era of large language models. Assessing creativity in complex, open-ended environments is a grand challenge in data mining, currently hindered by a reliance on standardized simple tasks and the scarcity of fine-grained expert data. As an ecologically valid assessment context, debate reflects multiple dimensions of creativity, encompassing both divergent thinking and convergent thinking. Moreover, debate is a data-rich domain, with a large volume of publicly accessible materials. Current mainstream automated scoring methods are poorly suited to complex settings such as debate, and therefore still rely on costly human evaluation. To this end, this paper proposes DEFINED, a data-efficient computational framework for fine-grained creativity assessment in debate scenarios. DEFINED operationalizes debate creativity through a hierarchical eight-dimensional metric system, implemented via a pre-trained autoregressive language model with a hierarchical scoring head that supports both fine-grained and coarse-grained evaluation. Statements and their associated expert scores were obtained from authentic debate competitions, and a constrained data augmentation strategy was employed to address the elite bias inherent in the original data. DEFINED adopts a mixed-granularity training strategy enabling robust learning from limited fine-grained supervision annotated by trained graduate experts. To rigorously validate ecological validity beyond synthetic benchmarks, we incorporate an empirical study with debate-naive participants, utilizing these authentic data to serve as a qualitative case study for mid-to-low proficiency populations. Across our evaluation protocol, our scoring model achieves accurate and stable scoring, outperforming prompt-based large language model evaluators and existing debate scoring methods.",
+      "original_abstract": "Human creativity has emerged as a critical competency in the era of large language models. Assessing creativity in complex, open-ended environments is a grand challenge in data mining, currently hindered by a reliance on standardized simple tasks and the scarcity of fine-grained expert data. As an ecologically valid assessment context, debate reflects multiple dimensions of creativity, encompassing both divergent thinking and convergent thinking. Moreover, debate is a data-rich domain, with a large volume of publicly accessible materials. Current mainstream automated scoring methods are poorly suited to complex settings such as debate, and therefore still rely on costly human evaluation. To this end, this paper proposes DEFINED, a data-efficient computational framework for fine-grained creativity assessment in debate scenarios. DEFINED operationalizes debate creativity through a hierarchical eight-dimensional metric system, implemented via a pre-trained autoregressive language model with a hierarchical scoring head that supports both fine-grained and coarse-grained evaluation. Statements and their associated expert scores were obtained from authentic debate competitions, and a constrained data augmentation strategy was employed to address the elite bias inherent in the original data. DEFINED adopts a mixed-granularity training strategy enabling robust learning from limited fine-grained supervision annotated by trained graduate experts. To rigorously validate ecological validity beyond synthetic benchmarks, we incorporate an empirical study with debate-naive participants, utilizing these authentic data to serve as a qualitative case study for mid-to-low proficiency populations. Across our evaluation protocol, our scoring model achieves accurate and stable scoring, outperforming prompt-based large language model evaluators and existing debate scoring methods.",
+      "published_date": "2026-06-05T12:42:56Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 2,
+        "recommendation": 8.67
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07226v2",
+      "arxiv_url": "http://arxiv.org/abs/2606.07226v2"
+    },
+    {
+      "arxiv_id": "2606.07780v1",
+      "title": "Land cover and flood type govern the detection limits of satellite-based flood mapping across diverse global flood events",
+      "authors": [
+        "Venkatesh Kolluru",
+        "Rajat Shinde",
+        "Abdelhak Marouane",
+        "Caden Helbling",
+        "Deepak Shah",
+        "Othneil Drew",
+        "Iksha Gurung",
+        "Manil Maskey",
+        "Rahul Ramachandran"
+      ],
+      "affiliations": [],
+      "summary": "Floods are among the most destructive natural hazards, and their increasing frequency under climate change makes satellite-based inundation mapping essential for disaster response. Geospatial foundation models pretrained on satellite archives offer geographic transferability, but their operational reliability across diverse, unseen events remains uncharacterized. Here we deploy Prithvi-EO-2.0 across 19 out-of-distribution flood events (2017-2025) spanning six continents, eight climate zones, and six flood mechanisms, validating against two independent reference products. Detection accuracy depended jointly on land cover and flood type, with cropland yielding the highest agreement (IoU=52%) and riverine events the strongest detection (F1=0.69), while tree cover and built-up areas showed near-zero detection (IoU=4%) regardless of flood mechanism. Dual-reference validation revealed that apparent model error partly reflects definitional inconsistency between reference products rather than detection failure. Iterative pipeline testing identified 23 failure modes, with pipeline engineering dominating initial error over model capacity. These findings establish environment-dependent detection boundaries for operational satellite flood mapping.",
+      "original_abstract": "Floods are among the most destructive natural hazards, and their increasing frequency under climate change makes satellite-based inundation mapping essential for disaster response. Geospatial foundation models pretrained on satellite archives offer geographic transferability, but their operational reliability across diverse, unseen events remains uncharacterized. Here we deploy Prithvi-EO-2.0 across 19 out-of-distribution flood events (2017-2025) spanning six continents, eight climate zones, and six flood mechanisms, validating against two independent reference products. Detection accuracy depended jointly on land cover and flood type, with cropland yielding the highest agreement (IoU=52%) and riverine events the strongest detection (F1=0.69), while tree cover and built-up areas showed near-zero detection (IoU=4%) regardless of flood mechanism. Dual-reference validation revealed that apparent model error partly reflects definitional inconsistency between reference products rather than detection failure. Iterative pipeline testing identified 23 failure modes, with pipeline engineering dominating initial error over model capacity. These findings establish environment-dependent detection boundaries for operational satellite flood mapping.",
+      "published_date": "2026-06-05T18:46:03Z",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 1.3,
+        "recommendation": 8.43
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07780v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.07780v1"
+    },
+    {
+      "arxiv_id": "2606.07379v2",
+      "title": "Do Coding Agents Deceive Us? Detecting and Preventing Cheating via Capped Evaluation with Randomized Tests",
+      "authors": [
+        "Thanawat Lodkaew",
+        "Johannes Ackermann",
+        "Soichiro Nishimori",
+        "Nontawat Charoenphakdee",
+        "Masashi Sugiyama",
+        "Takashi Ishida"
+      ],
+      "affiliations": [],
+      "summary": "A growing failure mode in agent evaluation and training is that models can achieve high evaluation scores by exploiting shortcuts instead of solving the intended task, producing deceptive performance. This makes evaluation scores unreliable as measures of true task-solving ability. We propose CapCode, a framework for constructing coding datasets with randomized tests whose best achievable non-cheating performance is deliberately capped below one. This capped-performance design gives evaluation scores a clearer interpretation: scores substantially above the cap are implausible and therefore provide evidence of cheating. To prevent cheating, we propose CapReward, a reward design based on the CapCode principle to discourage optimization beyond the cap. Experiments across multiple datasets show that CapCode detects cheating while preserving performance ranking of models, and CapReward reduces cheating behavior, yielding models that better follow the intended task specification.",
+      "original_abstract": "A growing failure mode in agent evaluation and training is that models can achieve high evaluation scores by exploiting shortcuts instead of solving the intended task, producing deceptive performance. This makes evaluation scores unreliable as measures of true task-solving ability. We propose CapCode, a framework for constructing coding datasets with randomized tests whose best achievable non-cheating performance is deliberately capped below one. This capped-performance design gives evaluation scores a clearer interpretation: scores substantially above the cap are implausible and therefore provide evidence of cheating. To prevent cheating, we propose CapReward, a reward design based on the CapCode principle to discourage optimization beyond the cap. Experiments across multiple datasets show that CapCode detects cheating while preserving performance ranking of models, and CapReward reduces cheating behavior, yielding models that better follow the intended task specification.",
+      "published_date": "2026-06-05T15:20:37Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "stat.ME"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 1.2,
+        "recommendation": 8.4
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07379v2",
+      "arxiv_url": "http://arxiv.org/abs/2606.07379v2"
+    },
+    {
+      "arxiv_id": "2606.07217v1",
+      "title": "Robotic Policy Adaptation via Weight-Space Meta-Learning",
+      "authors": [
+        "Christian Bianchi",
+        "Siamak Yousefi",
+        "Alessio Sampieri",
+        "Andrea Roberti",
+        "Luca Rigazio",
+        "Fabio Galasso",
+        "Luca Franco"
+      ],
+      "affiliations": [],
+      "summary": "Vision-Language-Action (VLA) models are emerging as a promising paradigm for robotic manipulation, enabling general-purpose policies trained from large corpora of demonstrations and action labels. However, adapting these models to new tasks still typically requires task-specific demonstrations, action annotations, and additional fine-tuning, making deployment costly and difficult to scale.\n  We propose WIZARD, a weight-space meta-learning framework that sidesteps task-specific fine-tuning by generating task-specific LoRA parameters for a frozen VLA policy. Given only a language instruction and a short demonstration video, WIZARD predicts the corresponding adaptation weights in a single forward pass, without target-task action labels or test-time optimization. During meta-training, WIZARD learns to map task evidence directly to expert LoRA updates, capturing relationships between tasks in weight space.\n  Experiments on LIBERO show that WIZARD improves performance by up to ~2x on unseen dataset collections and up to ~14x on unseen tasks. On a Franka Emika Panda, WIZARD consistently improves over a real-domain adapted baseline, showing that generated adapters provide task-level specialization beyond simulation.",
+      "original_abstract": "Vision-Language-Action (VLA) models are emerging as a promising paradigm for robotic manipulation, enabling general-purpose policies trained from large corpora of demonstrations and action labels. However, adapting these models to new tasks still typically requires task-specific demonstrations, action annotations, and additional fine-tuning, making deployment costly and difficult to scale.\n  We propose WIZARD, a weight-space meta-learning framework that sidesteps task-specific fine-tuning by generating task-specific LoRA parameters for a frozen VLA policy. Given only a language instruction and a short demonstration video, WIZARD predicts the corresponding adaptation weights in a single forward pass, without target-task action labels or test-time optimization. During meta-training, WIZARD learns to map task evidence directly to expert LoRA updates, capturing relationships between tasks in weight space.\n  Experiments on LIBERO show that WIZARD improves performance by up to ~2x on unseen dataset collections and up to ~14x on unseen tasks. On a Franka Emika Panda, WIZARD consistently improves over a real-domain adapted baseline, showing that generated adapters provide task-level specialization beyond simulation.",
+      "published_date": "2026-06-05T12:29:28Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "robotic manipulation",
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 1.2,
+        "recommendation": 8.4
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07217v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.07217v1"
+    },
+    {
+      "arxiv_id": "2606.07889v1",
+      "title": "Strained Coherence: A Pre-Failure Signal in Coding Agent Execution Trajectories",
+      "authors": [
+        "Marut Pandya",
+        "Kasey Zhang",
+        "Baiqing Lyu"
+      ],
+      "affiliations": [],
+      "summary": "LLM-based coding agents sometimes acknowledge a problem in their own reasoning and then proceed anyway. We call this pattern strained coherence: a safety-relevant failure mode in which an agent has information that should change its behavior, states that information, and still acts against it. The pattern overlaps with verbalized reward hacking, where an agent names a tension between a task proxy and the underlying goal yet optimizes the proxy anyway. We give an operational definition, build a Claude Sonnet 4.6 judge that reads full trajectories and flags spans where the pattern occurs, and evaluate it on 44 Terminal-bench-2 trajectories using a Qwen3.5-35B-A3B backbone. Flagged trajectories fail 94% of the time versus 46% for unflagged trajectories (47-point gap, Fisher's exact p = 0.003; 46 points after excluding three prompt-embedded examples, p = 0.006). At matched selectivity, the detector reaches 94% precision versus 88% for a lexical discourse-marker baseline; the 10-trajectory intersection of the two methods has a 100% failure rate (Clopper-Pearson 95% CI [69%, 100%]). We replicate on Gemma4-31B with 43 trajectories: the overall signal is directionally consistent but not significant (20-point gap, p = 0.31), with attenuation driven largely by 13 trajectories with zero think content, where the detector has no substrate to analyze. In the high-verbosity Gemma tertile, the gap is +30 points; in the mid- and high-verbosity Qwen tertiles, it is +40 points each. The first flag appears at a median of 83-84% of elapsed trajectory time across both models, and the binary flag survives paraphrases that soften explicit conflict markers (8/8 trajectories). Unlike univariate predictors, the detector emits interpretable span-level output -- quoted acknowledgment, quoted action, and typed conflict -- showing what the agent saw and ignored.",
+      "original_abstract": "LLM-based coding agents sometimes acknowledge a problem in their own reasoning and then proceed anyway. We call this pattern strained coherence: a safety-relevant failure mode in which an agent has information that should change its behavior, states that information, and still acts against it. The pattern overlaps with verbalized reward hacking, where an agent names a tension between a task proxy and the underlying goal yet optimizes the proxy anyway. We give an operational definition, build a Claude Sonnet 4.6 judge that reads full trajectories and flags spans where the pattern occurs, and evaluate it on 44 Terminal-bench-2 trajectories using a Qwen3.5-35B-A3B backbone. Flagged trajectories fail 94% of the time versus 46% for unflagged trajectories (47-point gap, Fisher's exact p = 0.003; 46 points after excluding three prompt-embedded examples, p = 0.006). At matched selectivity, the detector reaches 94% precision versus 88% for a lexical discourse-marker baseline; the 10-trajectory intersection of the two methods has a 100% failure rate (Clopper-Pearson 95% CI [69%, 100%]). We replicate on Gemma4-31B with 43 trajectories: the overall signal is directionally consistent but not significant (20-point gap, p = 0.31), with attenuation driven largely by 13 trajectories with zero think content, where the detector has no substrate to analyze. In the high-verbosity Gemma tertile, the gap is +30 points; in the mid- and high-verbosity Qwen tertiles, it is +40 points each. The first flag appears at a median of 83-84% of elapsed trajectory time across both models, and the binary flag survives paraphrases that soften explicit conflict markers (8/8 trajectories). Unlike univariate predictors, the detector emits interpretable span-level output -- quoted acknowledgment, quoted action, and typed conflict -- showing what the agent saw and ignored.",
+      "published_date": "2026-06-05T22:52:16Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 1.1,
+        "recommendation": 8.37
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07889v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.07889v1"
+    },
+    {
+      "arxiv_id": "2606.07720v1",
+      "title": "Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning",
+      "authors": [
+        "Mujtaba Farhan",
+        "Maheep Chaudhary"
+      ],
+      "affiliations": [],
+      "summary": "Large language models (LLMs) have demonstrated remarkable reasoning abilities on mathematical and multi-hop planning tasks. The CoCoNuT (Chain of Continuous Thought) paradigm~\\cite{hao2024coconut} extends this by enabling models to reason in latent space, exploring multiple reasoning paths simultaneously rather than committing to a single chain early on. However, we identify a limitation we term the \\textbf{concept bottleneck}. At each reasoning pass, intermediate hidden states are overwritten, causing the model to lose critical facts computed in earlier steps as reasoning depth increases. We observe this empirically. On HotpotQA, vanilla CoCoNuT (10.4\\% EM) fails to improve over the CoT baseline (11.0\\% EM), and performance degrades with curriculum depth on GSM8K. To address this, we propose \\textbf{AGCLR} (Adaptive Gated Continuous Latent Reasoning), which augments CoCoNuT with a \\textit{Gated Concept Stream}. A persistent residual memory maintained across all reasoning passes, controlled by three learned gates: a \\textit{write} gate that commits intermediate facts to memory, a \\textit{read} gate that retrieves relevant prior states, and a \\textit{forget} gate that prunes irrelevant context. Evaluated on GSM8K, HotpotQA, and ProsQA using GPT-2 as our base model, AGCLR achieves consistent improvements across all types of datasets. With the performance gap compounding as curriculum depth increases, directly resolving the concept bottleneck. Code available at https://anonymous.4open.science/r/JJJJ/README.md",
+      "original_abstract": "Large language models (LLMs) have demonstrated remarkable reasoning abilities on mathematical and multi-hop planning tasks. The CoCoNuT (Chain of Continuous Thought) paradigm~\\cite{hao2024coconut} extends this by enabling models to reason in latent space, exploring multiple reasoning paths simultaneously rather than committing to a single chain early on. However, we identify a limitation we term the \\textbf{concept bottleneck}. At each reasoning pass, intermediate hidden states are overwritten, causing the model to lose critical facts computed in earlier steps as reasoning depth increases. We observe this empirically. On HotpotQA, vanilla CoCoNuT (10.4\\% EM) fails to improve over the CoT baseline (11.0\\% EM), and performance degrades with curriculum depth on GSM8K. To address this, we propose \\textbf{AGCLR} (Adaptive Gated Continuous Latent Reasoning), which augments CoCoNuT with a \\textit{Gated Concept Stream}. A persistent residual memory maintained across all reasoning passes, controlled by three learned gates: a \\textit{write} gate that commits intermediate facts to memory, a \\textit{read} gate that retrieves relevant prior states, and a \\textit{forget} gate that prunes irrelevant context. Evaluated on GSM8K, HotpotQA, and ProsQA using GPT-2 as our base model, AGCLR achieves consistent improvements across all types of datasets. With the performance gap compounding as curriculum depth increases, directly resolving the concept bottleneck. Code available at https://anonymous.4open.science/r/JJJJ/README.md",
+      "published_date": "2026-06-05T15:45:44Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 1.1,
+        "recommendation": 8.37
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07720v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.07720v1"
+    },
+    {
+      "arxiv_id": "2606.07233v1",
+      "title": "Does Appearance Help? A Systematic Study of Image-Based Re-Identification in Online 3D Multi-Pedestrian Tracking",
+      "authors": [
+        "Eduardo Borges",
+        "Luís Garrote",
+        "Urbano J. Nunes"
+      ],
+      "affiliations": [],
+      "summary": "LiDAR-based 3D Multi-Object Tracking (MOT) typically relies solely on geometric information, which is often insufficient to distinguish between targets during prolonged occlusions or in crowded human-populated environments. While integrating RGB-based Re-Identification (ReID) offers a theoretical solution for preserving identity context, existing approaches often rely on computationally expensive parallel detectors that hinder real-time robot responsiveness. This work presents a systematic study of image-based ReID in online 3D MOT, utilizing a lightweight projection-based framework to decouple geometric and appearance modeling for mobile robots. A comprehensive analysis of feature extraction architectures is conducted, employing lightweight CNNs and Vision Transformers, and evaluating various multi-modal data association strategies to balance computational latency with robust tracking. Experiments on the Pedestrian class of the KITTI dataset reveal that naive linear fusion, of appearance and motion costs, degrades performance due to visual noise. Conversely, a cascaded matching strategy successfully recovers occluded tracks without compromising overall precision, effectively preventing identity switches to maintain human-robot interaction continuity. We show that lightweight architectures can offer an optimal trade-off between the low latency required for safe navigation and the discriminative power needed for social awareness.",
+      "original_abstract": "LiDAR-based 3D Multi-Object Tracking (MOT) typically relies solely on geometric information, which is often insufficient to distinguish between targets during prolonged occlusions or in crowded human-populated environments. While integrating RGB-based Re-Identification (ReID) offers a theoretical solution for preserving identity context, existing approaches often rely on computationally expensive parallel detectors that hinder real-time robot responsiveness. This work presents a systematic study of image-based ReID in online 3D MOT, utilizing a lightweight projection-based framework to decouple geometric and appearance modeling for mobile robots. A comprehensive analysis of feature extraction architectures is conducted, employing lightweight CNNs and Vision Transformers, and evaluating various multi-modal data association strategies to balance computational latency with robust tracking. Experiments on the Pedestrian class of the KITTI dataset reveal that naive linear fusion, of appearance and motion costs, degrades performance due to visual noise. Conversely, a cascaded matching strategy successfully recovers occluded tracks without compromising overall precision, effectively preventing identity switches to maintain human-robot interaction continuity. We show that lightweight architectures can offer an optimal trade-off between the low latency required for safe navigation and the discriminative power needed for social awareness.",
+      "published_date": "2026-06-05T13:00:04Z",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 0.9,
+        "recommendation": 8.3
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07233v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.07233v1"
+    },
+    {
+      "arxiv_id": "2606.07383v1",
+      "title": "RhinoVLA Technical Report",
+      "authors": [
+        "Huixi Intelligence",
+        " :",
+        "Chen Zhang",
+        "Chenyang Zhou",
+        "Guanglei Ding",
+        "Guanghui He",
+        "Haibin Gao",
+        "Jiajia Chen",
+        "Jianyong Zhang",
+        "Lianyi Yu",
+        "Ningyi Xu",
+        "Ping Xu",
+        "Qingchen Li",
+        "Yingjun Hu",
+        "Yijia Zhang",
+        "Yuxi Liu"
+      ],
+      "affiliations": [],
+      "summary": "Vision-Language-Action (VLA) models have shown strong potential for robotic manipulation, but real-time deployment on edge hardware remains challenging. In this work, we identify VLM visual and context tokens as a major source of deployment latency: for GEMM-dominated projection operators, computation grows linearly with the number of input tokens when model dimensions are fixed. Motivated by this observation, we propose RhinoVLA, a deployment-oriented VLA model co-designed with the Huixi R1 edge SoC. RhinoVLA adopts a token-efficient Qwen3-VL backbone and a continuous Action Expert, reducing the VLM-side token and computation burden while preserving pretrained multimodal capability. To support cross-robot learning, RhinoVLA further introduces a unified interface that combines View Registry, 72D physical state-action slot space, and robotinstance LoRA, allowing heterogeneous robot observations and action schemas to be aligned under a shared policy. On the deployment side, RhinoVLA is optimized through hardware-aware compilation, mixed-precision execution, and parallel visual encoding. Experiments show that RhinoVLA achieves downstream performance comparable to π0.5 at a similar parameter scale, while reaching 11.69 Hz end-to-end inference on Huixi R1, meeting the 10 Hz real-time closedloop control target. The project will be open-sourced at https://github.com/HuixiAI/RhinoVLA.",
+      "original_abstract": "Vision-Language-Action (VLA) models have shown strong potential for robotic manipulation, but real-time deployment on edge hardware remains challenging. In this work, we identify VLM visual and context tokens as a major source of deployment latency: for GEMM-dominated projection operators, computation grows linearly with the number of input tokens when model dimensions are fixed. Motivated by this observation, we propose RhinoVLA, a deployment-oriented VLA model co-designed with the Huixi R1 edge SoC. RhinoVLA adopts a token-efficient Qwen3-VL backbone and a continuous Action Expert, reducing the VLM-side token and computation burden while preserving pretrained multimodal capability. To support cross-robot learning, RhinoVLA further introduces a unified interface that combines View Registry, 72D physical state-action slot space, and robotinstance LoRA, allowing heterogeneous robot observations and action schemas to be aligned under a shared policy. On the deployment side, RhinoVLA is optimized through hardware-aware compilation, mixed-precision execution, and parallel visual encoding. Experiments show that RhinoVLA achieves downstream performance comparable to π0.5 at a similar parameter scale, while reaching 11.69 Hz end-to-end inference on Huixi R1, meeting the 10 Hz real-time closedloop control target. The project will be open-sourced at https://github.com/HuixiAI/RhinoVLA.",
+      "published_date": "2026-06-05T15:21:41Z",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "robotic manipulation",
+        "robot learning",
+        "π0",
+        "cs.RO",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 2.8,
+        "recency": 3,
+        "popularity": 2,
+        "quality": 1.6,
+        "recommendation": 8.27
+      },
+      "pdf_url": "https://arxiv.org/pdf/2606.07383v1",
+      "arxiv_url": "http://arxiv.org/abs/2606.07383v1"
+    }
+  ],
+  "total": 10
+}

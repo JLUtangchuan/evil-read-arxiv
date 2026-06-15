@@ -1,0 +1,384 @@
+{
+  "date": "2026-05-02",
+  "papers": [
+    {
+      "arxiv_id": "2605.08144v1",
+      "title": "NoiseRater: Meta-Learned Noise Valuation for Diffusion Model Training",
+      "authors": [
+        "Fang Wu",
+        "Haokai Zhao",
+        "Da Xing",
+        "Hanqun Cao",
+        "Tinson Xu",
+        "Yanchao Li",
+        "Xiangru Tang",
+        "Zehong Wang",
+        "Aaron Tu",
+        "Kuan Pang",
+        "Hanchen Wang",
+        "Hongbin Lin",
+        "Zeqi Zhou",
+        "Yinxi Li",
+        "Peng Xia",
+        "Li Erran Li",
+        "Molei Tao",
+        "Jure Leskovec",
+        "Aditya Joshi",
+        "Yejin Choi"
+      ],
+      "affiliations": [],
+      "summary": "Diffusion models have achieved remarkable success across a wide range of generative tasks, yet their training paradigm largely treats injected noise as uniformly informative. In this work, we challenge this assumption and introduce NoiseRater, a meta-learning framework for instance-level noise valuation in diffusion model training. We propose a parametric noise rater that assigns importance scores to individual noise realizations conditioned on data and timestep, enabling adaptive reweighting of the training objective. The rater is trained via bilevel optimization to improve downstream validation performance after inner-loop diffusion updates. To enable efficient deployment, we further design a decoupled two-stage pipeline that transitions from soft weighting during meta-training to hard noise selection during standard training. Extensive experiments on FFHQ and ImageNet demonstrate that not all noise samples contribute equally, and that prioritizing informative noise improves both training efficiency and generation quality. Our results establish noise valuation as a complementary and previously underexplored axis for improving diffusion model training. Our code is available at: https://anonymous.4open.science/r/NoiseRater-DEB116.",
+      "original_abstract": "Diffusion models have achieved remarkable success across a wide range of generative tasks, yet their training paradigm largely treats injected noise as uniformly informative. In this work, we challenge this assumption and introduce NoiseRater, a meta-learning framework for instance-level noise valuation in diffusion model training. We propose a parametric noise rater that assigns importance scores to individual noise realizations conditioned on data and timestep, enabling adaptive reweighting of the training objective. The rater is trained via bilevel optimization to improve downstream validation performance after inner-loop diffusion updates. To enable efficient deployment, we further design a decoupled two-stage pipeline that transitions from soft weighting during meta-training to hard noise selection during standard training. Extensive experiments on FFHQ and ImageNet demonstrate that not all noise samples contribute equally, and that prioritizing informative noise improves both training efficiency and generation quality. Our results establish noise valuation as a complementary and previously underexplored axis for improving diffusion model training. Our code is available at: https://anonymous.4open.science/r/NoiseRater-DEB116.",
+      "published_date": "2026-05-02T19:43:16Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "diffusion model",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3.5,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.2,
+        "recommendation": 8.07
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.08144v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.08144v1"
+    },
+    {
+      "arxiv_id": "2605.01284v2",
+      "title": "Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation",
+      "authors": [
+        "Peiyang Liu",
+        "Ziqiang Cui",
+        "Xi Wang",
+        "Di Liang",
+        "Wei Ye"
+      ],
+      "affiliations": [],
+      "summary": "Iterative Retrieval-Augmented Generation (iRAG) has emerged as a powerful paradigm for answering complex multi-hop questions by progressively retrieving and reasoning over external documents. However, current systems predominantly operate on parsed text, which creates two critical bottlenecks: (1) \\textit{Coarse-grained attribution}, where users are burdened with manually locating evidence within lengthy documents based on vague text-level citations; and (2) \\textit{Visual semantic loss}, where the conversion of visually rich documents (e.g., slides, PDFs with charts) into text discards spatial logic and layout cues essential for reasoning. To bridge this gap, we present \\textbf{Chain of Evidence (CoE)}, a retriever-agnostic visual attribution framework that leverages Vision-Language Models to reason directly over screenshots of retrieved document candidates. CoE eliminates format-specific parsing and outputs precise bounding boxes, visualizing the complete reasoning chain within the retrieved candidate set. We evaluate CoE on two distinct benchmarks: \\textbf{Wiki-CoE}, a large-scale dataset of structured web pages derived from 2WikiMultiHopQA, and \\textbf{SlideVQA}, a challenging dataset of presentation slides featuring complex diagrams and free-form layouts. Experiments demonstrate that fine-tuned Qwen3-VL-8B-Instruct achieves robust performance, significantly outperforming text-based baselines in scenarios requiring visual layout understanding, while establishing a retriever-agnostic solution for pixel-level interpretable iRAG. Our code is available at https://github.com/PeiYangLiu/CoE.git.",
+      "original_abstract": "Iterative Retrieval-Augmented Generation (iRAG) has emerged as a powerful paradigm for answering complex multi-hop questions by progressively retrieving and reasoning over external documents. However, current systems predominantly operate on parsed text, which creates two critical bottlenecks: (1) \\textit{Coarse-grained attribution}, where users are burdened with manually locating evidence within lengthy documents based on vague text-level citations; and (2) \\textit{Visual semantic loss}, where the conversion of visually rich documents (e.g., slides, PDFs with charts) into text discards spatial logic and layout cues essential for reasoning. To bridge this gap, we present \\textbf{Chain of Evidence (CoE)}, a retriever-agnostic visual attribution framework that leverages Vision-Language Models to reason directly over screenshots of retrieved document candidates. CoE eliminates format-specific parsing and outputs precise bounding boxes, visualizing the complete reasoning chain within the retrieved candidate set. We evaluate CoE on two distinct benchmarks: \\textbf{Wiki-CoE}, a large-scale dataset of structured web pages derived from 2WikiMultiHopQA, and \\textbf{SlideVQA}, a challenging dataset of presentation slides featuring complex diagrams and free-form layouts. Experiments demonstrate that fine-tuned Qwen3-VL-8B-Instruct achieves robust performance, significantly outperforming text-based baselines in scenarios requiring visual layout understanding, while establishing a retriever-agnostic solution for pixel-level interpretable iRAG. Our code is available at https://github.com/PeiYangLiu/CoE.git.",
+      "published_date": "2026-05-02T06:40:42Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 2,
+        "recommendation": 7.67
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.01284v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.01284v2"
+    },
+    {
+      "arxiv_id": "2605.01478v1",
+      "title": "LIE: LiDAR-only HD Map Construction with Intensity Enhancement via Online Knowledge Distillation",
+      "authors": [
+        "Kanak Mazumder",
+        "Fabian B. Flohr"
+      ],
+      "affiliations": [],
+      "summary": "Online High-Definition (HD) map construction is a key component of autonomous driving. Recent methods rely on multi-view camera images for cost-effective HD map segmentation, but cameras lack depth information for accurate scene geometry. In contrast, LiDAR provides precise 3D measurements but lacks dense semantic cues. In this work, we propose LIE, LiDAR-only semantic map construction method that employ Knowledge Distillation (KD) to handle the lack of dense semantic and texture cues. Specifically, the teacher branch fuses student LiDAR features and the corresponding 2D intensity map tile to provide dense supervision for segmenting map elements using online distillation scheme. Experimental results show that our method outperforms all single-modality approaches, achieving 8.2% higher mIoU than the state-of-the-art camera-based model on nuScenes. LIE is robust over long ranges and under challenging weather and lighting, and efficiently adapts to Argoverse2 with only 10% fine-tuning, surpassing camera-based models trained on the full dataset. Source code will be available \\href{https://iv.ee.hm.edu/lie/}{here}.",
+      "original_abstract": "Online High-Definition (HD) map construction is a key component of autonomous driving. Recent methods rely on multi-view camera images for cost-effective HD map segmentation, but cameras lack depth information for accurate scene geometry. In contrast, LiDAR provides precise 3D measurements but lacks dense semantic cues. In this work, we propose LIE, LiDAR-only semantic map construction method that employ Knowledge Distillation (KD) to handle the lack of dense semantic and texture cues. Specifically, the teacher branch fuses student LiDAR features and the corresponding 2D intensity map tile to provide dense supervision for segmenting map elements using online distillation scheme. Experimental results show that our method outperforms all single-modality approaches, achieving 8.2% higher mIoU than the state-of-the-art camera-based model on nuScenes. LIE is robust over long ranges and under challenging weather and lighting, and efficiently adapts to Argoverse2 with only 10% fine-tuning, surpassing camera-based models trained on the full dataset. Source code will be available \\href{https://iv.ee.hm.edu/lie/}{here}.",
+      "published_date": "2026-05-02T14:52:25Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.8,
+        "recommendation": 7.6
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.01478v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.01478v1"
+    },
+    {
+      "arxiv_id": "2605.01513v1",
+      "title": "Protein-Conditioned Multi-Objective Reinforcement Learning for Full-Length mRNA Design",
+      "authors": [
+        "Zixi Shao",
+        "Tao Wang",
+        "Yibei Xiao",
+        "Tianyi Huang"
+      ],
+      "affiliations": [],
+      "summary": "Designing therapeutic messenger RNA (mRNA) requires creating full-length transcripts that carefully balance stability, translation efficiency, and immune safety. To address this challenge, we propose ProMORNA, a multi-objective generation framework that produces complete mRNA transcripts \\textit{de novo} directly from a target protein sequence. Our approach begins by training a BART-style encoder-decoder model on over 6 million natural protein-mRNA pairs. We then introduce Multi-Objective Group Relative Policy Optimization (MO-GRPO) to simultaneously optimize for various biological objectives in a unified way. As a case study, we evaluated ProMORNA on the widely used firefly luciferase target, excluding it from both our supervised training data and the prompt pool. The results indicate that ProMORNA improves the \\textit{in silico} Pareto frontier for predicted half-life and translation efficiency relative to standard supervised baselines. Additionally, it achieves higher predicted functional scores than a state-of-the-art baseline under the same evaluation pipeline. These computational findings demonstrate the feasibility of using multi-objective reinforcement learning for full-length mRNA design on unseen targets.",
+      "original_abstract": "Designing therapeutic messenger RNA (mRNA) requires creating full-length transcripts that carefully balance stability, translation efficiency, and immune safety. To address this challenge, we propose ProMORNA, a multi-objective generation framework that produces complete mRNA transcripts \\textit{de novo} directly from a target protein sequence. Our approach begins by training a BART-style encoder-decoder model on over 6 million natural protein-mRNA pairs. We then introduce Multi-Objective Group Relative Policy Optimization (MO-GRPO) to simultaneously optimize for various biological objectives in a unified way. As a case study, we evaluated ProMORNA on the widely used firefly luciferase target, excluding it from both our supervised training data and the prompt pool. The results indicate that ProMORNA improves the \\textit{in silico} Pareto frontier for predicted half-life and translation efficiency relative to standard supervised baselines. Additionally, it achieves higher predicted functional scores than a state-of-the-art baseline under the same evaluation pipeline. These computational findings demonstrate the feasibility of using multi-objective reinforcement learning for full-length mRNA design on unseen targets.",
+      "published_date": "2026-05-02T16:05:51Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "policy optimization",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.8,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 2,
+        "recommendation": 7.4
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.01513v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.01513v1"
+    },
+    {
+      "arxiv_id": "2605.01402v2",
+      "title": "Injecting Distributional Awareness into MLLMs via Reinforcement Learning for Deep Imbalanced Regression",
+      "authors": [
+        "Yao Du",
+        "Shanshan Song",
+        "Xiaomeng Li"
+      ],
+      "affiliations": [],
+      "summary": "Multimodal large language models (MLLMs) struggle with numerical regression under long-tailed target distributions. Token-level supervised fine-tuning (SFT) and point-wise regression rewards bias learning toward high-density regions, leading to regression-to-the-mean behavior and poor tail performance. We identify the lack of cross-sample relational supervision as a key limitation of existing MLLM training paradigms. To address it, we propose a distribution-aware reinforcement learning framework based on Group Relative Policy Optimization, which introduces batch-level comparison-based supervision via the Concordance Correlation Coefficient-based reward to align predicted and ground-truth distributions in terms of correlation, scale, and mean. The framework is plug-and-play, requiring no architectural modification. Experiments on a unified suite of long-tailed regression benchmarks show consistent improvements over SFT and existing MLLM regression methods, with particularly strong gains in medium- and few-shot regimes.",
+      "original_abstract": "Multimodal large language models (MLLMs) struggle with numerical regression under long-tailed target distributions. Token-level supervised fine-tuning (SFT) and point-wise regression rewards bias learning toward high-density regions, leading to regression-to-the-mean behavior and poor tail performance. We identify the lack of cross-sample relational supervision as a key limitation of existing MLLM training paradigms. To address it, we propose a distribution-aware reinforcement learning framework based on Group Relative Policy Optimization, which introduces batch-level comparison-based supervision via the Concordance Correlation Coefficient-based reward to align predicted and ground-truth distributions in terms of correlation, scale, and mean. The framework is plug-and-play, requiring no architectural modification. Experiments on a unified suite of long-tailed regression benchmarks show consistent improvements over SFT and existing MLLM regression methods, with particularly strong gains in medium- and few-shot regimes.",
+      "published_date": "2026-05-02T11:49:03Z",
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.2,
+        "recommendation": 7.4
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.01402v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.01402v2"
+    },
+    {
+      "arxiv_id": "2605.08142v1",
+      "title": "Reasoning emerges from constrained inference manifolds in large language models",
+      "authors": [
+        "Yanbiao Ma",
+        "Fei Luo",
+        "Linfeng Zhang",
+        "Chuangxin Zhao",
+        "Mingxuan Wang",
+        "Yinan Wu",
+        "Zhe Qian",
+        "Yang Lu",
+        "Long Chen",
+        "Zhao Cao",
+        "Xiaoshuai Hao",
+        "Ji-Rong Wen",
+        "Jungong Han"
+      ],
+      "affiliations": [],
+      "summary": "Reasoning in large language models is predominantly evaluated through labeled benchmarks, conflating task performance with the quality of internal inference. Here we study reasoning as an intrinsic dynamical process by examining the evolution of internal representations during inference. We find that inference-time dynamics consistently self-organize into low-dimensional manifolds embedded within high-dimensional representation spaces. we find that such geometric compression, although pervasive, is not sufficient for stable or reliable reasoning. Instead, effective reasoning dynamics emerge within a constrained structural regime characterized by three conditions: adequate representational expressivity, spontaneous manifold compression, and preservation of non-degenerate information volume within the compressed subspace. Models outside this regime exhibit characteristic pathological inference dynamics. Based on these insights, we introduce a unified, label-free diagnostic computed solely from internal dynamics. These findings suggest that reasoning in LLMs is fundamentally governed by geometric and informational constraints, offering a complementary framework to benchmark-centric assessment.",
+      "original_abstract": "Reasoning in large language models is predominantly evaluated through labeled benchmarks, conflating task performance with the quality of internal inference. Here we study reasoning as an intrinsic dynamical process by examining the evolution of internal representations during inference. We find that inference-time dynamics consistently self-organize into low-dimensional manifolds embedded within high-dimensional representation spaces. we find that such geometric compression, although pervasive, is not sufficient for stable or reliable reasoning. Instead, effective reasoning dynamics emerge within a constrained structural regime characterized by three conditions: adequate representational expressivity, spontaneous manifold compression, and preservation of non-degenerate information volume within the compressed subspace. Models outside this regime exhibit characteristic pathological inference dynamics. Based on these insights, we introduce a unified, label-free diagnostic computed solely from internal dynamics. These findings suggest that reasoning in LLMs is fundamentally governed by geometric and informational constraints, offering a complementary framework to benchmark-centric assessment.",
+      "published_date": "2026-05-02T10:41:20Z",
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.2,
+        "recommendation": 7.4
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.08142v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.08142v1"
+    },
+    {
+      "arxiv_id": "2605.01356v1",
+      "title": "Model-Based Proactive Cost Generation for Learning Safe Policies Offline with Limited Violation Data",
+      "authors": [
+        "Ruiqi Xue",
+        "Lei Yuan",
+        "Kainuo Cheng",
+        "Jing-Wen Yang",
+        "Yang Yu"
+      ],
+      "affiliations": [],
+      "summary": "Learning constraint-satisfying policies from offline data without risky online interaction is crucial for safety-critical decision making. Conventional methods typically learn cost value functions from abundant unsafe samples to define safety boundaries and penalize violations. However, in high-stakes scenarios, risky trial-and-error is infeasible, yielding datasets with few or no unsafe samples. Under this limitation, existing approaches often treat all data as uniformly safe, overlooking safe-but-infeasible states - states that currently satisfy constraints but inevitably violate them within a few steps - leading to deployment failures. Drawing inspiration from the concept of knowledge-data integration, we leverage large language models (LLMs) to incorporate natural language knowledge into the policy to address this challenge. Specifically, we propose PROCO, a model-based offline safe reinforcement learning (RL) framework tailored to datasets largely free of violations. PROCO first learns a dynamics model from offline data and constructs a conservative cost function by grounding natural-language knowledge of unsafe states in LLMs, enabling risk estimation even without observed violations. Using the cost function and learned model, PROCO performs model-based rollouts to synthesize diverse counterfactual unsafe samples, supporting reliable feasibility identification and feasibility-guided policy learning. Across a range of Safety-Gymnasium tasks with exclusively safe or minimally risky training data, PROCO integrates seamlessly with a variety of offline safe RL algorithms and consistently demonstrates reduced constraint violations and improved safety performance compared to both the original methods and other behavior cloning baselines.",
+      "original_abstract": "Learning constraint-satisfying policies from offline data without risky online interaction is crucial for safety-critical decision making. Conventional methods typically learn cost value functions from abundant unsafe samples to define safety boundaries and penalize violations. However, in high-stakes scenarios, risky trial-and-error is infeasible, yielding datasets with few or no unsafe samples. Under this limitation, existing approaches often treat all data as uniformly safe, overlooking safe-but-infeasible states - states that currently satisfy constraints but inevitably violate them within a few steps - leading to deployment failures. Drawing inspiration from the concept of knowledge-data integration, we leverage large language models (LLMs) to incorporate natural language knowledge into the policy to address this challenge. Specifically, we propose PROCO, a model-based offline safe reinforcement learning (RL) framework tailored to datasets largely free of violations. PROCO first learns a dynamics model from offline data and constructs a conservative cost function by grounding natural-language knowledge of unsafe states in LLMs, enabling risk estimation even without observed violations. Using the cost function and learned model, PROCO performs model-based rollouts to synthesize diverse counterfactual unsafe samples, supporting reliable feasibility identification and feasibility-guided policy learning. Across a range of Safety-Gymnasium tasks with exclusively safe or minimally risky training data, PROCO integrates seamlessly with a variety of offline safe RL algorithms and consistently demonstrates reduced constraint violations and improved safety performance compared to both the original methods and other behavior cloning baselines.",
+      "published_date": "2026-05-02T09:59:24Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "PPO",
+        "value function",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.9,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.6,
+        "recommendation": 7.4
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.01356v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.01356v1"
+    },
+    {
+      "arxiv_id": "2605.01327v2",
+      "title": "Segment-Aligned Policy Optimization for Multi-Modal Reasoning",
+      "authors": [
+        "Lei Gao",
+        "Zhuoming Li",
+        "Mengxi Jia",
+        "Jiakang Yuan",
+        "Hongbo Sun",
+        "Hao Sun",
+        "Xuelong Li"
+      ],
+      "affiliations": [],
+      "summary": "Existing reinforcement learning approaches for Large Language Models typically perform policy optimization at the granularity of individual tokens or entire response sequences. However, such formulations often misalign with the natural step-wise structure of reasoning processes, leading to suboptimal credit assignment and unstable training in multi-modal reasoning tasks. To bridge this gap, we propose Segment-Aligned Policy Optimization (SAPO), a novel reinforcement learning paradigm that treats coherent reasoning steps, rather than tokens or full sequences as fundamental units of policy update. SAPO introduces a step-wise Markov decision process abstraction over reasoning segments, accompanied by segment-level value estimation, advantage computation, and importance sampling mechanisms that are semantically aligned with reasoning boundaries. Experiments on representative reasoning benchmarks demonstrate that SAPO consistently outperforms token-level and sequence-level policy optimization methods, achieving significant accuracy improvements while exhibiting better training stability and value estimation consistency. Our work underscores the importance of aligning reinforcement learning updates with the intrinsic structure of reasoning, paving the way for more efficient and semantically grounded policy optimization in complex reasoning tasks. Codes and models will be released to ensure full reproducibility.",
+      "original_abstract": "Existing reinforcement learning approaches for Large Language Models typically perform policy optimization at the granularity of individual tokens or entire response sequences. However, such formulations often misalign with the natural step-wise structure of reasoning processes, leading to suboptimal credit assignment and unstable training in multi-modal reasoning tasks. To bridge this gap, we propose Segment-Aligned Policy Optimization (SAPO), a novel reinforcement learning paradigm that treats coherent reasoning steps, rather than tokens or full sequences as fundamental units of policy update. SAPO introduces a step-wise Markov decision process abstraction over reasoning segments, accompanied by segment-level value estimation, advantage computation, and importance sampling mechanisms that are semantically aligned with reasoning boundaries. Experiments on representative reasoning benchmarks demonstrate that SAPO consistently outperforms token-level and sequence-level policy optimization methods, achieving significant accuracy improvements while exhibiting better training stability and value estimation consistency. Our work underscores the importance of aligning reinforcement learning updates with the intrinsic structure of reasoning, paving the way for more efficient and semantically grounded policy optimization in complex reasoning tasks. Codes and models will be released to ensure full reproducibility.",
+      "published_date": "2026-05-02T08:47:45Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "policy optimization",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.8,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 2,
+        "recommendation": 7.4
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.01327v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.01327v2"
+    },
+    {
+      "arxiv_id": "2605.01490v1",
+      "title": "CGFformer: Cluster-Guidance Frequency Transformer for Pansharpening",
+      "authors": [
+        "Zijian Zhou",
+        "Jianing Zhang",
+        "Kai Sun",
+        "Xiangyu Zhao",
+        "Chunxia Zhang",
+        "Xiangyong Cao"
+      ],
+      "affiliations": [],
+      "summary": "Pansharpening aims to generate high-resolution multispectral (HRMS) images by fusing low-resolution multispectral (LRMS) images with high-resolution panchromatic (PAN) images. However, the current mainstream frequency-based pansharpening methods employ fixed frequency filters, which cannot precisely adapt to complex and spatially diversified frequency distributions in PAN and MS images. Furthermore, existing denoising strategies insufficiently exploit frequency components for denoising and struggle to suppress various noise types accurately. To address these challenges, we propose CGFformer, a cluster-guidance frequency Transformer that focuses on varying frequency distribution and interactions between frequency and spatial components. Specifically, we design an adaptive separation module that integrates local features and non-local information through K-means clustering, enabling more precise separation of high- and low-frequency components. Subsequently, we introduce a dual-stream refinement module combined with Transformer-based cross-attention to remove various noise, allowing the network to jointly suppress frequency-relevant and irrelevant disturbances. In addition, we develop a frequency-spatial fusion module designed to enhance detail and facilitate spatial-frequency interaction, ensuring more effective reconstruction of spatial structures in the fused results. Extensive experiments on multiple benchmark datasets demonstrate that the proposed CGFformer achieves notable improvements over existing pansharpening approaches.",
+      "original_abstract": "Pansharpening aims to generate high-resolution multispectral (HRMS) images by fusing low-resolution multispectral (LRMS) images with high-resolution panchromatic (PAN) images. However, the current mainstream frequency-based pansharpening methods employ fixed frequency filters, which cannot precisely adapt to complex and spatially diversified frequency distributions in PAN and MS images. Furthermore, existing denoising strategies insufficiently exploit frequency components for denoising and struggle to suppress various noise types accurately. To address these challenges, we propose CGFformer, a cluster-guidance frequency Transformer that focuses on varying frequency distribution and interactions between frequency and spatial components. Specifically, we design an adaptive separation module that integrates local features and non-local information through K-means clustering, enabling more precise separation of high- and low-frequency components. Subsequently, we introduce a dual-stream refinement module combined with Transformer-based cross-attention to remove various noise, allowing the network to jointly suppress frequency-relevant and irrelevant disturbances. In addition, we develop a frequency-spatial fusion module designed to enhance detail and facilitate spatial-frequency interaction, ensuring more effective reconstruction of spatial structures in the fused results. Extensive experiments on multiple benchmark datasets demonstrate that the proposed CGFformer achieves notable improvements over existing pansharpening approaches.",
+      "published_date": "2026-05-02T15:27:08Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.1,
+        "recommendation": 7.37
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.01490v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.01490v1"
+    },
+    {
+      "arxiv_id": "2605.01347v1",
+      "title": "MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate",
+      "authors": [
+        "Jianze Wang",
+        "Ying Liu",
+        "Jinlong Chen",
+        "Xuchun Hu",
+        "Qilong Zhang",
+        "Yu Cao",
+        "Jun Wang",
+        "Hua Yang",
+        "Yong Xie",
+        "Qianglong Chen"
+      ],
+      "affiliations": [],
+      "summary": "On-policy distillation (OPD) trains a student on its own trajectories under token-level teacher supervision, but existing methods are capped by a single-teacher capability ceiling: when the teacher errs, the student inherits the error. OPD also remains largely unexplored in agentic tasks, where per-step errors compound across long trajectories and destabilize training. We propose MAD-OPD (Multi-Agent Debate-driven On-Policy Distillation), which breaks this ceiling by recasting the distillation teacher as a deliberative collective of teachers that debate over the student's on-policy state; the debate produces an emergent collective intelligence that supplies token-level supervision, with each teacher's contribution weighted by its post-debate confidence. To extend OPD to agentic tasks, we also introduce On-Policy Agentic Distillation (OPAD), which adds step-level sampling to stabilize training under multi-step error compounding. We additionally derive a task-adaptive divergence principle, selecting JSD (Jensen-Shannon divergence) for agentic stability and reverse KL (Kullback-Leibler) divergence for code generation, and verify it both theoretically and empirically. Across six teacher-student configurations (Qwen3 and Qwen3.5; 1.7B-14B students, 8B-32B teachers) and five agentic and code benchmarks, MAD-OPD ranks first across all six configurations; on the 14B+8B$\\to$4B setting it lifts the agentic average by $+2.4\\%$ and the code average by $+3.7\\%$ over the stronger single-teacher OPD.",
+      "original_abstract": "On-policy distillation (OPD) trains a student on its own trajectories under token-level teacher supervision, but existing methods are capped by a single-teacher capability ceiling: when the teacher errs, the student inherits the error. OPD also remains largely unexplored in agentic tasks, where per-step errors compound across long trajectories and destabilize training. We propose MAD-OPD (Multi-Agent Debate-driven On-Policy Distillation), which breaks this ceiling by recasting the distillation teacher as a deliberative collective of teachers that debate over the student's on-policy state; the debate produces an emergent collective intelligence that supplies token-level supervision, with each teacher's contribution weighted by its post-debate confidence. To extend OPD to agentic tasks, we also introduce On-Policy Agentic Distillation (OPAD), which adds step-level sampling to stabilize training under multi-step error compounding. We additionally derive a task-adaptive divergence principle, selecting JSD (Jensen-Shannon divergence) for agentic stability and reverse KL (Kullback-Leibler) divergence for code generation, and verify it both theoretically and empirically. Across six teacher-student configurations (Qwen3 and Qwen3.5; 1.7B-14B students, 8B-32B teachers) and five agentic and code benchmarks, MAD-OPD ranks first across all six configurations; on the 14B+8B$\\to$4B setting it lifts the agentic average by $+2.4\\%$ and the code average by $+3.7\\%$ over the stronger single-teacher OPD.",
+      "published_date": "2026-05-02T09:41:37Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.1,
+        "recommendation": 7.37
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.01347v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.01347v1"
+    }
+  ],
+  "total": 10
+}

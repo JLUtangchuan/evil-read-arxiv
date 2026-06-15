@@ -1,0 +1,147 @@
+[
+  {
+    "filename": "illustration_page1.png",
+    "url": "/api/images/2605.16826v1/illustration_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_acc_128_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_acc_128_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_acc_128_grpo_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_acc_128_grpo_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_acc_128_grpo_page1.png",
+    "url": "/api/images/2605.16826v1/math500_acc_128_grpo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_acc_128_page1.png",
+    "url": "/api/images/2605.16826v1/math500_acc_128_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_acc_4096_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_acc_4096_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_acc_4096_grpo_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_acc_4096_grpo_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_acc_4096_grpo_page1.png",
+    "url": "/api/images/2605.16826v1/math500_acc_4096_grpo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_acc_4096_page1.png",
+    "url": "/api/images/2605.16826v1/math500_acc_4096_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_entropy_128_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_entropy_128_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_entropy_128_grpo_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_entropy_128_grpo_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_entropy_128_grpo_page1.png",
+    "url": "/api/images/2605.16826v1/math500_entropy_128_grpo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_entropy_128_page1.png",
+    "url": "/api/images/2605.16826v1/math500_entropy_128_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_entropy_4096_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_entropy_4096_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_entropy_4096_grpo_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_entropy_4096_grpo_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_entropy_4096_grpo_page1.png",
+    "url": "/api/images/2605.16826v1/math500_entropy_4096_grpo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_entropy_4096_page1.png",
+    "url": "/api/images/2605.16826v1/math500_entropy_4096_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_len_128_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_len_128_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_len_128_grpo_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_len_128_grpo_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_len_128_grpo_page1.png",
+    "url": "/api/images/2605.16826v1/math500_len_128_grpo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_len_128_page1.png",
+    "url": "/api/images/2605.16826v1/math500_len_128_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_len_4096_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_len_4096_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_len_4096_grpo_8b_page1.png",
+    "url": "/api/images/2605.16826v1/math500_len_4096_grpo_8b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_len_4096_grpo_page1.png",
+    "url": "/api/images/2605.16826v1/math500_len_4096_grpo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "math500_len_4096_page1.png",
+    "url": "/api/images/2605.16826v1/math500_len_4096_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "method_forward_plus_reverse_acc_page1.png",
+    "url": "/api/images/2605.16826v1/method_forward_plus_reverse_acc_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "method_forward_plus_reverse_entropy_page1.png",
+    "url": "/api/images/2605.16826v1/method_forward_plus_reverse_entropy_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "method_forward_plus_reverse_len_page1.png",
+    "url": "/api/images/2605.16826v1/method_forward_plus_reverse_len_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "reverse_acc_flops_cached_teacher_logits_128_page1.png",
+    "url": "/api/images/2605.16826v1/reverse_acc_flops_cached_teacher_logits_128_page1.png",
+    "source": "arxiv"
+  }
+]

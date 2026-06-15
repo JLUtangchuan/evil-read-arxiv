@@ -1,0 +1,37 @@
+[
+  {
+    "filename": "fig1_nash_convergence_page1.png",
+    "url": "/api/images/2604.27167/fig1_nash_convergence_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig4_probe_accuracy_page1.png",
+    "url": "/api/images/2604.27167/fig4_probe_accuracy_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig5_steering_sweep_page1.png",
+    "url": "/api/images/2604.27167/fig5_steering_sweep_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig6_ablation_page1.png",
+    "url": "/api/images/2604.27167/fig6_ablation_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_base_model_logit_lens_page1.png",
+    "url": "/api/images/2604.27167/fig_base_model_logit_lens_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_base_model_probes_page1.png",
+    "url": "/api/images/2604.27167/fig_base_model_probes_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "logit_lens_heatmap_page1.png",
+    "url": "/api/images/2604.27167/logit_lens_heatmap_page1.png",
+    "source": "arxiv"
+  }
+]

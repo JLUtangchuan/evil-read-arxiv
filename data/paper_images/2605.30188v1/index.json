@@ -1,0 +1,82 @@
+[
+  {
+    "filename": "binary_cv_cd_page1.png",
+    "url": "/api/images/2605.30188v1/binary_cv_cd_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "binary_elo_page1.png",
+    "url": "/api/images/2605.30188v1/binary_elo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "binary_runtimes_page1.png",
+    "url": "/api/images/2605.30188v1/binary_runtimes_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "binary_tabarena_cd_page1.png",
+    "url": "/api/images/2605.30188v1/binary_tabarena_cd_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "binary_tabrepo_cd_page1.png",
+    "url": "/api/images/2605.30188v1/binary_tabrepo_cd_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "binary_winrates_page1.png",
+    "url": "/api/images/2605.30188v1/binary_winrates_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "catboost_ablation_page1.png",
+    "url": "/api/images/2605.30188v1/catboost_ablation_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "multiclass_cv_cd_page1.png",
+    "url": "/api/images/2605.30188v1/multiclass_cv_cd_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "multiclass_elo_page1.png",
+    "url": "/api/images/2605.30188v1/multiclass_elo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "multiclass_imagenet_cd_page1.png",
+    "url": "/api/images/2605.30188v1/multiclass_imagenet_cd_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "multiclass_imagenet_winrates_page1.png",
+    "url": "/api/images/2605.30188v1/multiclass_imagenet_winrates_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "multiclass_runtimes_page1.png",
+    "url": "/api/images/2605.30188v1/multiclass_runtimes_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "multiclass_tabarena_cd_page1.png",
+    "url": "/api/images/2605.30188v1/multiclass_tabarena_cd_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "multiclass_tabrepo_cd_page1.png",
+    "url": "/api/images/2605.30188v1/multiclass_tabrepo_cd_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "multiclass_winrates_page1.png",
+    "url": "/api/images/2605.30188v1/multiclass_winrates_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "sms_spline_winrate_page1.png",
+    "url": "/api/images/2605.30188v1/sms_spline_winrate_page1.png",
+    "source": "arxiv"
+  }
+]

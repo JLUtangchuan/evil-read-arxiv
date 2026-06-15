@@ -8,18 +8,6 @@ web/.env.local
 start-web.sh
 evil-read-arxiv.service
 
-# User data — personal feedback, preferences, favorites
-data/feedback.json
-data/preferences.json
-data/favorites_folders.json
-data/api_settings.json
-
-# Caches — large generated files
-data/papers_cache/
-data/citations_cache/
-data/paper_images/
-data/github_dates.json
-
 # OS
 .DS_Store
 Thumbs.db

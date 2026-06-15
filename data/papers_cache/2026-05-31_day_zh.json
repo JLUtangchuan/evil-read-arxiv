@@ -1,0 +1,141 @@
+{
+  "date": "2026-05-31",
+  "papers": [
+    {
+      "arxiv_id": "2509.21880",
+      "title": "No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping",
+      "authors": [
+        {
+          "authorId": "2384332950",
+          "affiliations": []
+        },
+        {
+          "authorId": "1974494870",
+          "affiliations": []
+        },
+        {
+          "authorId": "2382761672",
+          "affiliations": []
+        },
+        {
+          "authorId": "2266397553",
+          "affiliations": []
+        },
+        {
+          "authorId": "2284765685",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful framework for improving the reasoning abilities of Large Language Models (LLMs). However, current methods such as GRPO rely only on problems where the model responses to the same input differ in correctness, while ignoring those where all responses receive the same reward -- so-called zero-variance prompts. In this work, we argue that such prompts are not useless but can, in fact, provide meaningful feedback for policy optimization. To this end, we introduce Reinforcement Learning with Zero-Variance Prompts (RL-ZVP), a novel algorithm that extract learning signals from zero-variance prompts. RL-ZVP directly rewards correctness and penalizes errors even without contrasting responses, modulating feedback with token-level characteristics to preserve informative, nuanced signals. Across six math reasoning benchmarks, RL-ZVP achieves significant improvements of up to 8.61 points in accuracy and 7.77 points in pass rate over GRPO, while consistently outperforming other baselines that filter out zero-variance prompts. These results highlight the untapped potential of learning from zero-variance prompts in RLVR. The project page is available at https://bltnynk.github.io/publications/rl-zvp/.",
+      "original_abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful framework for improving the reasoning abilities of Large Language Models (LLMs). However, current methods such as GRPO rely only on problems where the model responses to the same input differ in correctness, while ignoring those where all responses receive the same reward -- so-called zero-variance prompts. In this work, we argue that such prompts are not useless but can, in fact, provide meaningful feedback for policy optimization. To this end, we introduce Reinforcement Learning with Zero-Variance Prompts (RL-ZVP), a novel algorithm that extract learning signals from zero-variance prompts. RL-ZVP directly rewards correctness and penalizes errors even without contrasting responses, modulating feedback with token-level characteristics to preserve informative, nuanced signals. Across six math reasoning benchmarks, RL-ZVP achieves significant improvements of up to 8.61 points in accuracy and 7.77 points in pass rate over GRPO, while consistently outperforming other baselines that filter out zero-variance prompts. These results highlight the untapped potential of learning from zero-variance prompts in RLVR. The project page is available at https://bltnynk.github.io/publications/rl-zvp/.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "policy optimization"
+      ],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 0,
+        "popularity": 0.09,
+        "quality": 2,
+        "recommendation": 1.73
+      },
+      "pdf_url": "https://arxiv.org/pdf/2509.21880",
+      "arxiv_url": "https://www.semanticscholar.org/paper/6e9bcd4976a28ec58e7f9e5e51a38c35548a1343"
+    },
+    {
+      "arxiv_id": "2603.22293",
+      "title": "TIPS: Turn-Level Information-Potential Reward Shaping for Search-Augmented LLMs",
+      "authors": [
+        {
+          "authorId": "2367668772",
+          "affiliations": []
+        },
+        {
+          "authorId": "2164091765",
+          "affiliations": []
+        },
+        {
+          "authorId": "1491707104",
+          "affiliations": []
+        },
+        {
+          "authorId": "2384453406",
+          "affiliations": []
+        },
+        {
+          "authorId": "2382848711",
+          "affiliations": []
+        },
+        {
+          "authorId": "2255251113",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Search-augmented large language models (LLMs) trained with reinforcement learning (RL) have achieved strong results on open-domain question answering (QA), but training still remains a significant challenge. The optimization is often unstable due to sparse rewards and difficult credit assignments across reasoning and tool calls. To address this, we introduce Turn-Level Information Potential Reward Shaping (TIPS), a simple framework that assigns dense, turn-level rewards to each reasoning + tool-call segment based on the increased likelihood of the correct answer under a teacher model. By leveraging the potential-based reward shaping, TIPS offers fine-grained and policy-invariant guidance that overcomes the limitations of outcome-only optimization. Evaluated on seven QA benchmarks, TIPS consistently outperforms GRPO/PPO baselines and substantially improves training stability. For instance, with a Qwen-2.5 7B Instruct model, TIPS improves the average Exact Match score by 11.8% and F1 by 13.6% relative to PPO. Our results demonstrate that turn-level information-potential reward shaping provides an effective and general solution to sparse-reward credit assignment for multi-turn LLM reasoning.",
+      "original_abstract": "Search-augmented large language models (LLMs) trained with reinforcement learning (RL) have achieved strong results on open-domain question answering (QA), but training still remains a significant challenge. The optimization is often unstable due to sparse rewards and difficult credit assignments across reasoning and tool calls. To address this, we introduce Turn-Level Information Potential Reward Shaping (TIPS), a simple framework that assigns dense, turn-level rewards to each reasoning + tool-call segment based on the increased likelihood of the correct answer under a teacher model. By leveraging the potential-based reward shaping, TIPS offers fine-grained and policy-invariant guidance that overcomes the limitations of outcome-only optimization. Evaluated on seven QA benchmarks, TIPS consistently outperforms GRPO/PPO baselines and substantially improves training stability. For instance, with a Qwen-2.5 7B Instruct model, TIPS improves the average Exact Match score by 11.8% and F1 by 13.6% relative to PPO. Our results demonstrate that turn-level information-potential reward shaping provides an effective and general solution to sparse-reward credit assignment for multi-turn LLM reasoning.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "reward shaping",
+        "PPO"
+      ],
+      "scores": {
+        "relevance": 0.2,
+        "recency": 2,
+        "popularity": 0.06,
+        "quality": 2,
+        "recommendation": 1.66
+      },
+      "pdf_url": "https://arxiv.org/pdf/2603.22293",
+      "arxiv_url": "https://www.semanticscholar.org/paper/3ed19f28e62b196af84d1c3849cd0ad68153a9e4"
+    },
+    {
+      "arxiv_id": "2510.23049",
+      "title": "Advantage Shaping as Surrogate Reward Maximization: Unifying Pass@K Policy Gradients",
+      "authors": [
+        {
+          "authorId": "2262218405",
+          "affiliations": []
+        },
+        {
+          "authorId": "74553117",
+          "affiliations": [
+            "University of British Columbia"
+          ]
+        },
+        {
+          "authorId": "2247270223",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [
+        "University of British Columbia"
+      ],
+      "summary": "This note reconciles two seemingly distinct approaches to policy gradient optimization for the Pass@K objective in reinforcement learning with verifiable rewards: (1) direct REINFORCE-style methods, and (2) advantage-shaping techniques that directly modify GRPO. We show that these are two sides of the same coin. By reverse-engineering existing advantage-shaping algorithms, we reveal that they implicitly optimize surrogate rewards. We specifically interpret practical\"hard-example up-weighting\"modifications to GRPO as reward-level regularization. Conversely, starting from surrogate reward objectives, we provide a simple recipe for deriving both existing and new advantage-shaping methods. This perspective provides a lens for RLVR policy gradient optimization beyond our original motivation of Pass@K.",
+      "original_abstract": "This note reconciles two seemingly distinct approaches to policy gradient optimization for the Pass@K objective in reinforcement learning with verifiable rewards: (1) direct REINFORCE-style methods, and (2) advantage-shaping techniques that directly modify GRPO. We show that these are two sides of the same coin. By reverse-engineering existing advantage-shaping algorithms, we reveal that they implicitly optimize surrogate rewards. We specifically interpret practical\"hard-example up-weighting\"modifications to GRPO as reward-level regularization. Conversely, starting from surrogate reward objectives, we provide a simple recipe for deriving both existing and new advantage-shaping methods. This perspective provides a lens for RLVR policy gradient optimization beyond our original motivation of Pass@K.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning"
+      ],
+      "scores": {
+        "relevance": 0.3,
+        "recency": 0,
+        "popularity": 0.03,
+        "quality": 0.5,
+        "recommendation": 0.56
+      },
+      "pdf_url": "https://arxiv.org/pdf/2510.23049",
+      "arxiv_url": "https://www.semanticscholar.org/paper/bb2a9eada667082804acdb1dd3fe40bf6a57bc3d"
+    }
+  ],
+  "total": 3
+}

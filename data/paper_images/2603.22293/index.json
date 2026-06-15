@@ -1,0 +1,122 @@
+[
+  {
+    "filename": "3b_coeff_page1.png",
+    "url": "/api/images/2603.22293/3b_coeff_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "3b_fix_update_page1.png",
+    "url": "/api/images/2603.22293/3b_fix_update_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "3b_fixed_update_page1.png",
+    "url": "/api/images/2603.22293/3b_fixed_update_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "7b_coeff_page1.png",
+    "url": "/api/images/2603.22293/7b_coeff_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "7b_fix_update_page1.png",
+    "url": "/api/images/2603.22293/7b_fix_update_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "7b_fixed_update_page1.png",
+    "url": "/api/images/2603.22293/7b_fixed_update_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "7b_tasks_page1.png",
+    "url": "/api/images/2603.22293/7b_tasks_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "Sample15630baseline_page1.png",
+    "url": "/api/images/2603.22293/Sample15630baseline_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "Sample15630info_page1.png",
+    "url": "/api/images/2603.22293/Sample15630info_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "Sample16644_page1.png",
+    "url": "/api/images/2603.22293/Sample16644_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "Sample16644baseline_page1.png",
+    "url": "/api/images/2603.22293/Sample16644baseline_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "Sample16644info_page1.png",
+    "url": "/api/images/2603.22293/Sample16644info_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "adv_hist_steps451_458_page1.png",
+    "url": "/api/images/2603.22293/adv_hist_steps451_458_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "browsecomp_page1.png",
+    "url": "/api/images/2603.22293/browsecomp_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "browsecomp_perf_plot_page1.png",
+    "url": "/api/images/2603.22293/browsecomp_perf_plot_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "garbage_adv_page1.png",
+    "url": "/api/images/2603.22293/garbage_adv_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "good_tool_call_bad_score_page1.png",
+    "url": "/api/images/2603.22293/good_tool_call_bad_score_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "info_page1.png",
+    "url": "/api/images/2603.22293/info_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "interval_vs_em_qwen_4b_7b_page1.png",
+    "url": "/api/images/2603.22293/interval_vs_em_qwen_4b_7b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "overview_page1.png",
+    "url": "/api/images/2603.22293/overview_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ppl_page1.png",
+    "url": "/api/images/2603.22293/ppl_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ppo_vs_tips_all_tasks_page1.png",
+    "url": "/api/images/2603.22293/ppo_vs_tips_all_tasks_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwen7b_rwc_page1.png",
+    "url": "/api/images/2603.22293/qwen7b_rwc_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "refresh_page1.png",
+    "url": "/api/images/2603.22293/refresh_page1.png",
+    "source": "arxiv"
+  }
+]

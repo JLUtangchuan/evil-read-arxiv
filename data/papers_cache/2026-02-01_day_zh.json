@@ -1,0 +1,498 @@
+{
+  "date": "2026-02-01",
+  "papers": [
+    {
+      "arxiv_id": "2504.16054",
+      "title": "π0.5: a Vision-Language-Action Model with Open-World Generalization",
+      "authors": [
+        {
+          "authorId": "2356784273",
+          "affiliations": []
+        },
+        {
+          "authorId": "2258959388",
+          "affiliations": []
+        },
+        {
+          "authorId": "2161343011",
+          "affiliations": []
+        },
+        {
+          "authorId": "2356784408",
+          "affiliations": []
+        },
+        {
+          "authorId": "2356782366",
+          "affiliations": []
+        },
+        {
+          "authorId": "2283848260",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332926590",
+          "affiliations": []
+        },
+        {
+          "authorId": "2298901898",
+          "affiliations": []
+        },
+        {
+          "authorId": "2257346440",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332926006",
+          "affiliations": []
+        },
+        {
+          "authorId": "1580069611",
+          "affiliations": []
+        },
+        {
+          "authorId": "8021910",
+          "affiliations": [
+            "UC Berkeley"
+          ]
+        },
+        {
+          "authorId": "2332926792",
+          "affiliations": []
+        },
+        {
+          "authorId": "1944801",
+          "affiliations": []
+        },
+        {
+          "authorId": "2704814",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332926523",
+          "affiliations": []
+        },
+        {
+          "authorId": "2333409218",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332976956",
+          "affiliations": []
+        },
+        {
+          "authorId": "2356787296",
+          "affiliations": []
+        },
+        {
+          "authorId": "2249615151",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332927424",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332926533",
+          "affiliations": []
+        },
+        {
+          "authorId": "2286638954",
+          "affiliations": []
+        },
+        {
+          "authorId": "31719101",
+          "affiliations": []
+        },
+        {
+          "authorId": "2356677628",
+          "affiliations": []
+        },
+        {
+          "authorId": "2292341452",
+          "affiliations": []
+        },
+        {
+          "authorId": "2302181645",
+          "affiliations": []
+        },
+        {
+          "authorId": "2060551",
+          "affiliations": []
+        },
+        {
+          "authorId": "2106415427",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332926892",
+          "affiliations": []
+        },
+        {
+          "authorId": "2288210223",
+          "affiliations": []
+        },
+        {
+          "authorId": "2029241116",
+          "affiliations": []
+        },
+        {
+          "authorId": "2333982746",
+          "affiliations": []
+        },
+        {
+          "authorId": "2332952253",
+          "affiliations": []
+        },
+        {
+          "authorId": "2356801221",
+          "affiliations": []
+        },
+        {
+          "authorId": "3187915",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [
+        "UC Berkeley"
+      ],
+      "summary": "In order for robots to be useful, they must perform practically relevant tasks in the real world, outside of the lab. While vision-language-action (VLA) models have demonstrated impressive results for end-to-end robot control, it remains an open question how far such models can generalize in the wild. We describe $\\pi_{0.5}$, a new model based on $\\pi_{0}$ that uses co-training on heterogeneous tasks to enable broad generalization. $\\pi_{0.5}$\\ uses data from multiple robots, high-level semantic prediction, web data, and other sources to enable broadly generalizable real-world robotic manipulation. Our system uses a combination of co-training and hybrid multi-modal examples that combine image observations, language commands, object detections, semantic subtask prediction, and low-level actions. Our experiments show that this kind of knowledge transfer is essential for effective generalization, and we demonstrate for the first time that an end-to-end learning-enabled robotic system can perform long-horizon and dexterous manipulation skills, such as cleaning a kitchen or bedroom, in entirely new homes.",
+      "original_abstract": "In order for robots to be useful, they must perform practically relevant tasks in the real world, outside of the lab. While vision-language-action (VLA) models have demonstrated impressive results for end-to-end robot control, it remains an open question how far such models can generalize in the wild. We describe $\\pi_{0.5}$, a new model based on $\\pi_{0}$ that uses co-training on heterogeneous tasks to enable broad generalization. $\\pi_{0.5}$\\ uses data from multiple robots, high-level semantic prediction, web data, and other sources to enable broadly generalizable real-world robotic manipulation. Our system uses a combination of co-training and hybrid multi-modal examples that combine image observations, language commands, object detections, semantic subtask prediction, and low-level actions. Our experiments show that this kind of knowledge transfer is essential for effective generalization, and we demonstrate for the first time that an end-to-end learning-enabled robotic system can perform long-horizon and dexterous manipulation skills, such as cleaning a kitchen or bedroom, in entirely new homes.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "robotic manipulation",
+        "end-to-end robot",
+        "π0",
+        "dexterous manipulation"
+      ],
+      "scores": {
+        "relevance": 2.2,
+        "recency": 0,
+        "popularity": 3,
+        "quality": 1.6,
+        "recommendation": 7.6
+      },
+      "pdf_url": "https://arxiv.org/pdf/2504.16054",
+      "arxiv_url": "https://www.semanticscholar.org/paper/1e2a82ef5e0325a26ca0344c4f8c256c52fae7ec"
+    },
+    {
+      "arxiv_id": "2502.19645",
+      "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+      "authors": [
+        {
+          "authorId": "2159987907",
+          "affiliations": []
+        },
+        {
+          "authorId": "2347538211",
+          "affiliations": []
+        },
+        {
+          "authorId": "2283843948",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Recent vision-language-action models (VLAs) build upon pretrained vision-language models and leverage diverse robot datasets to demonstrate strong task execution, language following ability, and semantic generalization. Despite these successes, VLAs struggle with novel robot setups and require fine-tuning to achieve good performance, yet how to most effectively fine-tune them is unclear given many possible strategies. In this work, we study key VLA adaptation design choices such as different action decoding schemes, action representations, and learning objectives for fine-tuning, using OpenVLA as our representative base model. Our empirical analysis informs an Optimized Fine-Tuning (OFT) recipe that integrates parallel decoding, action chunking, a continuous action representation, and a simple L1 regression-based learning objective to altogether improve inference efficiency, policy performance, and flexibility in the model's input-output specifications. We propose OpenVLA-OFT, an instantiation of this recipe, which sets a new state of the art on the LIBERO simulation benchmark, significantly boosting OpenVLA's average success rate across four task suites from 76.5% to 97.1% while increasing action generation throughput by 26$\\times$. In real-world evaluations, our fine-tuning recipe enables OpenVLA to successfully execute dexterous, high-frequency control tasks on a bimanual ALOHA robot and outperform other VLAs ($\\pi_0$ and RDT-1B) fine-tuned using their default recipes, as well as strong imitation learning policies trained from scratch (Diffusion Policy and ACT) by up to 15% (absolute) in average success rate. We release code for OFT and pretrained model checkpoints at https://openvla-oft.github.io/.",
+      "original_abstract": "Recent vision-language-action models (VLAs) build upon pretrained vision-language models and leverage diverse robot datasets to demonstrate strong task execution, language following ability, and semantic generalization. Despite these successes, VLAs struggle with novel robot setups and require fine-tuning to achieve good performance, yet how to most effectively fine-tune them is unclear given many possible strategies. In this work, we study key VLA adaptation design choices such as different action decoding schemes, action representations, and learning objectives for fine-tuning, using OpenVLA as our representative base model. Our empirical analysis informs an Optimized Fine-Tuning (OFT) recipe that integrates parallel decoding, action chunking, a continuous action representation, and a simple L1 regression-based learning objective to altogether improve inference efficiency, policy performance, and flexibility in the model's input-output specifications. We propose OpenVLA-OFT, an instantiation of this recipe, which sets a new state of the art on the LIBERO simulation benchmark, significantly boosting OpenVLA's average success rate across four task suites from 76.5% to 97.1% while increasing action generation throughput by 26$\\times$. In real-world evaluations, our fine-tuning recipe enables OpenVLA to successfully execute dexterous, high-frequency control tasks on a bimanual ALOHA robot and outperform other VLAs ($\\pi_0$ and RDT-1B) fine-tuned using their default recipes, as well as strong imitation learning policies trained from scratch (Diffusion Policy and ACT) by up to 15% (absolute) in average success rate. We release code for OFT and pretrained model checkpoints at https://openvla-oft.github.io/.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "OpenVLA",
+        "imitation learning"
+      ],
+      "scores": {
+        "relevance": 1.4,
+        "recency": 0,
+        "popularity": 3,
+        "quality": 1.1,
+        "recommendation": 6.5
+      },
+      "pdf_url": "https://arxiv.org/pdf/2502.19645",
+      "arxiv_url": "https://www.semanticscholar.org/paper/5088b84507462bf725bb4898623d1dead4c6a206"
+    },
+    {
+      "arxiv_id": "2602.01260v1",
+      "title": "Sample Efficient Active Algorithms for Offline Reinforcement Learning",
+      "authors": [
+        "Soumyadeep Roy",
+        "Shashwat Kushwaha",
+        "Ambedkar Dukkipati"
+      ],
+      "affiliations": [],
+      "summary": "Offline reinforcement learning (RL) enables policy learning from static data but often suffers from poor coverage of the state-action space and distributional shift problems. This problem can be addressed by allowing limited online interactions to selectively refine uncertain regions of the learned value function, which is referred to as Active Reinforcement Learning (ActiveRL). While there has been good empirical success, no theoretical analysis is available in the literature. We fill this gap by developing a rigorous sample-complexity analysis of ActiveRL through the lens of Gaussian Process (GP) uncertainty modeling. In this respect, we propose an algorithm and using GP concentration inequalities and information-gain bounds, we derive high-probability guarantees showing that an $ε$-optimal policy can be learned with ${\\mathcal{O}}(1/ε^2)$ active transitions, improving upon the $Ω(1/ε^2(1-γ)^4)$ rate of purely offline methods. Our results reveal that ActiveRL achieves near-optimal information efficiency, that is, guided uncertainty reduction leads to accelerated value-function convergence with minimal online data. Our analysis builds on GP concentration inequalities and information-gain bounds, bridging Bayesian nonparametric regression and reinforcement learning theories. We conduct several experiments to validate the algorithm and theoretical findings.",
+      "original_abstract": "Offline reinforcement learning (RL) enables policy learning from static data but often suffers from poor coverage of the state-action space and distributional shift problems. This problem can be addressed by allowing limited online interactions to selectively refine uncertain regions of the learned value function, which is referred to as Active Reinforcement Learning (ActiveRL). While there has been good empirical success, no theoretical analysis is available in the literature. We fill this gap by developing a rigorous sample-complexity analysis of ActiveRL through the lens of Gaussian Process (GP) uncertainty modeling. In this respect, we propose an algorithm and using GP concentration inequalities and information-gain bounds, we derive high-probability guarantees showing that an $ε$-optimal policy can be learned with ${\\mathcal{O}}(1/ε^2)$ active transitions, improving upon the $Ω(1/ε^2(1-γ)^4)$ rate of purely offline methods. Our results reveal that ActiveRL achieves near-optimal information efficiency, that is, guided uncertainty reduction leads to accelerated value-function convergence with minimal online data. Our analysis builds on GP concentration inequalities and information-gain bounds, bridging Bayesian nonparametric regression and reinforcement learning theories. We conduct several experiments to validate the algorithm and theoretical findings.",
+      "published_date": "2026-02-01T14:38:07Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "value function",
+        "offline reinforcement learning",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 3.3,
+        "recency": 1,
+        "popularity": 0.5,
+        "quality": 1.6,
+        "recommendation": 6.1
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.01260v1",
+      "arxiv_url": "http://arxiv.org/abs/2602.01260v1"
+    },
+    {
+      "arxiv_id": "2602.01156v1",
+      "title": "PolicyFlow: Policy Optimization with Continuous Normalizing Flow in Reinforcement Learning",
+      "authors": [
+        "Shunpeng Yang",
+        "Ben Liu",
+        "Hua Chen"
+      ],
+      "affiliations": [],
+      "summary": "Among on-policy reinforcement learning algorithms, Proximal Policy Optimization (PPO) demonstrates is widely favored for its simplicity, numerical stability, and strong empirical performance. Standard PPO relies on surrogate objectives defined via importance ratios, which require evaluating policy likelihood that is typically straightforward when the policy is modeled as a Gaussian distribution. However, extending PPO to more expressive, high-capacity policy models such as continuous normalizing flows (CNFs), also known as flow-matching models, is challenging because likelihood evaluation along the full flow trajectory is computationally expensive and often numerically unstable. To resolve this issue, we propose PolicyFlow, a novel on-policy CNF-based reinforcement learning algorithm that integrates expressive CNF policies with PPO-style objectives without requiring likelihood evaluation along the full flow path. PolicyFlow approximates importance ratios using velocity field variations along a simple interpolation path, reducing computational overhead without compromising training stability. To further prevent mode collapse and further encourage diverse behaviors, we propose the Brownian Regularizer, an implicit policy entropy regularizer inspired by Brownian motion, which is conceptually elegant and computationally lightweight. Experiments on diverse tasks across various environments including MultiGoal, PointMaze, IsaacLab and MuJoCo Playground show that PolicyFlow achieves competitive or superior performance compared to PPO using Gaussian policies and flow-based baselines including FPO and DPPO. Notably, results on MultiGoal highlight PolicyFlow's ability to capture richer multimodal action distributions.",
+      "original_abstract": "Among on-policy reinforcement learning algorithms, Proximal Policy Optimization (PPO) demonstrates is widely favored for its simplicity, numerical stability, and strong empirical performance. Standard PPO relies on surrogate objectives defined via importance ratios, which require evaluating policy likelihood that is typically straightforward when the policy is modeled as a Gaussian distribution. However, extending PPO to more expressive, high-capacity policy models such as continuous normalizing flows (CNFs), also known as flow-matching models, is challenging because likelihood evaluation along the full flow trajectory is computationally expensive and often numerically unstable. To resolve this issue, we propose PolicyFlow, a novel on-policy CNF-based reinforcement learning algorithm that integrates expressive CNF policies with PPO-style objectives without requiring likelihood evaluation along the full flow path. PolicyFlow approximates importance ratios using velocity field variations along a simple interpolation path, reducing computational overhead without compromising training stability. To further prevent mode collapse and further encourage diverse behaviors, we propose the Brownian Regularizer, an implicit policy entropy regularizer inspired by Brownian motion, which is conceptually elegant and computationally lightweight. Experiments on diverse tasks across various environments including MultiGoal, PointMaze, IsaacLab and MuJoCo Playground show that PolicyFlow achieves competitive or superior performance compared to PPO using Gaussian policies and flow-based baselines including FPO and DPPO. Notably, results on MultiGoal highlight PolicyFlow's ability to capture richer multimodal action distributions.",
+      "published_date": "2026-02-01T11:08:09Z",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "policy optimization",
+        "PPO",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "scores": {
+        "relevance": 3.3,
+        "recency": 1,
+        "popularity": 0.5,
+        "quality": 1.6,
+        "recommendation": 6.1
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.01156v1",
+      "arxiv_url": "http://arxiv.org/abs/2602.01156v1"
+    },
+    {
+      "arxiv_id": "2602.01370v1",
+      "title": "PolyGen: Fully Synthetic Vision-Language Training via Multi-Generator Ensembles",
+      "authors": [
+        "Leonardo Brusini",
+        "Cristian Sbrolli",
+        "Eugenio Lomurno",
+        "Toshihiko Yamasaki",
+        "Matteo Matteucci"
+      ],
+      "affiliations": [],
+      "summary": "Synthetic data offers a scalable solution for vision-language pre-training, yet current state-of-the-art methods typically rely on scaling up a single generative backbone, which introduces generator-specific spectral biases and limits feature diversity. In this work, we introduce PolyGen, a framework that redefines synthetic data construction by prioritizing manifold coverage and compositional rigor over simple dataset size. PolyGen employs a Polylithic approach to train on the intersection of architecturally distinct generators, effectively marginalizing out model-specific artifacts. Additionally, we introduce a Programmatic Hard Negative curriculum that enforces fine-grained syntactic understanding. By structurally reallocating the same data budget from unique captions to multi-source variations, PolyGen achieves a more robust feature space, outperforming the leading single-source baseline (SynthCLIP) by +19.0% on aggregate multi-task benchmarks and on the SugarCrepe++ compositionality benchmark (+9.1%). These results demonstrate that structural diversity is a more data-efficient scaling law than simply increasing the volume of single-source samples.",
+      "original_abstract": "Synthetic data offers a scalable solution for vision-language pre-training, yet current state-of-the-art methods typically rely on scaling up a single generative backbone, which introduces generator-specific spectral biases and limits feature diversity. In this work, we introduce PolyGen, a framework that redefines synthetic data construction by prioritizing manifold coverage and compositional rigor over simple dataset size. PolyGen employs a Polylithic approach to train on the intersection of architecturally distinct generators, effectively marginalizing out model-specific artifacts. Additionally, we introduce a Programmatic Hard Negative curriculum that enforces fine-grained syntactic understanding. By structurally reallocating the same data budget from unique captions to multi-source variations, PolyGen achieves a more robust feature space, outperforming the leading single-source baseline (SynthCLIP) by +19.0% on aggregate multi-task benchmarks and on the SugarCrepe++ compositionality benchmark (+9.1%). These results demonstrate that structural diversity is a more data-efficient scaling law than simply increasing the volume of single-source samples.",
+      "published_date": "2026-02-01T18:13:49Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 1,
+        "popularity": 0.5,
+        "quality": 2.3,
+        "recommendation": 5.93
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.01370v1",
+      "arxiv_url": "http://arxiv.org/abs/2602.01370v1"
+    },
+    {
+      "arxiv_id": "2602.01120v1",
+      "title": "MarkovScale: Towards Optimal Sequential Scaling at Inference Time",
+      "authors": [
+        "Youkang Wang",
+        "Jian Wang",
+        "Rubing Chen",
+        "Tianyi Zeng",
+        "Xiao-Yong Wei",
+        "Qing Li"
+      ],
+      "affiliations": [],
+      "summary": "Sequential scaling is a prominent inference-time scaling paradigm, yet its performance improvements are typically modest and not well understood, largely due to the prevalence of heuristic, non-principled approaches that obscure clear optimality bounds. To address this, we propose a principled framework that models sequential scaling as a two-state Markov process. This approach reveals the underlying properties of sequential scaling and yields closed-form solutions for essential aspects, such as the specific conditions under which accuracy is improved and the theoretical upper, neutral, and lower performance bounds. Leveraging this formulation, we develop MarkovScale, a practical system that applies these optimality criteria to achieve a theoretically grounded balance between accuracy and efficiency. Comprehensive experiments across 3 backbone LLMs, 5 benchmarks, and over 20 configurations show that MarkovScale consistently outperforms state-of-the-art parallel and sequential scaling methods, representing a significant step toward optimal and resource-efficient inference in LLMs. The source code will be open upon acceptance at https://open-upon-acceptance.",
+      "original_abstract": "Sequential scaling is a prominent inference-time scaling paradigm, yet its performance improvements are typically modest and not well understood, largely due to the prevalence of heuristic, non-principled approaches that obscure clear optimality bounds. To address this, we propose a principled framework that models sequential scaling as a two-state Markov process. This approach reveals the underlying properties of sequential scaling and yields closed-form solutions for essential aspects, such as the specific conditions under which accuracy is improved and the theoretical upper, neutral, and lower performance bounds. Leveraging this formulation, we develop MarkovScale, a practical system that applies these optimality criteria to achieve a theoretically grounded balance between accuracy and efficiency. Comprehensive experiments across 3 backbone LLMs, 5 benchmarks, and over 20 configurations show that MarkovScale consistently outperforms state-of-the-art parallel and sequential scaling methods, representing a significant step toward optimal and resource-efficient inference in LLMs. The source code will be open upon acceptance at https://open-upon-acceptance.",
+      "published_date": "2026-02-01T09:43:22Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 1,
+        "popularity": 0.5,
+        "quality": 2.3,
+        "recommendation": 5.93
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.01120v1",
+      "arxiv_url": "http://arxiv.org/abs/2602.01120v1"
+    },
+    {
+      "arxiv_id": "2602.21222v1",
+      "title": "Task-Aware LoRA Adapter Composition via Similarity Retrieval in Vector Databases",
+      "authors": [
+        "Riya Adsul",
+        "Balachandra Devarangadi Sunil",
+        "Isha Nalawade",
+        "Sudharshan Govindan"
+      ],
+      "affiliations": [],
+      "summary": "Parameter efficient fine tuning methods like LoRA have enabled task specific adaptation of large language models, but efficiently composing multiple specialized adapters for unseen tasks remains challenging. We present a novel framework for dynamic LoRA adapter composition that leverages similarity retrieval in vector databases to enable zero-shot generalization across diverse NLP tasks. Our approach constructs a task-aware vector database by embedding training examples from 22 datasets spanning commonsense reasoning, question answering, natural language inference, and sentiment analysis. At inference time, we retrieve the most similar training examples, compute task similarity distributions via nucleus sampling, and dynamically merge relevant LoRA adapters using retrieval weighted fusion strategies. We evaluated four merging methods Linear, Concatenation, TIES, and Magnitude Prune demonstrating that our dataset centric retrieval approach often matches or exceeds the performance of individually fine-tuned task-specific adapters. Notably, Linear merging achieves 70.95% on PIQA and 77.62% on RTE, substantially outperforming single-task baselines (46% and 52%, respectively). Our framework requires no additional retriever training, operates with frozen embeddings, and enables efficient, interpretable adapter composition. These results suggest that retrieval based dynamic merging offers a promising direction for scalable, parameter-efficient multitask learning without requiring full model retraining for each new task.",
+      "original_abstract": "Parameter efficient fine tuning methods like LoRA have enabled task specific adaptation of large language models, but efficiently composing multiple specialized adapters for unseen tasks remains challenging. We present a novel framework for dynamic LoRA adapter composition that leverages similarity retrieval in vector databases to enable zero-shot generalization across diverse NLP tasks. Our approach constructs a task-aware vector database by embedding training examples from 22 datasets spanning commonsense reasoning, question answering, natural language inference, and sentiment analysis. At inference time, we retrieve the most similar training examples, compute task similarity distributions via nucleus sampling, and dynamically merge relevant LoRA adapters using retrieval weighted fusion strategies. We evaluated four merging methods Linear, Concatenation, TIES, and Magnitude Prune demonstrating that our dataset centric retrieval approach often matches or exceeds the performance of individually fine-tuned task-specific adapters. Notably, Linear merging achieves 70.95% on PIQA and 77.62% on RTE, substantially outperforming single-task baselines (46% and 52%, respectively). Our framework requires no additional retriever training, operates with frozen embeddings, and enables efficient, interpretable adapter composition. These results suggest that retrieval based dynamic merging offers a promising direction for scalable, parameter-efficient multitask learning without requiring full model retraining for each new task.",
+      "published_date": "2026-02-01T22:20:04Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 1,
+        "popularity": 0.5,
+        "quality": 2,
+        "recommendation": 5.83
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.21222v1",
+      "arxiv_url": "http://arxiv.org/abs/2602.21222v1"
+    },
+    {
+      "arxiv_id": "2602.01442v3",
+      "title": "Hidden Heroes and Gradient Bloats: Layer-Wise Redundancy Inverts Attribution in Transformers",
+      "authors": [
+        "Donald Ye"
+      ],
+      "affiliations": [],
+      "summary": "Gradient-based attribution is the workhorse of mechanistic interpretability, yet whether it reliably tracks causal importance at the component level remains largely untested. We causally evaluate this assumption across two algorithmic tasks and up to 10 random seeds, uncovering a systematic, layer-wise failure: gradient attribution consistently overvalues early-layer \\textbf{Gradient Bloats} and undervalues late-layer \\textbf{Hidden Heroes}. Rank correlation collapses from $ρ= 0.72$ on sequence reversal to $0.27$ on sequence sorting, reaching $ρ= -0.18$ in individual seeds. This failure stems from first-order gradient attribution's inability to detect collective redundancy: joint Bloat ablation causes $14\\times$ greater damage than individual results predict. Consequently, Bloats dominate gradient rankings despite negligible functional impact, while ablating Hidden Heroes destroys OOD accuracy ($-36.4\\% \\pm 22.8\\%$). This systematic inversion of early-layer feature extraction and late-layer computation motivates causal validation as a prerequisite for circuit-level claims.",
+      "original_abstract": "Gradient-based attribution is the workhorse of mechanistic interpretability, yet whether it reliably tracks causal importance at the component level remains largely untested. We causally evaluate this assumption across two algorithmic tasks and up to 10 random seeds, uncovering a systematic, layer-wise failure: gradient attribution consistently overvalues early-layer \\textbf{Gradient Bloats} and undervalues late-layer \\textbf{Hidden Heroes}. Rank correlation collapses from $ρ= 0.72$ on sequence reversal to $0.27$ on sequence sorting, reaching $ρ= -0.18$ in individual seeds. This failure stems from first-order gradient attribution's inability to detect collective redundancy: joint Bloat ablation causes $14\\times$ greater damage than individual results predict. Consequently, Bloats dominate gradient rankings despite negligible functional impact, while ablating Hidden Heroes destroys OOD accuracy ($-36.4\\% \\pm 22.8\\%$). This systematic inversion of early-layer feature extraction and late-layer computation motivates causal validation as a prerequisite for circuit-level claims.",
+      "published_date": "2026-02-01T21:22:14Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 1,
+        "popularity": 0.5,
+        "quality": 2,
+        "recommendation": 5.83
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.01442v3",
+      "arxiv_url": "http://arxiv.org/abs/2602.01442v3"
+    },
+    {
+      "arxiv_id": "2602.01399v1",
+      "title": "An Odd Estimator for Shapley Values",
+      "authors": [
+        "Fabian Fumagalli",
+        "Landon Butler",
+        "Justin Singh Kang",
+        "Kannan Ramchandran",
+        "R. Teal Witter"
+      ],
+      "affiliations": [],
+      "summary": "The Shapley value is a ubiquitous framework for attribution in machine learning, encompassing feature importance, data valuation, and causal inference. However, its exact computation is generally intractable, necessitating efficient approximation methods. While the most effective and popular estimators leverage the paired sampling heuristic to reduce estimation error, the theoretical mechanism driving this improvement has remained opaque. In this work, we provide an elegant and fundamental justification for paired sampling: we prove that the Shapley value depends exclusively on the odd component of the set function, and that paired sampling orthogonalizes the regression objective to filter out the irrelevant even component. Leveraging this insight, we propose OddSHAP, a novel consistent estimator that performs polynomial regression solely on the odd subspace. By utilizing the Fourier basis to isolate this subspace and employing a proxy model to identify high-impact interactions, OddSHAP overcomes the combinatorial explosion of higher-order approximations. Through an extensive benchmark evaluation, we find that OddSHAP achieves state-of-the-art estimation accuracy.",
+      "original_abstract": "The Shapley value is a ubiquitous framework for attribution in machine learning, encompassing feature importance, data valuation, and causal inference. However, its exact computation is generally intractable, necessitating efficient approximation methods. While the most effective and popular estimators leverage the paired sampling heuristic to reduce estimation error, the theoretical mechanism driving this improvement has remained opaque. In this work, we provide an elegant and fundamental justification for paired sampling: we prove that the Shapley value depends exclusively on the odd component of the set function, and that paired sampling orthogonalizes the regression objective to filter out the irrelevant even component. Leveraging this insight, we propose OddSHAP, a novel consistent estimator that performs polynomial regression solely on the odd subspace. By utilizing the Fourier basis to isolate this subspace and employing a proxy model to identify high-impact interactions, OddSHAP overcomes the combinatorial explosion of higher-order approximations. Through an extensive benchmark evaluation, we find that OddSHAP achieves state-of-the-art estimation accuracy.",
+      "published_date": "2026-02-01T19:07:16Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 1,
+        "popularity": 0.5,
+        "quality": 2,
+        "recommendation": 5.83
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.01399v1",
+      "arxiv_url": "http://arxiv.org/abs/2602.01399v1"
+    },
+    {
+      "arxiv_id": "2602.01158v1",
+      "title": "Improving Robustness of Vision-Language-Action Models by Restoring Corrupted Visual Inputs",
+      "authors": [
+        "Daniel Yezid Guarnizo Orjuela",
+        "Leonardo Scappatura",
+        "Veronica Di Gennaro",
+        "Riccardo Andrea Izzo",
+        "Gianluca Bardaro",
+        "Matteo Matteucci"
+      ],
+      "affiliations": [],
+      "summary": "Vision-Language-Action (VLA) models have emerged as a dominant paradigm for generalist robotic manipulation, unifying perception and control within a single end-to-end architecture. However, despite their success in controlled environments, reliable real-world deployment is severely hindered by their fragility to visual disturbances. While existing literature extensively addresses physical occlusions caused by scene geometry, a critical mode remains largely unexplored: image corruptions. These sensor-level artifacts, ranging from electronic noise and dead pixels to lens contaminants, directly compromise the integrity of the visual signal prior to interpretation. In this work, we quantify this vulnerability, demonstrating that state-of-the-art VLAs such as $π_{0.5}$ and SmolVLA, suffer catastrophic performance degradation, dropping from 90\\% success rates to as low as 2\\%, under common signal artifacts. To mitigate this, we introduce the Corruption Restoration Transformer (CRT), a plug-and-play and model-agnostic vision transformer designed to immunize VLA models against sensor disturbances. Leveraging an adversarial training objective, CRT restores clean observations from corrupted inputs without requiring computationally expensive fine-tuning of the underlying model. Extensive experiments across the LIBERO and Meta-World benchmarks demonstrate that CRT effectively recovers lost performance, enabling VLAs to maintain near-baseline success rates, even under severe visual corruption.",
+      "original_abstract": "Vision-Language-Action (VLA) models have emerged as a dominant paradigm for generalist robotic manipulation, unifying perception and control within a single end-to-end architecture. However, despite their success in controlled environments, reliable real-world deployment is severely hindered by their fragility to visual disturbances. While existing literature extensively addresses physical occlusions caused by scene geometry, a critical mode remains largely unexplored: image corruptions. These sensor-level artifacts, ranging from electronic noise and dead pixels to lens contaminants, directly compromise the integrity of the visual signal prior to interpretation. In this work, we quantify this vulnerability, demonstrating that state-of-the-art VLAs such as $π_{0.5}$ and SmolVLA, suffer catastrophic performance degradation, dropping from 90\\% success rates to as low as 2\\%, under common signal artifacts. To mitigate this, we introduce the Corruption Restoration Transformer (CRT), a plug-and-play and model-agnostic vision transformer designed to immunize VLA models against sensor disturbances. Leveraging an adversarial training objective, CRT restores clean observations from corrupted inputs without requiring computationally expensive fine-tuning of the underlying model. Extensive experiments across the LIBERO and Meta-World benchmarks demonstrate that CRT effectively recovers lost performance, enabling VLAs to maintain near-baseline success rates, even under severe visual corruption.",
+      "published_date": "2026-02-01T11:09:08Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "robotic manipulation",
+        "cs.RO",
+        "cs.CV"
+      ],
+      "scores": {
+        "relevance": 3.1,
+        "recency": 1,
+        "popularity": 0.5,
+        "quality": 1.6,
+        "recommendation": 5.83
+      },
+      "pdf_url": "https://arxiv.org/pdf/2602.01158v1",
+      "arxiv_url": "http://arxiv.org/abs/2602.01158v1"
+    }
+  ],
+  "total": 10
+}

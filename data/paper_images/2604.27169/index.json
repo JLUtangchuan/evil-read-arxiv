@@ -1,0 +1,67 @@
+[
+  {
+    "filename": "direct_vs_spillover_3b_vs_70b_page1.png",
+    "url": "/api/images/2604.27169/direct_vs_spillover_3b_vs_70b_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "less_big_space_schematic.png",
+    "url": "/api/images/2604.27169/less_big_space_schematic.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "llama_full_pairwise_page1.png",
+    "url": "/api/images/2604.27169/llama_full_pairwise_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "llama_pca_page1.png",
+    "url": "/api/images/2604.27169/llama_pca_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "llama_proj_corr_page1.png",
+    "url": "/api/images/2604.27169/llama_proj_corr_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "llama_spillover_page1.png",
+    "url": "/api/images/2604.27169/llama_spillover_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "pca_unrotated_combined_page1.png",
+    "url": "/api/images/2604.27169/pca_unrotated_combined_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "prompt_schematic_page1.png",
+    "url": "/api/images/2604.27169/prompt_schematic_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwen_full_pairwise_page1.png",
+    "url": "/api/images/2604.27169/qwen_full_pairwise_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwen_pca_page1.png",
+    "url": "/api/images/2604.27169/qwen_pca_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwen_proj_corr_page1.png",
+    "url": "/api/images/2604.27169/qwen_proj_corr_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwen_spillover_logit_page1.png",
+    "url": "/api/images/2604.27169/qwen_spillover_logit_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwen_spillover_page1.png",
+    "url": "/api/images/2604.27169/qwen_spillover_page1.png",
+    "source": "arxiv"
+  }
+]

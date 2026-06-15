@@ -1,0 +1,365 @@
+{
+  "date": "2026-05-16",
+  "papers": [
+    {
+      "arxiv_id": "2605.16848v1",
+      "title": "Thinking with Patterns: Breaking the Perceptual Bottleneck in Visual Planning via Pattern Induction",
+      "authors": [
+        "Yichang Jian",
+        "Boyuan Xiao",
+        "Zhenyuan Huang",
+        "Yifei Peng",
+        "Yao-Xiang Ding"
+      ],
+      "affiliations": [],
+      "summary": "Planning from raw visual input remains a significant challenge for current Vision-Language Models (VLMs), when the complexity of input is beyond their one-step perception capability. Motivated by recent advances in Thinking with Images (TWI), a reasonable solution is to decompose the perception process into simpler steps by iteratively acquiring and incorporating local visual evidence. However, even though current VLMs are well-trained in general TWI ability, their perceptual bottleneck in the planning domain remains. To tackle this challenge, we formulate TWI as a tool to gradually build and reflect an accurate internal world model. We find that the resulting training-free planning strategy enables VLMs to solve tasks that are far beyond their initial capabilities, at the cost that too many TWI operations would significantly increase the computational overhead. To further improve efficiency, we propose Pattern Inference, a novel TWI strategy enabling VLMs to actively recognize known visual patterns in the new tasks and directly infer local world model structures. To obtain these patterns, we propose Pattern Induction, an online inductive learning strategy treating visual patterns as composite and reusable experts, which are autonomously discovered and optimized from experience. Experimental evaluations in FrozenLake, Crafter and CubeBench domains show that our approaches achieve a desirable balance between accuracy and efficiency.",
+      "original_abstract": "Planning from raw visual input remains a significant challenge for current Vision-Language Models (VLMs), when the complexity of input is beyond their one-step perception capability. Motivated by recent advances in Thinking with Images (TWI), a reasonable solution is to decompose the perception process into simpler steps by iteratively acquiring and incorporating local visual evidence. However, even though current VLMs are well-trained in general TWI ability, their perceptual bottleneck in the planning domain remains. To tackle this challenge, we formulate TWI as a tool to gradually build and reflect an accurate internal world model. We find that the resulting training-free planning strategy enables VLMs to solve tasks that are far beyond their initial capabilities, at the cost that too many TWI operations would significantly increase the computational overhead. To further improve efficiency, we propose Pattern Inference, a novel TWI strategy enabling VLMs to actively recognize known visual patterns in the new tasks and directly infer local world model structures. To obtain these patterns, we propose Pattern Induction, an online inductive learning strategy treating visual patterns as composite and reusable experts, which are autonomously discovered and optimized from experience. Experimental evaluations in FrozenLake, Crafter and CubeBench domains show that our approaches achieve a desirable balance between accuracy and efficiency.",
+      "published_date": "2026-05-16T07:12:19Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 4,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.1,
+        "recommendation": 9.2
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16848v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.16848v1"
+    },
+    {
+      "arxiv_id": "2605.17144v1",
+      "title": "Contrastive Conceptor Activation Steering (COAST): Unlocking Vision-Language-Action Models through Hidden States",
+      "authors": [
+        "Miranda Muqing Miao",
+        "Subin Kim",
+        "Brandon Yang",
+        "Lyle Ungar"
+      ],
+      "affiliations": [],
+      "summary": "Vision-Language-Action (VLA) models leverage powerful perceptual priors from web-scale Vision-Language Model (VLM) pre-training, yet they remain surprisingly brittle in practice, frequently failing at simple robotic tasks. To mitigate this, we propose Contrastive Conceptor Activation Steering (COAST). COAST builds on the notion of a \"conceptor\", a linear operator that soft-projects data into the principal components of a target distribution. COAST uses conceptors to identify success-critical subspaces for a target robotic task from a few examples of success and failure rollouts. At inference time, it steers VLA latents into these identified success subspaces to improve task outcomes. Across three architecturally distinct neural policies (flow-matching VLA, autoregressive VLA, and Diffusion Policy), COAST improves absolute mean simulation and real-robot task success rate by over 20 and 40% respectively. The activation subspace geometry reveals that failure modes share substantial structure across tasks while success representations remain largely task-specific. When tasks share similar failure modes, this structure enables previously fitted conceptors to improve performance on new tasks without refitting. Ultimately, our results suggest that current VLAs retain substantial task-relevant knowledge in their latent representations, and that the action expert's decoding bottleneck could be mitigated by steering its residual stream toward task-relevant subspaces. COAST provides a lightweight, training-free path to unlocking these latent capabilities by steering the model towards its own \"success\" distributions.",
+      "original_abstract": "Vision-Language-Action (VLA) models leverage powerful perceptual priors from web-scale Vision-Language Model (VLM) pre-training, yet they remain surprisingly brittle in practice, frequently failing at simple robotic tasks. To mitigate this, we propose Contrastive Conceptor Activation Steering (COAST). COAST builds on the notion of a \"conceptor\", a linear operator that soft-projects data into the principal components of a target distribution. COAST uses conceptors to identify success-critical subspaces for a target robotic task from a few examples of success and failure rollouts. At inference time, it steers VLA latents into these identified success subspaces to improve task outcomes. Across three architecturally distinct neural policies (flow-matching VLA, autoregressive VLA, and Diffusion Policy), COAST improves absolute mean simulation and real-robot task success rate by over 20 and 40% respectively. The activation subspace geometry reveals that failure modes share substantial structure across tasks while success representations remain largely task-specific. When tasks share similar failure modes, this structure enables previously fitted conceptors to improve performance on new tasks without refitting. Ultimately, our results suggest that current VLAs retain substantial task-relevant knowledge in their latent representations, and that the action expert's decoding bottleneck could be mitigated by steering its residual stream toward task-relevant subspaces. COAST provides a lightweight, training-free path to unlocking these latent capabilities by steering the model towards its own \"success\" distributions.",
+      "published_date": "2026-05-16T20:28:21Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3.8,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 0.3,
+        "recommendation": 8.67
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.17144v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.17144v1"
+    },
+    {
+      "arxiv_id": "2605.16863v1",
+      "title": "Plan First, Diffuse Later: Extrinsic Graph Guidance for Long-Horizon Diffusion Planning",
+      "authors": [
+        "Yaniv Hassidof",
+        "Adir Morgan",
+        "Yilun Du",
+        "Kiril Solovey"
+      ],
+      "affiliations": [],
+      "summary": "Compositional diffusion models offer a promising route to long-horizon planning by denoising multiple overlapping sub-trajectories while ensuring that together they constitute a global solution. However, enforcing local behavior over long chains is often insufficient for a coherent global structure to emerge. Recent works tackle this limitation through intrinsic search, which explores multiple paths during the denoising process. While intrinsic search improves global coherence, it comes at the cost of repeated evaluations of an already compute-heavy model. In this work, we argue that extrinsic search, performed outside the denoising process, offers a more effective mode of exploration for long-horizon planning while naturally enabling the use of classical algorithms to solve unseen combinatorial tasks at test time. Our eXtrinsic search-guided Diffuser (XDiffuser) first computes a plan over a state-space graph -- serving as a lightweight local connectivity oracle for the diffusion model. The plan is then used to guide denoising for a single trajectory, effectively offloading the burden of exploration. XDiffuser outperforms diffusion-based baselines on long-horizon tasks, with particularly large gains in the low-quality data regime and on unseen tasks beyond goal-reaching, including multi-agent coordination and TSP-style reasoning. Project website: https://yanivhass.github.io/XDiffuser-site/",
+      "original_abstract": "Compositional diffusion models offer a promising route to long-horizon planning by denoising multiple overlapping sub-trajectories while ensuring that together they constitute a global solution. However, enforcing local behavior over long chains is often insufficient for a coherent global structure to emerge. Recent works tackle this limitation through intrinsic search, which explores multiple paths during the denoising process. While intrinsic search improves global coherence, it comes at the cost of repeated evaluations of an already compute-heavy model. In this work, we argue that extrinsic search, performed outside the denoising process, offers a more effective mode of exploration for long-horizon planning while naturally enabling the use of classical algorithms to solve unseen combinatorial tasks at test time. Our eXtrinsic search-guided Diffuser (XDiffuser) first computes a plan over a state-space graph -- serving as a lightweight local connectivity oracle for the diffusion model. The plan is then used to guide denoising for a single trajectory, effectively offloading the burden of exploration. XDiffuser outperforms diffusion-based baselines on long-horizon tasks, with particularly large gains in the low-quality data regime and on unseen tasks beyond goal-reaching, including multi-agent coordination and TSP-style reasoning. Project website: https://yanivhass.github.io/XDiffuser-site/",
+      "published_date": "2026-05-16T07:53:04Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "diffusion model",
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3.3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2.3,
+        "recommendation": 8.67
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16863v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.16863v1"
+    },
+    {
+      "arxiv_id": "2605.16892v1",
+      "title": "DriveSafe: A Framework for Risk Detection and Safety Suggestions in Driving Scenarios",
+      "authors": [
+        "Sainithin Artham",
+        "Shankar Gangisetty",
+        "Avijit Dasgupta",
+        "C. V. Jawahar"
+      ],
+      "affiliations": [],
+      "summary": "Comprehensive situational awareness is essential for autonomous vehicles operating in safety-critical environments, as it enables the identification and mitigation of potential risks. Although recent Multimodal Large Language Models (MLLMs) have shown promise on general vision-language tasks, our findings indicate that zero-shot MLLMs still underperform compared to domain-specific methods in fine-grained, spatially grounded risk assessment. To address this gap, we propose DriveSafe, a framework for risk-aware scene understanding that leverages structured natural language descriptions. Specifically, our method first generates spatially grounded captions enriched with multimodal context, including motion, spatial, and depth cues. These captions are then used for downstream risk assessment, explicitly identifying hazardous objects, their locations, and the unsafe behaviors they imply, followed by actionable safety suggestions. To further improve performance, we employ caption-risk pairings to fine-tune a lightweight adapter module, efficiently injecting domain-specific knowledge into the base LLM. By conditioning risk assessment on explicit language-based scene representations, DriveSafe achieves significant gains over both zero-shot MLLMs and prior domain-specific baselines. Exhaustive experiments on the DRAMA benchmark demonstrate state-of-the-art performance, while ablation studies validate the effectiveness of our key design choices. Project page: https://cvit.iiit.ac.in/ research/projects/cvit-projects/drivesafe",
+      "original_abstract": "Comprehensive situational awareness is essential for autonomous vehicles operating in safety-critical environments, as it enables the identification and mitigation of potential risks. Although recent Multimodal Large Language Models (MLLMs) have shown promise on general vision-language tasks, our findings indicate that zero-shot MLLMs still underperform compared to domain-specific methods in fine-grained, spatially grounded risk assessment. To address this gap, we propose DriveSafe, a framework for risk-aware scene understanding that leverages structured natural language descriptions. Specifically, our method first generates spatially grounded captions enriched with multimodal context, including motion, spatial, and depth cues. These captions are then used for downstream risk assessment, explicitly identifying hazardous objects, their locations, and the unsafe behaviors they imply, followed by actionable safety suggestions. To further improve performance, we employ caption-risk pairings to fine-tune a lightweight adapter module, efficiently injecting domain-specific knowledge into the base LLM. By conditioning risk assessment on explicit language-based scene representations, DriveSafe achieves significant gains over both zero-shot MLLMs and prior domain-specific baselines. Exhaustive experiments on the DRAMA benchmark demonstrate state-of-the-art performance, while ablation studies validate the effectiveness of our key design choices. Project page: https://cvit.iiit.ac.in/ research/projects/cvit-projects/drivesafe",
+      "published_date": "2026-05-16T09:07:14Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2.3,
+        "recommendation": 8.27
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16892v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.16892v1"
+    },
+    {
+      "arxiv_id": "2605.17173v1",
+      "title": "Why Do Safety Guardrails Degrade Across Languages?",
+      "authors": [
+        "Max Zhang",
+        "Ameen Patel",
+        "Sang T. Truong",
+        "Sanmi Koyejo"
+      ],
+      "affiliations": [],
+      "summary": "Large language models exhibit safety degradation in non-English languages. Standard evaluation relies on Jailbreak Success Rate (JSR), which confounds several safety-driving factors into one, obscuring the specific cause(s) of safety failure. We introduce a latent variable model, a Multi-Group Item Response Theory (IRT) framework, that decouples safety-driving factors such as language-agnostic safety robustness ($θ$), intrinsic prompt hardness ($β$), global language processing difficulty ($γ$), and a prompt-specific cross-lingual safety gap ($τ$). Using the MultiJail dataset, we evaluate the safety robustness of 61 model configurations across 5 closed-model families and 10 languages of varying resource, aggregating a dataset of 1.9 million rows. Exploratory Factor Analysis shows safety is primarily unidimensional: models refuse different harm types mainly through a shared mechanism. Contrary to the expected trend that safety degrades largely in low-resource languages, 22 model configurations are more vulnerable in English than in low-resource languages. Low-resource languages produce more uncertain responses (high entropy) than high-resource languages. Also, high-$τ$ prompts cluster in physical harm categories like Theft and Weapons and lower-resource languages, trends validated through cross-dataset generalization. While global translation quality shows low correlation with $τ$, severe mistranslations drive high-bias outliers, as validated by native speakers. Cultural and conceptual grounding mismatches also contribute to $τ$. In predictive validation, the IRT framework achieves $\\mathrm{AUC} = 0.940$, outperforming simpler baselines in predicting safe refusal of unsafe prompts. Our framework reveals concept-language vulnerabilities that aggregate metrics obscure, enabling fairer cross-lingual safety evaluation and targeted improvements in dataset construction.",
+      "original_abstract": "Large language models exhibit safety degradation in non-English languages. Standard evaluation relies on Jailbreak Success Rate (JSR), which confounds several safety-driving factors into one, obscuring the specific cause(s) of safety failure. We introduce a latent variable model, a Multi-Group Item Response Theory (IRT) framework, that decouples safety-driving factors such as language-agnostic safety robustness ($θ$), intrinsic prompt hardness ($β$), global language processing difficulty ($γ$), and a prompt-specific cross-lingual safety gap ($τ$). Using the MultiJail dataset, we evaluate the safety robustness of 61 model configurations across 5 closed-model families and 10 languages of varying resource, aggregating a dataset of 1.9 million rows. Exploratory Factor Analysis shows safety is primarily unidimensional: models refuse different harm types mainly through a shared mechanism. Contrary to the expected trend that safety degrades largely in low-resource languages, 22 model configurations are more vulnerable in English than in low-resource languages. Low-resource languages produce more uncertain responses (high entropy) than high-resource languages. Also, high-$τ$ prompts cluster in physical harm categories like Theft and Weapons and lower-resource languages, trends validated through cross-dataset generalization. While global translation quality shows low correlation with $τ$, severe mistranslations drive high-bias outliers, as validated by native speakers. Cultural and conceptual grounding mismatches also contribute to $τ$. In predictive validation, the IRT framework achieves $\\mathrm{AUC} = 0.940$, outperforming simpler baselines in predicting safe refusal of unsafe prompts. Our framework reveals concept-language vulnerabilities that aggregate metrics obscure, enabling fairer cross-lingual safety evaluation and targeted improvements in dataset construction.",
+      "published_date": "2026-05-16T22:08:54Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2,
+        "recommendation": 8.17
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.17173v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.17173v1"
+    },
+    {
+      "arxiv_id": "2605.17172v1",
+      "title": "OpenJarvis: Personal AI, On Personal Devices",
+      "authors": [
+        "Jon Saad-Falcon",
+        "Avanika Narayan",
+        "Robby Manihani",
+        "Tanvir Bhathal",
+        "Herumb Shandilya",
+        "Hakki Orhun Akengin",
+        "Gabriel Bo",
+        "Andrew Park",
+        "Matthew Hart",
+        "Caia Costello",
+        "Chuan Li",
+        "Christopher Ré",
+        "Azalia Mirhoseini"
+      ],
+      "affiliations": [],
+      "summary": "Personal AI stacks, like OpenClaw and Hermes Agent, are becoming central to daily work, yet they route nearly every query (often over sensitive local data) to cloud-hosted frontier models. Replacing frontier models with local models inside existing stacks does not work: swapping Claude Opus 4.6 for Qwen3.5-9B drops accuracy by 25-39 pp across personal AI tasks like PinchBench and GAIA. Existing stacks bundle agentic prompts, tool descriptions, memory configuration, and runtime settings around a specific cloud model. Only the prompts can be tuned, and state-of-the-art prompt optimizers close just 5 pp of the local-cloud gap on their own. This motivates a decomposed personal AI stack: one that exposes individual primitives which can be optimized individually or jointly to close the local-cloud gap. We present OpenJarvis, an architecture that represents a personal AI system as a typed spec over five primitives: Intelligence, Engine, Agents, Tools & Memory, and Learning. Each primitive is an independently editable field, making the stack end-to-end optimizable and measurable against accuracy, cost, and latency. Towards closing the local-cloud gap without surrendering local-model properties, OpenJarvis introduces LLM-guided spec search, a local-cloud collaboration in which frontier cloud models propose edits across the spec at search time, only non-regressing edits are accepted, and the resulting spec runs entirely on-device at inference time. With LLM-guided spec search, on-device specs match or exceed cloud accuracy on 4 of 8 benchmarks and land within 3.2 pp of the best cloud baseline on average. They also reduce marginal API cost by ~800x and end-to-end latency by 4x.",
+      "original_abstract": "Personal AI stacks, like OpenClaw and Hermes Agent, are becoming central to daily work, yet they route nearly every query (often over sensitive local data) to cloud-hosted frontier models. Replacing frontier models with local models inside existing stacks does not work: swapping Claude Opus 4.6 for Qwen3.5-9B drops accuracy by 25-39 pp across personal AI tasks like PinchBench and GAIA. Existing stacks bundle agentic prompts, tool descriptions, memory configuration, and runtime settings around a specific cloud model. Only the prompts can be tuned, and state-of-the-art prompt optimizers close just 5 pp of the local-cloud gap on their own. This motivates a decomposed personal AI stack: one that exposes individual primitives which can be optimized individually or jointly to close the local-cloud gap. We present OpenJarvis, an architecture that represents a personal AI system as a typed spec over five primitives: Intelligence, Engine, Agents, Tools & Memory, and Learning. Each primitive is an independently editable field, making the stack end-to-end optimizable and measurable against accuracy, cost, and latency. Towards closing the local-cloud gap without surrendering local-model properties, OpenJarvis introduces LLM-guided spec search, a local-cloud collaboration in which frontier cloud models propose edits across the spec at search time, only non-regressing edits are accepted, and the resulting spec runs entirely on-device at inference time. With LLM-guided spec search, on-device specs match or exceed cloud accuracy on 4 of 8 benchmarks and land within 3.2 pp of the best cloud baseline on average. They also reduce marginal API cost by ~800x and end-to-end latency by 4x.",
+      "published_date": "2026-05-16T22:00:10Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2,
+        "recommendation": 8.17
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.17172v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.17172v1"
+    },
+    {
+      "arxiv_id": "2605.17162v1",
+      "title": "From Imitation to Interaction: Mastering Game of Schnapsen with Shallow Reinforcement Learning",
+      "authors": [
+        "Ján Klačan",
+        "Sizhong Zhang"
+      ],
+      "affiliations": [],
+      "summary": "This paper investigates whether shallow neural network agents can master the card game Schnapsen and challenge a strong search-based baseline, RdeepBot, which uses Monte Carlo sampling and lookahead search. Guided by a progressively more complex experimental design, we first evaluate a supervised learning agent (MLPBot) trained on replay data and then a reinforcement learning agent (RLBot) with the same shallow architecture trained through asynchronous Monte Carlo updates and experience replay. The results show that supervised imitation does not generalize well enough to defeat strong RdeepBot opponents, whereas reinforcement learning produces substantially stronger agents. In the setting that focuses on the depth parameter of RdeepBot, the best performance is achieved when the learned value function is combined with deeper lookahead during gameplay, allowing RLBot to achieve statistically significant higher winning rates against the strongest evaluated RdeepBot baseline. In the sample-based setting, the gains are more conditional: the strongest performance appears at a relatively lower training num_samples parameter rather than increasing uniformly with stronger sampling.",
+      "original_abstract": "This paper investigates whether shallow neural network agents can master the card game Schnapsen and challenge a strong search-based baseline, RdeepBot, which uses Monte Carlo sampling and lookahead search. Guided by a progressively more complex experimental design, we first evaluate a supervised learning agent (MLPBot) trained on replay data and then a reinforcement learning agent (RLBot) with the same shallow architecture trained through asynchronous Monte Carlo updates and experience replay. The results show that supervised imitation does not generalize well enough to defeat strong RdeepBot opponents, whereas reinforcement learning produces substantially stronger agents. In the setting that focuses on the depth parameter of RdeepBot, the best performance is achieved when the learned value function is combined with deeper lookahead during gameplay, allowing RLBot to achieve statistically significant higher winning rates against the strongest evaluated RdeepBot baseline. In the sample-based setting, the gains are more conditional: the strongest performance appears at a relatively lower training num_samples parameter rather than increasing uniformly with stronger sampling.",
+      "published_date": "2026-05-16T21:22:46Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "PPO",
+        "value function",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 3.1,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.6,
+        "recommendation": 8.17
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.17162v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.17162v1"
+    },
+    {
+      "arxiv_id": "2605.17037v1",
+      "title": "D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning",
+      "authors": [
+        "Ru Zhang",
+        "Renda Li",
+        "Ziyu Ma",
+        "Weijie Qiu",
+        "Chongyang Tao",
+        "Yong Wang",
+        "Xiangxiang Chu"
+      ],
+      "affiliations": [],
+      "summary": "Reinforcement learning (RL) has demonstrated potential for enhancing reasoning in large language models (LLMs). However, effective RL training, which requires medium-difficulty training samples, faces two fundamental challenges: Effective Data Scarcity and Dynamic Difficulty Shifts, where medium-difficulty samples are scarce and become trivial as models improve. Existing methods mitigate this scarcity to some extent by generating training samples. However, these approaches suffer from anchor-free generation, ignoring co-evolution, and difficulty mismatch. To address these issues, we propose D$^2$Evo, a Dual Difficulty-aware self-Evolution RL framework. In each iteration, our method mines medium-difficulty anchors based on the current Solver's capability, trains the Questioner to generate diverse questions at appropriate difficulty levels, and jointly optimizes both components to enable progressive reasoning gains. Extensive experiments demonstrate that D$^2$Evo outperforms existing methods on mathematical reasoning benchmarks with fewer than 2K real mathematical samples, and exhibits strong generalization on general reasoning benchmarks.",
+      "original_abstract": "Reinforcement learning (RL) has demonstrated potential for enhancing reasoning in large language models (LLMs). However, effective RL training, which requires medium-difficulty training samples, faces two fundamental challenges: Effective Data Scarcity and Dynamic Difficulty Shifts, where medium-difficulty samples are scarce and become trivial as models improve. Existing methods mitigate this scarcity to some extent by generating training samples. However, these approaches suffer from anchor-free generation, ignoring co-evolution, and difficulty mismatch. To address these issues, we propose D$^2$Evo, a Dual Difficulty-aware self-Evolution RL framework. In each iteration, our method mines medium-difficulty anchors based on the current Solver's capability, trains the Questioner to generate diverse questions at appropriate difficulty levels, and jointly optimizes both components to enable progressive reasoning gains. Extensive experiments demonstrate that D$^2$Evo outperforms existing methods on mathematical reasoning benchmarks with fewer than 2K real mathematical samples, and exhibits strong generalization on general reasoning benchmarks.",
+      "published_date": "2026-05-16T15:16:00Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2,
+        "recommendation": 8.17
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.17037v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.17037v1"
+    },
+    {
+      "arxiv_id": "2605.17160v1",
+      "title": "When Bits Break Recourse: Counterfactual-Faithful Quantization",
+      "authors": [
+        "Chaymae Yahyati",
+        "Ismail Lamaakal",
+        "Khalid El Makkaoui",
+        "Ibrahim Ouahbi"
+      ],
+      "affiliations": [],
+      "summary": "Quantization can preserve predictive accuracy under low-bit deployment while silently breaking algorithmic recourse: an actionable change that flips a decision before quantization may fail after quantization, or become substantially more costly. We formalize counterfactual sensitivity under quantization through validity, cost, and direction stability, and introduce two metrics: Validity Drop (VD) and Counterfactual Recourse Gap (CRG) that reveal recourse failures invisible to accuracy. We propose Counterfactual-Faithful Quantization (CFQ), which trains quantizer parameters and mixed-precision bit allocation to preserve counterfactual behavior by enforcing the target outcome at teacher recourse points under a global bit budget. A margin-based analysis gives a sufficient condition for recourse transfer under bounded quantization perturbations. Experiments on Adult, German Credit, and COMPAS show that accuracy-matched baselines can significantly degrade recourse stability, while CFQ maintains accuracy and substantially improves VD and CRG across bit budgets.",
+      "original_abstract": "Quantization can preserve predictive accuracy under low-bit deployment while silently breaking algorithmic recourse: an actionable change that flips a decision before quantization may fail after quantization, or become substantially more costly. We formalize counterfactual sensitivity under quantization through validity, cost, and direction stability, and introduce two metrics: Validity Drop (VD) and Counterfactual Recourse Gap (CRG) that reveal recourse failures invisible to accuracy. We propose Counterfactual-Faithful Quantization (CFQ), which trains quantizer parameters and mixed-precision bit allocation to preserve counterfactual behavior by enforcing the target outcome at teacher recourse points under a global bit budget. A margin-based analysis gives a sufficient condition for recourse transfer under bounded quantization perturbations. Experiments on Adult, German Credit, and COMPAS show that accuracy-matched baselines can significantly degrade recourse stability, while CFQ maintains accuracy and substantially improves VD and CRG across bit budgets.",
+      "published_date": "2026-05-16T21:19:31Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.6,
+        "recommendation": 8.03
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.17160v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.17160v1"
+    },
+    {
+      "arxiv_id": "2605.16826v1",
+      "title": "Decoupling KL and Trajectories: A Unified Perspective for SFT, DAgger, Offline RL, and OPD in LLM Distillation",
+      "authors": [
+        "Anhao Zhao",
+        "Haoran Xin",
+        "Yingqi Fan",
+        "Junlong Tong",
+        "Wenjie Li",
+        "Xiaoyu Shen"
+      ],
+      "affiliations": [],
+      "summary": "Knowledge distillation is central to LLM post-training, yet its design space remains poorly understood, especially alongside reinforcement learning (RL). We show that the prevailing paradigms, off-policy distillation and on-policy distillation (OPD), implicitly couple two orthogonal choices: prefix source and token-level KL direction. This follows from decomposing sequence-level KL over autoregressive response distributions: forward KL pairs teacher prefixes with token-level forward KL, and reverse KL pairs student prefixes with token-level reverse KL. We argue this coupling is not intrinsic: decoupling the two axes yields four valid objectives. We establish gradient-level identities showing forward KL gives SFT-style cross-entropy matching with teacher soft targets, whereas reverse KL gives an RL-style policy-gradient objective with a dense teacher-student log-ratio reward, connecting them to off-policy SFT, DAgger-style on-policy SFT, offline-RL-style distillation, and OPD. We conduct an extensive controlled study on math reasoning, evaluating the four objectives both as standalone methods and as initializations for subsequent RL. The results reveal three tradeoffs: KL direction induces an accuracy-entropy tradeoff, prefix source a quality-compute tradeoff, and training length an accuracy-stability tradeoff. Motivated by these findings, we propose KL mixing and an entropy-gated length curriculum. KL mixing shows long-sequence distillation requires substantial forward-KL weight to prevent entropy collapse and length inflation without sacrificing accuracy. The entropy-gated length curriculum improves Avg@k and Pass@k by 3.6 and up to 5.8 points, and cuts average response length by roughly 3x versus fixed long-horizon training. Our results provide a framework and practical methods for designing reasoning distillation objectives that balance accuracy, diversity, compute, and RL behavior.",
+      "original_abstract": "Knowledge distillation is central to LLM post-training, yet its design space remains poorly understood, especially alongside reinforcement learning (RL). We show that the prevailing paradigms, off-policy distillation and on-policy distillation (OPD), implicitly couple two orthogonal choices: prefix source and token-level KL direction. This follows from decomposing sequence-level KL over autoregressive response distributions: forward KL pairs teacher prefixes with token-level forward KL, and reverse KL pairs student prefixes with token-level reverse KL. We argue this coupling is not intrinsic: decoupling the two axes yields four valid objectives. We establish gradient-level identities showing forward KL gives SFT-style cross-entropy matching with teacher soft targets, whereas reverse KL gives an RL-style policy-gradient objective with a dense teacher-student log-ratio reward, connecting them to off-policy SFT, DAgger-style on-policy SFT, offline-RL-style distillation, and OPD. We conduct an extensive controlled study on math reasoning, evaluating the four objectives both as standalone methods and as initializations for subsequent RL. The results reveal three tradeoffs: KL direction induces an accuracy-entropy tradeoff, prefix source a quality-compute tradeoff, and training length an accuracy-stability tradeoff. Motivated by these findings, we propose KL mixing and an entropy-gated length curriculum. KL mixing shows long-sequence distillation requires substantial forward-KL weight to prevent entropy collapse and length inflation without sacrificing accuracy. The entropy-gated length curriculum improves Avg@k and Pass@k by 3.6 and up to 5.8 points, and cuts average response length by roughly 3x versus fixed long-horizon training. Our results provide a framework and practical methods for designing reasoning distillation objectives that balance accuracy, diversity, compute, and RL behavior.",
+      "published_date": "2026-05-16T06:05:27Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.6,
+        "recommendation": 8.03
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16826v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.16826v1"
+    }
+  ],
+  "total": 10
+}

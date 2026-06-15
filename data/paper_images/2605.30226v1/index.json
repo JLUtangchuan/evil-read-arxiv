@@ -1,0 +1,77 @@
+[
+  {
+    "filename": "BORA_page1.png",
+    "url": "/api/images/2605.30226v1/BORA_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "experiment.png",
+    "url": "/api/images/2605.30226v1/experiment.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "hardware_setup.jpg",
+    "url": "/api/images/2605.30226v1/hardware_setup.jpg",
+    "source": "arxiv"
+  },
+  {
+    "filename": "object_seen.jpg",
+    "url": "/api/images/2605.30226v1/object_seen.jpg",
+    "source": "arxiv"
+  },
+  {
+    "filename": "object_unseen.jpg",
+    "url": "/api/images/2605.30226v1/object_unseen.jpg",
+    "source": "arxiv"
+  },
+  {
+    "filename": "object_variations_page1.png",
+    "url": "/api/images/2605.30226v1/object_variations_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "results_bora_page1.png",
+    "url": "/api/images/2605.30226v1/results_bora_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "teaser_page1.png",
+    "url": "/api/images/2605.30226v1/teaser_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "teleoperation_device.jpg",
+    "url": "/api/images/2605.30226v1/teleoperation_device.jpg",
+    "source": "arxiv"
+  },
+  {
+    "filename": "tsne_vis_bora.jpg",
+    "url": "/api/images/2605.30226v1/tsne_vis_bora.jpg",
+    "source": "arxiv"
+  },
+  {
+    "filename": "v_critic_saliency_decoupled_open_box.png",
+    "url": "/api/images/2605.30226v1/v_critic_saliency_decoupled_open_box.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "v_critic_saliency_decoupled_pull_tissue.png",
+    "url": "/api/images/2605.30226v1/v_critic_saliency_decoupled_pull_tissue.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "v_critic_saliency_open_box.png",
+    "url": "/api/images/2605.30226v1/v_critic_saliency_open_box.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "v_critic_saliency_pull_tissue.png",
+    "url": "/api/images/2605.30226v1/v_critic_saliency_pull_tissue.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "value_vis.png",
+    "url": "/api/images/2605.30226v1/value_vis.png",
+    "source": "arxiv"
+  }
+]

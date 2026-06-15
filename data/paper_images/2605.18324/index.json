@@ -1,0 +1,192 @@
+[
+  {
+    "filename": "fig1a_rfid_gfid_page1.png",
+    "url": "/api/images/2605.18324/fig1a_rfid_gfid_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig2a_better_generation_fdr_page1.png",
+    "url": "/api/images/2605.18324/fig2a_better_generation_fdr_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig2b_faster_convergence_page1.png",
+    "url": "/api/images/2605.18324/fig2b_faster_convergence_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig2c_reconstruction_page1.png",
+    "url": "/api/images/2605.18324/fig2c_reconstruction_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig2d_nfe_page1.png",
+    "url": "/api/images/2605.18324/fig2d_nfe_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_convergence_exp_dinov2b-fixed_page1.png",
+    "url": "/api/images/2605.18324/fig_convergence_exp_dinov2b-fixed_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_convergence_exp_dinov3b-fixed_page1.png",
+    "url": "/api/images/2605.18324/fig_convergence_exp_dinov3b-fixed_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_convergence_exp_dinov3l-fixed_page1.png",
+    "url": "/api/images/2605.18324/fig_convergence_exp_dinov3l-fixed_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_convergence_exp_eupeb-fixed_page1.png",
+    "url": "/api/images/2605.18324/fig_convergence_exp_eupeb-fixed_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_convergence_exp_spatialpeb-fixed_page1.png",
+    "url": "/api/images/2605.18324/fig_convergence_exp_spatialpeb-fixed_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_convergence_exp_webssl1b-fixed_page1.png",
+    "url": "/api/images/2605.18324/fig_convergence_exp_webssl1b-fixed_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_corr_rae_page1.png",
+    "url": "/api/images/2605.18324/fig_corr_rae_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_corr_rae_repa_page1.png",
+    "url": "/api/images/2605.18324/fig_corr_rae_repa_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_corr_repa_page1.png",
+    "url": "/api/images/2605.18324/fig_corr_repa_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_encoder_var_page1.png",
+    "url": "/api/images/2605.18324/fig_encoder_var_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_horizon_compare_selected_page1.png",
+    "url": "/api/images/2605.18324/fig_horizon_compare_selected_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_k_sweep_gfid_guide_page1.png",
+    "url": "/api/images/2605.18324/fig_k_sweep_gfid_guide_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_k_sweep_gfid_noguide_page1.png",
+    "url": "/api/images/2605.18324/fig_k_sweep_gfid_noguide_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_k_sweep_psnr_page1.png",
+    "url": "/api/images/2605.18324/fig_k_sweep_psnr_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_k_sweep_rfid_page1.png",
+    "url": "/api/images/2605.18324/fig_k_sweep_rfid_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_per_layer_viz_dinov2b-v2_page1.png",
+    "url": "/api/images/2605.18324/fig_per_layer_viz_dinov2b-v2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_raev2_gfid_convergence_cfg_page1.png",
+    "url": "/api/images/2605.18324/fig_raev2_gfid_convergence_cfg_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_recon_comparison_handwritten-text-v2-cropped-main-uncapped_page1.png",
+    "url": "/api/images/2605.18324/fig_recon_comparison_handwritten-text-v2-cropped-main-uncapped_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_recon_comparison_handwritten-text-v2-cropped-v3-main-uncapped_page1.png",
+    "url": "/api/images/2605.18324/fig_recon_comparison_handwritten-text-v2-cropped-v3-main-uncapped_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_recon_comparison_rendered-text-10-v3-main_page1.png",
+    "url": "/api/images/2605.18324/fig_recon_comparison_rendered-text-10-v3-main_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_recon_comparison_traffic-sign-05-main_page1.png",
+    "url": "/api/images/2605.18324/fig_recon_comparison_traffic-sign-05-main_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_rfid_gfid_20ep_page1.png",
+    "url": "/api/images/2605.18324/fig_rfid_gfid_20ep_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_training_convergence_nwm_page1.png",
+    "url": "/api/images/2605.18324/fig_training_convergence_nwm_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_wm_lp_page1.png",
+    "url": "/api/images/2605.18324/fig_wm_lp_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig_wm_selfsim-v1_page1.png",
+    "url": "/api/images/2605.18324/fig_wm_selfsim-v1_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "internet-icon_page1.png",
+    "url": "/api/images/2605.18324/internet-icon_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qualitative-nwm-vis_page1.png",
+    "url": "/api/images/2605.18324/qualitative-nwm-vis_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "t2i_qualitative_p1_page1.png",
+    "url": "/api/images/2605.18324/t2i_qualitative_p1_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "t2i_qualitative_p2_page1.png",
+    "url": "/api/images/2605.18324/t2i_qualitative_p2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "t2i_qualitative_p3_page1.png",
+    "url": "/api/images/2605.18324/t2i_qualitative_p3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "t2i_qualitative_prompts_p1_page1.png",
+    "url": "/api/images/2605.18324/t2i_qualitative_prompts_p1_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "t2i_qualitative_prompts_p2_page1.png",
+    "url": "/api/images/2605.18324/t2i_qualitative_prompts_p2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "t2i_qualitative_prompts_p3_page1.png",
+    "url": "/api/images/2605.18324/t2i_qualitative_prompts_p3_page1.png",
+    "source": "arxiv"
+  }
+]

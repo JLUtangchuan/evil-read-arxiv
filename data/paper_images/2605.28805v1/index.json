@@ -1,0 +1,27 @@
+[
+  {
+    "filename": "bbox_vs_explanation_1x3_page1.png",
+    "url": "/api/images/2605.28805v1/bbox_vs_explanation_1x3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "m1-tts_page1.png",
+    "url": "/api/images/2605.28805v1/m1-tts_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "method_page1.png",
+    "url": "/api/images/2605.28805v1/method_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "rl_training_2x4_page1.png",
+    "url": "/api/images/2605.28805v1/rl_training_2x4_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "tts-exp_page1.png",
+    "url": "/api/images/2605.28805v1/tts-exp_page1.png",
+    "source": "arxiv"
+  }
+]

@@ -1,0 +1,555 @@
+{
+  "feedback": [
+    {
+      "arxiv_id": "2606.13578",
+      "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
+      "rating": "like",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "cs.RO",
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "cs.MM",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12987",
+      "title": "Diffusion Transformer World-Action Model for AV Scene Prediction",
+      "rating": "like",
+      "date": "2026-06-12",
+      "domain": "自动驾驶",
+      "keywords": [
+        "autonomous vehicle",
+        "nuScenes",
+        "cs.CV",
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12616",
+      "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
+      "rating": "like",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "arxiv_id": "2606.05737",
+      "title": "Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models",
+      "rating": "like",
+      "date": "2026-06-05",
+      "domain": "VLA模型",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "cs.RO",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2606.05531",
+      "title": "Almieyar-Oryx-BloomBench: A Bilingual Multimodal Benchmark for Cognitively Informed Evaluation of Vision-Language Models",
+      "rating": "neutral",
+      "date": "2026-06-05",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2606.05414",
+      "title": "When Evidence is Sparse: Weakly Supervised Early Failure Alerting in Dialogs and LLM-Agent Trajectories",
+      "rating": "neutral",
+      "date": "2026-06-05",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2606.05793",
+      "title": "CollabBench: Benchmarking and Unleashing Collaborative Ability of LLMs with Diverse Players via Proactive Engagement",
+      "rating": "neutral",
+      "date": "2026-06-05",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2405.18428",
+      "title": "DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention",
+      "rating": "like",
+      "date": "2026-06-13",
+      "domain": "引用搜索",
+      "keywords": [],
+      "categories": []
+    },
+    {
+      "arxiv_id": "2606.12977",
+      "title": "Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "diffusion model",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12826",
+      "title": "DIMOS: Disentangling Instance-level Moving Object Segmentation",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "自动驾驶",
+      "keywords": [
+        "autonomous driving",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13621",
+      "title": "Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "强化学习",
+      "keywords": [
+        "reinforcement learning",
+        "multi-agent reinforcement learning",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.GT",
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13515",
+      "title": "MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models",
+      "rating": "like",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13580",
+      "title": "EvTexture++: Event-Driven Texture Enhancement for Video Super-Resolution",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13042",
+      "title": "Augmentation techniques for video surveillance in the visible and thermal spectral range",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13439",
+      "title": "S-GBT: Smooth Growth Bound Tensor for Certified Robustness Against Word Substitution Attacks in NLP",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12830",
+      "title": "Perceive, Interact, Reason: Building Tool-Augmented Visual Agents for Spatial Reasoning",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12708",
+      "title": "AfriSUD: A Dependency Treebank Collection for Evaluating Models on African Languages",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12988",
+      "title": "A Machine Learning Framework for Real-Time Personalized Ergonomic Pose Analysis",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13288",
+      "title": "Cross-Modal Masked Compositional Concept Modeling for Enhancing Visio-Linguistic Compositionality",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13509",
+      "title": "Measurement-Calibrated Multi-Camera Fusion for Vision-Based Indoor Localization",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12925",
+      "title": "Multi-Label Test-Time Adaptation with Bayesian Conditional Priors",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13647",
+      "title": "SkMTEB: Slovak Massive Text Embedding Benchmark and Model Adaptation",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13662",
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12881",
+      "title": "Direct Preference Optimization for Chatbot Fine-Tuning: An Empirical Study",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13206",
+      "title": "Visual Place Recognition in Forests with Depth-Aware Distillation",
+      "rating": "neutral",
+      "date": "2026-06-12",
+      "domain": "VLA模型",
+      "keywords": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2606.11687",
+      "title": "DroneShield-AI: A Multi-Modal Sensor Fusion Framework for Real-Time Autonomous Drone Threat Detection, Behavioral Intent Classification, and Swarm Intelligence in Contested Airspace",
+      "rating": "neutral",
+      "date": "2026-06-11",
+      "domain": "自动驾驶",
+      "keywords": [
+        "sensor fusion",
+        "cs.CV",
+        "cs.RO",
+        "cs.LG"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2606.11889",
+      "title": "Task-Aligned Stability Analysis of Vision-Language Models for Autonomous Driving Hazard Detection",
+      "rating": "like",
+      "date": "2026-06-11",
+      "domain": "自动驾驶",
+      "keywords": [
+        "autonomous driving",
+        "cs.CV",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ]
+    },
+    {
+      "arxiv_id": "2402.13243",
+      "title": "VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning",
+      "rating": "like",
+      "date": "2026-06-14",
+      "domain": "引用搜索",
+      "keywords": [],
+      "categories": []
+    },
+    {
+      "arxiv_id": "2506.13757",
+      "title": "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning",
+      "rating": "like",
+      "date": "2026-06-14",
+      "domain": "引用搜索",
+      "keywords": [],
+      "categories": []
+    },
+    {
+      "arxiv_id": "2505.17685",
+      "title": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+      "rating": "like",
+      "date": "2026-06-14",
+      "domain": "引用搜索",
+      "keywords": [],
+      "categories": []
+    },
+    {
+      "arxiv_id": "2503.19755",
+      "title": "Orion: A Holistic End-To-End Autonomous Driving Framework by Vision-Language Instructed Action Generation",
+      "rating": "like",
+      "date": "2026-06-14",
+      "domain": "引用搜索",
+      "keywords": [],
+      "categories": []
+    },
+    {
+      "arxiv_id": "https://www.semanticscholar.org/paper/509711037916ba70f5cf2f30a5a391c8892394fe",
+      "title": "Simulated Autonomous Driving: Integrating Deep Learning and Computer Vision for Self-Driving Cars",
+      "rating": "neutral",
+      "date": "2026-06-14",
+      "domain": "自动驾驶",
+      "keywords": [
+        "autonomous driving",
+        "self-driving",
+        "lane detection"
+      ],
+      "categories": []
+    },
+    {
+      "arxiv_id": "2506.15953",
+      "title": "ViTacFormer: Learning Cross-Modal Representation for Visuo-Tactile Dexterous Manipulation",
+      "rating": "like",
+      "date": "2026-06-14",
+      "domain": "VLA模型",
+      "keywords": [
+        "dexterous manipulation",
+        "imitation learning"
+      ],
+      "categories": []
+    },
+    {
+      "arxiv_id": "2507.04447",
+      "title": "DreamVLA: A Vision-Language-Action Model Dreamed with Comprehensive World Knowledge",
+      "rating": "like",
+      "date": "2026-06-14",
+      "domain": "VLA模型",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "action prediction"
+      ],
+      "categories": []
+    },
+    {
+      "arxiv_id": "https://www.semanticscholar.org/paper/7cddba300535f17edff4a2fc573b48a308e3fa14",
+      "title": "Enhancing Autonomous Vehicle Navigation: Traffic Police Hand Gesture Recognition for Self-Driving Cars in India using MoveNet Thunder",
+      "rating": "neutral",
+      "date": "2026-06-14",
+      "domain": "自动驾驶",
+      "keywords": [
+        "self-driving",
+        "autonomous vehicle",
+        "CARLA simulator"
+      ],
+      "categories": []
+    },
+    {
+      "arxiv_id": "2509.21880",
+      "title": "No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping",
+      "rating": "neutral",
+      "date": "2026-06-14",
+      "domain": "强化学习",
+      "keywords": [
+        "reinforcement learning",
+        "policy optimization"
+      ],
+      "categories": []
+    }
+  ]
+}

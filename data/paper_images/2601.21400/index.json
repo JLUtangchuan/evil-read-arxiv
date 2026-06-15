@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "ablation_page1.png",
+    "url": "/api/images/2601.21400/ablation_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "comp_bmvs_page1.png",
+    "url": "/api/images/2601.21400/comp_bmvs_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "comp_dtu_page1.png",
+    "url": "/api/images/2601.21400/comp_dtu_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "comp_neuralangelo_page1.png",
+    "url": "/api/images/2601.21400/comp_neuralangelo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "pipeline_page1.png",
+    "url": "/api/images/2601.21400/pipeline_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "principle_page1.png",
+    "url": "/api/images/2601.21400/principle_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "rec_page1.png",
+    "url": "/api/images/2601.21400/rec_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "scene_data_page1.png",
+    "url": "/api/images/2601.21400/scene_data_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "teaser_page1.png",
+    "url": "/api/images/2601.21400/teaser_page1.png",
+    "source": "arxiv"
+  }
+]

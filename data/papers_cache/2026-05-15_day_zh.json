@@ -1,0 +1,372 @@
+{
+  "date": "2026-05-15",
+  "papers": [
+    {
+      "arxiv_id": "2605.16692v2",
+      "title": "EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control",
+      "authors": [
+        "Thomas Evers",
+        "Cristian Meo",
+        "Wendelin Bohmer",
+        "Justin Dauwels",
+        "Yaniv Oren"
+      ],
+      "affiliations": [],
+      "summary": "We introduce EfficientTDMPC, a sample-efficient model-based reinforcement learning method for continuous control built on the TD-MPC family of algorithms. Central to this family is a planner that aims to find an action sequence that maximizes the estimated return. The return is estimated using a learned model and value networks, each of which can introduce error. EfficientTDMPC proposes to reduce this error in two ways. First, it introduces an ensemble of dynamics models and averages the return estimates across those models and across different rollout depths. Second, it adds the option to apply an uncertainty penalty to the planner objective, yielding a planner that avoids actions with uncertain return estimates. It then adds practical improvements which increase buffer data freshness and reduce compute. Lastly, we find that our contributions enable EfficientTDMPC to benefit more from a higher update-to-data (UTD) ratio, further improving sample efficiency. To the best of our knowledge, in the low data regime of each benchmark, EfficientTDMPC achieves state-of-the-art (SOTA) in terms of sample efficiency on HumanoidBench-Hard and DMC hard, while matching SOTA on DMC easy.",
+      "original_abstract": "We introduce EfficientTDMPC, a sample-efficient model-based reinforcement learning method for continuous control built on the TD-MPC family of algorithms. Central to this family is a planner that aims to find an action sequence that maximizes the estimated return. The return is estimated using a learned model and value networks, each of which can introduce error. EfficientTDMPC proposes to reduce this error in two ways. First, it introduces an ensemble of dynamics models and averages the return estimates across those models and across different rollout depths. Second, it adds the option to apply an uncertainty penalty to the planner objective, yielding a planner that avoids actions with uncertain return estimates. It then adds practical improvements which increase buffer data freshness and reduce compute. Lastly, we find that our contributions enable EfficientTDMPC to benefit more from a higher update-to-data (UTD) ratio, further improving sample efficiency. To the best of our knowledge, in the low data regime of each benchmark, EfficientTDMPC achieves state-of-the-art (SOTA) in terms of sample efficiency on HumanoidBench-Hard and DMC hard, while matching SOTA on DMC easy.",
+      "published_date": "2026-05-15T23:08:02Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "matched_domain": "世界模型",
+      "matched_keywords": [
+        "dynamics model",
+        "model-based reinforcement learning",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "scores": {
+        "relevance": 3.6,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2.3,
+        "recommendation": 9.07
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16692v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.16692v2"
+    },
+    {
+      "arxiv_id": "2605.18872v1",
+      "title": "EUPHORIA: Efficient Universal Planning via Hybrid Optimization for Robust Industrial Robotic Assembly",
+      "authors": [
+        "Shih-Yu Lai",
+        "Chia-Ching Yen",
+        "Yang-Ting Shen",
+        "Peter Yichen Chen",
+        "Yu-Lun Liu",
+        "Bing-Yu Chen"
+      ],
+      "affiliations": [],
+      "summary": "Robotic assembly in architectural construction faces a persistent bottleneck: existing planners are either highly specialized, requiring prohibitive retraining for every new geometric design, or operationally inefficient, treating structural sequencing and kinematic motion as disjoint processes. We present EUPHORIA, a unified framework that achieves universal few-shot adaptability and dynamic efficiency through a hybrid optimization strategy. To overcome the retraining bottleneck, we propose a Meta-Geometric Encoder based on Graph Hypernetworks: unlike standard contrastive learning, which performs only feature-level recognition, our hypernetwork dynamically generates policy parameters from a minimal support set, enabling parameter-level adaptation to complex topologies (e.g., domes, arches) without gradient-based retraining. For structural reasoning, we introduce a Physics-Informed Graph Transformer trained via Soft Actor-Critic (SAC), with a Physics-Bias Attention mechanism that modulates attention scores using contact forces from Discrete Element Model (DEM) simulations, guiding the planner toward structurally critical connections. We further ensure operational efficiency through Kinematics-Aware Sequencing, where the SAC objective penalizes high-energy transitions. Finally, we bridge the Sim2Real gap via Residual Stability Correction, a differentiable optimization layer that fine-tunes coarse assembly actions by minimizing a joint energy-stability cost prior to execution. Experiments show that EUPHORIA significantly reduces energy consumption over decoupled baselines and achieves state-of-the-art success rates on unseen, non-standard geometries with minimal few-shot examples, fusing meta-learning, physics-informed attention, and residual optimization into a cohesive, generalized planner.",
+      "original_abstract": "Robotic assembly in architectural construction faces a persistent bottleneck: existing planners are either highly specialized, requiring prohibitive retraining for every new geometric design, or operationally inefficient, treating structural sequencing and kinematic motion as disjoint processes. We present EUPHORIA, a unified framework that achieves universal few-shot adaptability and dynamic efficiency through a hybrid optimization strategy. To overcome the retraining bottleneck, we propose a Meta-Geometric Encoder based on Graph Hypernetworks: unlike standard contrastive learning, which performs only feature-level recognition, our hypernetwork dynamically generates policy parameters from a minimal support set, enabling parameter-level adaptation to complex topologies (e.g., domes, arches) without gradient-based retraining. For structural reasoning, we introduce a Physics-Informed Graph Transformer trained via Soft Actor-Critic (SAC), with a Physics-Bias Attention mechanism that modulates attention scores using contact forces from Discrete Element Model (DEM) simulations, guiding the planner toward structurally critical connections. We further ensure operational efficiency through Kinematics-Aware Sequencing, where the SAC objective penalizes high-energy transitions. Finally, we bridge the Sim2Real gap via Residual Stability Correction, a differentiable optimization layer that fine-tunes coarse assembly actions by minimizing a joint energy-stability cost prior to execution. Experiments show that EUPHORIA significantly reduces energy consumption over decoupled baselines and achieves state-of-the-art success rates on unseen, non-standard geometries with minimal few-shot examples, fusing meta-learning, physics-informed attention, and residual optimization into a cohesive, generalized planner.",
+      "published_date": "2026-05-15T18:25:49Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "PPO",
+        "actor-critic",
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "scores": {
+        "relevance": 3.6,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2,
+        "recommendation": 8.97
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.18872v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.18872v1"
+    },
+    {
+      "arxiv_id": "2605.16241v1",
+      "title": "Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation",
+      "authors": [
+        "Jin Shi",
+        "Brady Zhang",
+        "Yishun Lu"
+      ],
+      "affiliations": [],
+      "summary": "Billion-parameter Vision-Language-Action (VLA) policies have recently shown impressive performance in robotic manipulation, yet their size and inference cost remain major obstacles for real-time closed-loop control. We introduce \\textbf{VLA-AD}, a distillation framework that uses a Vision-Language Model as an offline semantic supervisor to transfer large VLA teachers into lightweight student policies. Instead of relying only on low-level action imitation, VLA-AD augments teacher-provided 7-DoF action targets with high-level semantic guidance, including task phase anchors and multi-frame operating-direction descriptions. These auxiliary signals are used only during training: at test time, the student policy runs independently, with neither the VLA teacher nor the VLM required. We evaluate VLA-AD on three LIBERO benchmark suites. Using OpenVLA-7B as the teacher, our method produces a 158M-parameter student, yielding a $44\\times$ reduction in model size while matching the teacher with only a $0.27\\%$ average relative gap. The resulting policy runs at 12.5 Hz on an RTX 4090, achieving a $3.28\\times$ inference speedup over OpenVLA-7B. We further show that the same semantic distillation pipeline generalizes to a different $π_{0.5}$-4B teacher, where the student outperforms the teacher on two suites and remains within $0.53\\%$ on \\texttt{libero\\_goal}. Additional analysis indicates that phase-level supervision and multi-frame directional cues make the student less sensitive to noisy teacher actions, such as erroneous high-frequency gripper changes. Overall, VLA-AD demonstrates that offline semantic guidance from VLMs can substantially improve the efficiency, robustness, and deployability of VLA policy distillation.",
+      "original_abstract": "Billion-parameter Vision-Language-Action (VLA) policies have recently shown impressive performance in robotic manipulation, yet their size and inference cost remain major obstacles for real-time closed-loop control. We introduce \\textbf{VLA-AD}, a distillation framework that uses a Vision-Language Model as an offline semantic supervisor to transfer large VLA teachers into lightweight student policies. Instead of relying only on low-level action imitation, VLA-AD augments teacher-provided 7-DoF action targets with high-level semantic guidance, including task phase anchors and multi-frame operating-direction descriptions. These auxiliary signals are used only during training: at test time, the student policy runs independently, with neither the VLA teacher nor the VLM required. We evaluate VLA-AD on three LIBERO benchmark suites. Using OpenVLA-7B as the teacher, our method produces a 158M-parameter student, yielding a $44\\times$ reduction in model size while matching the teacher with only a $0.27\\%$ average relative gap. The resulting policy runs at 12.5 Hz on an RTX 4090, achieving a $3.28\\times$ inference speedup over OpenVLA-7B. We further show that the same semantic distillation pipeline generalizes to a different $π_{0.5}$-4B teacher, where the student outperforms the teacher on two suites and remains within $0.53\\%$ on \\texttt{libero\\_goal}. Additional analysis indicates that phase-level supervision and multi-frame directional cues make the student less sensitive to noisy teacher actions, such as erroneous high-frequency gripper changes. Overall, VLA-AD demonstrates that offline semantic guidance from VLMs can substantially improve the efficiency, robustness, and deployability of VLA policy distillation.",
+      "published_date": "2026-05-15T17:48:25Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "robotic manipulation",
+        "OpenVLA",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 3.4,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2,
+        "recommendation": 8.7
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16241v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.16241v1"
+    },
+    {
+      "arxiv_id": "2605.16223v1",
+      "title": "Evaluating Design Video Generation: Metrics for Compositional Fidelity",
+      "authors": [
+        "Adrienne Deganutti",
+        "Dingning Cao",
+        "Jaejung Seol",
+        "Elad Hirsch",
+        "Purvanshi Mehta"
+      ],
+      "affiliations": [],
+      "summary": "Generative video models are increasingly used in design animation tasks, yet no standardized evaluation framework exists for this domain. Unlike natural video generation, design animation imposes structured constraints: specific components shall animate with prescribed motion types, directions, speed and timing, while non-animated regions must remain stable and layout structure must be preserved. This paper provides a fully automated evaluation framework organized across four dimensions: layout fidelity, motion correctness, temporal quality, and content fidelity. This eliminates the reliance on subjective human evaluation and establishes a common basis for benchmarking progress in the field.",
+      "original_abstract": "Generative video models are increasingly used in design animation tasks, yet no standardized evaluation framework exists for this domain. Unlike natural video generation, design animation imposes structured constraints: specific components shall animate with prescribed motion types, directions, speed and timing, while non-animated regions must remain stable and layout structure must be preserved. This paper provides a fully automated evaluation framework organized across four dimensions: layout fidelity, motion correctness, temporal quality, and content fidelity. This eliminates the reliance on subjective human evaluation and establishes a common basis for benchmarking progress in the field.",
+      "published_date": "2026-05-15T17:34:05Z",
+      "categories": [
+        "cs.GR",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "matched_domain": "世界模型",
+      "matched_keywords": [
+        "video generation",
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "scores": {
+        "relevance": 3.5,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 0.9,
+        "recommendation": 8.47
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16223v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.16223v1"
+    },
+    {
+      "arxiv_id": "2605.16030v2",
+      "title": "Mind Dreamer: Untethering Imagination via Active Causal Intervention on Latent Manifolds",
+      "authors": [
+        "Shaojun Xu",
+        "Xiaoling Zhou",
+        "Yihan Lin",
+        "Yapeng Meng",
+        "Xinglong Ji",
+        "Luping Shi",
+        "Rong Zhao"
+      ],
+      "affiliations": [],
+      "summary": "Model-Based Reinforcement Learning yields sample efficiency via latent imagination, yet remains constrained by Historical Tethering: imagination is typically initialized from observed states. This creates a learning asymmetry, where the world model's manifold discovery outpaces the policy's sparse-reward optimization. We propose Mind Dreamer (MD), a framework that instantiates Active Causal Intervention to transcend Markovian continuity. MD reformulates discovery as the minimization of a global Relay Expected Free Energy. Instead of initializing from historical data, it draws initial states from an adversarial generator $s_0 \\sim p_{gen}(\\cdot)$, creating non-continuous latent jumps to epistemic blind spots that are physically plausible yet cognitively challenging. We derive Relay Value Function and Relay Uncertainty Function to resolve the credit assignment paradox across these spatial ruptures. Treating synthesized anchors as interventional intermediary states, these potentials propagate pragmatic and epistemic value through Bellman-style backups. Notably, we prove that uncertainty propagation across discontinuities necessitates a quadratic discount $γ^2$, establishing a formal epistemic horizon. Theoretically, MD approximates a variance-minimizing importance sampler that expands the manifold's spectral gap, reducing the hitting time to critical bottleneck states. Empirically, MD achieves a 1.67$\\times$ average speedup over DreamerV3 on DeepMind Control Suite, reaching 8.8$\\times$ in sparse-reward tasks.",
+      "original_abstract": "Model-Based Reinforcement Learning yields sample efficiency via latent imagination, yet remains constrained by Historical Tethering: imagination is typically initialized from observed states. This creates a learning asymmetry, where the world model's manifold discovery outpaces the policy's sparse-reward optimization. We propose Mind Dreamer (MD), a framework that instantiates Active Causal Intervention to transcend Markovian continuity. MD reformulates discovery as the minimization of a global Relay Expected Free Energy. Instead of initializing from historical data, it draws initial states from an adversarial generator $s_0 \\sim p_{gen}(\\cdot)$, creating non-continuous latent jumps to epistemic blind spots that are physically plausible yet cognitively challenging. We derive Relay Value Function and Relay Uncertainty Function to resolve the credit assignment paradox across these spatial ruptures. Treating synthesized anchors as interventional intermediary states, these potentials propagate pragmatic and epistemic value through Bellman-style backups. Notably, we prove that uncertainty propagation across discontinuities necessitates a quadratic discount $γ^2$, establishing a formal epistemic horizon. Theoretically, MD approximates a variance-minimizing importance sampler that expands the manifold's spectral gap, reducing the hitting time to critical bottleneck states. Empirically, MD achieves a 1.67$\\times$ average speedup over DreamerV3 on DeepMind Control Suite, reaching 8.8$\\times$ in sparse-reward tasks.",
+      "published_date": "2026-05-15T15:05:58Z",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "matched_domain": "世界模型",
+      "matched_keywords": [
+        "world model",
+        "model-based reinforcement learning",
+        "imagination",
+        "dreamer",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "scores": {
+        "relevance": 3.6,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.6,
+        "recommendation": 8.33
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16030v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.16030v2"
+    },
+    {
+      "arxiv_id": "2605.16545v2",
+      "title": "Symphony for Speech-to-Text: Supporting Real-Time Medical Voice Interfaces",
+      "authors": [
+        "Arne Nix",
+        "Robert James",
+        "Lasse Borgholt",
+        "Anna B. Ekner",
+        "Lana Krumm",
+        "Julius Severin",
+        "Dan Engel",
+        "Lars Maaløe",
+        "Jakob Havtorn"
+      ],
+      "affiliations": [],
+      "summary": "After decades of use in dictation and, more recently, ambient documentation, speech is emerging as a primary modality for interacting with technology and AI in healthcare. Yet medical speech recognition remains difficult: systems must capture specialized terminology, resolve contextual ambiguity, and render measurements, abbreviations, and clinical shorthand precisely. Existing solutions are typically optimized either for general-purpose transcription or narrow dictation workflows, limiting their reliability in safety-critical settings and their usefulness for broader clinical workflows. We introduce Symphony for Speech-to-Text, a medical-grade speech recognition system for real-time streaming and batch file-based clinical use. Symphony decomposes the transcription process into specialized components for recognition, formatting, and contextual correction to optimize medical term recall while producing clinically structured text in real time and adapting across use cases. Evaluations on public benchmark and medical speech datasets show that Symphony substantially outperforms state-of-the-art systems in clinical settings while matching or exceeding them in general-domain settings, suggesting robust generalization rather than overfitting. We release a clinical benchmark dataset to support reliable validation and further progress in medical speech recognition. Symphony is available through a production-grade API for live dictation, conversational transcription, and batch audio file processing.",
+      "original_abstract": "After decades of use in dictation and, more recently, ambient documentation, speech is emerging as a primary modality for interacting with technology and AI in healthcare. Yet medical speech recognition remains difficult: systems must capture specialized terminology, resolve contextual ambiguity, and render measurements, abbreviations, and clinical shorthand precisely. Existing solutions are typically optimized either for general-purpose transcription or narrow dictation workflows, limiting their reliability in safety-critical settings and their usefulness for broader clinical workflows. We introduce Symphony for Speech-to-Text, a medical-grade speech recognition system for real-time streaming and batch file-based clinical use. Symphony decomposes the transcription process into specialized components for recognition, formatting, and contextual correction to optimize medical term recall while producing clinically structured text in real time and adapting across use cases. Evaluations on public benchmark and medical speech datasets show that Symphony substantially outperforms state-of-the-art systems in clinical settings while matching or exceeding them in general-domain settings, suggesting robust generalization rather than overfitting. We release a clinical benchmark dataset to support reliable validation and further progress in medical speech recognition. Symphony is available through a production-grade API for live dictation, conversational transcription, and batch audio file processing.",
+      "published_date": "2026-05-15T18:39:14Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.8,
+        "recommendation": 8.1
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16545v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.16545v2"
+    },
+    {
+      "arxiv_id": "2605.16233v1",
+      "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast",
+      "authors": [
+        "Igor Bogdanov",
+        "Chung-Horng Lung",
+        "Thomas Kunz",
+        "Jie Gao",
+        "Adrian Taylor",
+        "Marzia Zaman"
+      ],
+      "affiliations": [],
+      "summary": "Can LLM agents improve decision-making through self-generated memory without gradient updates? We propose FORGE (Failure-Optimized Reflective Graduation and Evolution), a staged, population-based protocol that evolves prompt-injected natural-language memory for hierarchical ReAct agents. FORGE wraps a Reflexion-style inner loop, where a dedicated reflection agent (using the same underlying LLM, no distillation from a stronger model) converts failed trajectories into reusable knowledge artifacts: textual heuristics (Rules), few-shot demonstrations (Examples), or both (Mixed), with an outer loop that propagates the best-performing instance's memory to the population between stages and freezes converged instances via a graduation criterion. We evaluate on CybORG CAGE-2, a stochastic network-defense POMDP at a 30-step horizon against the B-line attacker, where all four tested LLM families (Gemini-2.5-Flash-Lite, Grok-4-Fast, Llama-4-Maverick, Qwen3-235B) exhibit strongly negative, heavy-tailed zero-shot rewards. Compared against both a zero-shot baseline and a Reflexion baseline (isolated single-stream learning), FORGE improves average evaluation return by 1.7-7.7$\\times$ over zero-shot and by 29-72% over Reflexion in all 12 model-representation conditions, reducing major-failure rates (below $-100$) to as low as $\\sim$1%. We find that (1) population broadcast is critical mechanism, with a no-graduation ablation confirming that broadcast carries the performance gains while graduation primarily saves compute; (2) Examples achieves the strongest returns for three of four models, Rules offers the best cost-reliability profile with $\\sim$40% fewer tokens; and (3) weaker baseline models benefit disproportionately, suggesting FORGE may mitigate capability gaps rather than amplify strong models. All evidence is confined to CAGE-2 B-line; cross-family findings are directional evidence.",
+      "original_abstract": "Can LLM agents improve decision-making through self-generated memory without gradient updates? We propose FORGE (Failure-Optimized Reflective Graduation and Evolution), a staged, population-based protocol that evolves prompt-injected natural-language memory for hierarchical ReAct agents. FORGE wraps a Reflexion-style inner loop, where a dedicated reflection agent (using the same underlying LLM, no distillation from a stronger model) converts failed trajectories into reusable knowledge artifacts: textual heuristics (Rules), few-shot demonstrations (Examples), or both (Mixed), with an outer loop that propagates the best-performing instance's memory to the population between stages and freezes converged instances via a graduation criterion. We evaluate on CybORG CAGE-2, a stochastic network-defense POMDP at a 30-step horizon against the B-line attacker, where all four tested LLM families (Gemini-2.5-Flash-Lite, Grok-4-Fast, Llama-4-Maverick, Qwen3-235B) exhibit strongly negative, heavy-tailed zero-shot rewards. Compared against both a zero-shot baseline and a Reflexion baseline (isolated single-stream learning), FORGE improves average evaluation return by 1.7-7.7$\\times$ over zero-shot and by 29-72% over Reflexion in all 12 model-representation conditions, reducing major-failure rates (below $-100$) to as low as $\\sim$1%. We find that (1) population broadcast is critical mechanism, with a no-graduation ablation confirming that broadcast carries the performance gains while graduation primarily saves compute; (2) Examples achieves the strongest returns for three of four models, Rules offers the best cost-reliability profile with $\\sim$40% fewer tokens; and (3) weaker baseline models benefit disproportionately, suggesting FORGE may mitigate capability gaps rather than amplify strong models. All evidence is confined to CAGE-2 B-line; cross-family findings are directional evidence.",
+      "published_date": "2026-05-15T17:42:49Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.MA",
+        "eess.SY"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.6,
+        "recommendation": 8.03
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16233v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.16233v1"
+    },
+    {
+      "arxiv_id": "2605.16579v2",
+      "title": "Attend Locally, Remember Linearly: Linear Attention as Cross-Frame Memory for Autoregressive Video Diffusion",
+      "authors": [
+        "Kunyang Li",
+        "Mubarak Shah",
+        "Yuzhang Shang"
+      ],
+      "affiliations": [],
+      "summary": "Autoregressive (AR) video diffusion is a powerful paradigm for streaming and interactive video generation. However, its reliance on softmax self-attention leads to quadratic compute complexity in sequence length and memory usage due to key-value caching, which limits its scalability to long video horizons. Existing remedies (e.g., sparse attention and KV-cache compression) reduce per-step cost but still rely on a linearly growing cache or irreversibly discard past context, and thus fail to address linear memory growth and streaming context management. To address this scalability bottleneck, we propose ARL2 (Attend Locally, Remember Linearly), a hybrid attention module that replaces quadratic cross-frame attention with a fixed-size recurrent state. We decompose self-attention into two branches: an intra-frame softmax branch for spatial detail and local dependencies, and an inter-frame gated recurrent linear branch that maintains a fixed-size state for streaming context. Our key insight is that softmax attention captures fine-grained local interactions, while a recurrent state provides controllable long-range memory. This design achieves linear-time scaling with constant memory while improving temporal consistency over the full-softmax model. To prevent noisy intermediate states from corrupting memory, we update the recurrent state only after the denoised pass. To avoid within-frame information asymmetry, all tokens share the same pre-update state rather than sequential updates. To the best of our knowledge, this is the first work to convert a pretrained AR video diffusion model into a hybrid linear attention architecture, through an efficient two-stage training scheme for AR video. With 75% of layers replaced by hybrid linear attention, the model achieves up to 2.26 wall-clock speedup and 54% memory reduction, while maintaining comparable quality with improving temporal consistency.",
+      "original_abstract": "Autoregressive (AR) video diffusion is a powerful paradigm for streaming and interactive video generation. However, its reliance on softmax self-attention leads to quadratic compute complexity in sequence length and memory usage due to key-value caching, which limits its scalability to long video horizons. Existing remedies (e.g., sparse attention and KV-cache compression) reduce per-step cost but still rely on a linearly growing cache or irreversibly discard past context, and thus fail to address linear memory growth and streaming context management. To address this scalability bottleneck, we propose ARL2 (Attend Locally, Remember Linearly), a hybrid attention module that replaces quadratic cross-frame attention with a fixed-size recurrent state. We decompose self-attention into two branches: an intra-frame softmax branch for spatial detail and local dependencies, and an inter-frame gated recurrent linear branch that maintains a fixed-size state for streaming context. Our key insight is that softmax attention captures fine-grained local interactions, while a recurrent state provides controllable long-range memory. This design achieves linear-time scaling with constant memory while improving temporal consistency over the full-softmax model. To prevent noisy intermediate states from corrupting memory, we update the recurrent state only after the denoised pass. To avoid within-frame information asymmetry, all tokens share the same pre-update state rather than sequential updates. To the best of our knowledge, this is the first work to convert a pretrained AR video diffusion model into a hybrid linear attention architecture, through an efficient two-stage training scheme for AR video. With 75% of layers replaced by hybrid linear attention, the model achieves up to 2.26 wall-clock speedup and 54% memory reduction, while maintaining comparable quality with improving temporal consistency.",
+      "published_date": "2026-05-15T19:33:45Z",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "matched_domain": "世界模型",
+      "matched_keywords": [
+        "video generation",
+        "video diffusion",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 2.8,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2,
+        "recommendation": 7.9
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16579v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.16579v2"
+    },
+    {
+      "arxiv_id": "2605.16672v1",
+      "title": "Multi-Object Tracking Consistently Improves Wildlife Inference",
+      "authors": [
+        "Mufhumudzi Muthivhi",
+        "Jiahao Huo",
+        "Fredrik Gustafsson",
+        "Terence L. van Zyl"
+      ],
+      "affiliations": [],
+      "summary": "Camera traps have become a common tool for wildlife monitoring efforts in ecological research and biodiversity conservation. Wildlife classification models have benefited from the increase in wildlife visual data. These models reach high levels of accuracy on curated, high-quality datasets. However, their performance remains sensitive to real-world environmental constraints. They often produce inconsistent predictions when performing inference on temporally coherent sequences. The predicted label for a single individual shifts rapidly between frames. This study exploits the temporal nature of camera-trap data to augment inferred predictions from a wildlife classification model. Specifically, we adopt several standard Multi-Object Tracking (MOT) models to link detections across consecutive frames. The curated trajectories are used to fuse the softmax class probabilities. The fused probability score produces a single consensus class label estimate that overrides misclassifications caused by noise. The analysis of the experimental results shows that our proposed strategy improves over a standalone classifier over all datasets and for each metric. Specifically, the best-performing MOT models gain a weighted F1-Score of 5.1%, 3.1% and 2.0% over the classifier across three MOT datasets.",
+      "original_abstract": "Camera traps have become a common tool for wildlife monitoring efforts in ecological research and biodiversity conservation. Wildlife classification models have benefited from the increase in wildlife visual data. These models reach high levels of accuracy on curated, high-quality datasets. However, their performance remains sensitive to real-world environmental constraints. They often produce inconsistent predictions when performing inference on temporally coherent sequences. The predicted label for a single individual shifts rapidly between frames. This study exploits the temporal nature of camera-trap data to augment inferred predictions from a wildlife classification model. Specifically, we adopt several standard Multi-Object Tracking (MOT) models to link detections across consecutive frames. The curated trajectories are used to fuse the softmax class probabilities. The fused probability score produces a single consensus class label estimate that overrides misclassifications caused by noise. The analysis of the experimental results shows that our proposed strategy improves over a standalone classifier over all datasets and for each metric. Specifically, the best-performing MOT models gain a weighted F1-Score of 5.1%, 3.1% and 2.0% over the classifier across three MOT datasets.",
+      "published_date": "2026-05-15T22:13:25Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.1,
+        "recommendation": 7.87
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16672v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.16672v1"
+    },
+    {
+      "arxiv_id": "2605.16258v2",
+      "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
+      "authors": [
+        "Yuqi Wu",
+        "Tianyu Hu",
+        "Wenzhao Zheng",
+        "Yuanhui Huang",
+        "Haowen Sun",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "affiliations": [],
+      "summary": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict explicit geometry by regressing pixel-aligned pointmaps, often suffering from redundancy and limited geometric continuity. We propose IVGT, an Implicit Visual Geometry Transformer that implicitly models continuous and coherent geometry from pose-free multi-view images. This formulation learns a continuous neural scene representation in a canonical coordinate system and supports continuous spatial queries at any 3D positions, retrieving local features to predict signed distance (SDF) values and colors using lightweight decoders. It allows direct extraction of continuous and coherent surface geometry, enabling rendering of RGB images, depth maps, and surface normal maps from arbitrary viewpoints. We train IVGT via multi-dataset joint optimization with 2D supervision and 3D geometric regularization. IVGT demonstrates generalization across scenes and achieves strong performance on various tasks, including mesh and point cloud reconstruction, novel view synthesis, depth and surface normal estimation, and camera pose estimation.",
+      "original_abstract": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict explicit geometry by regressing pixel-aligned pointmaps, often suffering from redundancy and limited geometric continuity. We propose IVGT, an Implicit Visual Geometry Transformer that implicitly models continuous and coherent geometry from pose-free multi-view images. This formulation learns a continuous neural scene representation in a canonical coordinate system and supports continuous spatial queries at any 3D positions, retrieving local features to predict signed distance (SDF) values and colors using lightweight decoders. It allows direct extraction of continuous and coherent surface geometry, enabling rendering of RGB images, depth maps, and surface normal maps from arbitrary viewpoints. We train IVGT via multi-dataset joint optimization with 2D supervision and 3D geometric regularization. IVGT demonstrates generalization across scenes and achieves strong performance on various tasks, including mesh and point cloud reconstruction, novel view synthesis, depth and surface normal estimation, and camera pose estimation.",
+      "published_date": "2026-05-15T17:59:57Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.1,
+        "recommendation": 7.87
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.16258v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.16258v2"
+    }
+  ],
+  "total": 10
+}

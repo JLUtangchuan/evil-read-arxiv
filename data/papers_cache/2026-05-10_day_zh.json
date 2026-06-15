@@ -1,0 +1,356 @@
+{
+  "date": "2026-05-10",
+  "papers": [
+    {
+      "arxiv_id": "2605.09538v1",
+      "title": "PhysHanDI: Physics-Based Reconstruction of Hand-Deformable Object Interactions",
+      "authors": [
+        "Jihyun Lee",
+        "Changmin Lee",
+        "Donghwan Kim",
+        "Tae-Kyun Kim"
+      ],
+      "affiliations": [],
+      "summary": "While existing methods for reconstructing hand-object interactions have made impressive progress, they either focus on rigid or part-wise rigid objects-limiting their ability to model real-world objects (e.g., cloth, stuffed animals) that exhibit highly non-rigid deformations-or model deformable objects without full 3D hand reconstruction. To bridge this gap, we present PhysHanDI (Physics-based Reconstruction of Hand and Deformable Object Interactions), a framework that enables full 3D reconstruction of both interacting hands and non-rigid objects. Our key idea is to physically simulate object deformations driven by forces induced from densely reconstructed 3D hand motions, ensuring that the reconstructed object dynamics are both physically plausible and coherent with the interacting hand movements. Furthermore, we demonstrate that such simulation of object deformations can, in turn, refine and improve hand reconstruction via inverse physics. In experiments, PhysHanDI outperforms the state-of-the-art baseline across reconstruction and future prediction.",
+      "original_abstract": "While existing methods for reconstructing hand-object interactions have made impressive progress, they either focus on rigid or part-wise rigid objects-limiting their ability to model real-world objects (e.g., cloth, stuffed animals) that exhibit highly non-rigid deformations-or model deformable objects without full 3D hand reconstruction. To bridge this gap, we present PhysHanDI (Physics-based Reconstruction of Hand and Deformable Object Interactions), a framework that enables full 3D reconstruction of both interacting hands and non-rigid objects. Our key idea is to physically simulate object deformations driven by forces induced from densely reconstructed 3D hand motions, ensuring that the reconstructed object dynamics are both physically plausible and coherent with the interacting hand movements. Furthermore, we demonstrate that such simulation of object deformations can, in turn, refine and improve hand reconstruction via inverse physics. In experiments, PhysHanDI outperforms the state-of-the-art baseline across reconstruction and future prediction.",
+      "published_date": "2026-05-10T13:51:45Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "matched_domain": "灵巧手抓取",
+      "matched_keywords": [
+        "hand-object interaction",
+        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 3.3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 2.3,
+        "recommendation": 8.17
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.09538v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.09538v1"
+    },
+    {
+      "arxiv_id": "2605.11020v1",
+      "title": "Trust Region Inverse Reinforcement Learning: Explicit Dual Ascent using Local Policy Updates",
+      "authors": [
+        "Anish Diwan",
+        "Davide Tateo",
+        "Christopher E. Mower",
+        "Haitham Bou-Ammar",
+        "Jan Peters",
+        "Oleg Arenz"
+      ],
+      "affiliations": [],
+      "summary": "Inverse reinforcement learning (IRL) is typically formulated as maximizing entropy subject to matching the distribution of expert trajectories. Classical (dual-ascent) IRL guarantees monotonic performance improvement but requires fully solving an RL problem each iteration to compute dual gradients. More recent adversarial methods avoid this cost at the expense of stability and monotonic dual improvement, by directly optimizing the primal problem and using a discriminator to provide rewards. In this work, we bridge the gap between these approaches by enabling monotonic improvement of the reward function and policy without having to fully solve an RL problem at every iteration. Our key theoretical insight is that a trust-region-optimal policy for a reward function update can be globally optimal for a smaller update in the same direction. This smaller update allows us to explicitly optimize the dual objective while only relying on a local search around the current policy. In doing so, our approach avoids the training instabilities of adversarial methods, offers monotonic performance improvement, and learns a reward function in the traditional sense of IRL--one that can be globally optimized to match expert demonstrations. Our proposed algorithm, Trust Region Inverse Reinforcement Learning (TRIRL), outperforms state-of-the-art imitation learning methods across multiple challenging tasks by a factor of 2.4x in terms of aggregate inter-quartile mean, while recovering reward functions that generalize to system dynamics shifts.",
+      "original_abstract": "Inverse reinforcement learning (IRL) is typically formulated as maximizing entropy subject to matching the distribution of expert trajectories. Classical (dual-ascent) IRL guarantees monotonic performance improvement but requires fully solving an RL problem each iteration to compute dual gradients. More recent adversarial methods avoid this cost at the expense of stability and monotonic dual improvement, by directly optimizing the primal problem and using a discriminator to provide rewards. In this work, we bridge the gap between these approaches by enabling monotonic improvement of the reward function and policy without having to fully solve an RL problem at every iteration. Our key theoretical insight is that a trust-region-optimal policy for a reward function update can be globally optimal for a smaller update in the same direction. This smaller update allows us to explicitly optimize the dual objective while only relying on a local search around the current policy. In doing so, our approach avoids the training instabilities of adversarial methods, offers monotonic performance improvement, and learns a reward function in the traditional sense of IRL--one that can be globally optimized to match expert demonstrations. Our proposed algorithm, Trust Region Inverse Reinforcement Learning (TRIRL), outperforms state-of-the-art imitation learning methods across multiple challenging tasks by a factor of 2.4x in terms of aggregate inter-quartile mean, while recovering reward functions that generalize to system dynamics shifts.",
+      "published_date": "2026-05-10T15:32:24Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "reward function",
+        "cs.LG",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "scores": {
+        "relevance": 2.9,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 2.3,
+        "recommendation": 7.63
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.11020v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.11020v1"
+    },
+    {
+      "arxiv_id": "2605.09665v1",
+      "title": "Learning Multi-Indicator Weights for Data Selection: A Joint Task-Model Adaptation Framework with Efficient Proxies",
+      "authors": [
+        "Jingze Song",
+        "Zihao Chen",
+        "Wenqing Chen",
+        "Zibin Zheng"
+      ],
+      "affiliations": [],
+      "summary": "Data selection is a key component of efficient instruction tuning for large language models, as recent work has shown that data quality often matters more than data quantity. Accordingly, prior studies have introduced various multi-dimensional heuristics to evaluate and filter instruction data. However, most existing methods rely on static task-agnostic and model-agnostic weighting schemes, which overlook the varying requirements of specific downstream tasks and the differing pre-existing capabilities of models. In this paper, we propose a framework for learning multi-indicator weights that jointly adapts data selection to both the downstream task and the specific model. Our method identifies optimal weight configurations without full-scale fine-tuning by utilizing in-context learning (ICL) signals on compact tiny-validation sets. These signals serve as efficient performance proxies that ensure high-fidelity evaluation at minimal computational cost. Experiments across multiple benchmarks and model families, including Mistral, Qwen, and Llama, show that the approach achieves performance comparable to or exceeding full-dataset tuning while using only 30\\% of the training samples on GSM8K. Furthermore, our analysis reveals a trade-off between semantic diversity and logical complexity in reasoning tasks, highlighting the necessity of joint task-model adaptation.",
+      "original_abstract": "Data selection is a key component of efficient instruction tuning for large language models, as recent work has shown that data quality often matters more than data quantity. Accordingly, prior studies have introduced various multi-dimensional heuristics to evaluate and filter instruction data. However, most existing methods rely on static task-agnostic and model-agnostic weighting schemes, which overlook the varying requirements of specific downstream tasks and the differing pre-existing capabilities of models. In this paper, we propose a framework for learning multi-indicator weights that jointly adapts data selection to both the downstream task and the specific model. Our method identifies optimal weight configurations without full-scale fine-tuning by utilizing in-context learning (ICL) signals on compact tiny-validation sets. These signals serve as efficient performance proxies that ensure high-fidelity evaluation at minimal computational cost. Experiments across multiple benchmarks and model families, including Mistral, Qwen, and Llama, show that the approach achieves performance comparable to or exceeding full-dataset tuning while using only 30\\% of the training samples on GSM8K. Furthermore, our analysis reveals a trade-off between semantic diversity and logical complexity in reasoning tasks, highlighting the necessity of joint task-model adaptation.",
+      "published_date": "2026-05-10T17:30:16Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.6,
+        "recommendation": 7.53
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.09665v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.09665v1"
+    },
+    {
+      "arxiv_id": "2605.09483v1",
+      "title": "A Cognitively Grounded Bayesian Framework for Misinformation Susceptibility",
+      "authors": [
+        "Pranava Madhyastha"
+      ],
+      "affiliations": [],
+      "summary": "In this (work in progress) paper, we present Bounded Pragmatic Listener (or BPL), a cognitively grounded Bayesian framework for modelling susceptibility to information disorder. BPL extends Rational Speech Act theory with three cognitively motivated bounds derived from the bounded rationality literature with a) a recursion depth bound (that emphasises working memory limits);b) a prior compression parameter (which is oriented at capturing information bottleneck); and c) an availability sample size (that operationalises importance sampling with saliency-weighted proposals). This allows us to test predictions about misinformation susceptibility, annotator disagreement, and the differential vulnerability to mis-, dis-, and mal-information as defined in the Information Disorder framework. We validate BPL on the LIAR and MultiFC benchmarks showcasing competitive veracity classification and experimental support for the depth-mismatch paradox.",
+      "original_abstract": "In this (work in progress) paper, we present Bounded Pragmatic Listener (or BPL), a cognitively grounded Bayesian framework for modelling susceptibility to information disorder. BPL extends Rational Speech Act theory with three cognitively motivated bounds derived from the bounded rationality literature with a) a recursion depth bound (that emphasises working memory limits);b) a prior compression parameter (which is oriented at capturing information bottleneck); and c) an availability sample size (that operationalises importance sampling with saliency-weighted proposals). This allows us to test predictions about misinformation susceptibility, annotator disagreement, and the differential vulnerability to mis-, dis-, and mal-information as defined in the Information Disorder framework. We validate BPL on the LIAR and MultiFC benchmarks showcasing competitive veracity classification and experimental support for the depth-mismatch paradox.",
+      "published_date": "2026-05-10T11:37:40Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 0.9,
+        "recommendation": 7.3
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.09483v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.09483v1"
+    },
+    {
+      "arxiv_id": "2605.09802v1",
+      "title": "CrossVL: Complexity-Aware Feature Routing and Paired Curriculum for Cross-View Vision-Language Detection",
+      "authors": [
+        "Zhipeng Liu",
+        "Chunbo Luo"
+      ],
+      "affiliations": [],
+      "summary": "Vision-language models (VLMs) enable text-guided object detection but degrade severely under cross-view scenarios where ground and aerial viewpoints differ in altitude, scale, and spatial layout. These geometric changes introduce systematic complexity variations between viewpoints, e.g., ground view images contain dense and highly occluded structures, while aerial images are sparse and globally organized. Fixed VLM fusion mechanisms cannot handle this discrepancy. We propose CrossVL, a framework combining Complexity-Aware Pathway Aggregation (CPA) and Paired Curriculum Learning (PCL) for enhanced cross-view detection for VLM. CPA estimates scene complexity from multimodal statistics and routes visual features through multiple pathways to obtain view-specific representations. PCL leverages semantic consistency of synchronized ground-aerial pairs to provide stable early supervision and then gradually shifts toward randomized sampling. On MAVREC, CrossVL improves Florence-2's aerial mAP from 58.66% to 61.03% and reduces the ground-aerial performance gap from 8.63pp to 6.65pp, while also achieving a 3.3x reduction in variance across random seeds. CPA provides stable complexity-aware feature aggregation, and PCL enhances optimization dynamics. Together, they demonstrate that coordinated architectural and training adaptations are crucial for robust cross-view VLM detection.",
+      "original_abstract": "Vision-language models (VLMs) enable text-guided object detection but degrade severely under cross-view scenarios where ground and aerial viewpoints differ in altitude, scale, and spatial layout. These geometric changes introduce systematic complexity variations between viewpoints, e.g., ground view images contain dense and highly occluded structures, while aerial images are sparse and globally organized. Fixed VLM fusion mechanisms cannot handle this discrepancy. We propose CrossVL, a framework combining Complexity-Aware Pathway Aggregation (CPA) and Paired Curriculum Learning (PCL) for enhanced cross-view detection for VLM. CPA estimates scene complexity from multimodal statistics and routes visual features through multiple pathways to obtain view-specific representations. PCL leverages semantic consistency of synchronized ground-aerial pairs to provide stable early supervision and then gradually shifts toward randomized sampling. On MAVREC, CrossVL improves Florence-2's aerial mAP from 58.66% to 61.03% and reduces the ground-aerial performance gap from 8.63pp to 6.65pp, while also achieving a 3.3x reduction in variance across random seeds. CPA provides stable complexity-aware feature aggregation, and PCL enhances optimization dynamics. Together, they demonstrate that coordinated architectural and training adaptations are crucial for robust cross-view VLM detection.",
+      "published_date": "2026-05-10T22:50:35Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 0.8,
+        "recommendation": 7.27
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.09802v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.09802v1"
+    },
+    {
+      "arxiv_id": "2605.09693v1",
+      "title": "Do multimodal models imagine electric sheep?",
+      "authors": [
+        "Santhosh Kumar Ramakrishnan",
+        "Carl Vondrick",
+        "Raja Giryes",
+        "Philipp Krähenbühl",
+        "Vladlen Koltun"
+      ],
+      "affiliations": [],
+      "summary": "Yes. We find that large multimodal models develop mental imagery when solving spatial puzzles, and they do imagine sheep when solving sheep puzzles. We fine-tune a Qwen3.5 VLM to solve twelve diverse visual reasoning tasks -- including tangram, jigsaw, sokoban, 3D mental rotation, and rush hour -- that require understanding geometry, spatial relationships, and the consequences of actions. By supervising the model to predict the open-loop sequence of actions to solve a puzzle from an initial state, we show that the model's activations after each action encode meaningful visual information about the intermediate state. This finding suggests that an imperfect visual world model begins to form as a byproduct of learning to select correct actions, in the absence of any explicit visual supervision. Building on this observation, we propose two ways to sharpen and use the mental images formed by the model. We find that integrating as few as sixteen visual tokens per step into the chain of thought improves the average solve rate from 83% to 89%, with particularly strong gains on reasoning-heavy tasks such as jigsaw and 3D mental rotation.",
+      "original_abstract": "Yes. We find that large multimodal models develop mental imagery when solving spatial puzzles, and they do imagine sheep when solving sheep puzzles. We fine-tune a Qwen3.5 VLM to solve twelve diverse visual reasoning tasks -- including tangram, jigsaw, sokoban, 3D mental rotation, and rush hour -- that require understanding geometry, spatial relationships, and the consequences of actions. By supervising the model to predict the open-loop sequence of actions to solve a puzzle from an initial state, we show that the model's activations after each action encode meaningful visual information about the intermediate state. This finding suggests that an imperfect visual world model begins to form as a byproduct of learning to select correct actions, in the absence of any explicit visual supervision. Building on this observation, we propose two ways to sharpen and use the mental images formed by the model. We find that integrating as few as sixteen visual tokens per step into the chain of thought improves the average solve rate from 83% to 89%, with particularly strong gains on reasoning-heavy tasks such as jigsaw and 3D mental rotation.",
+      "published_date": "2026-05-10T18:25:52Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 0.3,
+        "recommendation": 7.1
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.09693v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.09693v1"
+    },
+    {
+      "arxiv_id": "2605.11019v1",
+      "title": "Efficient LLM Reasoning via Variational Posterior Guidance with Efficiency Awareness",
+      "authors": [
+        "Zizhao Chen",
+        "Yuying Li",
+        "Siting Lin",
+        "Lianxi Wang"
+      ],
+      "affiliations": [],
+      "summary": "Although large language models rely on chain-of-thought for complex reasoning, the overthinking phenomenon severely degrades inference efficiency. Existing reinforcement learning methods compress reasoning chains by designing elaborate reward functions, which renders high-quality samples extremely sparse in the exploration space and creates a sampling bottleneck for the prior policy. Inspired by cognitive science, we theoretically prove that a posterior distribution guided by reference answers achieves higher expected utility than the prior distribution, thus capable of breaking through the sampling bottleneck of high-quality samples. However, the posterior distribution is unavailable during inference. To this end, we formalize efficient reasoning as a variational inference problem and introduce an efficiency-aware evidence lower bound as the theoretical foundation. Based on this, we propose the VPG-EA framework. It adopts a parameter-shared dual-stream architecture to instantiate both the posterior distribution and the prior policy; after filtering out pseudo-efficient paths via cross-view evaluation, it unidirectionally transfers the posterior's efficient patterns to the prior policy through variational distillation. Experiments on DeepSeek-R1-Distill-Qwen-1.5B and 7B scales demonstrate that VPG-EA improves the comprehensive efficiency metric epsilon cubed by 8.73% and 12.37% over the strongest baselines on each model size, respectively.",
+      "original_abstract": "Although large language models rely on chain-of-thought for complex reasoning, the overthinking phenomenon severely degrades inference efficiency. Existing reinforcement learning methods compress reasoning chains by designing elaborate reward functions, which renders high-quality samples extremely sparse in the exploration space and creates a sampling bottleneck for the prior policy. Inspired by cognitive science, we theoretically prove that a posterior distribution guided by reference answers achieves higher expected utility than the prior distribution, thus capable of breaking through the sampling bottleneck of high-quality samples. However, the posterior distribution is unavailable during inference. To this end, we formalize efficient reasoning as a variational inference problem and introduce an efficiency-aware evidence lower bound as the theoretical foundation. Based on this, we propose the VPG-EA framework. It adopts a parameter-shared dual-stream architecture to instantiate both the posterior distribution and the prior policy; after filtering out pseudo-efficient paths via cross-view evaluation, it unidirectionally transfers the posterior's efficient patterns to the prior policy through variational distillation. Experiments on DeepSeek-R1-Distill-Qwen-1.5B and 7B scales demonstrate that VPG-EA improves the comprehensive efficiency metric epsilon cubed by 8.73% and 12.37% over the strongest baselines on each model size, respectively.",
+      "published_date": "2026-05-10T15:18:24Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "reward function",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.6,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.6,
+        "recommendation": 7
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.11019v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.11019v1"
+    },
+    {
+      "arxiv_id": "2605.09806v1",
+      "title": "LEAD: Length-Efficient Adaptive and Dynamic Reasoning for Large Language Models",
+      "authors": [
+        "Songtao Wei",
+        "Yi Li",
+        "Zhikai Li",
+        "Xu Hu",
+        "Yuede Ji",
+        "Guanpeng Li",
+        "Feng Chen",
+        "Carl Yang",
+        "Zhichun Guo",
+        "Bingzhe Li"
+      ],
+      "affiliations": [],
+      "summary": "Large reasoning models, such as OpenAI o1 and DeepSeek-R1, tend to become increasingly verbose as their reasoning capabilities improve. These inflated Chain-of-Thought (CoT) trajectories often exceed what the underlying problems require, wasting compute, latency, and context budgets. While introducing length-based efficiency rewards during reinforcement learning offers a natural remedy, existing methods struggle with two fundamental challenges: the optimal balance between correctness and efficiency is non-stationary throughout training, and intrinsic reasoning budgets vary drastically across problems. Relying on static reward weights and global length constraints inevitably forces a compromise between degraded accuracy and unrealized compression. To overcome these limitations, we propose LEAD (Length-Efficient Adaptive and Dynamic reasoning), a method that replaces static heuristics with online, self-adaptive mechanisms. LEAD dynamically calibrates the correctness-efficiency trade-off at each step using a Potential-Scaled Instability, directing optimization capacity to the most informative learning signal. Furthermore, it estimates an adaptive per-problem target length online based on the model's own correct rollouts, applying a symmetric efficiency reward that penalizes both overthinking and over-compression. Evaluated on five mathematical reasoning benchmarks, LEAD achieves the highest accuracy and Accuracy-Efficiency Score among RL-trained efficient-reasoning methods while producing substantially shorter outputs than the base model.",
+      "original_abstract": "Large reasoning models, such as OpenAI o1 and DeepSeek-R1, tend to become increasingly verbose as their reasoning capabilities improve. These inflated Chain-of-Thought (CoT) trajectories often exceed what the underlying problems require, wasting compute, latency, and context budgets. While introducing length-based efficiency rewards during reinforcement learning offers a natural remedy, existing methods struggle with two fundamental challenges: the optimal balance between correctness and efficiency is non-stationary throughout training, and intrinsic reasoning budgets vary drastically across problems. Relying on static reward weights and global length constraints inevitably forces a compromise between degraded accuracy and unrealized compression. To overcome these limitations, we propose LEAD (Length-Efficient Adaptive and Dynamic reasoning), a method that replaces static heuristics with online, self-adaptive mechanisms. LEAD dynamically calibrates the correctness-efficiency trade-off at each step using a Potential-Scaled Instability, directing optimization capacity to the most informative learning signal. Furthermore, it estimates an adaptive per-problem target length online based on the model's own correct rollouts, applying a symmetric efficiency reward that penalizes both overthinking and over-compression. Evaluated on five mathematical reasoning benchmarks, LEAD achieves the highest accuracy and Accuracy-Efficiency Score among RL-trained efficient-reasoning methods while producing substantially shorter outputs than the base model.",
+      "published_date": "2026-05-10T23:05:02Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.6,
+        "recommendation": 6.6
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.09806v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.09806v1"
+    },
+    {
+      "arxiv_id": "2605.09701v1",
+      "title": "DriveFuture: Future-Aware Latent World Models for Autonomous Driving",
+      "authors": [
+        "Yufeng Hong",
+        "Xiaotian Zhou",
+        "Yingyan Li",
+        "Xiangpo Zhou",
+        "Lin Liu",
+        "Yadan Luo",
+        "Shaoqing Xu",
+        "Lei Yang",
+        "Ziying Song"
+      ],
+      "affiliations": [],
+      "summary": "Existing latent world models for autonomous driving have opened a promising path toward future-aware driving intelligence. However, they typically treat future latent states as prediction targets or auxiliary signals, rather than directly conditioning trajectory planning. This can entangle current and future features in latent space. In this work, we propose DriveFuture, a future-aware latent world modeling framework for autonomous driving that explicitly learns planning-oriented foresight by conditioning the current latent state modeling process on future world states. Specifically, during training, the model first predicts future latent world states from the current latent state and ego action, and then refines the prediction against the ground-truth future latent state via cross-attention. The resulting future-aware latent serves as an explicit condition for a diffusion-based trajectory planner. During inference, DriveFuture conditions on the predicted future latent state instead of the ground-truth future state. DriveFuture achieves SOTA performance on the public NAVSIM benchmarks, reaching \\textbf{55.5} EPDMS on NAVSIM-v2 {\\textcolor{blue}{\\textit{navhard}}}, \\textbf{89.9} EPDMS on NAVSIM-v2 {\\textcolor{blue}{\\textit{navtest}}}, and \\textbf{90.7} PDMS on NAVSIM-v1 {\\textcolor{blue}{\\textit{navtest}}}, respectively. These results suggest that the key to latent world modeling lies not merely in simulating future states, but more importantly in conditioning current decision-making on future states. Notably, as of April 2026, DriveFuture ranks \\textbf{1st} on the \\href{https://huggingface.co/spaces/AGC2025/e2e-driving-navhard}{NAVSIM-v2 {\\textcolor{blue}{\\textit{navhard}}}} leaderboard and achieves SOTA performance on \\href{https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest}{NAVSIM-v1 {\\textcolor{blue}{\\textit{navtest}}}}.",
+      "original_abstract": "Existing latent world models for autonomous driving have opened a promising path toward future-aware driving intelligence. However, they typically treat future latent states as prediction targets or auxiliary signals, rather than directly conditioning trajectory planning. This can entangle current and future features in latent space. In this work, we propose DriveFuture, a future-aware latent world modeling framework for autonomous driving that explicitly learns planning-oriented foresight by conditioning the current latent state modeling process on future world states. Specifically, during training, the model first predicts future latent world states from the current latent state and ego action, and then refines the prediction against the ground-truth future latent state via cross-attention. The resulting future-aware latent serves as an explicit condition for a diffusion-based trajectory planner. During inference, DriveFuture conditions on the predicted future latent state instead of the ground-truth future state. DriveFuture achieves SOTA performance on the public NAVSIM benchmarks, reaching \\textbf{55.5} EPDMS on NAVSIM-v2 {\\textcolor{blue}{\\textit{navhard}}}, \\textbf{89.9} EPDMS on NAVSIM-v2 {\\textcolor{blue}{\\textit{navtest}}}, and \\textbf{90.7} PDMS on NAVSIM-v1 {\\textcolor{blue}{\\textit{navtest}}}, respectively. These results suggest that the key to latent world modeling lies not merely in simulating future states, but more importantly in conditioning current decision-making on future states. Notably, as of April 2026, DriveFuture ranks \\textbf{1st} on the \\href{https://huggingface.co/spaces/AGC2025/e2e-driving-navhard}{NAVSIM-v2 {\\textcolor{blue}{\\textit{navhard}}}} leaderboard and achieves SOTA performance on \\href{https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest}{NAVSIM-v1 {\\textcolor{blue}{\\textit{navtest}}}}.",
+      "published_date": "2026-05-10T18:45:21Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "matched_domain": "自动驾驶",
+      "matched_keywords": [
+        "autonomous driving",
+        "trajectory planning",
+        "planning-oriented",
+        "cs.CV"
+      ],
+      "scores": {
+        "relevance": 2.1,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 2.3,
+        "recommendation": 6.57
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.09701v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.09701v1"
+    },
+    {
+      "arxiv_id": "2605.09477v1",
+      "title": "Outlier-Robust Diffusion Solvers for Inverse Problems",
+      "authors": [
+        "Yang Zheng",
+        "Jiahua Liu",
+        "Tongyao Pang",
+        "Wen Li",
+        "Zhaoqiang Liu"
+      ],
+      "affiliations": [],
+      "summary": "Methods based on diffusion models (DMs) for solving inverse problems (IPs) have recently achieved remarkable performance. However, DM-based methods typically struggle against outliers, which are common in real-world measurements. In this work, to tackle IPs with outliers, we first refine the measurement via explicit noise estimation to mitigate the effect of noise. Subsequently, we formulate an iteratively reweighted least squares objective based on the Huber loss to address the outliers. We propose a method utilizing gradient descent to approximately solve the corresponding optimization problem for the robust objective. To avoid delicate tuning of the learning rate required by the gradient descent method, we further employ the conjugate gradient method with an efficient strategy for updating. Extensive experiments on multiple image datasets for linear and nonlinear tasks under various conditions demonstrate that our proposed methods exhibit robustness to outliers and outperform recent DM-based methods in most cases.",
+      "original_abstract": "Methods based on diffusion models (DMs) for solving inverse problems (IPs) have recently achieved remarkable performance. However, DM-based methods typically struggle against outliers, which are common in real-world measurements. In this work, to tackle IPs with outliers, we first refine the measurement via explicit noise estimation to mitigate the effect of noise. Subsequently, we formulate an iteratively reweighted least squares objective based on the Huber loss to address the outliers. We propose a method utilizing gradient descent to approximately solve the corresponding optimization problem for the robust objective. To avoid delicate tuning of the learning rate required by the gradient descent method, we further employ the conjugate gradient method with an efficient strategy for updating. Extensive experiments on multiple image datasets for linear and nonlinear tasks under various conditions demonstrate that our proposed methods exhibit robustness to outliers and outperform recent DM-based methods in most cases.",
+      "published_date": "2026-05-10T11:13:23Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "diffusion model",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.3,
+        "recency": 3,
+        "popularity": 1,
+        "quality": 1.4,
+        "recommendation": 6.53
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.09477v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.09477v1"
+    }
+  ],
+  "total": 10
+}

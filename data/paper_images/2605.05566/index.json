@@ -1,0 +1,57 @@
+[
+  {
+    "filename": "combined_9methods_ppl_page1.png",
+    "url": "/api/images/2605.05566/combined_9methods_ppl_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "density_entropy_ppl_baseline_high_temp_lorem_all_pooled_page1.png",
+    "url": "/api/images/2605.05566/density_entropy_ppl_baseline_high_temp_lorem_all_pooled_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "gradient_weights_page1.png",
+    "url": "/api/images/2605.05566/gradient_weights_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "meaningful_prompt_mean_entropy_overlay_only_page1.png",
+    "url": "/api/images/2605.05566/meaningful_prompt_mean_entropy_overlay_only_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "method_page1.png",
+    "url": "/api/images/2605.05566/method_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwen2.5_training_time_resample_acc_curve_page1.png",
+    "url": "/api/images/2605.05566/qwen2.5_training_time_resample_acc_curve_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwen3-4B-base_training_time_resample_acc_curve_page1.png",
+    "url": "/api/images/2605.05566/qwen3-4B-base_training_time_resample_acc_curve_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "training_time_resample_acc_curve_page1.png",
+    "url": "/api/images/2605.05566/training_time_resample_acc_curve_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "tsne_sentence_mean_nonrandom_hidden_page1.png",
+    "url": "/api/images/2605.05566/tsne_sentence_mean_nonrandom_hidden_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "venn3_baseline_high_temp_lorem_hard_page1.png",
+    "url": "/api/images/2605.05566/venn3_baseline_high_temp_lorem_hard_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "venn3_baseline_high_temp_lorem_page1.png",
+    "url": "/api/images/2605.05566/venn3_baseline_high_temp_lorem_page1.png",
+    "source": "arxiv"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "biased_vs.png",
+    "url": "/api/images/2510.23049/biased_vs.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "biased_vs_unbiased_vs_entropy_2.0_comparison_page1.png",
+    "url": "/api/images/2510.23049/biased_vs_unbiased_vs_entropy_2.0_comparison_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "biased_vs_unbiased_vs_entropy_3.0_comparison_page1.png",
+    "url": "/api/images/2510.23049/biased_vs_unbiased_vs_entropy_3.0_comparison_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "combo.png",
+    "url": "/api/images/2510.23049/combo.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "direct_vs_shaping.png",
+    "url": "/api/images/2510.23049/direct_vs_shaping.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "grpo_k_qwen_biased_page1.png",
+    "url": "/api/images/2510.23049/grpo_k_qwen_biased_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "incompleteBeta.png",
+    "url": "/api/images/2510.23049/incompleteBeta.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "intro_pk6_page1.png",
+    "url": "/api/images/2510.23049/intro_pk6_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "surrogates.png",
+    "url": "/api/images/2510.23049/surrogates.png",
+    "source": "arxiv"
+  }
+]

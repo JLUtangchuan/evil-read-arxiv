@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "fig2_error_decomp_page1.png",
+    "url": "/api/images/2605.20402v2/fig2_error_decomp_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig3_training_dynamics_page1.png",
+    "url": "/api/images/2605.20402v2/fig3_training_dynamics_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig4_ablation_page1.png",
+    "url": "/api/images/2605.20402v2/fig4_ablation_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "fig5_scale_sweep_page1.png",
+    "url": "/api/images/2605.20402v2/fig5_scale_sweep_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "figA1_orthogonality_page1.png",
+    "url": "/api/images/2605.20402v2/figA1_orthogonality_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "figA2_dense_vs_moe_of_page1.png",
+    "url": "/api/images/2605.20402v2/figA2_dense_vs_moe_of_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "figA3_sigma_sweep_page1.png",
+    "url": "/api/images/2605.20402v2/figA3_sigma_sweep_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "figA4_grad_fluctuation_page1.png",
+    "url": "/api/images/2605.20402v2/figA4_grad_fluctuation_page1.png",
+    "source": "arxiv"
+  }
+]

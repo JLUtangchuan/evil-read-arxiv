@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-01",
+  "papers": [
+    {
+      "arxiv_id": "2506.15953",
+      "title": "ViTacFormer: Learning Cross-Modal Representation for Visuo-Tactile Dexterous Manipulation",
+      "authors": [
+        {
+          "authorId": "2220657993",
+          "affiliations": []
+        },
+        {
+          "authorId": "2287929608",
+          "affiliations": []
+        },
+        {
+          "authorId": "2368784759",
+          "affiliations": []
+        },
+        {
+          "authorId": "2350871358",
+          "affiliations": []
+        },
+        {
+          "authorId": "2362090500",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Dexterous manipulation is a cornerstone capability for robotic systems aiming to interact with the physical world in a human-like manner. Although vision-based methods have advanced rapidly, tactile sensing remains crucial for fine-grained control, particularly in unstructured or visually occluded settings. We present ViTacFormer, a representation-learning approach that couples a cross-attention encoder to fuse high-resolution vision and touch with an autoregressive tactile prediction head that anticipates future contact signals. Building on this architecture, we devise an easy-to-challenging curriculum that steadily refines the visual-tactile latent space, boosting both accuracy and robustness. The learned cross-modal representation drives imitation learning for multi-fingered hands, enabling precise and adaptive manipulation. Across a suite of challenging real-world benchmarks, our method achieves approximately 50% higher success rates than prior state-of-the-art systems. To our knowledge, it is also the first to autonomously complete long-horizon dexterous manipulation tasks that demand highly precise control with an anthropomorphic hand, successfully executing up to 11 sequential stages and sustaining continuous operation for 2.5 minutes.",
+      "original_abstract": "Dexterous manipulation is a cornerstone capability for robotic systems aiming to interact with the physical world in a human-like manner. Although vision-based methods have advanced rapidly, tactile sensing remains crucial for fine-grained control, particularly in unstructured or visually occluded settings. We present ViTacFormer, a representation-learning approach that couples a cross-attention encoder to fuse high-resolution vision and touch with an autoregressive tactile prediction head that anticipates future contact signals. Building on this architecture, we devise an easy-to-challenging curriculum that steadily refines the visual-tactile latent space, boosting both accuracy and robustness. The learned cross-modal representation drives imitation learning for multi-fingered hands, enabling precise and adaptive manipulation. Across a suite of challenging real-world benchmarks, our method achieves approximately 50% higher success rates than prior state-of-the-art systems. To our knowledge, it is also the first to autonomously complete long-horizon dexterous manipulation tasks that demand highly precise control with an anthropomorphic hand, successfully executing up to 11 sequential stages and sustaining continuous operation for 2.5 minutes.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "dexterous manipulation",
+        "imitation learning"
+      ],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 0,
+        "popularity": 0.09,
+        "quality": 2.3,
+        "recommendation": 1.83
+      },
+      "pdf_url": "https://arxiv.org/pdf/2506.15953",
+      "arxiv_url": "https://www.semanticscholar.org/paper/db184e864b9e38ecbb9f0067ad8bf55b6ad7abf5"
+    },
+    {
+      "arxiv_id": "2509.04441",
+      "title": "DEXOP: A Device for Robotic Transfer of Dexterous Human Manipulation",
+      "authors": [
+        {
+          "authorId": "2316016989",
+          "affiliations": []
+        },
+        {
+          "authorId": "21201572",
+          "affiliations": []
+        },
+        {
+          "authorId": "2249542931",
+          "affiliations": []
+        },
+        {
+          "authorId": "2378953466",
+          "affiliations": []
+        },
+        {
+          "authorId": "2406337144",
+          "affiliations": []
+        },
+        {
+          "authorId": "2379387984",
+          "affiliations": []
+        },
+        {
+          "authorId": "2110097626",
+          "affiliations": []
+        },
+        {
+          "authorId": "122979319",
+          "affiliations": []
+        },
+        {
+          "authorId": "2318888137",
+          "affiliations": []
+        },
+        {
+          "authorId": "2245825283",
+          "affiliations": []
+        },
+        {
+          "authorId": "2293172170",
+          "affiliations": []
+        },
+        {
+          "authorId": "2378952814",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "We introduce perioperation, a paradigm for robotic data collection that sensorizes and records human manipulation while maximizing the transferability of the data to real robots. We implement this paradigm in DEXOP, a passive hand exoskeleton designed to maximize human ability to collect rich sensory (vision + tactile) data for diverse dexterous manipulation tasks in natural environments. DEXOP mechanically connects human fingers to robot fingers, providing users with direct contact feedback (via proprioception) and mirrors the human hand pose to the passive robot hand to maximize the transfer of demonstrated skills to the robot. The force feedback and pose mirroring make task demonstrations more natural for humans compared to teleoperation, increasing both speed and accuracy. We evaluate DEXOP across a range of dexterous, contact-rich tasks, demonstrating its ability to collect high-quality demonstration data at scale. Policies learned with DEXOP data significantly improve task performance per unit time of data collection compared to teleoperation, making DEXOP a powerful tool for advancing robot dexterity. Our project page is at https://dex-op.github.io.",
+      "original_abstract": "We introduce perioperation, a paradigm for robotic data collection that sensorizes and records human manipulation while maximizing the transferability of the data to real robots. We implement this paradigm in DEXOP, a passive hand exoskeleton designed to maximize human ability to collect rich sensory (vision + tactile) data for diverse dexterous manipulation tasks in natural environments. DEXOP mechanically connects human fingers to robot fingers, providing users with direct contact feedback (via proprioception) and mirrors the human hand pose to the passive robot hand to maximize the transfer of demonstrated skills to the robot. The force feedback and pose mirroring make task demonstrations more natural for humans compared to teleoperation, increasing both speed and accuracy. We evaluate DEXOP across a range of dexterous, contact-rich tasks, demonstrating its ability to collect high-quality demonstration data at scale. Policies learned with DEXOP data significantly improve task performance per unit time of data collection compared to teleoperation, making DEXOP a powerful tool for advancing robot dexterity. Our project page is at https://dex-op.github.io.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "灵巧手抓取",
+      "matched_keywords": [
+        "dexterous manipulation",
+        "robot dexterity"
+      ],
+      "scores": {
+        "relevance": 0.6,
+        "recency": 0,
+        "popularity": 0.06,
+        "quality": 1.1,
+        "recommendation": 1.16
+      },
+      "pdf_url": "https://arxiv.org/pdf/2509.04441",
+      "arxiv_url": "https://www.semanticscholar.org/paper/1dd1b08e36e813d57cb06857bc0629e2c1a18f88"
+    },
+    {
+      "arxiv_id": "2506.08291",
+      "title": "TensorTouch: Calibration of Tactile Sensors for High Resolution Stress Tensor and Deformation for Dexterous Manipulation",
+      "authors": [
+        {
+          "authorId": "2148612005",
+          "affiliations": []
+        },
+        {
+          "authorId": "2291960921",
+          "affiliations": []
+        },
+        {
+          "authorId": "2291964162",
+          "affiliations": []
+        },
+        {
+          "authorId": "2268675823",
+          "affiliations": []
+        },
+        {
+          "authorId": "2243201425",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Advanced dexterous manipulation requires identifying and controlling multiple simultaneous contacts, including interactions with compliant objects where deformations are large. Raw optical tactile images are information rich but lack calibrated physical meaning, limiting cross-sensor use and real-world deployment. In this article, we present TensorTouch, a calibration framework that combines finite element analysis and learning to infer dense deformation and stress/force fields from a single tactile image. Across real sensors, TensorTouch achieves contact localization errors under 1.29 mm and mean force errors under 0.139 N per axis. In a multiobject selective grasp task with two simultaneously contacted objects (including identical cables), the system achieves up to 90.0% success. We further demonstrate robustness under repeated loading, yielding 38.295 dB peak signal-to-noise ratio between the initial tactile image and the image after 20 000 contacts. The learned model runs in real time at 95 Hz on an RTX 5090, proving to be suitable for contact-rich, dexterous manipulation.",
+      "original_abstract": "Advanced dexterous manipulation requires identifying and controlling multiple simultaneous contacts, including interactions with compliant objects where deformations are large. Raw optical tactile images are information rich but lack calibrated physical meaning, limiting cross-sensor use and real-world deployment. In this article, we present TensorTouch, a calibration framework that combines finite element analysis and learning to infer dense deformation and stress/force fields from a single tactile image. Across real sensors, TensorTouch achieves contact localization errors under 1.29 mm and mean force errors under 0.139 N per axis. In a multiobject selective grasp task with two simultaneously contacted objects (including identical cables), the system achieves up to 90.0% success. We further demonstrate robustness under repeated loading, yielding 38.295 dB peak signal-to-noise ratio between the initial tactile image and the image after 20 000 contacts. The learned model runs in real time at 95 Hz on an RTX 5090, proving to be suitable for contact-rich, dexterous manipulation.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "dexterous manipulation"
+      ],
+      "scores": {
+        "relevance": 0.5,
+        "recency": 0,
+        "popularity": 0.03,
+        "quality": 1.3,
+        "recommendation": 1.06
+      },
+      "pdf_url": "https://arxiv.org/pdf/2506.08291",
+      "arxiv_url": "https://www.semanticscholar.org/paper/e2974cd27e39ce7e77b4fafed4052c9c9e7d1a35"
+    }
+  ],
+  "total": 3
+}

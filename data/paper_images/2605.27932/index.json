@@ -1,0 +1,57 @@
+[
+  {
+    "filename": "boundary_sharpness.png",
+    "url": "/api/images/2605.27932/boundary_sharpness.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "cosine_matrix.png",
+    "url": "/api/images/2605.27932/cosine_matrix.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "exp5_batch49_direct_suff.png",
+    "url": "/api/images/2605.27932/exp5_batch49_direct_suff.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "exp5_batch50_comtvsp_nec.png",
+    "url": "/api/images/2605.27932/exp5_batch50_comtvsp_nec.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "exp5_batch51_comtvsp_suff.png",
+    "url": "/api/images/2605.27932/exp5_batch51_comtvsp_suff.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "figure1_clean.png",
+    "url": "/api/images/2605.27932/figure1_clean.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "layer_sweep_comtvsp.png",
+    "url": "/api/images/2605.27932/layer_sweep_comtvsp.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "layer_sweep_direct.png",
+    "url": "/api/images/2605.27932/layer_sweep_direct.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "pca_variance.png",
+    "url": "/api/images/2605.27932/pca_variance.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "roc_curve.png",
+    "url": "/api/images/2605.27932/roc_curve.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "score_distribution.png",
+    "url": "/api/images/2605.27932/score_distribution.png",
+    "source": "arxiv"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "filename": "MATH_1.5B.png",
+    "url": "/api/images/2605.20555v1/MATH_1.5B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MATH_1.5B_Adaptive.png",
+    "url": "/api/images/2605.20555v1/MATH_1.5B_Adaptive.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MATH_3B.png",
+    "url": "/api/images/2605.20555v1/MATH_3B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MATH_3B_Adaptive.png",
+    "url": "/api/images/2605.20555v1/MATH_3B_Adaptive.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MATH_3B_grpo0_vs_fixed.png",
+    "url": "/api/images/2605.20555v1/MATH_3B_grpo0_vs_fixed.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MATH_3B_logit_vs_prob.png",
+    "url": "/api/images/2605.20555v1/MATH_3B_logit_vs_prob.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MATH_7B.png",
+    "url": "/api/images/2605.20555v1/MATH_7B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MATH_7B_Adaptive.png",
+    "url": "/api/images/2605.20555v1/MATH_7B_Adaptive.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MMLU_1.5B.png",
+    "url": "/api/images/2605.20555v1/MMLU_1.5B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MMLU_1.5B_Adaptive.png",
+    "url": "/api/images/2605.20555v1/MMLU_1.5B_Adaptive.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MMLU_3B.png",
+    "url": "/api/images/2605.20555v1/MMLU_3B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MMLU_3B_Adaptive.png",
+    "url": "/api/images/2605.20555v1/MMLU_3B_Adaptive.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "MMLU_7B.png",
+    "url": "/api/images/2605.20555v1/MMLU_7B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "cnk12_1.5B.png",
+    "url": "/api/images/2605.20555v1/cnk12_1.5B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "cnk12_1.5B_Base.png",
+    "url": "/api/images/2605.20555v1/cnk12_1.5B_Base.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "cnk12_3B.png",
+    "url": "/api/images/2605.20555v1/cnk12_3B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "cnk12_3B_Base.png",
+    "url": "/api/images/2605.20555v1/cnk12_3B_Base.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "cnk12_7B.png",
+    "url": "/api/images/2605.20555v1/cnk12_7B.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "cnk12_7B_Base.png",
+    "url": "/api/images/2605.20555v1/cnk12_7B_Base.png",
+    "source": "arxiv"
+  }
+]

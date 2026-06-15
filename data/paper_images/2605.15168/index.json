@@ -1,0 +1,87 @@
+[
+  {
+    "filename": "TTA-Overview-Figure-Model_page1.png",
+    "url": "/api/images/2605.15168/TTA-Overview-Figure-Model_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "TTA-Overview-Figures_page1.png",
+    "url": "/api/images/2605.15168/TTA-Overview-Figures_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ablation_aultc_dsr1_manualv3_page1.png",
+    "url": "/api/images/2605.15168/ablation_aultc_dsr1_manualv3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ablation_aultc_dsv32_manualv3_page1.png",
+    "url": "/api/images/2605.15168/ablation_aultc_dsv32_manualv3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ablation_aultc_qwen35_manualv3_page1.png",
+    "url": "/api/images/2605.15168/ablation_aultc_qwen35_manualv3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ablation_cidx_dsr1_manualv3_page1.png",
+    "url": "/api/images/2605.15168/ablation_cidx_dsr1_manualv3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ablation_cidx_dsv32_manualv3_page1.png",
+    "url": "/api/images/2605.15168/ablation_cidx_dsv32_manualv3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ablation_cidx_qwen35_manualv3_page1.png",
+    "url": "/api/images/2605.15168/ablation_cidx_qwen35_manualv3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "aultc_vs_EMR_manualv1_page1.png",
+    "url": "/api/images/2605.15168/aultc_vs_EMR_manualv1_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "aultc_vs_EMR_manualv2_page1.png",
+    "url": "/api/images/2605.15168/aultc_vs_EMR_manualv2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "aultc_vs_EMR_manualv3_page1.png",
+    "url": "/api/images/2605.15168/aultc_vs_EMR_manualv3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "concordance_vs_EMR_manualv1_page1.png",
+    "url": "/api/images/2605.15168/concordance_vs_EMR_manualv1_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "concordance_vs_EMR_manualv2_page1.png",
+    "url": "/api/images/2605.15168/concordance_vs_EMR_manualv2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "concordance_vs_EMR_manualv3_page1.png",
+    "url": "/api/images/2605.15168/concordance_vs_EMR_manualv3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "subset_deltas_v1_page1.png",
+    "url": "/api/images/2605.15168/subset_deltas_v1_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "subset_deltas_v2_page1.png",
+    "url": "/api/images/2605.15168/subset_deltas_v2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "subset_deltas_v3_page1.png",
+    "url": "/api/images/2605.15168/subset_deltas_v3_page1.png",
+    "source": "arxiv"
+  }
+]

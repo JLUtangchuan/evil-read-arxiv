@@ -1,0 +1,52 @@
+[
+  {
+    "filename": "artifact.png",
+    "url": "/api/images/2604.28181/artifact.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "artifact_distribution_page1.png",
+    "url": "/api/images/2604.28181/artifact_distribution_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "baseline_score_hist_dlv_page1.png",
+    "url": "/api/images/2604.28181/baseline_score_hist_dlv_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "baseline_score_hist_world_page1.png",
+    "url": "/api/images/2604.28181/baseline_score_hist_world_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "model_win_tie_loss_page1.png",
+    "url": "/api/images/2604.28181/model_win_tie_loss_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "overview.png",
+    "url": "/api/images/2604.28181/overview.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "persona_distribution_page1.png",
+    "url": "/api/images/2604.28181/persona_distribution_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "sec2_overview.png",
+    "url": "/api/images/2604.28181/sec2_overview.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "self_improving_loop.png",
+    "url": "/api/images/2604.28181/self_improving_loop.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "win_lose_vs_baseline_page1.png",
+    "url": "/api/images/2604.28181/win_lose_vs_baseline_page1.png",
+    "source": "arxiv"
+  }
+]

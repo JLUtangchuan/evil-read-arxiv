@@ -1,0 +1,364 @@
+{
+  "date": "2026-05-19",
+  "papers": [
+    {
+      "arxiv_id": "2605.20390v1",
+      "title": "STELLAR: Scaling 3D Perception Large Models for Autonomous Driving",
+      "authors": [
+        "Yingwei Li",
+        "Xin Huang",
+        "Yang Liu",
+        "Yang Fu",
+        "Alex Zihao Zhu",
+        "Chen Song",
+        "Junwen Yao",
+        "Anant Subramanian",
+        "Hao Xiang",
+        "Weijing Shi",
+        "Yuliang Zou",
+        "Tom Hoddes",
+        "Zhaoqi Leng",
+        "Govind Thattai",
+        "Dragomir Anguelov",
+        "Mingxing Tan"
+      ],
+      "affiliations": [],
+      "summary": "Model scaling has demonstrated remarkable success through large-scale training on diverse datasets. It remains an open question whether the same paradigm would apply to autonomous driving perception systems due to unique challenges, such as fusing heterogeneous sensor data and the need for sophisticated 3D spatial understanding. To bridge this gap, we present a comprehensive study on systematically analyzing the impact of scale on these systems. We develop our STELLAR model based on Sparse Window Transformer, by extending the input modalities to include LiDAR, radar, camera, and map prior. We train the model on a large-scale dataset of 50 million driving examples with up to 500 million parameters. Our large-scale experiments reveal empirical scaling trends that connect model performance to model size, data, and compute. The resulting model establishes a new state-of-the-art on the Waymo Open Dataset challenge, outperforming prior arts by a large margin. Our work demonstrates that large-scale training is a highly promising path for advancing the capabilities of perception models for autonomous driving.",
+      "original_abstract": "Model scaling has demonstrated remarkable success through large-scale training on diverse datasets. It remains an open question whether the same paradigm would apply to autonomous driving perception systems due to unique challenges, such as fusing heterogeneous sensor data and the need for sophisticated 3D spatial understanding. To bridge this gap, we present a comprehensive study on systematically analyzing the impact of scale on these systems. We develop our STELLAR model based on Sparse Window Transformer, by extending the input modalities to include LiDAR, radar, camera, and map prior. We train the model on a large-scale dataset of 50 million driving examples with up to 500 million parameters. Our large-scale experiments reveal empirical scaling trends that connect model performance to model size, data, and compute. The resulting model establishes a new state-of-the-art on the Waymo Open Dataset challenge, outperforming prior arts by a large margin. Our work demonstrates that large-scale training is a highly promising path for advancing the capabilities of perception models for autonomous driving.",
+      "published_date": "2026-05-19T18:40:20Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.RO",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3.1,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.4,
+        "recommendation": 8.1
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20390v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.20390v1"
+    },
+    {
+      "arxiv_id": "2605.20563v1",
+      "title": "Multi-agent Collaboration with State Management",
+      "authors": [
+        "Mengyang Liu",
+        "Taozhi Chen",
+        "Zhenhua Xu",
+        "Xue Jiang",
+        "Yihong Dong"
+      ],
+      "affiliations": [],
+      "summary": "Recent advances in multi-agent systems have shown great potential for solving complex tasks. However, when multiple agents edit a shared codebase concurrently, their changes can silently conflict and inconsistent views lead to integration failures. Existing multi-agent systems address this through workspace isolation (e.g., one git worktree per agent), but this defers conflict resolution to a post-hoc merge step where recovery is expensive. In this paper, we propose STORM, i.e., STate-ORiented Management for multi-agent collaboration. Specifically, STORM manages agent states by mediating their interactions with the shared workspace, ensuring that each agent operates on a consistent view of the codebase and that conflicting edits are detected and resolved at write time. We evaluate STORM on Commit0 and PaperBench across multiple LLMs. STORM outperforms the git-worktree-based multi-agent baseline by +18.7 on Commit0-Lite and +1.4 on PaperBench, while achieving comparable or better cost efficiency. Combined with single-agent runs, STORM reaches highest scores of 87.6 and 78.2 on the two benchmarks respectively, suggesting that explicit state management is a more effective foundation for multi-agent collaboration than workspace isolation. STORM can also be plugged into any multi-agent system seamlessly.",
+      "original_abstract": "Recent advances in multi-agent systems have shown great potential for solving complex tasks. However, when multiple agents edit a shared codebase concurrently, their changes can silently conflict and inconsistent views lead to integration failures. Existing multi-agent systems address this through workspace isolation (e.g., one git worktree per agent), but this defers conflict resolution to a post-hoc merge step where recovery is expensive. In this paper, we propose STORM, i.e., STate-ORiented Management for multi-agent collaboration. Specifically, STORM manages agent states by mediating their interactions with the shared workspace, ensuring that each agent operates on a consistent view of the codebase and that conflicting edits are detected and resolved at write time. We evaluate STORM on Commit0 and PaperBench across multiple LLMs. STORM outperforms the git-worktree-based multi-agent baseline by +18.7 on Commit0-Lite and +1.4 on PaperBench, while achieving comparable or better cost efficiency. Combined with single-agent runs, STORM reaches highest scores of 87.6 and 78.2 on the two benchmarks respectively, suggesting that explicit state management is a more effective foundation for multi-agent collaboration than workspace isolation. STORM can also be plugged into any multi-agent system seamlessly.",
+      "published_date": "2026-05-19T23:45:33Z",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.AI",
+        "cs.LG",
+        "cs.CL"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.5,
+        "recommendation": 8
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20563v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.20563v1"
+    },
+    {
+      "arxiv_id": "2605.20009v1",
+      "title": "Training Neural Networks with Optimal Double-Bayesian Learning",
+      "authors": [
+        "Vy Bui",
+        "Hang Yu",
+        "Karthik Kantipudi",
+        "Ziv Yaniv",
+        "Stefan Jaeger"
+      ],
+      "affiliations": [],
+      "summary": "Backpropagation with gradient descent is a common optimization strategy employed by most neural network architectures in machine learning. However, finding optimal hyperparameters to guide training has proven challenging. While it is widely acknowledged that selecting appropriate parameters is crucial for avoiding overfitting and achieving unbiased outcomes, this choice remains largely based on empirical experiments and experience. This paper presents a new probabilistic framework for the learning rate, a key parameter in stochastic gradient descent. The framework develops classic Bayesian statistics into a double-Bayesian decision mechanism involving two antagonistic Bayesian processes. A theoretically optimal learning rate can be derived from these two processes and used for stochastic gradient descent. Experiments across various classification, segmentation, and detection tasks corroborate the practical significance of the theoretically derived learning rate. The paper also discusses the ramifications of the proposed double-Bayesian framework for network training and model performance.",
+      "original_abstract": "Backpropagation with gradient descent is a common optimization strategy employed by most neural network architectures in machine learning. However, finding optimal hyperparameters to guide training has proven challenging. While it is widely acknowledged that selecting appropriate parameters is crucial for avoiding overfitting and achieving unbiased outcomes, this choice remains largely based on empirical experiments and experience. This paper presents a new probabilistic framework for the learning rate, a key parameter in stochastic gradient descent. The framework develops classic Bayesian statistics into a double-Bayesian decision mechanism involving two antagonistic Bayesian processes. A theoretically optimal learning rate can be derived from these two processes and used for stochastic gradient descent. Experiments across various classification, segmentation, and detection tasks corroborate the practical significance of the theoretically derived learning rate. The paper also discusses the ramifications of the proposed double-Bayesian framework for network training and model performance.",
+      "published_date": "2026-05-19T15:39:36Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NE"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NE"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.2,
+        "recommendation": 7.9
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20009v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.20009v1"
+    },
+    {
+      "arxiv_id": "2605.20555v1",
+      "title": "Complementing reinforcement learning with SFT through logit averaging in the post training of LLMs",
+      "authors": [
+        "Xingwei Gan",
+        "Ying Zhu"
+      ],
+      "affiliations": [],
+      "summary": "We introduce a novel method that averages the logits of a frozen reference policy (e.g., SFT) and a trainable policy, and incorporate the method into Group Relative Policy Optimization (GRPO). In contrast to Reinforcement Learning with Verifiable Rewards (RLVR) methods, our proposal does not involve a Kullback Leibler (KL) regularization or critic; the trainable policy and the reference anchor are coupled through the logit averaging structure to leverage the reasoning expertise of the trainable policy while maintaining the formatting advantage of SFT. Our method is evaluated on MATH, cn-k12, and MMLU, and the results show a higher accuracy or at least comparable accuracy relative to the canonical KL-regularized GRPO.",
+      "original_abstract": "We introduce a novel method that averages the logits of a frozen reference policy (e.g., SFT) and a trainable policy, and incorporate the method into Group Relative Policy Optimization (GRPO). In contrast to Reinforcement Learning with Verifiable Rewards (RLVR) methods, our proposal does not involve a Kullback Leibler (KL) regularization or critic; the trainable policy and the reference anchor are coupled through the logit averaging structure to leverage the reasoning expertise of the trainable policy while maintaining the formatting advantage of SFT. Our method is evaluated on MATH, cn-k12, and MMLU, and the results show a higher accuracy or at least comparable accuracy relative to the canonical KL-regularized GRPO.",
+      "published_date": "2026-05-19T23:15:18Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "policy optimization",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.8,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.1,
+        "recommendation": 7.6
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20555v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.20555v1"
+    },
+    {
+      "arxiv_id": "2605.20037v1",
+      "title": "When Critics Disagree: Adaptive Reward Poisoning Attacks in RIS-Aided Wireless Control System",
+      "authors": [
+        "Deemah H. Tashman",
+        "Soumaya Cherkaoui"
+      ],
+      "affiliations": [],
+      "summary": "Reward-poisoning attacks present a significant risk to learning-based wireless control systems. Given this, we propose a Disagreement-Guided Reward Poisoning (DGRP) adaptive attack on a Soft Actor-Critic (SAC) agent. In a Cognitive Radio Network (CRN) environment assisted by Reconfigurable Intelligent Surfaces (RIS), the SAC agent is tasked with maximizing the long-term secondary users' (SUs) rate by simultaneously optimizing the transmission power of the SU transmitter and the RIS phase shifts. DGRP corrupts rewards, particularly when the SAC dual critics exhibit substantial disagreement-especially in high-leverage, high-uncertainty states-resulting in distorted value estimations and guiding the policy towards suboptimal actions. Our findings demonstrate that DGRP substantially diminishes the performance improvements typically provided by RIS and degrades transmission quality. We further investigate key attack parameters and determine their impact on learning. In comparison to periodic-timing and exploration-triggered baselines, DGRP consistently causes greater damage, highlighting the necessity of considering disagreement-aware threats when evaluating the robustness of Deep Reinforcement Learning (DRL) in RIS-assisted networks.",
+      "original_abstract": "Reward-poisoning attacks present a significant risk to learning-based wireless control systems. Given this, we propose a Disagreement-Guided Reward Poisoning (DGRP) adaptive attack on a Soft Actor-Critic (SAC) agent. In a Cognitive Radio Network (CRN) environment assisted by Reconfigurable Intelligent Surfaces (RIS), the SAC agent is tasked with maximizing the long-term secondary users' (SUs) rate by simultaneously optimizing the transmission power of the SU transmitter and the RIS phase shifts. DGRP corrupts rewards, particularly when the SAC dual critics exhibit substantial disagreement-especially in high-leverage, high-uncertainty states-resulting in distorted value estimations and guiding the policy towards suboptimal actions. Our findings demonstrate that DGRP substantially diminishes the performance improvements typically provided by RIS and degrades transmission quality. We further investigate key attack parameters and determine their impact on learning. In comparison to periodic-timing and exploration-triggered baselines, DGRP consistently causes greater damage, highlighting the necessity of considering disagreement-aware threats when evaluating the robustness of Deep Reinforcement Learning (DRL) in RIS-assisted networks.",
+      "published_date": "2026-05-19T15:59:43Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "deep reinforcement learning",
+        "actor-critic",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.9,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 0.7,
+        "recommendation": 7.6
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20037v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.20037v1"
+    },
+    {
+      "arxiv_id": "2605.20502v1",
+      "title": "Tippett-minimum Fusion of Representation-space Diffusion Models for Multi-Encoder Out-of-Distribution Detection",
+      "authors": [
+        "Neelkamal Bhuyan"
+      ],
+      "affiliations": [],
+      "summary": "We address out-of-distribution (OOD) detection across the full spectrum of distribution shifts -- global domain changes, semantic divergence, texture differences, and covariate corruptions -- through a multi-encoder fusion of per-encoder representation-space diffusion models (RDMs). We statistically identify each encoder's sensitivity to specific shift types from ID data alone and introduce EncMin2L -- an encoder-agnostic two-level $\\min(\\cdot)$-gate that combines and calibrates per-encoder diffusion-based likelihood detectors without OOD labels, outperforming monolithic multi-encoder baselines at $2.3\\times$ lower parameter cost. Two ID-data diagnostics: $η^2$ (class-conditional F-test) and $Δμ$ (log-likelihood shift under synthetic corruptions) -- quantify encoder specialization, while a Tippett minimum $p$-value combination aggregates per-encoder scores into a single, calibration-stable OOD signal. EncMin2L achieves $\\geq 0.94$ AUROC across all four shift types simultaneously, outperforming the state-of-the-art representation-space diffusion OOD detectors across overlapping benchmarks.",
+      "original_abstract": "We address out-of-distribution (OOD) detection across the full spectrum of distribution shifts -- global domain changes, semantic divergence, texture differences, and covariate corruptions -- through a multi-encoder fusion of per-encoder representation-space diffusion models (RDMs). We statistically identify each encoder's sensitivity to specific shift types from ID data alone and introduce EncMin2L -- an encoder-agnostic two-level $\\min(\\cdot)$-gate that combines and calibrates per-encoder diffusion-based likelihood detectors without OOD labels, outperforming monolithic multi-encoder baselines at $2.3\\times$ lower parameter cost. Two ID-data diagnostics: $η^2$ (class-conditional F-test) and $Δμ$ (log-likelihood shift under synthetic corruptions) -- quantify encoder specialization, while a Tippett minimum $p$-value combination aggregates per-encoder scores into a single, calibration-stable OOD signal. EncMin2L achieves $\\geq 0.94$ AUROC across all four shift types simultaneously, outperforming the state-of-the-art representation-space diffusion OOD detectors across overlapping benchmarks.",
+      "published_date": "2026-05-19T21:18:49Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV",
+        "stat.AP",
+        "stat.ML"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "diffusion model",
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 2.6,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.8,
+        "recommendation": 7.57
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20502v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.20502v1"
+    },
+    {
+      "arxiv_id": "2605.19990v1",
+      "title": "Minimalist Visual Inertial Odometry",
+      "authors": [
+        "Francesco Pasti",
+        "Jeremy Klotz",
+        "Nicola Bellotto",
+        "Shree K. Nayar"
+      ],
+      "affiliations": [],
+      "summary": "Visual-Inertial Odometry(VIO), which is critical to mobile robot navigation, uses cameras with a large number of pixels. Capturing and processing camera images requires significant resources. This work presents a minimalist approach to planar odometry, demonstrating that just four visual measurements and an IMU can provide robust motion estimation for differential-drive robots. Our key insight is that four downward-facing photodiodes that sense the world through optical Gabor masks produce signals that encode speed. Based on this, we jointly optimize the mask parameters alongside a Temporal Convolutional Network (TCN) using a physically-grounded simulator. The resulting model decodes speed from just the four measurements produced by the photodiodes. Pairing these estimates with the angular speed from an IMU yields a continuous planar trajectory. We validate our approach with a prototype sensor mounted on a differential drive robot. Across diverse indoor and outdoor terrains, our system closely tracks the reference ground truth without any real-world fine-tuning. Our work shows that minimalist sensing enables efficient and accurate planar odometry.",
+      "original_abstract": "Visual-Inertial Odometry(VIO), which is critical to mobile robot navigation, uses cameras with a large number of pixels. Capturing and processing camera images requires significant resources. This work presents a minimalist approach to planar odometry, demonstrating that just four visual measurements and an IMU can provide robust motion estimation for differential-drive robots. Our key insight is that four downward-facing photodiodes that sense the world through optical Gabor masks produce signals that encode speed. Based on this, we jointly optimize the mask parameters alongside a Temporal Convolutional Network (TCN) using a physically-grounded simulator. The resulting model decodes speed from just the four measurements produced by the photodiodes. Pairing these estimates with the angular speed from an IMU yields a continuous planar trajectory. We validate our approach with a prototype sensor mounted on a differential drive robot. Across diverse indoor and outdoor terrains, our system closely tracks the reference ground truth without any real-world fine-tuning. Our work shows that minimalist sensing enables efficient and accurate planar odometry.",
+      "published_date": "2026-05-19T15:27:28Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 3,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 0,
+        "recommendation": 7.5
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.19990v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.19990v1"
+    },
+    {
+      "arxiv_id": "2605.20402v2",
+      "title": "Decomposing MXFP4 quantization error for LLM reinforcement learning: reducible bias, recoverable deadzone, and an irreducible floor",
+      "authors": [
+        "Xiaocan Li",
+        "Shiliang Wu",
+        "Zheng Shen"
+      ],
+      "affiliations": [],
+      "summary": "MXFP4 arithmetic can dramatically accelerate reinforcement learning (RL) post-training of large language models (LLMs), yet the quantization error introduces severe accuracy degradation. Existing work treats the quantization error as a monolithic noise term, missing the distinct mechanisms upon interpreting how quantization error damages training. We prove an exact three-way decomposition of quantization error and show how each component dominates a distinct RL training pathway. Our theoretical and empirical analysis decomposes the MXFP4 quantization error into three additive components: \"scale bias\" from power-of-two rounding, \"deadzone truncation\" from zeroing small values, and \"grid noise\" from rounding to the nearest 4-bit grid. Each component dominates a distinct RL failure mode: scale bias accumulates multiplicatively through the backward pass, affecting gradient accuracy; deadzone truncation degrades rollout quality; and grid noise raises the policy's entropy. We combine corrections that are RL failure mode-targeted but not component-exclusive: Macro-block scaling to reduce scale bias, Outlier Fallback recovers deadzone entries, but also partially reduces scale bias induced error, and Adaptive Quantization Noise (AQN) for controlling the policy entropy. On Qwen2.5-3B dense and Qwen3-30B-A3B-Base mixture-of-experts model, the targeted corrections recover BF16 accuracy to within 0.7% and exceed BF16 by +1.0% respectively.",
+      "original_abstract": "MXFP4 arithmetic can dramatically accelerate reinforcement learning (RL) post-training of large language models (LLMs), yet the quantization error introduces severe accuracy degradation. Existing work treats the quantization error as a monolithic noise term, missing the distinct mechanisms upon interpreting how quantization error damages training. We prove an exact three-way decomposition of quantization error and show how each component dominates a distinct RL training pathway. Our theoretical and empirical analysis decomposes the MXFP4 quantization error into three additive components: \"scale bias\" from power-of-two rounding, \"deadzone truncation\" from zeroing small values, and \"grid noise\" from rounding to the nearest 4-bit grid. Each component dominates a distinct RL failure mode: scale bias accumulates multiplicatively through the backward pass, affecting gradient accuracy; deadzone truncation degrades rollout quality; and grid noise raises the policy's entropy. We combine corrections that are RL failure mode-targeted but not component-exclusive: Macro-block scaling to reduce scale bias, Outlier Fallback recovers deadzone entries, but also partially reduces scale bias induced error, and Adaptive Quantization Noise (AQN) for controlling the policy entropy. On Qwen2.5-3B dense and Qwen3-30B-A3B-Base mixture-of-experts model, the targeted corrections recover BF16 accuracy to within 0.7% and exceed BF16 by +1.0% respectively.",
+      "published_date": "2026-05-19T18:59:26Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "matched_domain": "强化学习",
+      "matched_keywords": [
+        "reinforcement learning",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.5,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 1.6,
+        "recommendation": 7.37
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20402v2",
+      "arxiv_url": "http://arxiv.org/abs/2605.20402v2"
+    },
+    {
+      "arxiv_id": "2605.20551v1",
+      "title": "Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning",
+      "authors": [
+        "Zichao Zeng",
+        "June Moh Goo",
+        "Junwei Zheng",
+        "Weijia Fan",
+        "Jiaming Zhang",
+        "Rainer Stiefelhagen",
+        "Jan Boehm"
+      ],
+      "affiliations": [],
+      "summary": "Visual Place Recognition (VPR) aims to match a query image to reference images of the same place in a large-scale database. Recent state-of-the-art methods employ Vision Transformers (ViTs) as backbone foundation models to extract patch-level features that are robust to viewpoint, illumination, and seasonal variations, which are then aggregated into a compact global descriptor for retrieval. Most existing aggregation methods uniformly pool patch tokens into learned clusters, despite the fact that different clusters often encode distinct spatial or semantic patterns and contribute unequally to VPR performance. To address this limitation, we propose Weighted Aggregated Descriptor (WeiAD), which assigns weights to clusters during aggregation, producing more discriminative global representations. Beyond accuracy, retrieval latency is a critical concern for large-scale deployments and resource-constrained edge devices. Prior work mainly reduces latency by compressing global descriptors, while overlooking the cost of feature extraction, an issue exacerbated by ViT-based backbones. We therefore introduce WeiToP, a VPR-oriented token pruning framework that reduces feature extraction cost via self-distillation, where aggregation-induced token importance supervises a lightweight pruning module attached to an early transformer layer, enabling inference-time token pruning. After a single joint training phase, WeiToP enables plug-and-play token pruning at inference time, allowing flexible and on-demand control over the accuracy-efficiency trade-off without additional training. Moreover, WeiToP outperforms existing token pruning methods adapted from general vision tasks.",
+      "original_abstract": "Visual Place Recognition (VPR) aims to match a query image to reference images of the same place in a large-scale database. Recent state-of-the-art methods employ Vision Transformers (ViTs) as backbone foundation models to extract patch-level features that are robust to viewpoint, illumination, and seasonal variations, which are then aggregated into a compact global descriptor for retrieval. Most existing aggregation methods uniformly pool patch tokens into learned clusters, despite the fact that different clusters often encode distinct spatial or semantic patterns and contribute unequally to VPR performance. To address this limitation, we propose Weighted Aggregated Descriptor (WeiAD), which assigns weights to clusters during aggregation, producing more discriminative global representations. Beyond accuracy, retrieval latency is a critical concern for large-scale deployments and resource-constrained edge devices. Prior work mainly reduces latency by compressing global descriptors, while overlooking the cost of feature extraction, an issue exacerbated by ViT-based backbones. We therefore introduce WeiToP, a VPR-oriented token pruning framework that reduces feature extraction cost via self-distillation, where aggregation-induced token importance supervises a lightweight pruning module attached to an early transformer layer, enabling inference-time token pruning. After a single joint training phase, WeiToP enables plug-and-play token pruning at inference time, allowing flexible and on-demand control over the accuracy-efficiency trade-off without additional training. Moreover, WeiToP outperforms existing token pruning methods adapted from general vision tasks.",
+      "published_date": "2026-05-19T23:01:57Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.RO",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "scores": {
+        "relevance": 2.1,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2.3,
+        "recommendation": 7.07
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20551v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.20551v1"
+    },
+    {
+      "arxiv_id": "2605.20308v1",
+      "title": "SDM: A Powerful Tool for Evaluating Model Robustness",
+      "authors": [
+        "Xinlei Liu",
+        "Tao Hu",
+        "Jichao Xie",
+        "Peng Yi",
+        "Hailong Ma",
+        "Baolin Li"
+      ],
+      "affiliations": [],
+      "summary": "Gradient-based attacks are important methods for evaluating model robustness. However, since the proposal of APGD, it has been difficult for such methods to achieve significant breakthroughs. To achieve such an effect, we first analyze the issue of \"high-loss non-adversarial examples\" that degrades attack performance in previous methods, and prove that this issue arises from inappropriate objectives for adversarial example generation. Subsequently, we reconstruct the objective as \"maximizing the difference between the non-ground-truth label probability upper bound and the ground-truth label probability\", and proposes a novel and powerful gradient-based attack method named Sequential Difference Maximization (SDM). SDM establishes a three-layer optimization framework of \"cycle-stage-step\". It adopts the negative probability loss function and the Directional Probability Difference Ratio (DPDR) loss function in the initial and subsequent optimization stages, respectively, and approaches the ideal objective of adversarial example generation via stage-wise sequential optimization. Experiments demonstrate that compared with previous state-of-the-art methods, SDM not only achieves stronger attack performance but also exhibits superior cost-effectiveness. The code is available at https://github.com/X-L-Liu/ICML-SDM.",
+      "original_abstract": "Gradient-based attacks are important methods for evaluating model robustness. However, since the proposal of APGD, it has been difficult for such methods to achieve significant breakthroughs. To achieve such an effect, we first analyze the issue of \"high-loss non-adversarial examples\" that degrades attack performance in previous methods, and prove that this issue arises from inappropriate objectives for adversarial example generation. Subsequently, we reconstruct the objective as \"maximizing the difference between the non-ground-truth label probability upper bound and the ground-truth label probability\", and proposes a novel and powerful gradient-based attack method named Sequential Difference Maximization (SDM). SDM establishes a three-layer optimization framework of \"cycle-stage-step\". It adopts the negative probability loss function and the Directional Probability Difference Ratio (DPDR) loss function in the initial and subsequent optimization stages, respectively, and approaches the ideal objective of adversarial example generation via stage-wise sequential optimization. Experiments demonstrate that compared with previous state-of-the-art methods, SDM not only achieves stronger attack performance but also exhibits superior cost-effectiveness. The code is available at https://github.com/X-L-Liu/ICML-SDM.",
+      "published_date": "2026-05-19T16:10:24Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "scores": {
+        "relevance": 2.1,
+        "recency": 3,
+        "popularity": 1.5,
+        "quality": 2.3,
+        "recommendation": 7.07
+      },
+      "pdf_url": "https://arxiv.org/pdf/2605.20308v1",
+      "arxiv_url": "http://arxiv.org/abs/2605.20308v1"
+    }
+  ],
+  "total": 10
+}

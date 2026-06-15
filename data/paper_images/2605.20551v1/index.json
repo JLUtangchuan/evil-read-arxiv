@@ -1,0 +1,87 @@
+[
+  {
+    "filename": "AttnMap2_page1.png",
+    "url": "/api/images/2605.20551v1/AttnMap2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "FirstGraph_page1.png",
+    "url": "/api/images/2605.20551v1/FirstGraph_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "TokenPruning3-compressed_page1.png",
+    "url": "/api/images/2605.20551v1/TokenPruning3-compressed_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "Token_pruning_inference_page1.png",
+    "url": "/api/images/2605.20551v1/Token_pruning_inference_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "ablation_gamma2_page1.png",
+    "url": "/api/images/2605.20551v1/ablation_gamma2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "diff_cluster2_page1.png",
+    "url": "/api/images/2605.20551v1/diff_cluster2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "diff_cluster_page1.png",
+    "url": "/api/images/2605.20551v1/diff_cluster_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "diff_kppa_page1.png",
+    "url": "/api/images/2605.20551v1/diff_kppa_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "diff_layer2_page1.png",
+    "url": "/api/images/2605.20551v1/diff_layer2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "diff_size_latency_page1.png",
+    "url": "/api/images/2605.20551v1/diff_size_latency_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "model_comparison_recall1_vs_GFLOPs_xkcd_style3_page1.png",
+    "url": "/api/images/2605.20551v1/model_comparison_recall1_vs_GFLOPs_xkcd_style3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "model_comparison_recall1_vs_Latency_xkcd_style3_page1.png",
+    "url": "/api/images/2605.20551v1/model_comparison_recall1_vs_Latency_xkcd_style3_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "selected_patches_a_70_percent2_page1.png",
+    "url": "/api/images/2605.20551v1/selected_patches_a_70_percent2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "tokenizerpruning2_page1.png",
+    "url": "/api/images/2605.20551v1/tokenizerpruning2_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "tpappendix11_page1.png",
+    "url": "/api/images/2605.20551v1/tpappendix11_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "tpappendix13_page1.png",
+    "url": "/api/images/2605.20551v1/tpappendix13_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "training_stage__page1.png",
+    "url": "/api/images/2605.20551v1/training_stage__page1.png",
+    "source": "arxiv"
+  }
+]

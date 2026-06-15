@@ -1,0 +1,6242 @@
+{
+  "paper": {
+    "title": "DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving",
+    "year": 2024,
+    "citationCount": 296,
+    "paperId": "71d62a6c0b84604a376174cf728e36d6f3c23f1e",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2411-15139",
+      "ArXiv": "2411.15139",
+      "DOI": "10.1109/CVPR52734.2025.01124",
+      "CorpusId": 274192736
+    },
+    "url": ""
+  },
+  "citations": [
+    {
+      "title": "VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning",
+      "year": 2024,
+      "citationCount": 272,
+      "authors": [
+        "Shaoyu Chen",
+        "Bo Jiang",
+        "Hao Gao",
+        "Bencheng Liao",
+        "Qing Xu",
+        "Qian Zhang",
+        "Chang Huang",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2402.13243",
+        "DOI": "10.48550/arXiv.2402.13243"
+      },
+      "paperId": "f54c02f651b2568b00143c1fad2942860f353324",
+      "publicationDate": "2024-02-20"
+    },
+    {
+      "title": "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning",
+      "year": 2025,
+      "citationCount": 177,
+      "authors": [
+        "Zewei Zhou",
+        "Tianhui Cai",
+        "Seth Z. Zhao",
+        "Yun Zhang",
+        "Zhiyu Huang",
+        "Bolei Zhou",
+        "Jiaqi Ma"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2506.13757",
+        "DOI": "10.48550/arXiv.2506.13757"
+      },
+      "paperId": "989d24f3ab2c35b0698c42b800caab5246f6eb53",
+      "publicationDate": "2025-06-16"
+    },
+    {
+      "title": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 174,
+      "authors": [
+        "Shuang Zeng",
+        "Xinyuan Chang",
+        "Mengwei Xie",
+        "Xinran Liu",
+        "Yifan Bai",
+        "Zheng Pan",
+        "Mu Xu",
+        "Xing Wei"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.17685",
+        "DOI": "10.48550/arXiv.2505.17685"
+      },
+      "paperId": "b8e9b4da89f33288f45f5860321db37eb73eacb7",
+      "publicationDate": "2025-05-23"
+    },
+    {
+      "title": "Orion: A Holistic End-To-End Autonomous Driving Framework by Vision-Language Instructed Action Generation",
+      "year": 2025,
+      "citationCount": 154,
+      "authors": [
+        "Haoyu Fu",
+        "Diankun Zhang",
+        "Zongchuang Zhao",
+        "Jianfeng Cui",
+        "Dingkang Liang",
+        "Chong Zhang",
+        "Dingyuan Zhang",
+        "Hongwei Xie",
+        "Bing Wang",
+        "Xiang Bai"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2503.19755",
+        "DOI": "10.1109/ICCV51701.2025.02302"
+      },
+      "paperId": "fb80db450e5eda720b42570c8318191c4271d858",
+      "publicationDate": "2025-03-25"
+    },
+    {
+      "title": "OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model",
+      "year": 2025,
+      "citationCount": 149,
+      "authors": [
+        "Xingcheng Zhou",
+        "Xu Han",
+        "Feng Yang",
+        "Yunpu Ma",
+        "Alois Knoll"
+      ],
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "externalIds": {
+        "ArXiv": "2503.23463",
+        "DOI": "10.48550/arXiv.2503.23463"
+      },
+      "paperId": "b357a791b8a1e97846b094679f5f8aab462081ab",
+      "publicationDate": "2025-03-30"
+    },
+    {
+      "title": "ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 130,
+      "authors": [
+        "Yongkang Li",
+        "Kaixin Xiong",
+        "Xiangyu Guo",
+        "Fang Li",
+        "Sixu Yan",
+        "Gangwei Xu",
+        "Lijun Zhou",
+        "Long Chen",
+        "Haiyang Sun",
+        "Bing Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2506.08052",
+        "DOI": "10.48550/arXiv.2506.08052"
+      },
+      "paperId": "d156419f15359c75e703522046d70a17261e7bdf",
+      "publicationDate": "2025-06-09"
+    },
+    {
+      "title": "End-to-End Driving with Online Trajectory Evaluation via BEV World Model",
+      "year": 2025,
+      "citationCount": 122,
+      "authors": [
+        "Yingyan Li",
+        "Yu-Quan Wang",
+        "Yang Liu",
+        "Jiawei He",
+        "Lue Fan",
+        "Zhaoxiang Zhang"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2504.01941",
+        "DOI": "10.1109/ICCV51701.2025.02519"
+      },
+      "paperId": "ef44309e88648ac91984baf7ffad8f78c5d25be5",
+      "publicationDate": "2025-04-02"
+    },
+    {
+      "title": "AlphaDrive: Unleashing the Power of VLMs in Autonomous Driving via Reinforcement Learning and Reasoning",
+      "year": 2025,
+      "citationCount": 95,
+      "authors": [
+        "Bo Jiang",
+        "Shaoyu Chen",
+        "Qian Zhang",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2503.07608",
+        "DOI": "10.48550/arXiv.2503.07608"
+      },
+      "paperId": "bc9a9db1654213a153a83c2817f8fcad990e0c1a",
+      "publicationDate": "2025-03-10"
+    },
+    {
+      "title": "RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-based Reinforcement Learning",
+      "year": 2025,
+      "citationCount": 73,
+      "authors": [
+        "Hao Gao",
+        "Shaoyu Chen",
+        "Bo Jiang",
+        "Bencheng Liao",
+        "Yiang Shi",
+        "Xiaoyang Guo",
+        "Yuechuan Pu",
+        "Haoran Yin",
+        "Xiangyu Li",
+        "Xinbang Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2502.13144",
+        "DOI": "10.48550/arXiv.2502.13144"
+      },
+      "paperId": "75bf60502ab1e9a1325f817c37ab83c4ee129037",
+      "publicationDate": "2025-02-18"
+    },
+    {
+      "title": "DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving",
+      "year": 2025,
+      "citationCount": 69,
+      "authors": [
+        "Yingyan Li",
+        "Shuyao Shang",
+        "Weisong Liu",
+        "Bing Zhan",
+        "Haochen Wang",
+        "Yu-Quan Wang",
+        "Yuntao Chen",
+        "Xiaoman Wang",
+        "Yasong An",
+        "Chufeng Tang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.12796",
+        "DOI": "10.48550/arXiv.2510.12796"
+      },
+      "paperId": "3b1e5374d070547c2e419afddeff208dd1709775",
+      "publicationDate": "2025-10-14"
+    },
+    {
+      "title": "A Survey on Vision-Language-Action Models for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 67,
+      "authors": [
+        "Sicong Jiang",
+        "Zilin Huang",
+        "Kangan Qian",
+        "Ziang Luo",
+        "Tianze Zhu",
+        "Yang Zhong",
+        "Yihong Tang",
+        "Menglin Kong",
+        "Yunlong Wang",
+        "Siwen Jiao"
+      ],
+      "venue": "2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
+      "externalIds": {
+        "ArXiv": "2506.24044",
+        "DOI": "10.1109/ICCVW69036.2025.00476"
+      },
+      "paperId": "b61abd58e9b5f701a70648c4de6a77708cb7644c",
+      "publicationDate": "2025-06-30"
+    },
+    {
+      "title": "DriveSuprim: Towards Precise Trajectory Selection for End-to-End Planning",
+      "year": 2025,
+      "citationCount": 64,
+      "authors": [
+        "Wenhao Yao",
+        "Zhenxin Li",
+        "Shiyi Lan",
+        "Zi Wang",
+        "Xinglong Sun",
+        "José M. Álvarez",
+        "Zuxuan Wu"
+      ],
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "externalIds": {
+        "ArXiv": "2506.06659",
+        "DOI": "10.48550/arXiv.2506.06659"
+      },
+      "paperId": "53052faf897c8f27dfcf1974beebb9fa3fd37969",
+      "publicationDate": "2025-06-07"
+    },
+    {
+      "title": "DiffVLA: Vision-Language Guided Diffusion Planning for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 58,
+      "authors": [
+        "Anqing Jiang",
+        "Yu Gao",
+        "Zhigang Sun",
+        "Yiru Wang",
+        "Jijun Wang",
+        "Jinghao Chai",
+        "Qian Cao",
+        "Yuwen Heng",
+        "Hao Jiang",
+        "Zongzheng Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.19381",
+        "DOI": "10.48550/arXiv.2505.19381"
+      },
+      "paperId": "a08764058571a3e1e01d5a6320c816bee0866851",
+      "publicationDate": "2025-05-26"
+    },
+    {
+      "title": "DiG: Scalable and Efficient Diffusion Models with Gated Linear Attention",
+      "year": 2024,
+      "citationCount": 54,
+      "authors": [
+        "Lianghui Zhu",
+        "Zilong Huang",
+        "Bencheng Liao",
+        "J. Liew",
+        "Hanshu Yan",
+        "Jiashi Feng",
+        "Xinggang Wang"
+      ],
+      "venue": "Computer Vision and Pattern Recognition",
+      "externalIds": {
+        "ArXiv": "2405.18428",
+        "DOI": "10.1109/CVPR52734.2025.00718"
+      },
+      "paperId": "519457273a81054fce311e4b5a24abc613ec5883",
+      "publicationDate": "2024-05-28"
+    },
+    {
+      "title": "ARTEMIS: Autoregressive End-to-End Trajectory Planning With Mixture of Experts for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 53,
+      "authors": [
+        "Renju Feng",
+        "Ning Xi",
+        "Duanfeng Chu",
+        "Rukang Wang",
+        "Zejian Deng",
+        "Anzhen Wang",
+        "Liping Lu",
+        "Jinxiang Wang",
+        "Yanjun Huang"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "2504.19580",
+        "DOI": "10.1109/LRA.2025.3632616"
+      },
+      "paperId": "d841f70a922255b87a0edf7a97a9bc565896134a",
+      "publicationDate": "2025-04-28"
+    },
+    {
+      "title": "TrackVLA: Embodied Visual Tracking in the Wild",
+      "year": 2025,
+      "citationCount": 48,
+      "authors": [
+        "Shaoan Wang",
+        "Jiazhao Zhang",
+        "Minghan Li",
+        "Jiahang Liu",
+        "Anqi Li",
+        "Kui Wu",
+        "Fangwei Zhong",
+        "Junzhi Yu",
+        "Zhizheng Zhang",
+        "He Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.23189",
+        "DOI": "10.48550/arXiv.2505.23189"
+      },
+      "paperId": "49c94fc0a94ae51bfb4fe99765ea1a95940c46a0",
+      "publicationDate": "2025-05-29"
+    },
+    {
+      "title": "Embodied Navigation Foundation Model",
+      "year": 2025,
+      "citationCount": 46,
+      "authors": [
+        "Jiazhao Zhang",
+        "Anqi Li",
+        "Yunpeng Qi",
+        "Minghan Li",
+        "Jiahang Liu",
+        "Shaoan Wang",
+        "Haoran Liu",
+        "G. Zhou",
+        "Yuze Wu",
+        "Xingxing Li"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.12129",
+        "DOI": "10.48550/arXiv.2509.12129"
+      },
+      "paperId": "59ee9510111c9174c2c2812e1ccfe31f347f1a6f",
+      "publicationDate": "2025-09-15"
+    },
+    {
+      "title": "Hydra-NeXt: Robust Closed-Loop Driving with Open-Loop Training",
+      "year": 2025,
+      "citationCount": 41,
+      "authors": [
+        "Zhenxin Li",
+        "Shihao Wang",
+        "Shiyi Lan",
+        "Zhiding Yu",
+        "Zuxuan Wu",
+        "José M. Álvarez"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2503.12030",
+        "DOI": "10.1109/ICCV51701.2025.02535"
+      },
+      "paperId": "d0cf41e02810b804bf2b419648ab36440150a4ab",
+      "publicationDate": "2025-03-15"
+    },
+    {
+      "title": "Generalized Trajectory Scoring for End-to-end Multimodal Planning",
+      "year": 2025,
+      "citationCount": 40,
+      "authors": [
+        "Zhenxin Li",
+        "Wenhao Yao",
+        "Zi Wang",
+        "Xinglong Sun",
+        "Joshua Chen",
+        "Nadine Chang",
+        "Maying Shen",
+        "Zuxuan Wu",
+        "Shiyi Lan",
+        "José M. Álvarez"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2506.06664",
+        "DOI": "10.48550/arXiv.2506.06664"
+      },
+      "paperId": "fa38dfdf71bc220cdc6ff7392d879de906735e73",
+      "publicationDate": "2025-06-07"
+    },
+    {
+      "title": "Centaur: Robust End-to-End Autonomous Driving with Test-Time Training",
+      "year": 2025,
+      "citationCount": 36,
+      "authors": [
+        "Chonghao Sima",
+        "Kashyap Chitta",
+        "Zhiding Yu",
+        "Shiyi Lan",
+        "Ping Luo",
+        "Andreas Geiger",
+        "Hongyang Li",
+        "José M. Álvarez"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2503.11650",
+        "DOI": "10.48550/arXiv.2503.11650"
+      },
+      "paperId": "7edebc6a07456938db2e4c3ab171a2df293ee121",
+      "publicationDate": "2025-03-14"
+    },
+    {
+      "title": "Generative Trajectory Stitching through Diffusion Composition",
+      "year": 2025,
+      "citationCount": 35,
+      "authors": [
+        "Yunhao Luo",
+        "U. A. Mishra",
+        "Yilun Du",
+        "Danfei Xu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2503.05153",
+        "DOI": "10.48550/arXiv.2503.05153"
+      },
+      "paperId": "54f661403d21e8de34029d4e37a29c040af8c3b1",
+      "publicationDate": "2025-03-07"
+    },
+    {
+      "title": "How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective",
+      "year": 2025,
+      "citationCount": 32,
+      "authors": [
+        "Songsong Yu",
+        "Yuxin Chen",
+        "Hao Ju",
+        "Lianjie Jia",
+        "Fuxi Zhang",
+        "Shaofei Huang",
+        "Yuhan Wu",
+        "R. Cui",
+        "Binghao Ran",
+        "Zaibin Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.18905",
+        "DOI": "10.48550/arXiv.2509.18905"
+      },
+      "paperId": "69133f7e0d69b07a20dd01366ad59d5f82c267ab",
+      "publicationDate": "2025-09-23"
+    },
+    {
+      "title": "HiP-AD: Hierarchical and Multi-Granularity Planning with Deformable Attention for Autonomous Driving in a Single Decoder",
+      "year": 2025,
+      "citationCount": 32,
+      "authors": [
+        "Yingqi Tang",
+        "Zhuo Xu",
+        "Zhaotie Meng",
+        "Erkang Cheng"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2503.08612",
+        "DOI": "10.1109/ICCV51701.2025.02375"
+      },
+      "paperId": "6013766685fd10abcdfd4995dadb31ce3346403c",
+      "publicationDate": "2025-03-11"
+    },
+    {
+      "title": "iPad: Iterative Proposal-centric End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 31,
+      "authors": [
+        "Ke Guo",
+        "Haochen Liu",
+        "Xiaojun Wu",
+        "Jia Pan",
+        "Chen Lv"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.15111",
+        "DOI": "10.48550/arXiv.2505.15111"
+      },
+      "paperId": "4f8b21c1ea7194753b23a97c82c143ebd87ac8e2",
+      "publicationDate": "2025-05-21"
+    },
+    {
+      "title": "End-to-End Autonomous Driving Without Costly Modularization and 3D Manual Annotation",
+      "year": 2024,
+      "citationCount": 30,
+      "authors": [
+        "Mingzhe Guo",
+        "Zhipeng Zhang",
+        "Yuan He",
+        "Ke Wang",
+        "Liping Jing",
+        "Haibin Ling"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "externalIds": {
+        "ArXiv": "2406.17680",
+        "DOI": "10.1109/TPAMI.2025.3610517"
+      },
+      "paperId": "660336998a61926a6ae299ff5736dbcf04963f5d",
+      "publicationDate": "2024-06-25"
+    },
+    {
+      "title": "Finetuning Generative Trajectory Model with Reinforcement Learning from Human Feedback",
+      "year": 2025,
+      "citationCount": 30,
+      "authors": [
+        "Derun Li",
+        "Jianwei Ren",
+        "Yue Wang",
+        "Xin Wen",
+        "Pengxiang Li",
+        "Leimeng Xu",
+        "Kun Zhan",
+        "Zhongpu Xia",
+        "Peng Jia",
+        "Xianpeng Lang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.48550/arXiv.2503.10434"
+      },
+      "paperId": "c6d6b18f01139b14c9da215eeb025da83988a47c",
+      "publicationDate": null
+    },
+    {
+      "title": "DriveDPO: Policy Learning via Safety DPO For End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 29,
+      "authors": [
+        "Shuyao Shang",
+        "Yuntao Chen",
+        "Yu-Quan Wang",
+        "Yingyan Li",
+        "Zhaoxiang Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.17940",
+        "DOI": "10.48550/arXiv.2509.17940"
+      },
+      "paperId": "ed68534d5a8da7b097b1a6ec4ddb7b24a185a361",
+      "publicationDate": "2025-09-22"
+    },
+    {
+      "title": "AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 29,
+      "authors": [
+        "Yuechen Luo",
+        "Fang Li",
+        "Shaoqing Xu",
+        "Zhiyi Lai",
+        "Lei Yang",
+        "Qimao Chen",
+        "Ziang Luo",
+        "Zixun Xie",
+        "Shengyin Jiang",
+        "Jiaxin Liu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.13769",
+        "DOI": "10.48550/arXiv.2509.13769"
+      },
+      "paperId": "53c48b1d929a635104bebac273ce04b6fb645c3d",
+      "publicationDate": "2025-09-17"
+    },
+    {
+      "title": "Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future",
+      "year": 2025,
+      "citationCount": 28,
+      "authors": [
+        "Tianshuai Hu",
+        "Xiaolu Liu",
+        "Song Wang",
+        "Yiyao Zhu",
+        "Ao Liang",
+        "Lingdong Kong",
+        "Guoyang Zhao",
+        "Zeying Gong",
+        "Jun Cen",
+        "Zhiyu Huang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.16760",
+        "DOI": "10.48550/arXiv.2512.16760"
+      },
+      "paperId": "08b7debb4e2a06bac6b0dc6b8a86300123cd2f61",
+      "publicationDate": "2025-12-18"
+    },
+    {
+      "title": "DiffAD: A Unified Diffusion Modeling Approach for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 26,
+      "authors": [
+        "Tao Wang",
+        "Conglang Zhang",
+        "Xingguang Qu",
+        "Kun Li",
+        "Weiwei Liu",
+        "Chang Huang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2503.12170",
+        "DOI": "10.48550/arXiv.2503.12170"
+      },
+      "paperId": "6e176095db231c6c8d603de1a368c43a9115666e",
+      "publicationDate": "2025-03-15"
+    },
+    {
+      "title": "DiffusionDriveV2: Reinforcement Learning-Constrained Truncated Diffusion Modeling in End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 25,
+      "authors": [
+        "Jialv Zou",
+        "Shaoyu Chen",
+        "Bencheng Liao",
+        "Zhiyu Zheng",
+        "Yuehao Song",
+        "Lefei Zhang",
+        "Qian Zhang",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.07745",
+        "DOI": "10.48550/arXiv.2512.07745"
+      },
+      "paperId": "987a87eccf89991a46db9610f9b396b988056b14",
+      "publicationDate": "2025-12-08"
+    },
+    {
+      "title": "ReasonPlan: Unified Scene Prediction and Decision Reasoning for Closed-loop Autonomous Driving",
+      "year": 2025,
+      "citationCount": 25,
+      "authors": [
+        "Xueyi Liu",
+        "Zuodong Zhong",
+        "Yuxin Guo",
+        "Yun-Fu Liu",
+        "Zhiguo Su",
+        "Qichao Zhang",
+        "Junli Wang",
+        "Yinfeng Gao",
+        "Yupeng Zheng",
+        "Qiao Lin"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.20024",
+        "DOI": "10.48550/arXiv.2505.20024"
+      },
+      "paperId": "93d758f71700aff5c66453a5b8d5ed53d9231f52",
+      "publicationDate": "2025-05-26"
+    },
+    {
+      "title": "RAP: 3D Rasterization Augmented End-to-End Planning",
+      "year": 2025,
+      "citationCount": 24,
+      "authors": [
+        "Lang Feng",
+        "Yang Gao",
+        "É. Zablocki",
+        "Quanyi Li",
+        "Wuyang Li",
+        "Sichao Liu",
+        "Matthieu Cord",
+        "Alexandre Alahi"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.04333",
+        "DOI": "10.48550/arXiv.2510.04333"
+      },
+      "paperId": "c82716e5e686d581b995cb598b16614e4af62bf7",
+      "publicationDate": "2025-10-05"
+    },
+    {
+      "title": "DriveLaW:Unifying Planning and Video Generation in a Latent Driving World",
+      "year": 2025,
+      "citationCount": 23,
+      "authors": [
+        "Tian Xia",
+        "Yongkang Li",
+        "Lijun Zhou",
+        "Jingfeng Yao",
+        "Kaixin Xiong",
+        "Haiyang Sun",
+        "Bing Wang",
+        "Kun Ma",
+        "Guang Chen",
+        "Hangjun Ye"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.23421",
+        "DOI": "10.48550/arXiv.2512.23421"
+      },
+      "paperId": "21a7ace0b23dc4bb393717f143f1e518f363d9fb",
+      "publicationDate": "2025-12-29"
+    },
+    {
+      "title": "SimScale: Learning to Drive via Real-World Simulation at Scale",
+      "year": 2025,
+      "citationCount": 23,
+      "authors": [
+        "Haochen Tian",
+        "Tianyu Li",
+        "Haochen Liu",
+        "Jiazhi Yang",
+        "Yihang Qiu",
+        "Guang Li",
+        "Junli Wang",
+        "Yinfeng Gao",
+        "Zhang Zhang",
+        "Liang Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.23369",
+        "DOI": "10.48550/arXiv.2511.23369"
+      },
+      "paperId": "038334bbcc1b60a745bd834e4ed003d890a82291",
+      "publicationDate": "2025-11-28"
+    },
+    {
+      "title": "Transformer-Based Autonomous Driving Models and Deployment-Oriented Compression: A Survey",
+      "year": 2023,
+      "citationCount": 21,
+      "authors": [
+        "J. Zhong",
+        "Zheng Liu",
+        "Xiangshan Chen"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2304.10891",
+        "DOI": ""
+      },
+      "paperId": "d7b5dbc170200e3610489421f32fd5050ccc8356",
+      "publicationDate": "2023-04-21"
+    },
+    {
+      "title": "DIVER: Reinforced Diffusion Breaks Imitation Bottlenecks in End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 18,
+      "authors": [
+        "Ziying Song",
+        "Lin Liu",
+        "Hongyu Pan",
+        "Bencheng Liao",
+        "M. Guo",
+        "Lei Yang",
+        "Yongchang Zhang",
+        "Shaoqing Xu",
+        "Caiyan Jia",
+        "Yadan Luo"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2507.04049",
+        "DOI": ""
+      },
+      "paperId": "7d4c312728fd0b44fd3a94d458a6a7feaac009a3",
+      "publicationDate": "2025-07-05"
+    },
+    {
+      "title": "Reinforced Refinement With Self-Aware Expansion for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 18,
+      "authors": [
+        "Haochen Liu",
+        "Tianyu Li",
+        "Haohan Yang",
+        "Li Chen",
+        "Caojun Wang",
+        "Ke Guo",
+        "Haochen Tian",
+        "Hongchen Li",
+        "Hongyang Li",
+        "Chen Lv"
+      ],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "externalIds": {
+        "ArXiv": "2506.09800",
+        "DOI": "10.1109/TPAMI.2026.3653866"
+      },
+      "paperId": "9d349f6cd41f734739150a8662054b6a6672cf10",
+      "publicationDate": "2025-06-11"
+    },
+    {
+      "title": "MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning",
+      "year": 2025,
+      "citationCount": 17,
+      "authors": [
+        "Haoyu Fu",
+        "Diankun Zhang",
+        "Zongchuang Zhao",
+        "Jianfeng Cui",
+        "Hongwei Xie",
+        "Bing Wang",
+        "Guang Chen",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.13636",
+        "DOI": "10.48550/arXiv.2512.13636"
+      },
+      "paperId": "80b2a03848c5bf428112eadd6dfdd4a93003e5d8",
+      "publicationDate": "2025-12-15"
+    },
+    {
+      "title": "GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 17,
+      "authors": [
+        "Lin Liu",
+        "Caiyan Jia",
+        "Guanyi Yu",
+        "Ziying Song",
+        "Junqiao Li",
+        "Feiyang Jia",
+        "Peiliang Wu",
+        "Xiaoshuai Hao",
+        "Yandan Luo"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.18729",
+        "DOI": "10.48550/arXiv.2511.18729"
+      },
+      "paperId": "2d9f86670ef696a9ff28f21893bce20e5f5053d6",
+      "publicationDate": "2025-11-24"
+    },
+    {
+      "title": "From Forecasting to Planning: Policy World Model for Collaborative State-Action Prediction",
+      "year": 2025,
+      "citationCount": 16,
+      "authors": [
+        "Zhida Zhao",
+        "Talas Fu",
+        "Yifan Wang",
+        "Lijun Wang",
+        "Huchuan Lu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.19654",
+        "DOI": "10.48550/arXiv.2510.19654"
+      },
+      "paperId": "601c4c4313c53a12a1aaea374d8866d1e9c9e238",
+      "publicationDate": "2025-10-22"
+    },
+    {
+      "title": "Discrete Diffusion for Reflective Vision-Language-Action Models in Autonomous Driving",
+      "year": 2025,
+      "citationCount": 16,
+      "authors": [
+        "Pengxiang Li",
+        "Yinan Zheng",
+        "Yue Wang",
+        "Huimin Wang",
+        "Hang Zhao",
+        "Jingjing Liu",
+        "Xianyuan Zhan",
+        "Kun Zhan",
+        "Xianpeng Lang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.20109",
+        "DOI": "10.48550/arXiv.2509.20109"
+      },
+      "paperId": "89afbe92bda911f8197e695009e1b00276282457",
+      "publicationDate": "2025-09-24"
+    },
+    {
+      "title": "Flow Matching-Based Autonomous Driving Planning with Advanced Interactive Behavior Modeling",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        "Tianyi Tan",
+        "Yinan Zheng",
+        "Ruiming Liang",
+        "Zexu Wang",
+        "Kexin Zheng",
+        "Jinliang Zheng",
+        "Jianxiong Li",
+        "Xianyuan Zhan",
+        "Jingjing Liu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.11083",
+        "DOI": "10.48550/arXiv.2510.11083"
+      },
+      "paperId": "c4f9742b268902a3a1d0da9e85037ec75932a0dd",
+      "publicationDate": "2025-10-13"
+    },
+    {
+      "title": "DistillDrive: End-to-End Multi-Mode Autonomous Driving Distillation by Isomorphic Hetero-Source Planning Model",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        "Rui Yu",
+        "Xiang Zhang",
+        "Runkai Zhao",
+        "Huaicheng Yan",
+        "Meng Wang"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2508.05402",
+        "DOI": "10.1109/ICCV51701.2025.02430"
+      },
+      "paperId": "7de319fe0342c08eb0545fab0822f3a1b8c4f269",
+      "publicationDate": "2025-08-07"
+    },
+    {
+      "title": "ReAL-AD: Towards Human-Like Reasoning in End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        "Yuhang Lu",
+        "Jiadong Tu",
+        "Yuexin Ma",
+        "Xinge Zhu"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2507.12499",
+        "DOI": "10.1109/ICCV51701.2025.02579"
+      },
+      "paperId": "8e4b1d086301ff3a32d78ed5c883674ccb8a9f40",
+      "publicationDate": "2025-07-16"
+    },
+    {
+      "title": "StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        "Ruiyang Hao",
+        "Bowen Jing",
+        "Haibao Yu",
+        "Zaiqing Nie"
+      ],
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "externalIds": {
+        "ArXiv": "2506.23982",
+        "DOI": "10.48550/arXiv.2506.23982"
+      },
+      "paperId": "b407a5ed9315c8c094bbc4ae4e88e7b606ef2134",
+      "publicationDate": "2025-06-30"
+    },
+    {
+      "title": "DriveX: Omni Scene Modeling for Learning Generalizable World Knowledge in Autonomous Driving",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        "Chen Shi",
+        "Shaoshuai Shi",
+        "Kehua Sheng",
+        "Bo Zhang",
+        "Li Jiang"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2505.19239",
+        "DOI": "10.1109/ICCV51701.2025.02656"
+      },
+      "paperId": "beeffdb164c83f739b02673d6b98df150cc9a078",
+      "publicationDate": "2025-05-25"
+    },
+    {
+      "title": "Challenger: Affordable Adversarial Driving Video Generation",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        "Zhiyuan Xu",
+        "Bohan Li",
+        "Huan-ang Gao",
+        "M. Gao",
+        "Yong Chen",
+        "Ming Liu",
+        "Chenxu Yan",
+        "Hang Zhao",
+        "Shuo Feng",
+        "Hao Zhao"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.15880",
+        "DOI": "10.48550/arXiv.2505.15880"
+      },
+      "paperId": "0d25ce266757c88d3ec5601d97d0df41129b3af6",
+      "publicationDate": "2025-05-21"
+    },
+    {
+      "title": "VDT-Auto: End-to-end Autonomous Driving with VLM-Guided Diffusion Transformers",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        "Ziang Guo",
+        "Konstantin Gubernatorov",
+        "Selamawit Asfaw",
+        "Zakhar Yagudin",
+        "D. Tsetserukou"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2502.20108",
+        "DOI": "10.48550/arXiv.2502.20108"
+      },
+      "paperId": "68b6e46533d0b2b8f8255999d8783e9238d030be",
+      "publicationDate": "2025-02-27"
+    },
+    {
+      "title": "TransDiffuser: End-to-end Trajectory Generation with Decorrelated Multi-modal Representation for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 15,
+      "authors": [
+        "Xue Jiang",
+        "Yuan Ma",
+        "Pengxiang Li",
+        "Leimeng Xu",
+        "Xin Wen",
+        "Kun Zhan",
+        "Zhongpu Xia",
+        "Peng Jia",
+        "Xianpeng Lang",
+        "Sheng Sun"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.48550/arXiv.2505.09315"
+      },
+      "paperId": "4b17af7a98471c3be053e460576ad42c5f8c962b",
+      "publicationDate": null
+    },
+    {
+      "title": "VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 14,
+      "authors": [
+        "Jie Wang",
+        "Guang Li",
+        "Zhijian Huang",
+        "Chenxu Dang",
+        "Hangjun Ye",
+        "Yahong Han",
+        "Long Chen"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.20794",
+        "DOI": "10.48550/arXiv.2602.20794"
+      },
+      "paperId": "3f1615cce110d303ac2c1139b9054f1fd61fd586",
+      "publicationDate": "2026-02-24"
+    },
+    {
+      "title": "AD-R1: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving with Impartial World Models",
+      "year": 2025,
+      "citationCount": 14,
+      "authors": [
+        "Tianyi Yan",
+        "Tao Tang",
+        "Xingtai Gui",
+        "Yongkang Li",
+        "Jiasen Zhesng",
+        "Weiyao Huang",
+        "Lingdong Kong",
+        "Wencheng Han",
+        "Xia Zhou",
+        "Xueyang Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.20325",
+        "DOI": "10.48550/arXiv.2511.20325"
+      },
+      "paperId": "0fb561492690b2ab0cdf0ff90e2ad745e5010f6c",
+      "publicationDate": "2025-11-25"
+    },
+    {
+      "title": "BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving",
+      "year": 2025,
+      "citationCount": 14,
+      "authors": [
+        "Shu Liu",
+        "Wenlin Chen",
+        "Weihao Li",
+        "Zheng Wang",
+        "Lijin Yang",
+        "Jianing Huang",
+        "Yipin Zhang",
+        "Zhongzhan Huang",
+        "Ze Cheng",
+        "Hao Yang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.23589",
+        "DOI": "10.48550/arXiv.2509.23589"
+      },
+      "paperId": "770bf76926e528e00439005beec3e3a533c3c2f1",
+      "publicationDate": "2025-09-28"
+    },
+    {
+      "title": "Learning Personalized Driving Styles via Reinforcement Learning from Human Feedback",
+      "year": 2025,
+      "citationCount": 14,
+      "authors": [
+        "Derun Li",
+        "Changye Li",
+        "Yue Wang",
+        "Jianwei Ren",
+        "Xin Wen",
+        "Pengxiang Li",
+        "Leimeng Xu",
+        "Kun Zhan",
+        "Peng Jia",
+        "Xianpeng Lang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2503.10434",
+        "DOI": ""
+      },
+      "paperId": "03f0d177fe3d201e8739716963592865ad2d9527",
+      "publicationDate": "2025-03-13"
+    },
+    {
+      "title": "Driving on Registers",
+      "year": 2026,
+      "citationCount": 13,
+      "authors": [
+        "Ellington Kirby",
+        "A. Boulch",
+        "Yihong Xu",
+        "Yuan Yin",
+        "Gilles Puy",
+        "'Eloi Zablocki",
+        "Andrei Bursuc",
+        "Spyros Gidaris",
+        "Renaud Marlet",
+        "Florent Bartoccioni"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2601.05083",
+        "DOI": "10.48550/arXiv.2601.05083"
+      },
+      "paperId": "9529377ee46ba1b04af7118329145ed95277e215",
+      "publicationDate": "2026-01-08"
+    },
+    {
+      "title": "ZTRS: Zero-Imitation End-to-end Autonomous Driving with Trajectory Scoring",
+      "year": 2025,
+      "citationCount": 13,
+      "authors": [
+        "Zhenxin Li",
+        "Wenhao Yao",
+        "Zi Wang",
+        "Xinglong Sun",
+        "Jingde Chen",
+        "Nadine Chang",
+        "Maying Shen",
+        "Jingyu Song",
+        "Zuxuan Wu",
+        "Shiyi Lan"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.24108",
+        "DOI": "10.48550/arXiv.2510.24108"
+      },
+      "paperId": "4a5aa29f9c209a0016a26bc9d2f683888b916143",
+      "publicationDate": "2025-10-28"
+    },
+    {
+      "title": "ImagiDrive: A Unified Imagination-and-Planning Framework for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 13,
+      "authors": [
+        "Jingyu Li",
+        "Bozhou Zhang",
+        "Xin Jin",
+        "Jiankang Deng",
+        "Xiatian Zhu",
+        "Li Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2508.11428",
+        "DOI": "10.48550/arXiv.2508.11428"
+      },
+      "paperId": "8473f4956c6ec03eac23607d9c7e86478c4c2320",
+      "publicationDate": "2025-08-15"
+    },
+    {
+      "title": "From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning",
+      "year": 2025,
+      "citationCount": 13,
+      "authors": [
+        "Honglin He",
+        "Yukai Ma",
+        "Wayne Wu",
+        "Bolei Zhou"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2507.22028",
+        "DOI": "10.48550/arXiv.2507.22028"
+      },
+      "paperId": "d924ae5d405152ec8822a06ac7359201376b3e85",
+      "publicationDate": "2025-07-29"
+    },
+    {
+      "title": "LLM-Based World Models Can Make Decisions Solely, But Rigorous Evaluations are Needed",
+      "year": 2024,
+      "citationCount": 13,
+      "authors": [
+        "Chang Yang",
+        "Xinrun Wang",
+        "Junzhe Jiang",
+        "Qinggang Zhang",
+        "Xiao Huang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2411.08794",
+        "DOI": ""
+      },
+      "paperId": "4a11a02e7b191d3f7e36219f29108b11799f5cad",
+      "publicationDate": "2024-11-13"
+    },
+    {
+      "title": "Multi-Modal Manipulation via Multi-Modal Policy Consensus",
+      "year": 2025,
+      "citationCount": 12,
+      "authors": [
+        "Haonan Chen",
+        "Jiaming Xu",
+        "Hongyu Chen",
+        "Kaiwen Hong",
+        "Binghao Huang",
+        "Chaoqi Liu",
+        "Jiayuan Mao",
+        "Yunzhu Li",
+        "Yilun Du",
+        "K. Driggs-Campbell"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.23468",
+        "DOI": "10.48550/arXiv.2509.23468"
+      },
+      "paperId": "90da8f3fcb647ca8fb5e29de11188ab02ed69a97",
+      "publicationDate": "2025-09-27"
+    },
+    {
+      "title": "GaussianFusion: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 12,
+      "authors": [
+        "Shuai Liu",
+        "Quanmin Liang",
+        "Zefeng Li",
+        "Boyang Li",
+        "Kai Huang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2506.00034",
+        "DOI": "10.48550/arXiv.2506.00034"
+      },
+      "paperId": "442e948901ac2755a3f05f0be5853adf6f649471",
+      "publicationDate": "2025-05-27"
+    },
+    {
+      "title": "ResAD: Normalized Residual Trajectory Modeling for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 11,
+      "authors": [
+        "Zhiyu Zheng",
+        "Shaoyu Chen",
+        "Haoran Yin",
+        "Xinbang Zhang",
+        "Jialv Zou",
+        "Xinggang Wang",
+        "Qian Zhang",
+        "Lefei Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.08562",
+        "DOI": "10.48550/arXiv.2510.08562"
+      },
+      "paperId": "3e765f3736060890679cfbdcda10b99c44a10336",
+      "publicationDate": "2025-10-09"
+    },
+    {
+      "title": "Enhancing Text-to-Image Diffusion Transformer via Split-Text Conditioning",
+      "year": 2025,
+      "citationCount": 11,
+      "authors": [
+        "Yu Zhang",
+        "Jialei Zhou",
+        "Xinchen Li",
+        "Qi Zhang",
+        "Zhongwei Wan",
+        "Tianyu Wang",
+        "Duoqian Miao",
+        "Changwei Wang",
+        "Longbing Cao"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.19261",
+        "DOI": "10.48550/arXiv.2505.19261"
+      },
+      "paperId": "31382c8a37b5d6631213524d057f601feb277886",
+      "publicationDate": "2025-05-25"
+    },
+    {
+      "title": "Decoupled Diffusion Sparks Adaptive Scene Generation",
+      "year": 2025,
+      "citationCount": 11,
+      "authors": [
+        "Yunsong Zhou",
+        "Naisheng Ye",
+        "William Ljungbergh",
+        "Tianyu Li",
+        "Jiazhi Yang",
+        "Zetong Yang",
+        "Hongzi Zhu",
+        "Christoffer Petersson",
+        "Hongyang Li"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2504.10485",
+        "DOI": "10.1109/ICCV51701.2025.02577"
+      },
+      "paperId": "f7221f0e81ab6590ad1afcbcce88debbbf0d0cf4",
+      "publicationDate": "2025-04-14"
+    },
+    {
+      "title": "InsightDrive: Insight Scene Representation for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 11,
+      "authors": [
+        "Ruiqi Song",
+        "Xianda Guo",
+        "Hangbin Wu",
+        "Qinggong Wei",
+        "Long Chen"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2503.13047",
+        "DOI": "10.48550/arXiv.2503.13047"
+      },
+      "paperId": "3d44626fe73c2b5ee301c36b61cc25500ad4caf9",
+      "publicationDate": "2025-03-17"
+    },
+    {
+      "title": "SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 10,
+      "authors": [
+        "Wenchao Sun",
+        "Xuewu Lin",
+        "Keyu Chen",
+        "Zi-Hui Pei",
+        "Xiang Li",
+        "Yining Shi",
+        "Sifa Zheng"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.29163",
+        "DOI": ""
+      },
+      "paperId": "3e12cb5932c5444e692fd7d5fd494924ea36164e",
+      "publicationDate": "2026-03-31"
+    },
+    {
+      "title": "SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving",
+      "year": 2025,
+      "citationCount": 10,
+      "authors": [
+        "Peizheng Li",
+        "Zheng Zhang",
+        "D. Holtz",
+        "Hang Yu",
+        "Yutong Yang",
+        "Yuzhi Lai",
+        "Rui Song",
+        "Andreas Geiger",
+        "Andreas Zell"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.10719",
+        "DOI": "10.48550/arXiv.2512.10719"
+      },
+      "paperId": "2d8ad37389dde915df68cf203cf972785446cbcf",
+      "publicationDate": "2025-12-11"
+    },
+    {
+      "title": "UniUGP: Unifying Understanding, Generation, and Planing For End-to-end Autonomous Driving",
+      "year": 2025,
+      "citationCount": 10,
+      "authors": [
+        "Hao Lu",
+        "Ziyang Liu",
+        "Guangfeng Jiang",
+        "Yuanfei Luo",
+        "Sheng Chen",
+        "Yangang Zhang",
+        "Ying-Cong Chen"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.09864",
+        "DOI": "10.48550/arXiv.2512.09864"
+      },
+      "paperId": "2a0fa0be8403241e94298b71ba26b75d9297a3ce",
+      "publicationDate": "2025-12-10"
+    },
+    {
+      "title": "WAM-Flow: Parallel Coarse-to-Fine Motion Planning via Discrete Flow Matching for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 10,
+      "authors": [
+        "Yifang Xu",
+        "Jiahao Cui",
+        "Feipeng Cai",
+        "Zhihao Zhu",
+        "Hanlin Shang",
+        "Shan Luan",
+        "Mingwang Xu",
+        "Neng Zhang",
+        "Yaoyi Li",
+        "Jia Cai"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.06112",
+        "DOI": "10.48550/arXiv.2512.06112"
+      },
+      "paperId": "2f554d4f6d67c4c976890ff586fa2fb9df2e1ef4",
+      "publicationDate": "2025-12-05"
+    },
+    {
+      "title": "PRIX: Learning to Plan From Raw Pixels for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 10,
+      "authors": [
+        "Maciej K. Wozniak",
+        "Lian Liu",
+        "Yixi Cai",
+        "P. Jensfelt"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "2507.17596",
+        "DOI": "10.1109/LRA.2026.3678836"
+      },
+      "paperId": "af2a1c9d91f2c8e8457b35b4a13d5edf09c2a9c3",
+      "publicationDate": "2025-07-23"
+    },
+    {
+      "title": "MagicWorld: Interactive Geometry-driven Video World Exploration",
+      "year": 2025,
+      "citationCount": 10,
+      "authors": [
+        "Guangyuan Li",
+        "Siming Zheng",
+        "Shuolin Xu",
+        "Jinwei Chen",
+        "Bo Li",
+        "Xiaobin Hu",
+        "Lei Zhao",
+        "Peng-Tao Jiang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.48550/arXiv.2511.18886"
+      },
+      "paperId": "d0fb42793bc5ed25c96e773c3b6293b042ba312f",
+      "publicationDate": null
+    },
+    {
+      "title": "ResWorld: Temporal Residual World Model for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 9,
+      "authors": [
+        "Jinqing Zhang",
+        "Zehua Fu",
+        "Zelin Xu",
+        "Wenying Dai",
+        "Qingjie Liu",
+        "Yunhong Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.10884",
+        "DOI": "10.48550/arXiv.2602.10884"
+      },
+      "paperId": "d1dbeaa50aafe449335ac3689f832462f816fc51",
+      "publicationDate": "2026-02-11"
+    },
+    {
+      "title": "Poutine: Vision-Language-Trajectory Pre-Training and Reinforcement Learning Post-Training Enable Robust End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 9,
+      "authors": [
+        "Luke Rowe",
+        "Rodrigue de Schaetzen",
+        "Roger Girgis",
+        "Christopher Pal",
+        "Liam Paull"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2506.11234",
+        "DOI": "10.48550/arXiv.2506.11234"
+      },
+      "paperId": "cf68283efdab3bafb3bb0ba54bc2568a4940415f",
+      "publicationDate": "2025-06-12"
+    },
+    {
+      "title": "DiffE2E: Rethinking End-to-End Driving with a Hybrid Action Diffusion and Supervised Policy",
+      "year": 2025,
+      "citationCount": 9,
+      "authors": [
+        "Rui Zhao",
+        "Yuze Fan",
+        "Ziguo Chen",
+        "Fei Gao",
+        "Zhenhai Gao"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.19516",
+        "DOI": "10.48550/arXiv.2505.19516"
+      },
+      "paperId": "0b9afe4dcee9488476cf8720d92cbacd235124a2",
+      "publicationDate": "2025-05-26"
+    },
+    {
+      "title": "Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures",
+      "year": 2026,
+      "citationCount": 8,
+      "authors": [
+        "Yuechen Luo",
+        "Qimao Chen",
+        "Fang Li",
+        "Shaoqing Xu",
+        "Jaxin Liu",
+        "Ziying Song",
+        "Zhi-Xin Yang",
+        "Fuxi Wen"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2603.01063",
+        "DOI": "10.48550/arXiv.2603.01063"
+      },
+      "paperId": "41e0015b169fe1d459ddfb8f38f54b6b6718a222",
+      "publicationDate": "2026-03-01"
+    },
+    {
+      "title": "Model-Based Policy Adaptation for Closed-Loop End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 8,
+      "authors": [
+        "Hao-ming Lin",
+        "Yunzhi Zhang",
+        "Wenhao Ding",
+        "Jiajun Wu",
+        "Ding Zhao",
+        "Cmu",
+        "Nvidia"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.21584",
+        "DOI": "10.48550/arXiv.2511.21584"
+      },
+      "paperId": "bebf797b700b158f5ba73296d155ca702f558f27",
+      "publicationDate": "2025-11-26"
+    },
+    {
+      "title": "Percept-WAM: Perception-Enhanced World-Awareness-Action Model for Robust End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 8,
+      "authors": [
+        "Jianhua Han",
+        "Meng Tian",
+        "Jiangtong Zhu",
+        "Fang He",
+        "Huixin Zhang",
+        "Sitong Guo",
+        "Dechang Zhu",
+        "Hao Tang",
+        "Pei Xu",
+        "Yuze Guo"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.19221",
+        "DOI": "10.48550/arXiv.2511.19221"
+      },
+      "paperId": "9b13350418e8f1bb3439f64d12026c84da9caca0",
+      "publicationDate": "2025-11-24"
+    },
+    {
+      "title": "Stability Under Scrutiny: Benchmarking Representation Paradigms for Online HD Mapping",
+      "year": 2025,
+      "citationCount": 8,
+      "authors": [
+        "Hao Shan",
+        "Ruikai Li",
+        "Han Jiang",
+        "Yizhe Fan",
+        "Ziyang Yan",
+        "Bohan Li",
+        "Xiaoshuai Hao",
+        "Hao Zhao",
+        "Zhiyong Cui",
+        "Yilong Ren"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.10660",
+        "DOI": "10.48550/arXiv.2510.10660"
+      },
+      "paperId": "a314305209371df770390a183cad2a819cdebee4",
+      "publicationDate": "2025-10-12"
+    },
+    {
+      "title": "NoRD: A Data-Efficient Vision-Language-Action Model that Drives without Reasoning",
+      "year": 2026,
+      "citationCount": 7,
+      "authors": [
+        "I. Rawal",
+        "Shubh Gupta",
+        "Yihan Hu",
+        "Wei Zhan"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.21172",
+        "DOI": "10.48550/arXiv.2602.21172"
+      },
+      "paperId": "1dbc97f49abe9fd5271081913b61586c365a82c9",
+      "publicationDate": "2026-02-24"
+    },
+    {
+      "title": "DriveFine: Refining-Augmented Masked Diffusion VLA for Precise and Robust Driving",
+      "year": 2026,
+      "citationCount": 7,
+      "authors": [
+        "Chenxu Dang",
+        "Sining Ang",
+        "Yongkang Li",
+        "Haochen Tian",
+        "Jie Wang",
+        "Guang Li",
+        "Hangjun Ye",
+        "Jie Ma",
+        "Long Chen",
+        "Yan Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.14577",
+        "DOI": "10.48550/arXiv.2602.14577"
+      },
+      "paperId": "becb272a570a8e99387164925e07298657b825f5",
+      "publicationDate": "2026-02-16"
+    },
+    {
+      "title": "DiffusionVL: Translating Any Autoregressive Models into Diffusion Vision Language Models",
+      "year": 2025,
+      "citationCount": 7,
+      "authors": [
+        "Lunbin Zeng",
+        "Jingfeng Yao",
+        "Bencheng Liao",
+        "Hongyuan Tao",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.15713",
+        "DOI": "10.48550/arXiv.2512.15713"
+      },
+      "paperId": "86173152d17102a2d2c8d3fefa63bb00db2a640a",
+      "publicationDate": "2025-12-17"
+    },
+    {
+      "title": "MTRDrive: Memory-Tool Synergistic Reasoning for Robust Autonomous Driving in Corner Cases",
+      "year": 2025,
+      "citationCount": 7,
+      "authors": [
+        "Ziang Luo",
+        "Kangan Qian",
+        "Jiahua Wang",
+        "Yuechen Luo",
+        "Jinyu Miao",
+        "Zheng Fu",
+        "Yunlong Wang",
+        "Sicong Jiang",
+        "Zilin Huang",
+        "Yifei Hu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.20843",
+        "DOI": "10.48550/arXiv.2509.20843"
+      },
+      "paperId": "dcd33c36287c015a51d91fd66e453b6a0c139c95",
+      "publicationDate": "2025-09-25"
+    },
+    {
+      "title": "Astra: Toward General-Purpose Mobile Robots via Hierarchical Multimodal Learning",
+      "year": 2025,
+      "citationCount": 7,
+      "authors": [
+        "Sheng Chen",
+        "Peiyu He",
+        "Jiaxin Hu",
+        "Ziyang Liu",
+        "Yansheng Wang",
+        "Tao Xu",
+        "Chi Zhang",
+        "Chong Zhang",
+        "Chao An",
+        "Shiyu Cai"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2506.06205",
+        "DOI": "10.48550/arXiv.2506.06205"
+      },
+      "paperId": "32e329b4e0a2277ca899e555f119c5f7ff9b1b80",
+      "publicationDate": "2025-06-06"
+    },
+    {
+      "title": "SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model",
+      "year": 2026,
+      "citationCount": 6,
+      "authors": [
+        "Zewei Zhou",
+        "Ruining Yang",
+        "Xuewei Qi",
+        "Yiluan Guo",
+        "Sherry X Chen",
+        "Tao Feng",
+        "Kateryna Pistunova",
+        "Yishan Shen",
+        "Lili Su",
+        "Jiaqi Ma"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.19710",
+        "DOI": ""
+      },
+      "paperId": "e48a663d584e3cff8935987ebeb1615909cfbeb2",
+      "publicationDate": "2026-04-21"
+    },
+    {
+      "title": "ParkGaussian: Surround-view 3D Gaussian Splatting for Autonomous Parking",
+      "year": 2026,
+      "citationCount": 6,
+      "authors": [
+        "Xiaobao Wei",
+        "Zhangjie Ye",
+        "Yuxiang Gu",
+        "Zunjie Zhu",
+        "Yunfei Guo",
+        "Yingying Shen",
+        "Shan Zhao",
+        "Ming Lu",
+        "Haiyang Sun",
+        "Bing Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2601.01386",
+        "DOI": "10.48550/arXiv.2601.01386"
+      },
+      "paperId": "dc7a47b91cc252010f0aac36043485944495f62a",
+      "publicationDate": "2026-01-04"
+    },
+    {
+      "title": "ColaVLA: Leveraging Cognitive Latent Reasoning for Hierarchical Parallel Trajectory Planning in Autonomous Driving",
+      "year": 2025,
+      "citationCount": 6,
+      "authors": [
+        "Qihang Peng",
+        "Xuesong Chen",
+        "Chen Yang",
+        "Shaoshuai Shi",
+        "Hongsheng Li"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.22939",
+        "DOI": "10.48550/arXiv.2512.22939"
+      },
+      "paperId": "049b9036c5c702b2eb694603ba0dd0510f2c37d6",
+      "publicationDate": "2025-12-28"
+    },
+    {
+      "title": "TrajDiff: End-to-end Autonomous Driving without Perception Annotation",
+      "year": 2025,
+      "citationCount": 6,
+      "authors": [
+        "Xingtai Gui",
+        "Jianbo Zhao",
+        "Wencheng Han",
+        "Jikai Wang",
+        "Jiahao Gong",
+        "Feiyang Tan",
+        "Cheng-Zhong Xu",
+        "Jianbing Shen"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.00723",
+        "DOI": "10.48550/arXiv.2512.00723"
+      },
+      "paperId": "024b2c9c9a21d879cdd46fe006fbe1f46372e841",
+      "publicationDate": "2025-11-30"
+    },
+    {
+      "title": "Diffusion Models for Reinforcement Learning: Foundations, Taxonomy, and Development",
+      "year": 2025,
+      "citationCount": 6,
+      "authors": [
+        "Changfu Xu",
+        "Jianxiong Guo",
+        "Yuzhu Liang",
+        "Haiyang Huang",
+        "Haodong Zou",
+        "Xi Zheng",
+        "Shui Yu",
+        "Xiaowen Chu",
+        "Jiannong Cao",
+        "Tian Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.12253",
+        "DOI": "10.48550/arXiv.2510.12253"
+      },
+      "paperId": "186d907d331396b2a67c9882696ace8f2fef3a91",
+      "publicationDate": "2025-10-14"
+    },
+    {
+      "title": "Enhancing Physical Consistency in Lightweight World Models",
+      "year": 2025,
+      "citationCount": 6,
+      "authors": [
+        "Dingrui Wang",
+        "Zhexiao Sun",
+        "Zhouheng Li",
+        "Cheng Wang",
+        "Youlun Peng",
+        "Hongyuan Ye",
+        "Baha Zarrouki",
+        "Wei Li",
+        "Mattia Piccinini",
+        "Lei Xie"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.12437",
+        "DOI": "10.48550/arXiv.2509.12437"
+      },
+      "paperId": "3b69813018ffff7d2e2f93cf975660075fce57a3",
+      "publicationDate": "2025-09-15"
+    },
+    {
+      "title": "FocalAD: Local Motion Planning for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 6,
+      "authors": [
+        "Bin Sun",
+        "Boao Zhang",
+        "Jiayi Lu",
+        "Xinjie Feng",
+        "Jiachen Shang",
+        "Rui Cao",
+        "Mengchao Zheng",
+        "Chuanye Wang",
+        "Shichun Yang",
+        "Yaoguang Cao"
+      ],
+      "venue": "Automotive Innovation",
+      "externalIds": {
+        "ArXiv": "2506.11419",
+        "DOI": "10.1007/s42154-025-00465-6"
+      },
+      "paperId": "e92a3b7c5fba54f30a1b3f9d2c77c6b4cbc9b5d9",
+      "publicationDate": "2025-06-13"
+    },
+    {
+      "title": "RealEngine: Simulating Autonomous Driving in Realistic Context",
+      "year": 2025,
+      "citationCount": 6,
+      "authors": [
+        "Junzhe Jiang",
+        "Nan Song",
+        "Jingyu Li",
+        "Xiatian Zhu",
+        "Li Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.16902",
+        "DOI": "10.48550/arXiv.2505.16902"
+      },
+      "paperId": "092357d5a41c29edc71386a24c27434300505eb3",
+      "publicationDate": "2025-05-22"
+    },
+    {
+      "title": "LatentVLA: Efficient Vision-Language Models for Autonomous Driving via Latent Action Prediction",
+      "year": 2026,
+      "citationCount": 6,
+      "authors": [
+        "Chengen Xie",
+        "Bin Sun",
+        "Tianyu Li",
+        "Junjie Wu",
+        "Zhihui Hao",
+        "XianPeng Lang",
+        "Hongyang Li"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.48550/arXiv.2601.05611"
+      },
+      "paperId": "542e538e8e52ec6ce9d3d097973de86dc927e18f",
+      "publicationDate": null
+    },
+    {
+      "title": "DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale",
+      "year": 2026,
+      "citationCount": 5,
+      "authors": [
+        "Sicheng Zuo",
+        "Zixun Xie",
+        "Wenzhao Zheng",
+        "Shaoqing Xu",
+        "Fang Li",
+        "Hanbing Li",
+        "Long Chen",
+        "Zhi-Xin Yang",
+        "Jiwen Lu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.00813",
+        "DOI": ""
+      },
+      "paperId": "f73a657f03c411b1c7f6dbf26538140d91c5a460",
+      "publicationDate": "2026-04-01"
+    },
+    {
+      "title": "Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models",
+      "year": 2026,
+      "citationCount": 5,
+      "authors": [
+        "Canyu Chen",
+        "Yuguang Yang",
+        "Zhewen Tan",
+        "Yizhi Wang",
+        "R. Zhan",
+        "Haiyang Liu",
+        "Xuanyao Mao",
+        "Jason Bao",
+        "Xinyue Tang",
+        "Linlin Yang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.06049",
+        "DOI": ""
+      },
+      "paperId": "a9a109b80610c2d6d015fb14bc168a9bbde917f5",
+      "publicationDate": "2026-03-06"
+    },
+    {
+      "title": "PlannerRFT: Reinforcing Diffusion Planners through Closed-Loop and Sample-Efficient Fine-Tuning",
+      "year": 2026,
+      "citationCount": 5,
+      "authors": [
+        "Hongchen Li",
+        "Tianyu Li",
+        "Jiazhi Yang",
+        "Haochen Tian",
+        "Caojun Wang",
+        "Lei Shi",
+        "Mingyang Shang",
+        "Zengrong Lin",
+        "Ga Wu",
+        "Zhihui Hao"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2601.12901",
+        "DOI": "10.48550/arXiv.2601.12901"
+      },
+      "paperId": "298d27e6ef49e61c4132e0a055343bdcae98f293",
+      "publicationDate": "2026-01-19"
+    },
+    {
+      "title": "FutureX: Enhance End-to-End Autonomous Driving via Latent Chain-of-Thought World Model",
+      "year": 2025,
+      "citationCount": 5,
+      "authors": [
+        "Hongbin Lin",
+        "Yiming Yang",
+        "Yifan Zhang",
+        "Chaoda Zheng",
+        "Jie Feng",
+        "Sheng Wang",
+        "Zhennan Wang",
+        "Shijia Chen",
+        "Boyang Wang",
+        "Yu Zhang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.11226",
+        "DOI": "10.48550/arXiv.2512.11226"
+      },
+      "paperId": "af5c33294d38353b4e1101d906dfcb2b7af62893",
+      "publicationDate": "2025-12-12"
+    },
+    {
+      "title": "WAM-Diff: A Masked Diffusion VLA Framework with MoE and Online Reinforcement Learning for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 5,
+      "authors": [
+        "Mingwang Xu",
+        "Jiahao Cui",
+        "Feipeng Cai",
+        "Hanlin Shang",
+        "Zhihao Zhu",
+        "Shan Luan",
+        "Yifang Xu",
+        "Neng Zhang",
+        "Yaoyi Li",
+        "Jia Cai"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.11872",
+        "DOI": "10.48550/arXiv.2512.11872"
+      },
+      "paperId": "8a235f1d121842a67b3ec6dd3bf29b72c0a3bd44",
+      "publicationDate": "2025-12-06"
+    },
+    {
+      "title": "FlowDrive: moderated flow matching with data balancing for trajectory planning",
+      "year": 2025,
+      "citationCount": 5,
+      "authors": [
+        "Lingguang Wang",
+        "Ömer Sahin Tas",
+        "Marlon Steiner",
+        "Christoph Stiller"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.21961",
+        "DOI": "10.48550/arXiv.2509.21961"
+      },
+      "paperId": "1a0b542351f3aff9df55cb8645cdfafa8034c976",
+      "publicationDate": "2025-09-26"
+    },
+    {
+      "title": "Risk Map as Middleware: Toward Interpretable Cooperative End-to-End Autonomous Driving for Risk-Aware Planning",
+      "year": 2025,
+      "citationCount": 5,
+      "authors": [
+        "Mingyue Lei",
+        "Zewei Zhou",
+        "Hongchen Li",
+        "Jiaqi Ma",
+        "Jia Hu"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "2508.07686",
+        "DOI": "10.1109/LRA.2025.3636031"
+      },
+      "paperId": "2669bea2e9f59964e734f8629ed4c747e66a1218",
+      "publicationDate": "2025-08-11"
+    },
+    {
+      "title": "Fine-tuning Diffusion Policies with Backpropagation Through Diffusion Timesteps",
+      "year": 2025,
+      "citationCount": 5,
+      "authors": [
+        "Ning Yang",
+        "Jiaxuan Gao",
+        "Feng Gao",
+        "Yi Wu",
+        "Chao Yu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.10482",
+        "DOI": "10.48550/arXiv.2505.10482"
+      },
+      "paperId": "aebcfc4139508b7912c2d7bdb6cce0d2e790ae88",
+      "publicationDate": "2025-05-15"
+    },
+    {
+      "title": "BridgeSim: Unveiling the OL-CL Gap in End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 4,
+      "authors": [
+        "Seth Z. Zhao",
+        "Luobin Wang",
+        "H. Ruan",
+        "Yu Bao",
+        "Yilan Chen",
+        "Ziyang Leng",
+        "Abhijit Ravichandran",
+        "Honglin He",
+        "Zewei Zhou",
+        "Xu Han"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.10856",
+        "DOI": ""
+      },
+      "paperId": "e44e845e57159b8807872376a196f9196e3fdafe",
+      "publicationDate": "2026-04-12"
+    },
+    {
+      "title": "Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 4,
+      "authors": [
+        "Linbo Wang",
+        "Yupeng Zheng",
+        "Qiangyu Chen",
+        "Shiwei Li",
+        "Yichen Zhang",
+        "Zebin Xing",
+        "Qichao Zhang",
+        "Xiang Li",
+        "Deheng Qian",
+        "Pengxuan Yang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.24581",
+        "DOI": ""
+      },
+      "paperId": "712a034ff6eb0b74c61e72af410ede496a62c9b0",
+      "publicationDate": "2026-03-25"
+    },
+    {
+      "title": "CausalVAD: De-confounding End-to-End Autonomous Driving via Causal Intervention",
+      "year": 2026,
+      "citationCount": 4,
+      "authors": [
+        "Jiacheng Tang",
+        "Zhiyuan Zhou",
+        "Zhuolin He",
+        "Jia Zhang",
+        "Kai Zhang",
+        "Jian Pu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.18561",
+        "DOI": ""
+      },
+      "paperId": "4fef9d5e7da1d3e73c2959c60f2f96b3cd1d60bc",
+      "publicationDate": "2026-03-19"
+    },
+    {
+      "title": "Bridging Scene Generation and Planning: Driving with World Model via Unifying Vision and Motion Representation",
+      "year": 2026,
+      "citationCount": 4,
+      "authors": [
+        "Xingtai Gui",
+        "Mei-Je Zhang",
+        "Tianyi Yan",
+        "Wencheng Han",
+        "Jiahao Gong",
+        "Feiyang Tan",
+        "Cheng-Zhong Xu",
+        "Jianbing Shen"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.14948",
+        "DOI": ""
+      },
+      "paperId": "a6c094d0e379161d78289d3cacf347f0786f9998",
+      "publicationDate": "2026-03-16"
+    },
+    {
+      "title": "Unleashing the Potential of Diffusion Models for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 4,
+      "authors": [
+        "Yinan Zheng",
+        "Tianyi Tan",
+        "Bingjiang Huang",
+        "Enguang Liu",
+        "Ruiming Liang",
+        "Jianlin Zhang",
+        "Jianwei Cui",
+        "Guang Chen",
+        "Kun Ma",
+        "Hangjun Ye"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.22801",
+        "DOI": "10.48550/arXiv.2602.22801"
+      },
+      "paperId": "37100e87899a71697ac2d281bc1434a9fbd46d15",
+      "publicationDate": "2026-02-26"
+    },
+    {
+      "title": "SafeDrive: Fine-Grained Safety Reasoning for End-to-End Driving in a Sparse World",
+      "year": 2026,
+      "citationCount": 4,
+      "authors": [
+        "Jungho Kim",
+        "Jiyong Oh",
+        "S. Yu",
+        "Hongjae Shin",
+        "D. Kwak",
+        "J. Choi"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.18887",
+        "DOI": "10.48550/arXiv.2602.18887"
+      },
+      "paperId": "bed1322acc45b08b2a7ab5ca0fa3b73368875671",
+      "publicationDate": "2026-02-21"
+    },
+    {
+      "title": "Spatial Retrieval Augmented Autonomous Driving",
+      "year": 2025,
+      "citationCount": 4,
+      "authors": [
+        "Xiaosong Jia",
+        "Chenhe Zhang",
+        "Y. Jiang",
+        "Songbur Wong",
+        "Zhiyuan Zhang",
+        "Chen Chen",
+        "Shaofeng Zhang",
+        "Xu-Liu Zhou",
+        "Xue Yang",
+        "Junchi Yan"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.06865",
+        "DOI": "10.48550/arXiv.2512.06865"
+      },
+      "paperId": "63f2479277a06c5e4d95ef1fd16db17d906ef611",
+      "publicationDate": "2025-12-07"
+    },
+    {
+      "title": "HENet++: Hybrid Encoding and Multi-task Learning for 3D Perception and End-to-end Autonomous Driving",
+      "year": 2025,
+      "citationCount": 4,
+      "authors": [
+        "Zhongyu Xia",
+        "Zhiwei Lin",
+        "Yongtao Wang",
+        "Ming-Hsuan Yang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.07106",
+        "DOI": "10.48550/arXiv.2511.07106"
+      },
+      "paperId": "2d9565977b2c7d8f393063c7ebdc765a8781da17",
+      "publicationDate": "2025-11-10"
+    },
+    {
+      "title": "VR-Drive: Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting",
+      "year": 2025,
+      "citationCount": 4,
+      "authors": [
+        "Hoonhee Cho",
+        "Jae-Young Kang",
+        "Giwon Lee",
+        "Hyemin Yang",
+        "Heejun Park",
+        "Seokwoo Jung",
+        "Kuk-Jin Yoon"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.23205",
+        "DOI": "10.48550/arXiv.2510.23205"
+      },
+      "paperId": "5a2af0715a9dbef295f91168a15b3ed59511deb4",
+      "publicationDate": "2025-10-27"
+    },
+    {
+      "title": "PriorFusion: Unified Integration of Priors for Robust Road Perception in Autonomous Driving",
+      "year": 2025,
+      "citationCount": 4,
+      "authors": [
+        "Xuewei Tang",
+        "Mengmeng Yang",
+        "Tuopu Wen",
+        "Peijin Jia",
+        "Le Cui",
+        "Mingshan Luo",
+        "Kehua Sheng",
+        "Bo Zhang",
+        "Diange Yang",
+        "Kun Jiang"
+      ],
+      "venue": "Communications in Transportation Research",
+      "externalIds": {
+        "ArXiv": "2507.23309",
+        "DOI": "10.48550/arXiv.2507.23309"
+      },
+      "paperId": "c48c615b4d834bea646c841e0a9939c06345f197",
+      "publicationDate": "2025-07-31"
+    },
+    {
+      "title": "GEMINUS: Dual-aware Global and Scene-Adaptive Mixture-of-Experts for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 4,
+      "authors": [
+        "Chi Wan",
+        "Yixin Cui",
+        "Jiatong Du",
+        "Shuo Yang",
+        "Yulong Bai",
+        "Yanjun Huang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2507.14456",
+        "DOI": "10.48550/arXiv.2507.14456"
+      },
+      "paperId": "a377f17f928660092f7e96d8a9f79b189e6d4535",
+      "publicationDate": "2025-07-19"
+    },
+    {
+      "title": "SafeMVDrive: Multi-view Safety-Critical Driving Video Synthesis in the Real World Domain",
+      "year": 2025,
+      "citationCount": 4,
+      "authors": [
+        "Jiawei Zhou",
+        "Linye Lyu",
+        "Zhuotao Tian",
+        "Cheng Zhuo",
+        "Yu Li"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.17727",
+        "DOI": "10.48550/arXiv.2505.17727"
+      },
+      "paperId": "6dfa003409aceef7e3745bf31250dbec9bace8bb",
+      "publicationDate": "2025-05-23"
+    },
+    {
+      "title": "Generative AI for Autonomous Driving: A Review",
+      "year": 2025,
+      "citationCount": 4,
+      "authors": [
+        "Katharina Winter",
+        "A. Vivekanandan",
+        "Rupert Polley",
+        "Yinzhe Shen",
+        "Christian Schlauch",
+        "Mohamed-Khalil Bouzidi",
+        "Bojan Derajić",
+        "Natalie Grabowsky",
+        "Annajoyce Mariani",
+        "Dennis Rochau"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.15863",
+        "DOI": "10.48550/arXiv.2505.15863"
+      },
+      "paperId": "b2a988ca779e548ba665d0db170ebe2800088fc8",
+      "publicationDate": "2025-05-21"
+    },
+    {
+      "title": "TransDiffuser: Diverse Trajectory Generation with Decorrelated Multi-modal Representation for End-to-end Autonomous Driving",
+      "year": 2025,
+      "citationCount": 4,
+      "authors": [
+        "Xuefeng Jiang",
+        "Yuan Ma",
+        "Pengxiang Li",
+        "Leimeng Xu",
+        "Xin Wen",
+        "Kun Zhan",
+        "Zhongpu Xia",
+        "Peng Jia",
+        "Xianpeng Lang",
+        "Sheng Sun"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2505.09315",
+        "DOI": ""
+      },
+      "paperId": "21e161c863d66d0dc6e3e58f5bb7f54a2a28a81e",
+      "publicationDate": "2025-05-14"
+    },
+    {
+      "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
+      "year": 2026,
+      "citationCount": 3,
+      "authors": [
+        "Yang Zhou",
+        "Xiaofeng Wang",
+        "Hao Shao",
+        "Letian Wang",
+        "Guosheng Zhao",
+        "Jiangnan Shao",
+        "Jiagang Zhu",
+        "Ting Yu",
+        "Zhengqiu Zhu",
+        "Guan Huang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.01765",
+        "DOI": ""
+      },
+      "paperId": "8361aa3d152b0f613dc3835d1acbdea4e30a1c4a",
+      "publicationDate": "2026-04-02"
+    },
+    {
+      "title": "$AutoDrive\\text{-}P^3$: Unified Chain of Perception-Prediction-Planning Thought via Reinforcement Fine-Tuning",
+      "year": 2026,
+      "citationCount": 3,
+      "authors": [
+        "Yuqi Ye",
+        "Zijian Zhang",
+        "Junhong Lin",
+        "Shangkun Sun",
+        "Changhao Peng",
+        "Wei Gao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.28116",
+        "DOI": ""
+      },
+      "paperId": "5075b660619c65cc576be5e828494f33f5e26c95",
+      "publicationDate": "2026-03-30"
+    },
+    {
+      "title": "Uni-World VLA: Interleaved World Modeling and Planning for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 3,
+      "authors": [
+        "Qiqin Liu",
+        "Huan Xu",
+        "Jingyu Li",
+        "Bin Sun",
+        "Zhihui Hao",
+        "Dangen She",
+        "Xiatian Zhu",
+        "Li Zhang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.27287",
+        "DOI": ""
+      },
+      "paperId": "417a8415a5165c8bd4a4b522201494aa40db7735",
+      "publicationDate": "2026-03-28"
+    },
+    {
+      "title": "Learning from Mistakes: Post-Training for Driving VLA with Takeover Data",
+      "year": 2026,
+      "citationCount": 3,
+      "authors": [
+        "Yinfeng Gao",
+        "Deqing Liu",
+        "Qichao Zhang",
+        "Yupeng Zheng",
+        "Haochen Tian",
+        "Guangyang Li",
+        "Hangjun Ye",
+        "Long Chen",
+        "Dandan Ding",
+        "Dongbin Zhao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.14972",
+        "DOI": ""
+      },
+      "paperId": "ff0def4dd32ba854041f0f7df9a9771a887d81d5",
+      "publicationDate": "2026-03-16"
+    },
+    {
+      "title": "Fine-tuning is Not Enough: A Parallel Framework for Collaborative Imitation and Reinforcement Learning in End-to-end Autonomous Driving",
+      "year": 2026,
+      "citationCount": 3,
+      "authors": [
+        "Zhexi Lian",
+        "Haoran Wang",
+        "Xuerun Yan",
+        "Weimeng Lin",
+        "Xianhong Zhang",
+        "Yongyun Chen",
+        "Jia Hu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.13842",
+        "DOI": ""
+      },
+      "paperId": "239fbaf21a3f48115d290d769ccc7be91f5ddc88",
+      "publicationDate": "2026-03-14"
+    },
+    {
+      "title": "Unifying Language-Action Understanding and Generation for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 3,
+      "authors": [
+        "Xinyang Wang",
+        "Qiang Liu",
+        "Wenjie Ding",
+        "Zhao Yang",
+        "Wei Li",
+        "Chang Liu",
+        "Bailin Li",
+        "Kun Zhan",
+        "Xianpeng Lang",
+        "Wei Chen"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2603.01441",
+        "DOI": "10.48550/arXiv.2603.01441"
+      },
+      "paperId": "68bb6281827dbe1afaa43bcfdac822f333220716",
+      "publicationDate": "2026-03-02"
+    },
+    {
+      "title": "MindDriver: Introducing Progressive Multimodal Reasoning for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 3,
+      "authors": [
+        "Lingjun Zhang",
+        "Yujian Yuan",
+        "Chang Jie Wu",
+        "Xinyuan Chang",
+        "Xinyu Cai",
+        "Shuang Zeng",
+        "Linzhe Shi",
+        "Sijin Wang",
+        "Hang Zhang",
+        "Mu Xu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.21952",
+        "DOI": "10.48550/arXiv.2602.21952"
+      },
+      "paperId": "8f6514be5a1f1c80797dc9ab392cf222a7fc2ad6",
+      "publicationDate": "2026-02-25"
+    },
+    {
+      "title": "SparseOccVLA: Bridging Occupancy and Vision-Language Models via Sparse Queries for Unified 4D Scene Understanding and Planning",
+      "year": 2026,
+      "citationCount": 3,
+      "authors": [
+        "Chenxu Dang",
+        "Jie Wang",
+        "Guang Li",
+        "Zhiwen Hou",
+        "Zihan You",
+        "Hangjun Ye",
+        "Jie Ma",
+        "Long Chen",
+        "Yan Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2601.06474",
+        "DOI": "10.48550/arXiv.2601.06474"
+      },
+      "paperId": "873c83f009f300e0d5cdd122c8903e6694dc07cf",
+      "publicationDate": "2026-01-10"
+    },
+    {
+      "title": "KnowVal: A Knowledge-Augmented and Value-Guided Autonomous Driving System",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Zhongyu Xia",
+        "Wenhao Chen",
+        "Yongtao Wang",
+        "Ming-Hsuan Yang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.20299",
+        "DOI": "10.48550/arXiv.2512.20299"
+      },
+      "paperId": "bfcfd43994c0fdca9b863b7eab8285597a199279",
+      "publicationDate": "2025-12-23"
+    },
+    {
+      "title": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Zhaohui Wang",
+        "Tengbo Yu",
+        "Hao Tang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.22532",
+        "DOI": "10.48550/arXiv.2511.22532"
+      },
+      "paperId": "1fd4e18813ad998ad7eb247bb50e31e6496db938",
+      "publicationDate": "2025-11-27"
+    },
+    {
+      "title": "SimpleVSF: VLM-Scoring Fusion for Trajectory Prediction of End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Peiru Zheng",
+        "Yun Zhao",
+        "Zhan Gong",
+        "Hong Zhu",
+        "Shaohua Wu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.17191",
+        "DOI": "10.48550/arXiv.2510.17191"
+      },
+      "paperId": "fc6f8bb2dc804ee1fd163afde0e02d05b7def979",
+      "publicationDate": "2025-10-20"
+    },
+    {
+      "title": "FlowDrive: Energy Flow Field for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Hao Jiang",
+        "Zhipeng Zhang",
+        "Yu Gao",
+        "Zhigang Sun",
+        "Yiru Wang",
+        "Yuwen Heng",
+        "Shuo Wang",
+        "Jinhao Chai",
+        "Zhuo Chen",
+        "Hao Zhao"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.14303",
+        "DOI": "10.48550/arXiv.2509.14303"
+      },
+      "paperId": "179f467b09324cd3a50acada69ed3d91d77b59d6",
+      "publicationDate": "2025-09-17"
+    },
+    {
+      "title": "SpaRC-AD: A Baseline for Radar-Camera Fusion in End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Philipp Wolters",
+        "Johannes Gilg",
+        "Torben Teepe",
+        "Gerhard Rigoll"
+      ],
+      "venue": "2025 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)",
+      "externalIds": {
+        "ArXiv": "2508.10567",
+        "DOI": "10.1109/ICCVW69036.2025.00193"
+      },
+      "paperId": "851ae1dfcad7ae9ba38bf5f7f05bcdffcffd71dc",
+      "publicationDate": "2025-08-14"
+    },
+    {
+      "title": "Causal-Entity Reflected Egocentric Traffic Accident Video Synthesis",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Lei-lei Li",
+        "Jianwu Fang",
+        "Junbin Xiao",
+        "Shanmin Pang",
+        "Hongkai Yu",
+        "Chen Lv",
+        "Jianru Xue",
+        "Tat-Seng Chua"
+      ],
+      "venue": "IEEE International Conference on Computer Vision",
+      "externalIds": {
+        "ArXiv": "2506.23263",
+        "DOI": "10.1109/ICCV51701.2025.01043"
+      },
+      "paperId": "4d749bc1a409163237e5ac460e19395ec1c8d4f5",
+      "publicationDate": "2025-06-29"
+    },
+    {
+      "title": "NetRoller: Interfacing General and Specialized Models for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Ren Xin",
+        "Hongji Liu",
+        "Xiaodong Mei",
+        "Wenru Liu",
+        "Maosheng Ye",
+        "Zhili Chen",
+        "Jun Ma"
+      ],
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "externalIds": {
+        "ArXiv": "2506.14589",
+        "DOI": "10.1109/TVT.2025.3632881"
+      },
+      "paperId": "d960bcba77bc4d16ed3a0fbc39d01cbb2629fd42",
+      "publicationDate": "2025-06-17"
+    },
+    {
+      "title": "Using Ensemble Diffusion to Estimate Uncertainty for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Florian Wintel",
+        "Sigmund H. Høeg",
+        "G. Kiss",
+        "Frank Lindseth"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2506.00560",
+        "DOI": ""
+      },
+      "paperId": "56c4b1c437fa210de98069e55ee5211b8c39128d",
+      "publicationDate": "2025-05-31"
+    },
+    {
+      "title": "Cognitive-Hierarchy Guided End-to-End Planning for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Zhennan Wang",
+        "Jian Teng",
+        "Canqun Xiang",
+        "Kangliang Chen",
+        "X. Pan",
+        "Lu Deng",
+        "Weihao Gu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2505.21581",
+        "DOI": ""
+      },
+      "paperId": "7ca0d17a360ac1d027c2510af745cfc3aa72703e",
+      "publicationDate": "2025-05-27"
+    },
+    {
+      "title": "Fully Unified Motion Planning for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Lin Liu",
+        "Caiyan Jia",
+        "Ziying Song",
+        "Hongyu Pan",
+        "Bencheng Liao",
+        "Wenchao Sun",
+        "Yongchang Zhang",
+        "Lei Yang",
+        "Yandan Luo"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2504.12667",
+        "DOI": ""
+      },
+      "paperId": "20222c9735ee41db2d742655e4d1f503dcffa757",
+      "publicationDate": "2025-04-17"
+    },
+    {
+      "title": "Drive in Corridors: Enhancing the Safety of End-to-End Autonomous Driving via Corridor Learning and Planning",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Zhiwei Zhang",
+        "Rui Yang",
+        "Ke Wu",
+        "Zijun Xu",
+        "Jingchu Liu",
+        "Lisen Mu",
+        "Zhongxue Gan",
+        "Wenchao Ding"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "2504.07507",
+        "DOI": "10.1109/LRA.2025.3570201"
+      },
+      "paperId": "12105d0b7da873387fd517aaf65b84d5e58fbdc0",
+      "publicationDate": "2025-04-10"
+    },
+    {
+      "title": "TrafficMCTS: A Closed-Loop Traffic Flow Generation Framework With Group-Based Monte Carlo Tree Search",
+      "year": 2023,
+      "citationCount": 3,
+      "authors": [
+        "Ze Fu",
+        "Licheng Wen",
+        "Pinlong Cai",
+        "Daocheng Fu",
+        "Song Mao",
+        "Botian Shi"
+      ],
+      "venue": "IEEE transactions on intelligent transportation systems (Print)",
+      "externalIds": {
+        "ArXiv": "2308.12797",
+        "DOI": "10.1109/TITS.2025.3592741"
+      },
+      "paperId": "33d60b092be8149ac86008b5171a823d707c5c93",
+      "publicationDate": "2023-08-24"
+    },
+    {
+      "title": "A Perception-Based Architecture for Autonomous Convoying in GNSS-Denied Areas",
+      "year": 2025,
+      "citationCount": 3,
+      "authors": [
+        "Alexander Bienemann",
+        "Lukas Beer",
+        "Andreas Reich",
+        "Thomas Steinecker",
+        "Bianca Forkel",
+        "Anton Backhaus",
+        "Philipp Berthold",
+        "Juan D. González",
+        "Peter Mortimer",
+        "Thorsten Luettel"
+      ],
+      "venue": "IEEE Transactions on Field Robotics",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/TFR.2025.3600195"
+      },
+      "paperId": "c58e250631dc61b72beea33cd02af2d3ed7ef22e",
+      "publicationDate": null
+    },
+    {
+      "title": "DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Chen Shi",
+        "JinRu Xu",
+        "Shaoshuai Shi",
+        "Kehua Sheng",
+        "Bo Zhang",
+        "Li Jiang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.28544",
+        "DOI": ""
+      },
+      "paperId": "20af48f5f8410e8d74ed2bd68b3210dea01df153",
+      "publicationDate": "2026-05-27"
+    },
+    {
+      "title": "MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Yuzhou Huang",
+        "Benjin Zhu",
+        "Hengtong Lu",
+        "Victor Shea-Jay Huang",
+        "Haiming Zhang",
+        "Wei Chen",
+        "Jifeng Dai",
+        "Yangjiang Xie",
+        "Hongsheng Li"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.12624",
+        "DOI": ""
+      },
+      "paperId": "b9578e45ee4af3502bcfa63a56b93c90121a5886",
+      "publicationDate": "2026-05-12"
+    },
+    {
+      "title": "REAP: Reinforcement-Learning End-to-End Autonomous Parking with Gaussian Splatting Simulator for Real2Sim2Real Transfer",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Changze Li",
+        "Zhe Chen",
+        "Shaoyu Chen",
+        "Lisen Mu",
+        "Yijiang Li",
+        "Yue Yu",
+        "Qian Zhang",
+        "Qingyang Su",
+        "Ming Yang",
+        "Tong Qin"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.08713",
+        "DOI": ""
+      },
+      "paperId": "54d4d81604ff9fd15bef7098b1b5dc3c34da4d83",
+      "publicationDate": "2026-05-09"
+    },
+    {
+      "title": "DriveVA: Video Action Models are Zero-Shot Drivers",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Mengmeng Liu",
+        "Diankun Zhang",
+        "Jiuming Liu",
+        "Jianfeng Cui",
+        "Hong-Bin Xie",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Michael Ying Yang",
+        "Francesco Nex",
+        "Hao Cheng"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.04198",
+        "DOI": ""
+      },
+      "paperId": "c8a64d8b94c93164c4323b961cb6c32cd5855121",
+      "publicationDate": "2026-04-05"
+    },
+    {
+      "title": "Vega: Learning to Drive with Natural Language Instructions",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Sicheng Zuo",
+        "Yuxuan Li",
+        "Wenzhao Zheng",
+        "Zhengbiao Zhu",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.25741",
+        "DOI": ""
+      },
+      "paperId": "bbbc226ab363110995774a6f538714fe7feeb168",
+      "publicationDate": "2026-03-26"
+    },
+    {
+      "title": "Senna-2: Aligning VLM and End-to-End Driving Policy for Consistent Decision Making and Planning",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Yuehao Song",
+        "Shaoyu Chen",
+        "Haolan Gao",
+        "Yifan Zhu",
+        "Weixiang Yue",
+        "Jialv Zou",
+        "Bowen Jiang",
+        "Zihao Lu",
+        "Yu Wang",
+        "Qian Zhang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.11219",
+        "DOI": ""
+      },
+      "paperId": "f0978835f506c9c7ee67c7a4541318194bed95f1",
+      "publicationDate": "2026-03-11"
+    },
+    {
+      "title": "FlowAD: Ego-Scene Interactive Modeling for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Mingzhe Guo",
+        "Yixiang Yang",
+        "Chuanrong Han",
+        "Rufeng Zhang",
+        "Shirui Li",
+        "Ji Wan",
+        "Zhipeng Zhang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.13399",
+        "DOI": ""
+      },
+      "paperId": "4c6a3a788dd2d561f8f9cd32e5cabbc3b3f153be",
+      "publicationDate": "2026-03-11"
+    },
+    {
+      "title": "LAD-Drive: Bridging Language and Trajectory with Action-Aware Diffusion Transformers",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Fabian Schmidt",
+        "Karol Fedurko",
+        "Markus Enzweiler",
+        "A. Valada"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.02035",
+        "DOI": ""
+      },
+      "paperId": "c1e3f33380ad9dd68c0de06ed23e385bfafa9f72",
+      "publicationDate": "2026-03-02"
+    },
+    {
+      "title": "DiffSemanticFusion: Semantic Raster BEV Fusion for Autonomous Driving via Online Map Diffusion",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Zhigang Sun",
+        "Yiru Wang",
+        "Anqing Jiang",
+        "Shuo Wang",
+        "Yu Gao",
+        "Yuwen Heng",
+        "Shouyi Zhang",
+        "An He",
+        "Hao Jiang",
+        "Jinhao Chai"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/LRA.2026.3653316"
+      },
+      "paperId": "7a6b0daec6825381c86e4961b68809ca7ef8f54f",
+      "publicationDate": "2026-03-01"
+    },
+    {
+      "title": "Provably Safe Generative Sampling with Constricting Barrier Functions",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "D. Gadginmath",
+        "Ahmed Allibhoy",
+        "Fabio Pasqualetti"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.21429",
+        "DOI": "10.48550/arXiv.2602.21429"
+      },
+      "paperId": "63d5ea181947a50f5a40955ee1c20acedd92d733",
+      "publicationDate": "2026-02-24"
+    },
+    {
+      "title": "HiST-VLA: A Hierarchical Spatio-Temporal Vision-Language-Action Model for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Yiru Wang",
+        "Zichong Gu",
+        "Yu Gao",
+        "Anqing Jiang",
+        "Zhigang Sun",
+        "Wang Shuo",
+        "Yuwen Heng",
+        "Hao Sun"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.13329",
+        "DOI": "10.48550/arXiv.2602.13329"
+      },
+      "paperId": "45f6a286543c9b5884f7588addbfd4197ff68754",
+      "publicationDate": "2026-02-11"
+    },
+    {
+      "title": "Generative Scenario Rollouts for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Rajeev Yasarla",
+        "Deepti Hegde",
+        "Shizhong Han",
+        "Hsin-Pai Cheng",
+        "Yunxiao Shi",
+        "Meysam Sadeghigooghari",
+        "Shweta Mahajan",
+        "Apratim Bhattacharyya",
+        "Litian Liu",
+        "Risheek Garrepalli"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2601.11475",
+        "DOI": "10.48550/arXiv.2601.11475"
+      },
+      "paperId": "f7997588191f05c7f040fd5163b30dbd05a5b387",
+      "publicationDate": "2026-01-16"
+    },
+    {
+      "title": "FLARE: Learning Future-Aware Latent Representations from Vision-Language Models for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 2,
+      "authors": [
+        "Chengen Xie",
+        "Bin Sun",
+        "Tianyu Li",
+        "Junjie Wu",
+        "Zhihui Hao",
+        "XianPeng Lang",
+        "Hongyang Li"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2601.05611",
+        "DOI": ""
+      },
+      "paperId": "074a019cf718dec0bc595d550cee24aada9d68e5",
+      "publicationDate": "2026-01-09"
+    },
+    {
+      "title": "Mimir: Hierarchical Goal-Driven Diffusion With Uncertainty Propagation for End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Zebin Xing",
+        "Yupeng Zheng",
+        "Qichao Zhang",
+        "Z. Ding",
+        "Pengxuan Yang",
+        "Songen Gu",
+        "Zhongpu Xia",
+        "Dongbin Zhao"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "2512.07130",
+        "DOI": "10.1109/LRA.2025.3641129"
+      },
+      "paperId": "7db00cf7740955c3502ac11e56223424790a560b",
+      "publicationDate": "2025-12-08"
+    },
+    {
+      "title": "SUPER-AD: Semantic Uncertainty-aware Planning for End-to-End Robust Autonomous Driving",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Wonjeong Ryu",
+        "Seungjun Yu",
+        "Seokha Moon",
+        "Hojun Choi",
+        "Junsung Park",
+        "Jinkyu Kim",
+        "Hyunjung Shim"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.22865",
+        "DOI": "10.48550/arXiv.2511.22865"
+      },
+      "paperId": "4eae9bc3db8ea7922f88092dd6b8e10172cc73c8",
+      "publicationDate": "2025-11-28"
+    },
+    {
+      "title": "Social GAN guided multimodal trajectory prediction and MPC for autonomous driving",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Zihan Jiang",
+        "Hao Zhu",
+        "Ruonan Liu",
+        "Xiuzhong Hu",
+        "Weidong Zhang"
+      ],
+      "venue": "Robot Learning",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.55092/rl20250010"
+      },
+      "paperId": "843d221e8d180a2daef66a06ac25ddbcfe371155",
+      "publicationDate": "2025-11-26"
+    },
+    {
+      "title": "DiffVL: Diffusion-Based Visual Localization on 2D Maps via BEV-Conditioned GPS Denoising",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Li Gao",
+        "Hongyang Sun",
+        "Liu Liu",
+        "Yunhao Li",
+        "Yang Cai"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.14565",
+        "DOI": "10.48550/arXiv.2509.14565"
+      },
+      "paperId": "eb32c141f0f97de03c3b6ef405739101fb08666f",
+      "publicationDate": "2025-09-18"
+    },
+    {
+      "title": "Bridging Perception and Planning: Towards End-to-End Planning for Signal Temporal Logic Tasks",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Bowen Ye",
+        "Junyue Huang",
+        "Yang Liu",
+        "Xiaozhen Qiao",
+        "Xiang Yin"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.12813",
+        "DOI": "10.48550/arXiv.2509.12813"
+      },
+      "paperId": "94473764a7d626d0d57b149c3c5738691219291b",
+      "publicationDate": "2025-09-16"
+    },
+    {
+      "title": "A Knowledge-Driven Diffusion Policy for End-to-End Autonomous Driving Based on Expert Routing",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Chengkai Xu",
+        "Jiaqi Liu",
+        "Yicheng Guo",
+        "Peng Hang",
+        "Jian Sun"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.04853",
+        "DOI": "10.48550/arXiv.2509.04853"
+      },
+      "paperId": "18528a2ab8ce5642df39546e2e790c7cf3a93a4b",
+      "publicationDate": "2025-09-05"
+    },
+    {
+      "title": "DiffSemanticFusion: Semantic Raster BEV Fusion for Autonomous Driving via Online HD Map Diffusion",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Zhigang Sun",
+        "Yiru Wang",
+        "Anqing Jiang",
+        "Shuo Wang",
+        "Yu Gao",
+        "Yuwen Heng",
+        "Shouyi Zhang",
+        "An He",
+        "Hao Jiang",
+        "Jinhao Chai"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2508.01778",
+        "DOI": "10.48550/arXiv.2508.01778"
+      },
+      "paperId": "a1c7a97572599b15a63a4a743954ec0eecfe1844",
+      "publicationDate": "2025-08-03"
+    },
+    {
+      "title": "Online Navigation Refinement: Achieving Lane-Level Guidance by Associating Standard-Definition and Online Perception Maps",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Jiaxu Wan",
+        "Xu Wang",
+        "Mengwei Xie",
+        "Xinyuan Chang",
+        "Xinran Liu",
+        "Zheng Pan",
+        "Mu Xu",
+        "Hong Zhang",
+        "Ding Yuan",
+        "Yifan Yang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2507.07487",
+        "DOI": ""
+      },
+      "paperId": "e8393fb5c0d997a5b9234c8add5fa1f0d5daa9df",
+      "publicationDate": "2025-07-10"
+    },
+    {
+      "title": "ILNet: Trajectory Prediction With Inverse Learning Attention for Enhancing Intention Capture",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Mingjin Zeng",
+        "Ouyang Nan",
+        "Wenkang Wan",
+        "Lei Ao",
+        "Qing Cai",
+        "Kai Sheng"
+      ],
+      "venue": "IEEE transactions on intelligent transportation systems (Print)",
+      "externalIds": {
+        "ArXiv": "2507.06531",
+        "DOI": "10.1109/TITS.2025.3597608"
+      },
+      "paperId": "bdb3624c6382ca5932c457411f02269c1b409f27",
+      "publicationDate": "2025-07-08"
+    },
+    {
+      "title": "RealDrive: Retrieval-Augmented Driving with Diffusion Models",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Wenhao Ding",
+        "Sushant Veer",
+        "Yuxiao Chen",
+        "Yulong Cao",
+        "Chaowei Xiao",
+        "Marco Pavone"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.24808",
+        "DOI": "10.48550/arXiv.2505.24808"
+      },
+      "paperId": "b5c039e78ac77399ec1c59bbfdf6245b785f8117",
+      "publicationDate": "2025-05-30"
+    },
+    {
+      "title": "Echo Planning for Autonomous Driving: From Current Observations to Future Trajectories and Back",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Jintao Sun",
+        "Hu Zhang",
+        "Gangyi Ding",
+        "Zhedong Zheng"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.18945",
+        "DOI": "10.48550/arXiv.2505.18945"
+      },
+      "paperId": "3c35e9ae5b3b06923c6b30f684bb9496dcb7a8f2",
+      "publicationDate": "2025-05-25"
+    },
+    {
+      "title": "EgoFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for Efficient End-to-End Self-Driving",
+      "year": 2024,
+      "citationCount": 2,
+      "authors": [
+        "Haisheng Su",
+        "Wei Wu",
+        "Zhenjie Yang",
+        "Isabel Guan"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2409.09777",
+        "DOI": ""
+      },
+      "paperId": "25c4f3952ca4e4886482900d0f15c83f6e71df51",
+      "publicationDate": "2024-09-15"
+    },
+    {
+      "title": "HADP: Hybrid A*-Diffusion Planner for Robust Navigation in Dynamic Obstacle Environments",
+      "year": 2025,
+      "citationCount": 2,
+      "authors": [
+        "Mingyu Kim",
+        "Chanyeong Heo",
+        "Jaehee Jung"
+      ],
+      "venue": "IEEE Access",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/ACCESS.2025.3609454"
+      },
+      "paperId": "1326384cf8b07a3872170a8baa4ce6a4ee9e428a",
+      "publicationDate": null
+    },
+    {
+      "title": "Unified Driving Tokens: Representation- and Geometry-Guided Discrete Tokenizer for Driving World Models and Planning",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Ziyang Yao",
+        "Zeyu Zhu",
+        "Yun Jiang",
+        "ZI-MIN Guo",
+        "Huijing Zhao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.01935",
+        "DOI": ""
+      },
+      "paperId": "83e9ccebc88c4656d3febd6ecbcaee717cf53055",
+      "publicationDate": "2026-06-01"
+    },
+    {
+      "title": "Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Kewei Zhang",
+        "Jin Wang",
+        "Sensen Gao",
+        "Chengyue Wu",
+        "Yulong Cao",
+        "Song Han",
+        "B. Ivanovic",
+        "Langechuan Liu",
+        "Marco Pavone",
+        "Song Han"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.23163",
+        "DOI": ""
+      },
+      "paperId": "ea0091fd694fe6bfb7897ae6d3249a2691c87565",
+      "publicationDate": "2026-05-22"
+    },
+    {
+      "title": "Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Yang Wu",
+        "Qiang Meng",
+        "Zhaojiang Liu",
+        "Youquan Liu",
+        "Jian Yang",
+        "Jin Xie"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.21139",
+        "DOI": ""
+      },
+      "paperId": "4c2969cbf437fddd9c498df2b00625c67c3ce8b8",
+      "publicationDate": "2026-05-20"
+    },
+    {
+      "title": "CLOVER: Closed-Loop Value Estimation and Ranking for End-to-End Autonomous Driving Planning",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Sining Ang",
+        "Yuguang Yang",
+        "Can Chen",
+        "Yan Wang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.15120",
+        "DOI": ""
+      },
+      "paperId": "330e71f6b86574fb48926927e789fab5bb2a009b",
+      "publicationDate": "2026-05-14"
+    },
+    {
+      "title": "CoWorld-VLA: Thinking in a Multi-Expert World Model for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Minqing Huang",
+        "Yu Xiang",
+        "Zihan Liang",
+        "Jiaji Huang",
+        "Jingqi Wang",
+        "Zhi Xu",
+        "Feiyang Tan",
+        "Hangning Zhou",
+        "Mu Yang",
+        "Gong Che"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.10426",
+        "DOI": ""
+      },
+      "paperId": "8a3e284902a987592ebb744601b28cfc38035095",
+      "publicationDate": "2026-05-11"
+    },
+    {
+      "title": "DriveFuture: Future-Aware Latent World Models for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Yufeng Hong",
+        "Xiaotian Zhou",
+        "Yingyan Li",
+        "Xian Zhou",
+        "Lin Liu",
+        "Yadan Luo",
+        "Shaoqing Xu",
+        "Lei Yang",
+        "Ziying Song"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.09701",
+        "DOI": ""
+      },
+      "paperId": "65f36b0737cb4c21fe98e3f479fd4531b0ca33c0",
+      "publicationDate": "2026-05-10"
+    },
+    {
+      "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Huimin Wang",
+        "Yue Wang",
+        "Bihao Cui",
+        "Pengxiang Li",
+        "Ben Lu",
+        "Mingqian Wang",
+        "Tong Wang",
+        "Chuanxin Tang",
+        "Teng Zhang",
+        "Kun Zhan"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.04647",
+        "DOI": ""
+      },
+      "paperId": "2a33b77ae2c16a623e3ea085795f74a6046514ce",
+      "publicationDate": "2026-05-06"
+    },
+    {
+      "title": "OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Yiwei Zhang",
+        "Xuesong Chen",
+        "Jin Gao",
+        "Hanshi Wang",
+        "Fudong Ge",
+        "Weiming Hu",
+        "Shaoshuai Shi",
+        "Zhipeng Zhang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.17915",
+        "DOI": ""
+      },
+      "paperId": "a9d7768738577750341706ee517c4f48933fa07c",
+      "publicationDate": "2026-04-20"
+    },
+    {
+      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Hao Gao",
+        "Shaoyu Chen",
+        "Yifan Zhu",
+        "Yuehao Song",
+        "Wenyu Liu",
+        "Qian Zhang",
+        "Xinggang Wang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.15308",
+        "DOI": ""
+      },
+      "paperId": "60e6fb845a4bdadcc4b3a64c004a0d3831176ad9",
+      "publicationDate": "2026-04-16"
+    },
+    {
+      "title": "Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Zhihua Hua",
+        "Junli Wang",
+        "Pengfei Li",
+        "Qihao Jin",
+        "Bo Zhang",
+        "Kehua Sheng",
+        "Yilun Chen",
+        "Zhongxue Gan",
+        "Wenchao Ding"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.12208",
+        "DOI": ""
+      },
+      "paperId": "8b65320590c8c8b32f1226dd788cfbd2fc8547a8",
+      "publicationDate": "2026-04-14"
+    },
+    {
+      "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Zihao Sheng",
+        "Xin Ye",
+        "Jingru Luo",
+        "Sikai Chen",
+        "Liu Ren"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.02714",
+        "DOI": ""
+      },
+      "paperId": "6e04be88ac45a6a0466609359fd551d64d638efd",
+      "publicationDate": "2026-04-03"
+    },
+    {
+      "title": "DynFlowDrive: Flow-Based Dynamic World Modeling for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Xiaolu Liu",
+        "Yicong Li",
+        "Song Wang",
+        "Junbo Chen",
+        "A. Yao",
+        "Jianke Zhu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.19675",
+        "DOI": ""
+      },
+      "paperId": "dec7783f35767ace6e12f66836fc926019823fe1",
+      "publicationDate": "2026-03-20"
+    },
+    {
+      "title": "Deconfounded Lifelong Learning for Autonomous Driving via Dynamic Knowledge Spaces",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Jiayuan Du",
+        "Yue Song",
+        "Yiming Zhao",
+        "Xianghui Pan",
+        "Jiawei Lian",
+        "Yuchu Lu",
+        "Liuyi Wang",
+        "Chengju Liu",
+        "Qijun Chen"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.14354",
+        "DOI": ""
+      },
+      "paperId": "235bc97beb09a44ff765abf8ef1597b72fc94566",
+      "publicationDate": "2026-03-15"
+    },
+    {
+      "title": "UniUncer: Unified Dynamic Static Uncertainty for End to End Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Yu Gao",
+        "Jijun Wang",
+        "Zongzheng Zhang",
+        "Anqing Jiang",
+        "Yiru Wang",
+        "Yuwen Heng",
+        "Shuo Wang",
+        "Hao Sun",
+        "Zhangfeng Hu",
+        "Hao Zhao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.07686",
+        "DOI": ""
+      },
+      "paperId": "a4028bb077fbd864a29476505350862fa7c6d44b",
+      "publicationDate": "2026-03-08"
+    },
+    {
+      "title": "An Open-Source Modular Benchmark for Diffusion-Based Motion Planning in Closed-Loop Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Yun Li",
+        "Simon Thompson",
+        "Yidu Zhang",
+        "Ehsan Javanmardi",
+        "Manabu Tsukada"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2603.01023",
+        "DOI": "10.48550/arXiv.2603.01023"
+      },
+      "paperId": "c5b03d4eca388298b33e3da4527cca2ce7e075d2",
+      "publicationDate": "2026-03-01"
+    },
+    {
+      "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Jiangxin Sun",
+        "Feng Xue",
+        "Teng Long",
+        "Chang Liu",
+        "Jian-Fang Hu",
+        "Wei-Shi Zheng",
+        "N. Sebe"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.23259",
+        "DOI": "10.48550/arXiv.2602.23259"
+      },
+      "paperId": "334c0f14ed60f875f77e7ab75042f7fbe9ebb6f2",
+      "publicationDate": "2026-02-26"
+    },
+    {
+      "title": "Learning to Drive is a Free Gift: Large-Scale Label-Free Autonomy Pretraining from Unposed In-The-Wild Videos",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "M. Strong",
+        "Wei-Jer Chang",
+        "Quentin Herau",
+        "Jiezhi Yang",
+        "Yihan Hu",
+        "Chensheng Peng",
+        "Wei Zhan"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.22091",
+        "DOI": "10.48550/arXiv.2602.22091"
+      },
+      "paperId": "ef41bccb3c42a59cf2f3fe82417b7a8402f42fe2",
+      "publicationDate": "2026-02-25"
+    },
+    {
+      "title": "Driving with A Thousand Faces: A Benchmark for Closed-Loop Personalized End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Xiaoru Dong",
+        "Ruiqin Li",
+        "Xiao Han",
+        "Zhe Wu",
+        "Jiamin Wang",
+        "Jian Chen",
+        "Qiaoli Jiang",
+        "S. Yiu",
+        "Xinge Zhu",
+        "Yuexin Ma"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.18757",
+        "DOI": "10.48550/arXiv.2602.18757"
+      },
+      "paperId": "5878fd50440f63fd76b274b8e2b23ad3fac5c43e",
+      "publicationDate": "2026-02-21"
+    },
+    {
+      "title": "Zero-shot HOI Detection with MLLM-based Detector-agnostic Interaction Recognition",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Shiyu Xuan",
+        "Dongkai Wang",
+        "Zechao Li",
+        "Jinhui Tang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.15124",
+        "DOI": "10.48550/arXiv.2602.15124"
+      },
+      "paperId": "5f4aa0f7313817445e0bb9cda0798c5718a460e5",
+      "publicationDate": "2026-02-16"
+    },
+    {
+      "title": "A Unified Candidate Set with Scene-Adaptive Refinement via Diffusion for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Zhengfei Wu",
+        "Shuaixi Pan",
+        "Shuohan Chen",
+        "Shuo Yang",
+        "Yanjun Huang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.03112",
+        "DOI": "10.48550/arXiv.2602.03112"
+      },
+      "paperId": "fc6cea365b9cab3bb9ced0124118eeb0f27eac04",
+      "publicationDate": "2026-02-03"
+    },
+    {
+      "title": "TrajMoE: Scene-Adaptive Trajectory Planning with Mixture of Experts and Reinforcement Learning",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Zebin Xing",
+        "Pengxuan Yang",
+        "Linbo Wang",
+        "Yichen Zhang",
+        "Yiming Hu",
+        "Yupeng Zheng",
+        "Junli Wang",
+        "Yinfeng Gao",
+        "Guang Li",
+        "Kun Ma"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.07135",
+        "DOI": "10.48550/arXiv.2512.07135"
+      },
+      "paperId": "cdc00c58e4cfea286049404ad03b8e236a5f7a0a",
+      "publicationDate": "2025-12-08"
+    },
+    {
+      "title": "LAP: Fast LAtent Diffusion Planner for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Jinhao Zhang",
+        "Wenlong Xia",
+        "Zhexuan Zhou",
+        "Haoming Song",
+        "Youmin Gong",
+        "Jie Mei"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2512.00470",
+        "DOI": ""
+      },
+      "paperId": "b0df220aa5e129fb40ccc594b23d220f229bb279",
+      "publicationDate": "2025-11-29"
+    },
+    {
+      "title": "DAP: A Discrete-token Autoregressive Planner for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Bowen Ye",
+        "Bin Zhang",
+        "Hang Zhao"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.13306",
+        "DOI": "10.48550/arXiv.2511.13306"
+      },
+      "paperId": "c44e7d7f77f1457e5a01850d719f4f88f43a0ae8",
+      "publicationDate": "2025-11-17"
+    },
+    {
+      "title": "Beyond Imitation: Constraint-Aware Trajectory Generation with Flow Matching For End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Lin Liu",
+        "Guanyi Yu",
+        "Ziying Song",
+        "Junqiao Li",
+        "Caiyan Jia",
+        "Feiyang Jia",
+        "Peiliang Wu",
+        "Yandan Luo"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.26292",
+        "DOI": "10.48550/arXiv.2510.26292"
+      },
+      "paperId": "bec8fd8571d69b5bae2526889d8d8757b83a0611",
+      "publicationDate": "2025-10-30"
+    },
+    {
+      "title": "Deep Active Inference with Diffusion Policy and Multiple Timescale World Model for Real-World Exploration and Navigation",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Riko Yokozawa",
+        "Kentaro Fujii",
+        "Yuta Nomura",
+        "Shingo Murata"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2510.23258",
+        "DOI": "10.48550/arXiv.2510.23258"
+      },
+      "paperId": "61edbf36d6472c72c39462c4a6d52fcdb9219a08",
+      "publicationDate": "2025-10-27"
+    },
+    {
+      "title": "Causal-Planner: Causal Interaction Disentangling with Episodic Memory Gating for Autonomous Planning",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Yibo Yuan",
+        "Jianwu Fang",
+        "Yang Zhou",
+        "Zhao Yang",
+        "Chen Lv",
+        "Jianru Xue"
+      ],
+      "venue": "IEEE/RJS International Conference on Intelligent RObots and Systems",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/IROS60139.2025.11245887"
+      },
+      "paperId": "3c27ba8790e52a18f36d8dfe59bcdcc6ede2fd24",
+      "publicationDate": "2025-10-19"
+    },
+    {
+      "title": "AnchDrive: Bootstrapping Diffusion Policies with Hybrid Trajectory Anchors for End-to-End Driving",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Jinhao Chai",
+        "Anqing Jiang",
+        "Hao Jiang",
+        "Shiyi Mu",
+        "Zichong Gu",
+        "Hao Sun",
+        "Shugong Xu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.20253",
+        "DOI": "10.48550/arXiv.2509.20253"
+      },
+      "paperId": "cbc1bd189810e62482ae3aa4a529e599d0dac53b",
+      "publicationDate": "2025-09-24"
+    },
+    {
+      "title": "PIE: Perception and Interaction Enhanced End-to-End Motion Planning for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Chengran Yuan",
+        "Zijian Lu",
+        "Zhanqi Zhang",
+        "Yimin Zhao",
+        "Zefan Huang",
+        "Shuo Sun",
+        "Jiawei Sun",
+        "Jiahui Li",
+        "Christina Dao Wen Lee",
+        "Dongen Li"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.18609",
+        "DOI": "10.48550/arXiv.2509.18609"
+      },
+      "paperId": "f5a973fce90231e3a4fc75c2a3c9bf3c35bdde2c",
+      "publicationDate": "2025-09-23"
+    },
+    {
+      "title": "SAH-Drive: A Scenario-Aware Hybrid Planner for Closed-Loop Vehicle Trajectory Generation",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Yuqi Fan",
+        "Zhiyong Cui",
+        "Zhenning Li",
+        "Yilong Ren",
+        "Haiyang Yu"
+      ],
+      "venue": "International Conference on Machine Learning",
+      "externalIds": {
+        "ArXiv": "2505.24390",
+        "DOI": "10.48550/arXiv.2505.24390"
+      },
+      "paperId": "22c42936587332c755d8b30884f0508f0b824d57",
+      "publicationDate": "2025-05-30"
+    },
+    {
+      "title": "Autoregressive Meta-Actions for Unified Controllable Trajectory Generation",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Jianbo Zhao",
+        "Taiyu Ban",
+        "Xiyang Wang",
+        "Qibin Zhou",
+        "Hangning Zhou",
+        "Zhihao Liu",
+        "Mu Yang",
+        "Lei Liu",
+        "Bin Li"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.23612",
+        "DOI": "10.48550/arXiv.2505.23612"
+      },
+      "paperId": "21c0dc89fbd887c154f08748ae4ab92cdea123b2",
+      "publicationDate": "2025-05-29"
+    },
+    {
+      "title": "DiffSCTG: Diffusion-based Safety-Critical Trajectory Generation for Autonomous Vehicles",
+      "year": 2025,
+      "citationCount": 1,
+      "authors": [
+        "Zixu Zhao",
+        "Yang Zhan"
+      ],
+      "venue": "2025 IEEE 7th International Conference on Communications, Information System and Computer Engineering (CISCE)",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/CISCE65916.2025.11065683"
+      },
+      "paperId": "36b8ba3ed3ebe890e0befce7df4738b7b49a9149",
+      "publicationDate": "2025-05-09"
+    },
+    {
+      "title": "Dual-Stream Multimodal Fusion With Local–Global Attention for Remote-Sensing Object Detection",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "You-Sun Huang",
+        "Zhuo Wang",
+        "Tiantian Tang",
+        "Tomoaki Ohtsuki",
+        "Guan Gui"
+      ],
+      "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/JSTARS.2025.3637891"
+      },
+      "paperId": "3c3f99227c736e6ff6af1e3fb8f71ee1ca6bc000",
+      "publicationDate": null
+    },
+    {
+      "title": "Preference alignment on diffusion models: A comprehensive survey for image generation and editing",
+      "year": 2026,
+      "citationCount": 1,
+      "authors": [
+        "Sihao Wu",
+        "Xiaonan Si",
+        "Chi Xing",
+        "Jianhong Wang",
+        "Gao Jin",
+        "Guangliang Cheng",
+        "Xiaowei Huang"
+      ],
+      "venue": "Computer Science Review",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1016/j.cosrev.2026.100900"
+      },
+      "paperId": "865a401bb3de360b91dcd92cf19da8d56dbe2070",
+      "publicationDate": null
+    },
+    {
+      "title": "DART: Diffusion-based approach for predicting trajectories of ballistic missiles",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Joonseong Kang",
+        "Seonggyun Lee",
+        "Jeyoon Yeom",
+        "Dongwg Hong",
+        "Youngmin Kim",
+        "Kyungwoo Song"
+      ],
+      "venue": "Expert systems with applications",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1016/j.eswa.2026.132065"
+      },
+      "paperId": "3848273940f5e0d44157e22e614948d26295db3c",
+      "publicationDate": "2026-07-01"
+    },
+    {
+      "title": "Diffusion-Enhanced Tree Planning for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Qiyuan Liu",
+        "Yunlong Gong",
+        "Binghong Jiang",
+        "Chen Chang",
+        "Zhiheng Li",
+        "Xueqian Wang",
+        "Jingwei Ge",
+        "Jinqiang Cui",
+        "Li Li"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/LRA.2026.3692076"
+      },
+      "paperId": "f4c462f1f0869acfec2a1a17deb615ea4767a030",
+      "publicationDate": "2026-07-01"
+    },
+    {
+      "title": "DrivingAgent: Design and Scheduling Agents for Autonomous Driving Systems",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Zhongyu Xia",
+        "Wenhao Chen",
+        "Yongtao Wang",
+        "Minghui Yang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.12236",
+        "DOI": ""
+      },
+      "paperId": "7d64dd8fe51610a993479d542892b9bd70afbcc5",
+      "publicationDate": "2026-06-10"
+    },
+    {
+      "title": "From Imitation to Alignment: Human-Preference Flow Policies for Long-Horizon Sidewalk Navigation",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Honglin He",
+        "Zhizheng Liu",
+        "Yukai Ma",
+        "Bolei Zhou"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.12603",
+        "DOI": ""
+      },
+      "paperId": "c18bf8ceda1582d5c0bc01ae86b9a66b58847451",
+      "publicationDate": "2026-06-10"
+    },
+    {
+      "title": "EditSSC: Toward Editable Semantic Occupancy Scenes with Unconditional Diffusion Models",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Fatima Balde",
+        "Raoul de Charette",
+        "A. Boulch"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.09273",
+        "DOI": ""
+      },
+      "paperId": "d781825671f4d5345e631242e6760103149c7618",
+      "publicationDate": "2026-06-08"
+    },
+    {
+      "title": "DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Qimao Chen",
+        "Fang Li",
+        "Yuechen Luo",
+        "Ze Zhang",
+        "Haiyang Sun",
+        "Fang Li",
+        "Bing Wang",
+        "Guang Chen",
+        "Yang Ji",
+        "Jiong Deng"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.08525",
+        "DOI": ""
+      },
+      "paperId": "79c80da0952decec28fc48a37deb04c2b992c5e6",
+      "publicationDate": "2026-06-07"
+    },
+    {
+      "title": "MotionVLA: Injecting Geometric Motion into Vision-Language-Action Model",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Shanglin Yuan",
+        "Weiheng Zhao",
+        "Xianda Guo",
+        "Wei Sui",
+        "Li Yu",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.08288",
+        "DOI": ""
+      },
+      "paperId": "4726e8486c9f9e3b87c1872618a001b23609f77d",
+      "publicationDate": "2026-06-06"
+    },
+    {
+      "title": "Test-Time Trajectory Optimization for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Yihong Xu",
+        "É. Zablocki",
+        "Yuan Yin",
+        "Elias Ramzi",
+        "Ellington Kirby",
+        "A. Boulch",
+        "Matthieu Cord"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.07170",
+        "DOI": ""
+      },
+      "paperId": "cd44f1c7e6b771809dec5ec77b86bc2b15ff847d",
+      "publicationDate": "2026-06-05"
+    },
+    {
+      "title": "Dash2Sim: Closed-Loop Driving Simulation from in-the-wild Dashcam Videos",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Anurag Ghosh",
+        "F. Pittaluga",
+        "Khiem Vuong",
+        "An Chen",
+        "Juan Alvarez-Padilla",
+        "M. Chandraker",
+        "Srinivasa Narasimhan"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.07366",
+        "DOI": ""
+      },
+      "paperId": "eaa3197eecd84cfd4f11d078d3c11e8f995a55bb",
+      "publicationDate": "2026-06-05"
+    },
+    {
+      "title": "PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Xiaoyun Qiu",
+        "Jing He",
+        "Yijie Chen",
+        "Yusong Huang",
+        "Haotian Wang",
+        "Yixuan Wang",
+        "Xinhu Zheng"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.06014",
+        "DOI": ""
+      },
+      "paperId": "5f29b74c6f7d336102a69e3f6ebeec0399a2d156",
+      "publicationDate": "2026-06-04"
+    },
+    {
+      "title": "LiAuto-GeoX: Efficient Grounded Driving Transformer",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jiawei Lian",
+        "Hao-Yue Sun",
+        "Yang Wu",
+        "Li Mu",
+        "Siyuan Wang",
+        "Le Hui",
+        "Ningjing Mao",
+        "Tao Wei",
+        "Pan Zhou",
+        "Kun Zhan"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.05774",
+        "DOI": ""
+      },
+      "paperId": "cbba438e16ff47524389243a9fc5c460f6bf6a2d",
+      "publicationDate": "2026-06-04"
+    },
+    {
+      "title": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Ziyang Yao",
+        "Haochen Liu",
+        "Yun Jiang",
+        "Zeyu Zhu",
+        "ZI-MIN Guo",
+        "Jingru Wang",
+        "Tianle Liu",
+        "Jianwei Cui",
+        "Kuiyuan Yang",
+        "Hong-Bin Xie"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.05645",
+        "DOI": ""
+      },
+      "paperId": "1a7acd39dc4be5b06e3ec9921bfcf6b5fb7410e3",
+      "publicationDate": "2026-06-04"
+    },
+    {
+      "title": "D$^3$-MoE:Dual Disentangled Diffusion Mixture-of-Experts for Style-Controllable End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Renju Feng",
+        "Rukang Wang",
+        "Ning Xi",
+        "Jianguo Yu",
+        "Liping Lu",
+        "Pan Zhou",
+        "Duanfeng Chu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.04884",
+        "DOI": ""
+      },
+      "paperId": "6019f87b36e55670c2547a53b8724ca209fe7412",
+      "publicationDate": "2026-06-03"
+    },
+    {
+      "title": "Multimodal Action Diffusion for Robust End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jorge Daniel Rodríguez-Vidal",
+        "Diego Porres",
+        "Gabriel Villalonga Pineda",
+        "Antonio M. L'opez Pena"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2606.02105",
+        "DOI": ""
+      },
+      "paperId": "8e3f88ff63ed55fdc3e0bee63872fcb35c8c10f2",
+      "publicationDate": "2026-06-01"
+    },
+    {
+      "title": "Future guided encoding and interaction-aware conditional flow matching for multimodal trajectory prediction",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Wenkang Wan",
+        "Dezhong Li",
+        "Mingjin Zeng",
+        "Qing Cai",
+        "Daihan Wang",
+        "Yiting Liu",
+        "Kai Sheng"
+      ],
+      "venue": "Neurocomputing",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1016/j.neucom.2026.134250"
+      },
+      "paperId": "c77b62cb40e2dd1d4cd2ebca2bc461e2e0679857",
+      "publicationDate": "2026-06-01"
+    },
+    {
+      "title": "IDOL: Inverse-Dynamics-Guided Future Prediction for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Chenghao Zhang",
+        "Timin Li",
+        "Dongmei Li"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.31476",
+        "DOI": ""
+      },
+      "paperId": "a286a888eafb93500639a9855372b93dab605462",
+      "publicationDate": "2026-05-29"
+    },
+    {
+      "title": "DriveMA: Driving Vision-Language-Action Models with verifiable Meta-Actions",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Weicheng Zheng",
+        "Yixin Huang",
+        "Qiao Sun",
+        "Derun Li",
+        "Hang Zhao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.31271",
+        "DOI": ""
+      },
+      "paperId": "0001b0332b063d90bcfcffee3fdca963b87968de",
+      "publicationDate": "2026-05-29"
+    },
+    {
+      "title": "NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jiahui Li",
+        "Jiawei Sun",
+        "Zixiang Ren",
+        "Ming Liu",
+        "Jiamin Shi",
+        "Ruiteng Zhao",
+        "Zhiyang Liu",
+        "Liying Liu",
+        "Zu Wang",
+        "Kaidi Yang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.31116",
+        "DOI": ""
+      },
+      "paperId": "a11a88ad4af131ec8330611ca7ee5eadc50f9ac3",
+      "publicationDate": "2026-05-29"
+    },
+    {
+      "title": "nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Zhiyu Huang",
+        "Johnson Liu",
+        "Rui Song",
+        "Zewei Zhou",
+        "Ruining Yang",
+        "Yun Zhang",
+        "Tianhui Cai",
+        "Hanyin Zhang",
+        "Mingxuan Gao",
+        "Valeria Xu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.31572",
+        "DOI": ""
+      },
+      "paperId": "30f6b3466c8a2a017e0c68b7fe7987b02875e42b",
+      "publicationDate": "2026-05-29"
+    },
+    {
+      "title": "TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jiaxiang Li",
+        "Yumao Liu",
+        "Kegang Ma"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.27038",
+        "DOI": ""
+      },
+      "paperId": "e70c64ca11cba51c400d8b757544842c234ec091",
+      "publicationDate": "2026-05-26"
+    },
+    {
+      "title": "SparseWorld: Enhancing End-to-End Autonomous Driving via World Models with Sparse Scene Representation",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Ruoyu Wang",
+        "Jingke Wang",
+        "Yukai Ma",
+        "Yuehao Huang",
+        "Shuangming Lei",
+        "Guangli Xu",
+        "Aixue Ye",
+        "Yong Liu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.24354",
+        "DOI": ""
+      },
+      "paperId": "f7dbab42242d7285ab3364d0047df19dff5d4aa4",
+      "publicationDate": "2026-05-23"
+    },
+    {
+      "title": "ChainFlow-VLA: Causal Flow Planning with Vision-Language Models",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Xiyang Wang",
+        "Xinli Wang",
+        "Ting Zhou",
+        "Gonglin Chen",
+        "Xingtai Gui",
+        "Zhi Xu",
+        "Xiaolei Wu",
+        "Feiyang Tan",
+        "Hangning Zhou",
+        "Mu Yang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.23270",
+        "DOI": ""
+      },
+      "paperId": "dcbbdfbf1baa643878da978fba9298f5fd0a5e69",
+      "publicationDate": "2026-05-22"
+    },
+    {
+      "title": "LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Xiaodong Mei",
+        "Diankun Zhang",
+        "Hong-Bin Xie",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Dan Xu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.22089",
+        "DOI": ""
+      },
+      "paperId": "69ef3e9c8638ef40e976408d5f524aa62c2e07f0",
+      "publicationDate": "2026-05-21"
+    },
+    {
+      "title": "Closed Loop Dynamic Driving Data Mixture for Real-Synthetic Co-Training",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Hongzhi Ruan",
+        "Pei Liu",
+        "Weiliang Ma",
+        "Zheng Li",
+        "Xueyang Zhang",
+        "Jun Ma",
+        "Dan Xu",
+        "Kun Zhan"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.21372",
+        "DOI": ""
+      },
+      "paperId": "175786551daf45fb30f122f89c2ff33ea91b4102",
+      "publicationDate": "2026-05-20"
+    },
+    {
+      "title": "Grounding Driving VLA via Inverse Kinematics",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Junsung Park",
+        "Hyunjung Shim"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.21061",
+        "DOI": ""
+      },
+      "paperId": "6b8e67bc1d7db6b7c04baca2036a0a9d5771cd5b",
+      "publicationDate": "2026-05-20"
+    },
+    {
+      "title": "DriveMA: Rethinking Language Interfaces in Driving VLAs with One-Step Meta-Actions",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Weicheng Zheng",
+        "Yixin Huang",
+        "Qiao Sun",
+        "Derun Li",
+        "Hang Zhao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.21273",
+        "DOI": ""
+      },
+      "paperId": "bcc89bdb21d692cae1efe2e47795b6ca5f95e812",
+      "publicationDate": "2026-05-20"
+    },
+    {
+      "title": "Beyond Imitation: Learning Safe End-to-End Autonomous Driving from Hard Negatives",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Junli Wang",
+        "Zhihua Hua",
+        "Xueyi Liu",
+        "Zebin Xing",
+        "Haochen Tian",
+        "Kun Ma",
+        "Hangjun Ye",
+        "Guang Chen",
+        "Long Chen",
+        "Qichao Zhang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.19771",
+        "DOI": ""
+      },
+      "paperId": "1b65a00f8c16bf65e718f0c821d6c862534466ac",
+      "publicationDate": "2026-05-19"
+    },
+    {
+      "title": "HEAT: Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Hoonhee Cho",
+        "Giwon Lee",
+        "Jae-Young Kang",
+        "Hyemin Yang",
+        "Heejun Park",
+        "Kuk-Jin Yoon"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.19631",
+        "DOI": ""
+      },
+      "paperId": "0af8910988dbb8d388a2b2c59b1eb18dd35b584d",
+      "publicationDate": "2026-05-19"
+    },
+    {
+      "title": "SafeAlign-VLA: A Negative-Enhanced Safe Alignment Framework for Risk-Aware Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Kefei Tian",
+        "Yuansheng Lian",
+        "Kai Yang",
+        "Xiang Chen",
+        "S. Li"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.19524",
+        "DOI": ""
+      },
+      "paperId": "444f78bbb34d41afa4c7212e13a66a8385329625",
+      "publicationDate": "2026-05-19"
+    },
+    {
+      "title": "4DLidarOpen: An Open 4D FMCW Lidar Dataset for Motion-Aware Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Kane Qian",
+        "Xin Zhao",
+        "Yining Shi",
+        "Rujun Yan",
+        "Zheng Pan",
+        "Kaojin Zhu",
+        "Mengmeng Yang",
+        "Kai Sun",
+        "Diange Yang",
+        "Kun Jiang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.18074",
+        "DOI": ""
+      },
+      "paperId": "e8ccc6f3369e75084cef9128b6b497487448a278",
+      "publicationDate": "2026-05-18"
+    },
+    {
+      "title": "Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Zhiyuan Zhang",
+        "Zhenghao Jin",
+        "Yanlun Peng",
+        "Xianda Guo",
+        "Haoran Liu",
+        "Shaofeng Zhang",
+        "Xingjun Ma",
+        "Zuxuan Wu",
+        "Junchi Yan",
+        "Xiaosong Jia"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.18059",
+        "DOI": ""
+      },
+      "paperId": "aed889c125afdbd2453271dbaa5dcb94a79d45d8",
+      "publicationDate": "2026-05-18"
+    },
+    {
+      "title": "CLAP: Contrastive Latent-space Prompt Optimization for End-to-end Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Ruiyang Zhu",
+        "Yuehan He",
+        "Boyuan Zheng",
+        "Zesen Zhao",
+        "Ahmad Chalhoub",
+        "Qingzhao Zhang",
+        "Z. Mao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.17284",
+        "DOI": ""
+      },
+      "paperId": "03e14d6bd9db407b76dbec71080916837f53378a",
+      "publicationDate": "2026-05-17"
+    },
+    {
+      "title": "Pedestrian-Aware LLM-Driven Behavioral Planning for Autonomous Vehicles",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Aidana Baimbetova",
+        "Haruki Yonekura",
+        "Hamada Rizk",
+        "Hirozumi Yamaguchi"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.16858",
+        "DOI": ""
+      },
+      "paperId": "83686506400f0b9b742e61e29e5b948569318802",
+      "publicationDate": "2026-05-16"
+    },
+    {
+      "title": "DriveSafer: End-to-End Autonomous Driving with Safety Guidance",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Shounak Sural",
+        "R. Rajkumar"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.16737",
+        "DOI": ""
+      },
+      "paperId": "5dd40a18dae91c91cae4d5cb3b5dca827da5c37b",
+      "publicationDate": "2026-05-16"
+    },
+    {
+      "title": "EponaV2: Driving World Model with Comprehensive Future Reasoning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jiawei Xu",
+        "Zhizhou Zhong",
+        "Zhijian Shu",
+        "Mingkai Jia",
+        "Mingxiao Li",
+        "Jia-Wang Bian",
+        "Qian Zhang",
+        "Kaichen Zhang",
+        "Jin Xie",
+        "Jian Yang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.14696",
+        "DOI": ""
+      },
+      "paperId": "4ac58acf9cce64f7bbc298e8caf335b7e986efac",
+      "publicationDate": "2026-05-14"
+    },
+    {
+      "title": "Learning Direct Control Policies with Flow Matching for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Marcello Ceresini",
+        "Federico Pirazzoli",
+        "Andrea Bertogalli",
+        "Lorenzo Cipelli",
+        "Filippo D'Addeo",
+        "Anthony Dell'Eva",
+        "Alessandro Paolo Capasso",
+        "Alberto Broggi"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.14832",
+        "DOI": ""
+      },
+      "paperId": "ae5669a9579bca93485df969cf2382344ba2056e",
+      "publicationDate": "2026-05-14"
+    },
+    {
+      "title": "MAPLE: Latent Multi-Agent Play for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Rajeev Yasarla",
+        "Deepti Hegde",
+        "Hsin-Pai Cheng",
+        "Shizhong Han",
+        "Yunxiao Shi",
+        "Meysam Sadeghigooghari",
+        "Hanno Ackermann",
+        "Litian Liu",
+        "Pranav Desai",
+        "F. Porikli"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.14201",
+        "DOI": ""
+      },
+      "paperId": "bd3c22b2ad3992b8a1c9fe2be0e4b8a6e67ee2bd",
+      "publicationDate": "2026-05-13"
+    },
+    {
+      "title": "Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Seokha Moon",
+        "Minseung Lee",
+        "J. Seo",
+        "Jinkyu Kim",
+        "Jungbeom Lee"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.13646",
+        "DOI": ""
+      },
+      "paperId": "4c36be97adeefaf42acea00c0fda6be3f03640d4",
+      "publicationDate": "2026-05-13"
+    },
+    {
+      "title": "Driving Intents Amplify Planning-Oriented Reinforcement Learning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Hengtong Lu",
+        "Victor Shea-Jay Huang",
+        "Cheng Yang",
+        "Pengfei Jing",
+        "Jifeng Dai",
+        "Yangjiang Xie",
+        "Benjin Zhu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.12625",
+        "DOI": ""
+      },
+      "paperId": "b76923374ba3bd0870a55a0a48c93ceff3bbad75",
+      "publicationDate": "2026-05-12"
+    },
+    {
+      "title": "The DAWN of World-Action Interactive Models",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Hongbo Lu",
+        "Liang Yao",
+        "Chenghao He",
+        "Haoyu Wang",
+        "Xiang Gu",
+        "Xianfei Li",
+        "Wenlong Liao",
+        "Tao He",
+        "Pai Peng"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.11550",
+        "DOI": ""
+      },
+      "paperId": "11d92b7d333667cb811cf21cc0c0b726858c033d",
+      "publicationDate": "2026-05-12"
+    },
+    {
+      "title": "Action Emergence from Streaming Intent",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Pengfei Jing",
+        "Victor Shea-Jay Huang",
+        "Hengtong Lu",
+        "Jifeng Dai",
+        "Xie Yan",
+        "Benjin Zhu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.12622",
+        "DOI": ""
+      },
+      "paperId": "04e494ac80232b3909b06aa8348f5184ce7b5e3e",
+      "publicationDate": "2026-05-12"
+    },
+    {
+      "title": "Temporal Sampling Frequency Matters: A Capacity-Aware Study of End-to-End Driving Trajectory Prediction",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Yumao Liu",
+        "Tao Liu",
+        "Xiangyu Li",
+        "Jiaxiang Li",
+        "Kegang Ma"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.10388",
+        "DOI": ""
+      },
+      "paperId": "38c43dd715df19100a82ce2d9b178e7abe3dd41d",
+      "publicationDate": "2026-05-11"
+    },
+    {
+      "title": "HiDrive: A Closed-Loop Benchmark for High-Level Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Zhongyu Xia",
+        "Guanyu Zhu",
+        "Guobin Tang",
+        "Wenhao Chen",
+        "Yongtao Wang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.09972",
+        "DOI": ""
+      },
+      "paperId": "11e0ec82bef2aee7a2311686e31b9938f2bd9941",
+      "publicationDate": "2026-05-11"
+    },
+    {
+      "title": "VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Rui Zhao",
+        "Jianlin Yu",
+        "Zhenhai Gao",
+        "Jiaqi Liu",
+        "Fei Gao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.08830",
+        "DOI": ""
+      },
+      "paperId": "bb7db69d18bca7c6eb6a65cb528a4f957d23ef46",
+      "publicationDate": "2026-05-09"
+    },
+    {
+      "title": "Latency Analysis and Optimization of Alpamayo 1 via Efficient Trajectory Generation",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Y. Jeon",
+        "Namcheol Lee",
+        "Yoonsu Lee",
+        "Jang-Sik Park",
+        "Sol Ahn",
+        "Jong-Chan Kim",
+        "Seongsoo Hong"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.08975",
+        "DOI": ""
+      },
+      "paperId": "f6fb461d622215a26d88b8b8c7bfc0ee9525a82c",
+      "publicationDate": "2026-05-09"
+    },
+    {
+      "title": "CRAFT: Counterfactual-to-Interactive Reinforcement Fine-Tuning for Driving Policies",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Keyu Chen",
+        "Nanfei Ye",
+        "Yida Wang",
+        "Wenchao Sun",
+        "Dan Zhao",
+        "Hao Cheng",
+        "Sifa Zheng"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.04470",
+        "DOI": ""
+      },
+      "paperId": "4d8621982122520882f7210f2ef57c16c55b1d11",
+      "publicationDate": "2026-05-06"
+    },
+    {
+      "title": "Unified Map Prior Encoder for Mapping and Planning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Zongzheng Zhang",
+        "Sizhe Zou",
+        "Guantian Zheng",
+        "Zhenxin Zhu",
+        "Yu Gao",
+        "Guoxuan Chi",
+        "Shuo Wang",
+        "Yuwen Heng",
+        "Zhigang Sun",
+        "Yiru Wang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.02762",
+        "DOI": ""
+      },
+      "paperId": "0ea50e8669efe3e0bb7388d18bbdea3bebcf2ad5",
+      "publicationDate": "2026-05-04"
+    },
+    {
+      "title": "Autoregressive Meta-Actions for Unified Controllable Trajectory Generation in Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jianbo Zhao",
+        "Taiyu Ban",
+        "Xiyang Wang",
+        "Qibin Zhou",
+        "Hangning Zhou",
+        "Zhihao Liu",
+        "Xiangjie Li",
+        "Lei Liu",
+        "Bin Li"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/LRA.2026.3681117"
+      },
+      "paperId": "8da015e2ed91a8b67341eecccbc0663cff6d5fe7",
+      "publicationDate": "2026-05-01"
+    },
+    {
+      "title": "Do Open-Loop Metrics Predict Closed-Loop Driving? A Cross-Benchmark Correlation Study of NAVSIM and Bench2Drive",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Yiru Wang",
+        "Anqing Jiang",
+        "Shuo Wang",
+        "Yuwen Heng",
+        "Hai Yang",
+        "Yang Chen",
+        "Haoqiang Sun"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2605.00066",
+        "DOI": ""
+      },
+      "paperId": "07ccea329b5986e2fb1c581d8b234d0e13952931",
+      "publicationDate": "2026-04-30"
+    },
+    {
+      "title": "FlowS: One-Step Motion Prediction via Local Transport Conditioning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Leandro Di Bella",
+        "Adrian Munteanu",
+        "Bruno Cornelis"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.26065",
+        "DOI": ""
+      },
+      "paperId": "dc8bd23a76045acb24009f846becc1e6c78c904c",
+      "publicationDate": "2026-04-28"
+    },
+    {
+      "title": "MISTY: High-Throughput Motion Planning via Mixer-based Single-step Drifting",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Yining Xing",
+        "Zehong Ke",
+        "Yiqian Tu",
+        "Zhiyuan Liu",
+        "Wenhao Yu",
+        "Jianqiang Wang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.21489",
+        "DOI": ""
+      },
+      "paperId": "07f461cef63b69c152bc48ca9cd239baabf05e4a",
+      "publicationDate": "2026-04-23"
+    },
+    {
+      "title": "Reasoning About Traversability: Language-Guided Off-Road 3D Trajectory Planning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Byounggun Park",
+        "Soonmin Hwang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.21249",
+        "DOI": ""
+      },
+      "paperId": "d5ea5176b05677e9b71f0fe352039218c08be8fa",
+      "publicationDate": "2026-04-23"
+    },
+    {
+      "title": "Artificial Intelligence for Modeling and Simulation of Mixed Automated and Human Traffic",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Saeed Rahmani",
+        "Shiva Rasouli",
+        "Daphne Cornelisse",
+        "E. Vinitsky",
+        "B. Arem",
+        "Simeon C. Calvert"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.12857",
+        "DOI": ""
+      },
+      "paperId": "47453797dca1b31fd6b933ca6a82835999c7d6a0",
+      "publicationDate": "2026-04-14"
+    },
+    {
+      "title": "Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jing Gu",
+        "Niccolò Cavagnero",
+        "G. Dubbelman"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.08266",
+        "DOI": ""
+      },
+      "paperId": "244174cf3c2401b3c502030290c00a7dd70a42f0",
+      "publicationDate": "2026-04-09"
+    },
+    {
+      "title": "Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Yicheng Guo",
+        "Jiaqi Liu",
+        "Chengkai Xu",
+        "Peng Hang",
+        "Jian Sun"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.07378",
+        "DOI": ""
+      },
+      "paperId": "a5fcf5d2a30201e787adf6591bc7d8c82d6d83ed",
+      "publicationDate": "2026-04-08"
+    },
+    {
+      "title": "Primitive-based Truncated Diffusion for Efficient Trajectory Generation of Differential Drive Mobile Manipulators",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Longzhe Xu",
+        "C. Wong",
+        "Yuhang Zhong",
+        "Junxiao Lin",
+        "Jialiang Hou",
+        "Fei Gao"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.04166",
+        "DOI": ""
+      },
+      "paperId": "6b1585084e60fb7113a5e9ea84a5965902b33cfb",
+      "publicationDate": "2026-04-05"
+    },
+    {
+      "title": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Wenhao Yao",
+        "Xinglong Sun",
+        "Zhenxin Li",
+        "Shiyi Lan",
+        "Zi Wang",
+        "José M. Álvarez",
+        "Zuxuan Wu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.03581",
+        "DOI": ""
+      },
+      "paperId": "31e6dbdc6b292149025ef179569206659aa6bbab",
+      "publicationDate": "2026-04-04"
+    },
+    {
+      "title": "AnchorVLA: Anchored Diffusion for Efficient End-to-End Mobile Manipulation",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jia Syuen Lim",
+        "Zhizheng Zhang",
+        "Peter Bohm",
+        "Brendan Tidd",
+        "Zi Huang",
+        "Yadan Luo"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.01567",
+        "DOI": ""
+      },
+      "paperId": "c83a165bd41da1bf859be7bbfb4f34a064c3a4e0",
+      "publicationDate": "2026-04-02"
+    },
+    {
+      "title": "Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Hiroki Hashimoto",
+        "Hiromichi Goto",
+        "Hiroyuki Sugai",
+        "Hiroshi Kera",
+        "Kazuhiko Kawamoto"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.00597",
+        "DOI": ""
+      },
+      "paperId": "376562ca98d6a23029720ddd3030d81d024aec32",
+      "publicationDate": "2026-04-01"
+    },
+    {
+      "title": "Behavioral Score Diffusion: Model-Free Trajectory Planning via Kernel-Based Score Estimation from Data",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Shihao Li",
+        "Jiachen Li",
+        "Jiamin Xu",
+        "Dongmei Chen"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2604.00391",
+        "DOI": ""
+      },
+      "paperId": "906a897f5ef4caa8af8a546fbc2905ebfbca5b75",
+      "publicationDate": "2026-04-01"
+    },
+    {
+      "title": "ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Yiru Wang",
+        "Anqing Jiang",
+        "Shuo Wang",
+        "Yuwen Heng",
+        "Zichong Gu",
+        "Hao Sun"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.25766",
+        "DOI": ""
+      },
+      "paperId": "137b25f0643de63e8ce9d8da5f8bb31c93fc228f",
+      "publicationDate": "2026-03-26"
+    },
+    {
+      "title": "Mind the Hitch: Dynamic Calibration and Articulated Perception for Autonomous Trucks",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Morui Zhu",
+        "Yongqi Zhu",
+        "Song Fu",
+        "Qing Yang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.23711",
+        "DOI": ""
+      },
+      "paperId": "496cbbdd7b4ddb7df1651caef25e9132f63fd60d",
+      "publicationDate": "2026-03-24"
+    },
+    {
+      "title": "KnowDiffuser: A Knowledge-Guided Diffusion Planner with LLM Reasoning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Fan Ding",
+        "Xuewen Luo",
+        "Fengze Yang",
+        "Bo Yu",
+        "H. Tew",
+        "Ganesh Krishnasamy",
+        "J. Loo"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.10441",
+        "DOI": ""
+      },
+      "paperId": "c50dc5ffbf83098a587f1ce32cca5e8301cea956",
+      "publicationDate": "2026-03-11"
+    },
+    {
+      "title": "EvoDriveVLA: Evolving Driving VLA Models via Collaborative Perception-Planning Distillation",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jiajun Cao",
+        "Xiaoan Zhang",
+        "Xiaobao Wei",
+        "Liyuqiu Huang",
+        "Zijian Wang",
+        "Hanzhen Zhang",
+        "Zhengyu Jia",
+        "Wei Mao",
+        "Hao Wang",
+        "Xianming Liu"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2603.09465",
+        "DOI": ""
+      },
+      "paperId": "acddb09662953473c24275b197dce6581984045f",
+      "publicationDate": "2026-03-10"
+    },
+    {
+      "title": "Towards lightweight noise-robust models via noise-aware pruning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Shuwen Jin",
+        "Junzhu Mao",
+        "Zeren Sun",
+        "Yazhou Yao"
+      ],
+      "venue": "International Conference on Graphic and Image Processing",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1117/12.3095862"
+      },
+      "paperId": "dc3436147c2d2d6bf48e18f164494a4c11d39a80",
+      "publicationDate": "2026-03-04"
+    },
+    {
+      "title": "ReAct-Diffuse: An Integrated Agentic and Generative Diffusion Framework for Autonomous Multi-Step Task Reasoning and Execution",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Madhur Thapliyal",
+        "Geetika Sharma",
+        "Raman Sharma"
+      ],
+      "venue": "International Conferences on Information Science and System",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/ICISS67859.2026.11453583"
+      },
+      "paperId": "9c65c3a0670f3141e8db151a59fda047907eacf0",
+      "publicationDate": "2026-03-04"
+    },
+    {
+      "title": "TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Tugrul Gorgulu",
+        "Atakan Dag",
+        "Muhammet Esat Kalfaoglu",
+        "Halil Ibrahim Kuru",
+        "Baris Can Cam",
+        "Ozsel Kilinc"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.23499",
+        "DOI": "10.48550/arXiv.2602.23499"
+      },
+      "paperId": "c47c0c30606c0e172458df2a9eca983eb7f831b9",
+      "publicationDate": "2026-02-26"
+    },
+    {
+      "title": "The Constant Eye: Benchmarking and Bridging Appearance Robustness in Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jiabao Wang",
+        "Hongyu Zhou",
+        "Yuanbo Yang",
+        "Jiahao Shao",
+        "Yiyi Liao"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.12563",
+        "DOI": "10.48550/arXiv.2602.12563"
+      },
+      "paperId": "d00492c926422aa6af2dd679205f75dfc687bed4",
+      "publicationDate": "2026-02-13"
+    },
+    {
+      "title": "Adaptive Time Step Flow Matching for Autonomous Driving Motion Planning",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Ananya Trivedi",
+        "Anjian Li",
+        "Mohamed Bashir Elnoor",
+        "Yusuf Umut Ciftci",
+        "Avinash Singh",
+        "Jovin D'sa",
+        "Sangjae Bae",
+        "David Isele",
+        "T. Padır",
+        "Faizan M. Tariq"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.10285",
+        "DOI": "10.48550/arXiv.2602.10285"
+      },
+      "paperId": "8747e4b4b2d8b80beb4013df74aee9d2e37dd0c3",
+      "publicationDate": "2026-02-10"
+    },
+    {
+      "title": "Addressing the Waypoint-Action Gap in End-to-End Autonomous Driving via Vehicle Motion Models",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Jorge Daniel Rodríguez-Vidal",
+        "Gabriel Villalonga",
+        "Diego Porres",
+        "Antonio M. López"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.06214",
+        "DOI": "10.48550/arXiv.2602.06214"
+      },
+      "paperId": "3a993da44327fef1bf237d740a40d970ee8ae430",
+      "publicationDate": "2026-02-05"
+    },
+    {
+      "title": "Physics-informed Diffusion Mamba Transformer for Real-world Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Hang Zhou",
+        "Qiang Zhang",
+        "Peiran Liu",
+        "Yihao Qin",
+        "Zhaoxu Yan",
+        "Yiding Ji"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2602.00808",
+        "DOI": "10.48550/arXiv.2602.00808"
+      },
+      "paperId": "11959ade25c2e79f21c1f0aef07a8b178b073f65",
+      "publicationDate": "2026-01-31"
+    },
+    {
+      "title": "Self-Imitated Diffusion Policy for Efficient and Robust Visual Navigation",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Runhu Zhang",
+        "Ju-Pan Hou",
+        "Changxu Cheng",
+        "Qiyi Chen",
+        "Tao Wang",
+        "Wuyue Zhao"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "2601.22965",
+        "DOI": "10.1109/LRA.2026.3699240"
+      },
+      "paperId": "61d44fb32268ddfb68b0483094fc06605101fe67",
+      "publicationDate": "2026-01-30"
+    },
+    {
+      "title": "MTDrive: Multi-turn Interactive Reinforcement Learning for Autonomous Driving",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Xidong Li",
+        "Mingyu Guo",
+        "Chen Xu",
+        "Bailin Li",
+        "Wenjing Zhu",
+        "Yang Zou",
+        "Rui Chen",
+        "Zehua Wang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2601.22930",
+        "DOI": "10.48550/arXiv.2601.22930"
+      },
+      "paperId": "39cb3aa233fa688b59c628e9913e3e622f36e1b1",
+      "publicationDate": "2026-01-30"
+    },
+    {
+      "title": "SRIF: A Safer Ranking Inference Framework for Diffusion Policy Models Without Retraining",
+      "year": 2026,
+      "citationCount": 0,
+      "authors": [
+        "Zengmao Wang",
+        "Qifei Tang",
+        "Wei Gao",
+        "Shuhan Shen"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/LRA.2025.3629965"
+      },
+      "paperId": "87155fcdc398bba9ede02d04e5938684cef4419d",
+      "publicationDate": "2026-01-01"
+    },
+    {
+      "title": "HiPro-AD: Sparse Trajectory Transformer for End-to-End Autonomous Driving with Hybrid Spatiotemporal Attention",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Bing Chen",
+        "Gaopeng Wang",
+        "Jiandong Yang",
+        "Shaoli Huang",
+        "Xinhe Qian",
+        "Bin Huang",
+        "Guanlun Guo"
+      ],
+      "venue": "Italian National Conference on Sensors",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.3390/s26010185"
+      },
+      "paperId": "84ced81f592cd2f32521681e423d6b0e5b991b47",
+      "publicationDate": "2025-12-26"
+    },
+    {
+      "title": "Pseudo-Expert Regularized Offline RL for End-to-End Autonomous Driving in Photorealistic Closed-Loop Environments",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Chihiro Noguchi",
+        "Takaki Yamamoto"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2512.18662",
+        "DOI": ""
+      },
+      "paperId": "f0d5ba27b02c42ebeefd08ae0d0abbf0edf815b8",
+      "publicationDate": "2025-12-21"
+    },
+    {
+      "title": "LADY: Linear Attention for Autonomous Driving Efficiency Without Transformers",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Jihao Huang",
+        "Xi Xia",
+        "Zhiyuan Li",
+        "Tianle Liu",
+        "Jingke Wang",
+        "Junbo Chen",
+        "Tengju Ye"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "2512.15038",
+        "DOI": "10.1109/LRA.2026.3673934"
+      },
+      "paperId": "eec76e8e9e0a7f3f493694762d7127541681a53e",
+      "publicationDate": "2025-12-17"
+    },
+    {
+      "title": "Sequence of Expert: Boosting Imitation Planners for Autonomous Driving through Temporal Alternation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Xiang Li",
+        "Gang Liu",
+        "Weitao Zhou",
+        "Hongyi Zhu",
+        "Zhong Cao"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2512.13094",
+        "DOI": "10.48550/arXiv.2512.13094"
+      },
+      "paperId": "e6a85d302279c166137b8d4cbe42cd9f42c963e3",
+      "publicationDate": "2025-12-15"
+    },
+    {
+      "title": "Map-World: Masked Action planning and Path-Integral World Model for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Bin Hu",
+        "Zijian Lu",
+        "Haicheng Liao",
+        "Chengran Yuan",
+        "Bin Rao",
+        "Yongkang Li",
+        "Guofa Li",
+        "Zhiyong Cui",
+        "Cheng-zhong Xu",
+        "Zhenning Li"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2511.20156",
+        "DOI": "10.48550/arXiv.2511.20156"
+      },
+      "paperId": "3a3d8ccff23f99e316a83407e87b12cd06a1e6fe",
+      "publicationDate": "2025-11-25"
+    },
+    {
+      "title": "MagicWorld: Towards Long-Horizon Stability for Interactive Video World Exploration",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Guangyuan Li",
+        "Bo Li",
+        "Jinwei Chen",
+        "Xiaobin Hu",
+        "Lei Zhao",
+        "Peng-Tao Jiang"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2511.18886",
+        "DOI": ""
+      },
+      "paperId": "76cd13c853e59868ebe860bbbfa08c32f2cfea00",
+      "publicationDate": "2025-11-24"
+    },
+    {
+      "title": "LoCo-VLM: End-to-End Autonomous Driving with a Loosely Coupled Vision-Language Model",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Jiandong Xing",
+        "Shuai Min",
+        "Danmu Xie",
+        "Xinyu Wang",
+        "Letian Kang",
+        "Yilong Ren",
+        "Haiyang Yu",
+        "Xuesong Bai"
+      ],
+      "venue": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/ITSC60802.2025.11423082"
+      },
+      "paperId": "4e626a865a773ae33bca9ca27ff1a18fd93cab4e",
+      "publicationDate": "2025-11-18"
+    },
+    {
+      "title": "Planning-Oriented Trajectory Generation with Motion Prior Guidance Using Truncated Diffusion",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Hengyang Sun",
+        "Meng Li",
+        "Jialei Nie",
+        "Jing-Jie Min",
+        "Yanjun Huang"
+      ],
+      "venue": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/ITSC60802.2025.11423099"
+      },
+      "paperId": "b15f337b3ba4862573016c90725cdb0fb11a6093",
+      "publicationDate": "2025-11-18"
+    },
+    {
+      "title": "VIRTUE: Visual Interference from Roadside Billboard Targets on Urban End-to-End Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Zhiyao Luo",
+        "Yonglin Tian",
+        "Songlin Bai",
+        "Xianke Wu",
+        "Yu-Liang Liu",
+        "Yisheng Lv",
+        "Fei-Yue Wang"
+      ],
+      "venue": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/ITSC60802.2025.11423296"
+      },
+      "paperId": "5feda14f2384513de06afb1dea08361ba11d7688",
+      "publicationDate": "2025-11-18"
+    },
+    {
+      "title": "Prediction-Driven Motion Planning: Route Integration Strategies in Attention-Based Prediction Models",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Marlon Steiner",
+        "Royden Wagner",
+        "Ömer Sahin Tas",
+        "Christoph Stiller"
+      ],
+      "venue": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+      "externalIds": {
+        "ArXiv": "2512.03756",
+        "DOI": "10.1109/ITSC60802.2025.11423211"
+      },
+      "paperId": "b3da035e2b6a80a21cc79cb95734dcb690a16c2d",
+      "publicationDate": "2025-11-18"
+    },
+    {
+      "title": "End-to-End Seam Tracking with Flow Matching-Based Diffusion Policy",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Zhaoqi Chu",
+        "Xiangrong Liu",
+        "Xuhui Que",
+        "Bo Yu",
+        "Juan Liu"
+      ],
+      "venue": "Mind",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/MIND67540.2025.11351867"
+      },
+      "paperId": "1c15c9b993c958719d77c548d642517c37e1d6b5",
+      "publicationDate": "2025-10-31"
+    },
+    {
+      "title": "Design Planning Framework Based on Bidirectional Refinement Interaction for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Chuanye Wang",
+        "Shichun Yang",
+        "Bingtao Ren",
+        "Yibin Feng",
+        "Bin Sun",
+        "Fengjie Du"
+      ],
+      "venue": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/CVCI66304.2025.11348172"
+      },
+      "paperId": "5e5b680c1d7308d103ad0be171dcf1be332d0db3",
+      "publicationDate": "2025-10-24"
+    },
+    {
+      "title": "Autoregressive End-to-End Planning with Time-Invariant Spatial Alignment and Multi-Objective Policy Refinement",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Jianbo Zhao",
+        "Taiyu Ban",
+        "Xiangjie Li",
+        "Xingtai Gui",
+        "Hangning Zhou",
+        "Lei Liu",
+        "Hongwei Zhao",
+        "Bin Li"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2509.20938",
+        "DOI": "10.48550/arXiv.2509.20938"
+      },
+      "paperId": "8669fee07075ff75275afdac933f111af1cbdb4d",
+      "publicationDate": "2025-09-25"
+    },
+    {
+      "title": "Octree Diffusion for Semantic Scene Generation and Completion",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Xujia Zhang",
+        "Brendan Crowe",
+        "Christoffer Heckman"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "2509.16483",
+        "DOI": ""
+      },
+      "paperId": "475e52d57ad81975fc77aadf13f1cd59993557d5",
+      "publicationDate": "2025-09-20"
+    },
+    {
+      "title": "RTDP: One-Step Residual Truncated Diffusion Policy for Quadrotor Trajectory Generation",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Yuyang Zhou",
+        "Pinhui Zhao",
+        "Decai Li",
+        "Yuqing He"
+      ],
+      "venue": "2025 IEEE International Conference on Unmanned Systems (ICUS)",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/ICUS66297.2025.11294980"
+      },
+      "paperId": "cfae9ad46fa9a6f244a9dfb8ae7bd05fee311a8b",
+      "publicationDate": "2025-09-18"
+    },
+    {
+      "title": "CD-BEV: Enhancing Bird’s-Eye-View Perception with Conditioned Diffusion for Missing-View Recovery",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Weiyi Hu",
+        "Hua Cui",
+        "Haoran Hu",
+        "Zhao Yang"
+      ],
+      "venue": "2025 7th International Conference on Internet of Things, Automation and Artificial Intelligence (IoTAAI)",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/IoTAAI66837.2025.11213344"
+      },
+      "paperId": "23cb517f0937ab89ca84bc538f2d793680ef89cd",
+      "publicationDate": "2025-09-12"
+    },
+    {
+      "title": "Drive As You Like: Strategy-Level Motion Planning Based on A Multi-Head Diffusion Model",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Fan Ding",
+        "Xuewen Luo",
+        "H. Tew",
+        "Ruturaj Reddy",
+        "Xikun Wang",
+        "J. Loo"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2508.16947",
+        "DOI": "10.48550/arXiv.2508.16947"
+      },
+      "paperId": "9ea158fde4198013ebb41aeff700e7acf2914f8f",
+      "publicationDate": "2025-08-23"
+    },
+    {
+      "title": "Reward Function for Automatic Driving Based on Reinforcement Learning",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Yu Chen"
+      ],
+      "venue": "2025 4th International Conference on Artificial Intelligence, Internet of Things and Cloud Computing Technology (AIoTC)",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/AIoTC66747.2025.11198762"
+      },
+      "paperId": "cb00c307242757abe7bf3cf228ef592549296fda",
+      "publicationDate": "2025-08-08"
+    },
+    {
+      "title": "PS-CC: Planning by Simulation With Continuous Action Space Optimization and Adaptive Cost Learning for Human-Like Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Tian Niu",
+        "Kaizhao Zhang",
+        "Zijun Xu"
+      ],
+      "venue": "IEEE Robotics and Automation Letters",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": "10.1109/LRA.2025.3586517"
+      },
+      "paperId": "30ec7cfb4f6fbcebb08d68b9306f7fa260e2f48f",
+      "publicationDate": "2025-08-01"
+    },
+    {
+      "title": "VLM-UDMC: VLM-Enhanced Unified Decision-Making and Motion Control for Urban Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Haichao Liu",
+        "Haoren Guo",
+        "Pei Liu",
+        "Benshan Ma",
+        "Yuxiang Zhang",
+        "Jun Ma",
+        "Tong Heng Lee"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2507.15266",
+        "DOI": "10.48550/arXiv.2507.15266"
+      },
+      "paperId": "3949de687b3a93ea2748b11bada160bca45ae3ea",
+      "publicationDate": "2025-07-21"
+    },
+    {
+      "title": "HMAD: Advancing E2E Driving with Anchored Offset Proposals and Simulation-Supervised Multi-target Scoring",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Bin Wang",
+        "Pin-Zu Li",
+        "Jinkun Liu",
+        "Jun Cheng",
+        "Hailong Lei",
+        "Yinze Rong",
+        "Huan-ang Gao",
+        "Kangliang Chen",
+        "X. Pan",
+        "Weihao Gu"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.23129",
+        "DOI": "10.48550/arXiv.2505.23129"
+      },
+      "paperId": "4260d0fdc7d557412090f6d6ddfde37d8046c85d",
+      "publicationDate": "2025-05-29"
+    },
+    {
+      "title": "DriveCamSim: Generalizable Camera Simulation via Explicit Camera Modeling for Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Wenchao Sun",
+        "Xuewu Lin",
+        "Keyu Chen",
+        "Zi-Hui Pei",
+        "Yining Shi",
+        "Chuang Zhang",
+        "Sifa Zheng"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.19692",
+        "DOI": "10.48550/arXiv.2505.19692"
+      },
+      "paperId": "758e3b17d0341b3b99fb815b1c9822b14addbd88",
+      "publicationDate": "2025-05-26"
+    },
+    {
+      "title": "CodeMerge: Codebook-Guided Model Merging for Robust Test-Time Adaptation in Autonomous Driving",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Huitong Yang",
+        "Zhuoxiao Chen",
+        "Fengyi Zhang",
+        "Zi Huang",
+        "Yadan Luo"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.16524",
+        "DOI": "10.48550/arXiv.2505.16524"
+      },
+      "paperId": "756e9e4e25ba8e437f1bde1e61abe58f395727cd",
+      "publicationDate": "2025-05-22"
+    },
+    {
+      "title": "AGI-Elo: How Far Are We From Mastering A Task?",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Shuo Sun",
+        "Yimin Zhao",
+        "Christina Dao Wen Lee",
+        "Jiawei Sun",
+        "Chengran Yuan",
+        "Zefan Huang",
+        "Dongen Li",
+        "Justin K. W. Yeoh",
+        "Alok Prakash",
+        "T. W. Malone"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.12844",
+        "DOI": "10.48550/arXiv.2505.12844"
+      },
+      "paperId": "9b1124d0a4426d5669d7c85293a2122e1f9cbca0",
+      "publicationDate": "2025-05-19"
+    },
+    {
+      "title": "Scene-Adaptive Motion Planning with Explicit Mixture of Experts and Interaction-Oriented Optimization",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Hongbiao Zhu",
+        "Liulong Ma",
+        "Xiangnan Wu",
+        "Xin Deng",
+        "Xiaoyao Liang"
+      ],
+      "venue": "arXiv.org",
+      "externalIds": {
+        "ArXiv": "2505.12311",
+        "DOI": "10.48550/arXiv.2505.12311"
+      },
+      "paperId": "549c6df94f5eca49643056652e124402470beecc",
+      "publicationDate": "2025-05-18"
+    },
+    {
+      "title": "$\\text{DHO}_{2}$: Accelerating Distributed Hybrid Order Optimization via Model Parallelism and ADMM",
+      "year": 2025,
+      "citationCount": 0,
+      "authors": [
+        "Shunxian Gu",
+        "Chaoqun You",
+        "Bangbang Ren",
+        "Deke Guo",
+        "Lailong Luo",
+        "Junxu Xia"
+      ],
+      "venue": "International Symposium on Image and Signal Processing and Analysis",
+      "externalIds": {
+        "ArXiv": "2505.00982",
+        "DOI": "10.1109/ISPA67752.2025.00122"
+      },
+      "paperId": "e6864e9b4316aa867a037fce9396544c3dd56a60",
+      "publicationDate": "2025-05-02"
+    },
+    {
+      "title": "Technical Report for UniPlan",
+      "year": null,
+      "citationCount": 0,
+      "authors": [
+        "Lan Feng Epfl"
+      ],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": ""
+      },
+      "paperId": "d0e987e81f2c87d342a2d2ad678740cf22b2f3b9",
+      "publicationDate": null
+    },
+    {
+      "title": "D RIVE VLA-W0: W ORLD M ODELS A MPLIFY D ATA S CALING L AW IN A UTONOMOUS D RIVING",
+      "year": null,
+      "citationCount": 0,
+      "authors": [],
+      "venue": "",
+      "externalIds": {
+        "ArXiv": "",
+        "DOI": ""
+      },
+      "paperId": "9fe970f2f372a0cb5f3dcd15a7e6340705350d4a",
+      "publicationDate": null
+    }
+  ],
+  "totalCitations": 296,
+  "cachedAt": "2026-06-13T11:27:09.742Z"
+}

@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-13",
+  "papers": [
+    {
+      "arxiv_id": "https://www.semanticscholar.org/paper/f12238e4cb8b3c3556f166789a1dc790fb7a3683",
+      "title": "The Future of Autonomous Vehicles: Analyzing the Technological and Ethical Challenges of Self-Driving Cars",
+      "authors": [
+        {
+          "authorId": "51230514",
+          "affiliations": []
+        },
+        {
+          "authorId": "2128734606",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "The emergence of autonomous vehicles (AVs) promises to revolutionize transportation systems, potentially increasing road safety, improving mobility access, and transforming urban landscapes. This study provides a comprehensive analysis of the technological capabilities, ethical dilemmas, and societal implications of self-driving cars through a mixed-methods approach incorporating simulation data, accident reports, public opinion surveys, and policy analyses from 2015-2023. Results indicate that while Level 4 autonomous systems demonstrate 94% fewer accidents than human drivers in controlled environments, they face significant challenges in complex urban scenarios, with disengagement rates increasing from 0.02 to 1.8 interventions per 100 miles as environmental complexity rises. Ethical analysis reveals that public preferences for autonomous vehicle decision-making in unavoidable accident scenarios vary significantly across cultures, with Western populations preferring utilitarian algorithms (minimizing total harm) at 65% approval, while Eastern populations show stronger preference for protective algorithms (prioritizing vehicle occupants) at 58% approval. Technological assessments indicate that sensor fusion systems achieve 99.7% object detection accuracy in daylight conditions but degrade to 85.3% in heavy rain and 79.1% in snow. Cybersecurity vulnerabilities pose substantial risks, with penetration testing revealing successful remote takeover of vehicle controls in 17% of tested systems. Economic projections suggest AV deployment could eliminate 2.7-3.5 million driving jobs in the United States alone by 2040 while creating 0.8-1.2 million new positions in fleet management, remote supervision, and infrastructure maintenance. Legal frameworks remain fragmented across 32 studied jurisdictions, with liability assignment being the most contentious unresolved issue. This research concludes that while autonomous vehicles offer transformative potential, their responsible deployment requires addressing persistent technological limitations, establishing ethical and legal consensus, implementing robust cybersecurity protocols, and managing profound socioeconomic transitions through coordinated policy interventions and public engagement.",
+      "original_abstract": "The emergence of autonomous vehicles (AVs) promises to revolutionize transportation systems, potentially increasing road safety, improving mobility access, and transforming urban landscapes. This study provides a comprehensive analysis of the technological capabilities, ethical dilemmas, and societal implications of self-driving cars through a mixed-methods approach incorporating simulation data, accident reports, public opinion surveys, and policy analyses from 2015-2023. Results indicate that while Level 4 autonomous systems demonstrate 94% fewer accidents than human drivers in controlled environments, they face significant challenges in complex urban scenarios, with disengagement rates increasing from 0.02 to 1.8 interventions per 100 miles as environmental complexity rises. Ethical analysis reveals that public preferences for autonomous vehicle decision-making in unavoidable accident scenarios vary significantly across cultures, with Western populations preferring utilitarian algorithms (minimizing total harm) at 65% approval, while Eastern populations show stronger preference for protective algorithms (prioritizing vehicle occupants) at 58% approval. Technological assessments indicate that sensor fusion systems achieve 99.7% object detection accuracy in daylight conditions but degrade to 85.3% in heavy rain and 79.1% in snow. Cybersecurity vulnerabilities pose substantial risks, with penetration testing revealing successful remote takeover of vehicle controls in 17% of tested systems. Economic projections suggest AV deployment could eliminate 2.7-3.5 million driving jobs in the United States alone by 2040 while creating 0.8-1.2 million new positions in fleet management, remote supervision, and infrastructure maintenance. Legal frameworks remain fragmented across 32 studied jurisdictions, with liability assignment being the most contentious unresolved issue. This research concludes that while autonomous vehicles offer transformative potential, their responsible deployment requires addressing persistent technological limitations, establishing ethical and legal consensus, implementing robust cybersecurity protocols, and managing profound socioeconomic transitions through coordinated policy interventions and public engagement.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "自动驾驶",
+      "matched_keywords": [
+        "self-driving",
+        "autonomous vehicle",
+        "sensor fusion"
+      ],
+      "scores": {
+        "relevance": 1.3,
+        "recency": 1,
+        "popularity": 0,
+        "quality": 1.3,
+        "recommendation": 2.28
+      },
+      "pdf_url": "https://arxiv.org/pdf/https://www.semanticscholar.org/paper/f12238e4cb8b3c3556f166789a1dc790fb7a3683",
+      "arxiv_url": "https://www.semanticscholar.org/paper/f12238e4cb8b3c3556f166789a1dc790fb7a3683"
+    },
+    {
+      "arxiv_id": "https://www.semanticscholar.org/paper/509711037916ba70f5cf2f30a5a391c8892394fe",
+      "title": "Simulated Autonomous Driving: Integrating Deep Learning and Computer Vision for Self-Driving Cars",
+      "authors": [
+        {
+          "authorId": "2421850362",
+          "affiliations": []
+        },
+        {
+          "authorId": "2308961524",
+          "affiliations": []
+        },
+        {
+          "authorId": "2130388352",
+          "affiliations": []
+        },
+        {
+          "authorId": "2237950019",
+          "affiliations": []
+        },
+        {
+          "authorId": "2295278604",
+          "affiliations": []
+        },
+        {
+          "authorId": "2421850832",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "This study, provides the self-driving car system that has a modular architecture by combining computer vision, deep learning, and real-time behavioral cloning towards autonomous driving. Lane detection is done using Canny edge detection and Hough Transform and the traffic sign classification relies on the custom-trained Convolutional Neural Network and the GTSRB dataset. Also, the NVIDIA end-to-end behavioral cloning model has a test accuracy of 97.2 in predicting steering angles based on camera input. The Udacity simulator deploys all components with Flask and Socket.IO interface to achieve real-time image processing and the control of the vehicle. This co-joined multi-module has ensured discipline on the lane and good dynamic driving, as well as proper interpretation of road signs under the simulated environment. The work shows the combination of classical lane detection technology and a self-designed convolutional neural network-based traffic sign recognition and behavior cloning in this modular form with good performance and viable use in a simulation pipeline in real time.",
+      "original_abstract": "This study, provides the self-driving car system that has a modular architecture by combining computer vision, deep learning, and real-time behavioral cloning towards autonomous driving. Lane detection is done using Canny edge detection and Hough Transform and the traffic sign classification relies on the custom-trained Convolutional Neural Network and the GTSRB dataset. Also, the NVIDIA end-to-end behavioral cloning model has a test accuracy of 97.2 in predicting steering angles based on camera input. The Udacity simulator deploys all components with Flask and Socket.IO interface to achieve real-time image processing and the control of the vehicle. This co-joined multi-module has ensured discipline on the lane and good dynamic driving, as well as proper interpretation of road signs under the simulated environment. The work shows the combination of classical lane detection technology and a self-designed convolutional neural network-based traffic sign recognition and behavior cloning in this modular form with good performance and viable use in a simulation pipeline in real time.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "自动驾驶",
+      "matched_keywords": [
+        "autonomous driving",
+        "self-driving",
+        "lane detection"
+      ],
+      "scores": {
+        "relevance": 1.3,
+        "recency": 0,
+        "popularity": 0,
+        "quality": 1.3,
+        "recommendation": 1.95
+      },
+      "pdf_url": "https://arxiv.org/pdf/https://www.semanticscholar.org/paper/509711037916ba70f5cf2f30a5a391c8892394fe",
+      "arxiv_url": "https://www.semanticscholar.org/paper/509711037916ba70f5cf2f30a5a391c8892394fe"
+    },
+    {
+      "arxiv_id": "https://www.semanticscholar.org/paper/7cddba300535f17edff4a2fc573b48a308e3fa14",
+      "title": "Enhancing Autonomous Vehicle Navigation: Traffic Police Hand Gesture Recognition for Self-Driving Cars in India using MoveNet Thunder",
+      "authors": [
+        {
+          "authorId": "2167336998",
+          "affiliations": []
+        },
+        {
+          "authorId": "2340520749",
+          "affiliations": []
+        },
+        {
+          "authorId": "2340519960",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "The motive of this Traffic Police Hand Gesture Recognition System for self reliant cars is constructed the use of the MoveNet Thunder version from TensorFlow`s MoveNet. It locates 3 most important gestures regularly utilized by visitors police in India, namely `Stop', 'Turn Left', and 'Move Forward'. To boom robustness, the gadget is skilled o n a custom dataset of 8000 pix taken in special environments, and neural community structure at the full-size quantity of information include Dense and dropout layers to maximise accuracy and keep away from overfitting. Furthermore, actual time face detection is used, wherein the officer is best recorded if he's looking the camera, and Haar cascades are used for that. The version is capable of acquire 89% accuracy, sturdy category overall performance throughout maximum gesture training are observed; but mild misclassifications took place among comparable gestures and became demonstrated with the CARLA simulator below everyday and climate and lights various conditions. Promising outcomes are tested through the prototype for secure and green integration into the self reliant car navigation in visitors managed environments.",
+      "original_abstract": "The motive of this Traffic Police Hand Gesture Recognition System for self reliant cars is constructed the use of the MoveNet Thunder version from TensorFlow`s MoveNet. It locates 3 most important gestures regularly utilized by visitors police in India, namely `Stop', 'Turn Left', and 'Move Forward'. To boom robustness, the gadget is skilled o n a custom dataset of 8000 pix taken in special environments, and neural community structure at the full-size quantity of information include Dense and dropout layers to maximise accuracy and keep away from overfitting. Furthermore, actual time face detection is used, wherein the officer is best recorded if he's looking the camera, and Haar cascades are used for that. The version is capable of acquire 89% accuracy, sturdy category overall performance throughout maximum gesture training are observed; but mild misclassifications took place among comparable gestures and became demonstrated with the CARLA simulator below everyday and climate and lights various conditions. Promising outcomes are tested through the prototype for secure and green integration into the self reliant car navigation in visitors managed environments.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "自动驾驶",
+      "matched_keywords": [
+        "self-driving",
+        "autonomous vehicle",
+        "CARLA simulator"
+      ],
+      "scores": {
+        "relevance": 1.3,
+        "recency": 0,
+        "popularity": 0,
+        "quality": 0.8,
+        "recommendation": 1.78
+      },
+      "pdf_url": "https://arxiv.org/pdf/https://www.semanticscholar.org/paper/7cddba300535f17edff4a2fc573b48a308e3fa14",
+      "arxiv_url": "https://www.semanticscholar.org/paper/7cddba300535f17edff4a2fc573b48a308e3fa14"
+    },
+    {
+      "arxiv_id": "https://www.semanticscholar.org/paper/b7d32a059681dd156b75269d5a27c6362d5f89cf",
+      "title": "Poster: Bridging Autonomy and Connectivity: Enabling Smart Vehicle Communication via Full Self-Driving Models",
+      "authors": [
+        {
+          "authorId": "2369615996",
+          "affiliations": []
+        },
+        {
+          "authorId": "2301856261",
+          "affiliations": []
+        },
+        {
+          "authorId": "102729223",
+          "affiliations": []
+        },
+        {
+          "authorId": "2118930397",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Autonomous vehicles rely on Full Self-Driving (FSD) models for perception and trajectory planning. However, their wireless communication systems face significant challenges in dynamic environments, particularly evident in beamforming dependent vehicle-to-satellite links. Motivated by the powerful sensing capabilities of autonomous vehicles, we introduce Full Smart-Communication (FSC), a unified framework that reuses intermediate outputs from FSD pipelines—such as planned trajectories, occupancy maps, and 3D posture estimates—to model the spatio-temporal radio environment. To avoid accessing raw sensor data directly, FSC leverages processed semantic and kinematic information to anticipate channel conditions and proactively compute beamforming parameters ahead of time. Tested in realistic driving datasets, FSC improves signal strength by up to 15 dB. FSC bridges the gap between autonomous perception and robust communication, enabling proactive, low-latency, and energy-efficient connectivity.",
+      "original_abstract": "Autonomous vehicles rely on Full Self-Driving (FSD) models for perception and trajectory planning. However, their wireless communication systems face significant challenges in dynamic environments, particularly evident in beamforming dependent vehicle-to-satellite links. Motivated by the powerful sensing capabilities of autonomous vehicles, we introduce Full Smart-Communication (FSC), a unified framework that reuses intermediate outputs from FSD pipelines—such as planned trajectories, occupancy maps, and 3D posture estimates—to model the spatio-temporal radio environment. To avoid accessing raw sensor data directly, FSC leverages processed semantic and kinematic information to anticipate channel conditions and proactively compute beamforming parameters ahead of time. Tested in realistic driving datasets, FSC improves signal strength by up to 15 dB. FSC bridges the gap between autonomous perception and robust communication, enabling proactive, low-latency, and energy-efficient connectivity.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "自动驾驶",
+      "matched_keywords": [
+        "self-driving",
+        "autonomous vehicle",
+        "trajectory planning"
+      ],
+      "scores": {
+        "relevance": 1.1,
+        "recency": 0,
+        "popularity": 0,
+        "quality": 0.8,
+        "recommendation": 1.55
+      },
+      "pdf_url": "https://arxiv.org/pdf/https://www.semanticscholar.org/paper/b7d32a059681dd156b75269d5a27c6362d5f89cf",
+      "arxiv_url": "https://www.semanticscholar.org/paper/b7d32a059681dd156b75269d5a27c6362d5f89cf"
+    }
+  ],
+  "total": 4
+}

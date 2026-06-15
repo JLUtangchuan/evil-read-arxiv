@@ -1,0 +1,37 @@
+[
+  {
+    "filename": "qwen35vla_arc_page1.png",
+    "url": "/api/images/2605.30280v1/qwen35vla_arc_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "qwenvla_overview_final_page1.png",
+    "url": "/api/images/2605.30280v1/qwenvla_overview_final_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "realgrid_4x4.jpg",
+    "url": "/api/images/2605.30280v1/realgrid_4x4.jpg",
+    "source": "arxiv"
+  },
+  {
+    "filename": "sim_demo_page1.png",
+    "url": "/api/images/2605.30280v1/sim_demo_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "t2a_combined_page1.png",
+    "url": "/api/images/2605.30280v1/t2a_combined_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "task_overview_page1.png",
+    "url": "/api/images/2605.30280v1/task_overview_page1.png",
+    "source": "arxiv"
+  },
+  {
+    "filename": "vl_abl_page1.png",
+    "url": "/api/images/2605.30280v1/vl_abl_page1.png",
+    "source": "arxiv"
+  }
+]

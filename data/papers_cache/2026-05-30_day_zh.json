@@ -1,0 +1,462 @@
+{
+  "date": "2026-05-30",
+  "papers": [
+    {
+      "arxiv_id": "2506.21539",
+      "title": "WorldVLA: Towards Autoregressive Action World Model",
+      "authors": [
+        {
+          "authorId": "2348540936",
+          "affiliations": []
+        },
+        {
+          "authorId": "2110961040",
+          "affiliations": []
+        },
+        {
+          "authorId": "2349411286",
+          "affiliations": []
+        },
+        {
+          "authorId": "2127773416",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371084328",
+          "affiliations": []
+        },
+        {
+          "authorId": "5765645",
+          "affiliations": [
+            "Peking University"
+          ]
+        },
+        {
+          "authorId": "2326701803",
+          "affiliations": []
+        },
+        {
+          "authorId": "2292187802",
+          "affiliations": []
+        },
+        {
+          "authorId": "2350153417",
+          "affiliations": []
+        },
+        {
+          "authorId": "2342245788",
+          "affiliations": []
+        },
+        {
+          "authorId": "2303980061",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371141157",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [
+        "Peking University"
+      ],
+      "summary": "We present WorldVLA, an autoregressive action world model that unifies action and image understanding and generation. Our WorldVLA intergrates Vision-Language-Action (VLA) model and world model in one single framework. The world model predicts future images by leveraging both action and image understanding, with the purpose of learning the underlying physics of the environment to improve action generation. Meanwhile, the action model generates the subsequent actions based on image observations, aiding in visual understanding and in turn helps visual generation of the world model. We demonstrate that WorldVLA outperforms standalone action and world models, highlighting the mutual enhancement between the world model and the action model. In addition, we find that the performance of the action model deteriorates when generating sequences of actions in an autoregressive manner. This phenomenon can be attributed to the model's limited generalization capability for action prediction, leading to the propagation of errors from earlier actions to subsequent ones. To address this issue, we propose an attention mask strategy that selectively masks prior actions during the generation of the current action, which shows significant performance improvement in the action chunk generation task.",
+      "original_abstract": "We present WorldVLA, an autoregressive action world model that unifies action and image understanding and generation. Our WorldVLA intergrates Vision-Language-Action (VLA) model and world model in one single framework. The world model predicts future images by leveraging both action and image understanding, with the purpose of learning the underlying physics of the environment to improve action generation. Meanwhile, the action model generates the subsequent actions based on image observations, aiding in visual understanding and in turn helps visual generation of the world model. We demonstrate that WorldVLA outperforms standalone action and world models, highlighting the mutual enhancement between the world model and the action model. In addition, we find that the performance of the action model deteriorates when generating sequences of actions in an autoregressive manner. This phenomenon can be attributed to the model's limited generalization capability for action prediction, leading to the propagation of errors from earlier actions to subsequent ones. To address this issue, we propose an attention mask strategy that selectively masks prior actions during the generation of the current action, which shows significant performance improvement in the action chunk generation task.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "VLA模型",
+      "matched_keywords": [
+        "VLA",
+        "vision-language-action",
+        "action prediction"
+      ],
+      "scores": {
+        "relevance": 1.1,
+        "recency": 0,
+        "popularity": 0.87,
+        "quality": 2,
+        "recommendation": 3.25
+      },
+      "pdf_url": "https://arxiv.org/pdf/2506.21539",
+      "arxiv_url": "https://www.semanticscholar.org/paper/725f8803dfe4551988fd4b51fdfa940340b4222e"
+    },
+    {
+      "arxiv_id": "2506.09985",
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "authors": [
+        {
+          "authorId": "38698856",
+          "affiliations": []
+        },
+        {
+          "authorId": "1453740540",
+          "affiliations": []
+        },
+        {
+          "authorId": "2335871751",
+          "affiliations": []
+        },
+        {
+          "authorId": "2048163343",
+          "affiliations": []
+        },
+        {
+          "authorId": "2366426723",
+          "affiliations": []
+        },
+        {
+          "authorId": "2324568313",
+          "affiliations": []
+        },
+        {
+          "authorId": "2954796",
+          "affiliations": [
+            "Facebook AI Research"
+          ]
+        },
+        {
+          "authorId": "2366426182",
+          "affiliations": []
+        },
+        {
+          "authorId": "2366431895",
+          "affiliations": []
+        },
+        {
+          "authorId": "2266467601",
+          "affiliations": []
+        },
+        {
+          "authorId": "1416761815",
+          "affiliations": []
+        },
+        {
+          "authorId": "2213251873",
+          "affiliations": []
+        },
+        {
+          "authorId": "1752829922",
+          "affiliations": []
+        },
+        {
+          "authorId": "2347686350",
+          "affiliations": []
+        },
+        {
+          "authorId": "2344089432",
+          "affiliations": []
+        },
+        {
+          "authorId": "2356547509",
+          "affiliations": []
+        },
+        {
+          "authorId": "2329288",
+          "affiliations": []
+        },
+        {
+          "authorId": "2182694",
+          "affiliations": []
+        },
+        {
+          "authorId": "1744868",
+          "affiliations": []
+        },
+        {
+          "authorId": "2366427448",
+          "affiliations": []
+        },
+        {
+          "authorId": "23994377",
+          "affiliations": []
+        },
+        {
+          "authorId": "2278303846",
+          "affiliations": []
+        },
+        {
+          "authorId": "2383231005",
+          "affiliations": []
+        },
+        {
+          "authorId": "2391499701",
+          "affiliations": []
+        },
+        {
+          "authorId": "123607932",
+          "affiliations": []
+        },
+        {
+          "authorId": "2253468522",
+          "affiliations": []
+        },
+        {
+          "authorId": "2265899558",
+          "affiliations": []
+        },
+        {
+          "authorId": "2284991448",
+          "affiliations": []
+        },
+        {
+          "authorId": "2289844757",
+          "affiliations": []
+        },
+        {
+          "authorId": "2364685176",
+          "affiliations": []
+        },
+        {
+          "authorId": "2312779111",
+          "affiliations": []
+        },
+        {
+          "authorId": "2312747323",
+          "affiliations": []
+        },
+        {
+          "authorId": "2102129911",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [
+        "Facebook AI Research"
+      ],
+      "summary": "A major challenge for modern AI is to learn to understand the world and learn to act largely by observation. This paper explores a self-supervised approach that combines internet-scale video data with a small amount of interaction data (robot trajectories), to develop models capable of understanding, predicting, and planning in the physical world. We first pre-train an action-free joint-embedding-predictive architecture, V-JEPA 2, on a video and image dataset comprising over 1 million hours of internet video. V-JEPA 2 achieves strong performance on motion understanding (77.3 top-1 accuracy on Something-Something v2) and state-of-the-art performance on human action anticipation (39.7 recall-at-5 on Epic-Kitchens-100) surpassing previous task-specific models. Additionally, after aligning V-JEPA 2 with a large language model, we demonstrate state-of-the-art performance on multiple video question-answering tasks at the 8 billion parameter scale (e.g., 84.0 on PerceptionTest, 76.9 on TempCompass). Finally, we show how self-supervised learning can be applied to robotic planning tasks by post-training a latent action-conditioned world model, V-JEPA 2-AC, using less than 62 hours of unlabeled robot videos from the Droid dataset. We deploy V-JEPA 2-AC zero-shot on Franka arms in two different labs and enable picking and placing of objects using planning with image goals. Notably, this is achieved without collecting any data from the robots in these environments, and without any task-specific training or reward. This work demonstrates how self-supervised learning from web-scale data and a small amount of robot interaction data can yield a world model capable of planning in the physical world.",
+      "original_abstract": "A major challenge for modern AI is to learn to understand the world and learn to act largely by observation. This paper explores a self-supervised approach that combines internet-scale video data with a small amount of interaction data (robot trajectories), to develop models capable of understanding, predicting, and planning in the physical world. We first pre-train an action-free joint-embedding-predictive architecture, V-JEPA 2, on a video and image dataset comprising over 1 million hours of internet video. V-JEPA 2 achieves strong performance on motion understanding (77.3 top-1 accuracy on Something-Something v2) and state-of-the-art performance on human action anticipation (39.7 recall-at-5 on Epic-Kitchens-100) surpassing previous task-specific models. Additionally, after aligning V-JEPA 2 with a large language model, we demonstrate state-of-the-art performance on multiple video question-answering tasks at the 8 billion parameter scale (e.g., 84.0 on PerceptionTest, 76.9 on TempCompass). Finally, we show how self-supervised learning can be applied to robotic planning tasks by post-training a latent action-conditioned world model, V-JEPA 2-AC, using less than 62 hours of unlabeled robot videos from the Droid dataset. We deploy V-JEPA 2-AC zero-shot on Franka arms in two different labs and enable picking and placing of objects using planning with image goals. Notably, this is achieved without collecting any data from the robots in these environments, and without any task-specific training or reward. This work demonstrates how self-supervised learning from web-scale data and a small amount of robot interaction data can yield a world model capable of planning in the physical world.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "世界模型",
+      "matched_keywords": [
+        "world model"
+      ],
+      "scores": {
+        "relevance": 0.3,
+        "recency": 0,
+        "popularity": 1.41,
+        "quality": 2.3,
+        "recommendation": 3.23
+      },
+      "pdf_url": "https://arxiv.org/pdf/2506.09985",
+      "arxiv_url": "https://www.semanticscholar.org/paper/b202faf38efbffcb26470c702e1140b047d6f6e7"
+    },
+    {
+      "arxiv_id": "2506.24113",
+      "title": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+      "authors": [
+        {
+          "authorId": "2273778850",
+          "affiliations": []
+        },
+        {
+          "authorId": "2275126715",
+          "affiliations": []
+        },
+        {
+          "authorId": "2256224731",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371299178",
+          "affiliations": []
+        },
+        {
+          "authorId": "2324335603",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371326713",
+          "affiliations": []
+        },
+        {
+          "authorId": "2401866931",
+          "affiliations": []
+        },
+        {
+          "authorId": "2257137798",
+          "affiliations": []
+        },
+        {
+          "authorId": "2323553276",
+          "affiliations": []
+        },
+        {
+          "authorId": "2292200198",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371143530",
+          "affiliations": []
+        },
+        {
+          "authorId": "2323515472",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Diffusion models have demonstrated exceptional visual quality in video generation, making them promising for autonomous driving world modeling. However, existing video diffusion-based world models struggle with flexible-length, long-horizon predictions and integrating trajectory planning. This is because conventional video diffusion models rely on global joint distribution modeling of fixed-length frame sequences rather than sequentially constructing localized distributions at each timestep. In this work, we propose Epona, an autoregressive diffusion world model that enables localized spatiotemporal distribution modeling through two key innovations: 1) Decoupled spatiotemporal factorization that separates temporal dynamics modeling from fine-grained future world generation, and 2) Modular trajectory and video prediction that seamlessly integrate motion planning with visual modeling in an end-toend framework. Our architecture enables high-resolution, long-duration generation while introducing a novel chain-of-forward training strategy to address error accumulation in autoregressive loops. Experimental results demonstrate state-of-the-art performance with 7.4 % FVD improvement and minutes longer prediction duration compared to prior works. The learned world model further serves as a realtime motion planner, outperforming strong end-to-end planners on NAVSIM benchmarks.",
+      "original_abstract": "Diffusion models have demonstrated exceptional visual quality in video generation, making them promising for autonomous driving world modeling. However, existing video diffusion-based world models struggle with flexible-length, long-horizon predictions and integrating trajectory planning. This is because conventional video diffusion models rely on global joint distribution modeling of fixed-length frame sequences rather than sequentially constructing localized distributions at each timestep. In this work, we propose Epona, an autoregressive diffusion world model that enables localized spatiotemporal distribution modeling through two key innovations: 1) Decoupled spatiotemporal factorization that separates temporal dynamics modeling from fine-grained future world generation, and 2) Modular trajectory and video prediction that seamlessly integrate motion planning with visual modeling in an end-toend framework. Our architecture enables high-resolution, long-duration generation while introducing a novel chain-of-forward training strategy to address error accumulation in autoregressive loops. Experimental results demonstrate state-of-the-art performance with 7.4 % FVD improvement and minutes longer prediction duration compared to prior works. The learned world model further serves as a realtime motion planner, outperforming strong end-to-end planners on NAVSIM benchmarks.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "世界模型",
+      "matched_keywords": [
+        "world model",
+        "video prediction",
+        "video generation",
+        "dynamics model",
+        "video diffusion"
+      ],
+      "scores": {
+        "relevance": 1.7,
+        "recency": 0,
+        "popularity": 0.27,
+        "quality": 1.9,
+        "recommendation": 3.02
+      },
+      "pdf_url": "https://arxiv.org/pdf/2506.24113",
+      "arxiv_url": "https://www.semanticscholar.org/paper/4c4935a6d2c55f4a878868c5a23f63117d4523a8"
+    },
+    {
+      "arxiv_id": "2508.13009",
+      "title": "Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model",
+      "authors": [
+        {
+          "authorId": "2257432343",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371014883",
+          "affiliations": []
+        },
+        {
+          "authorId": "2376510137",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371132207",
+          "affiliations": []
+        },
+        {
+          "authorId": "2325930112",
+          "affiliations": []
+        },
+        {
+          "authorId": "2302784678",
+          "affiliations": []
+        },
+        {
+          "authorId": "2370936390",
+          "affiliations": []
+        },
+        {
+          "authorId": "2371157763",
+          "affiliations": []
+        },
+        {
+          "authorId": "2375389951",
+          "affiliations": []
+        },
+        {
+          "authorId": "2382776742",
+          "affiliations": []
+        },
+        {
+          "authorId": "2375392473",
+          "affiliations": []
+        },
+        {
+          "authorId": "2243372903",
+          "affiliations": []
+        },
+        {
+          "authorId": "2325144186",
+          "affiliations": []
+        },
+        {
+          "authorId": "2376206595",
+          "affiliations": []
+        },
+        {
+          "authorId": "2347897200",
+          "affiliations": []
+        },
+        {
+          "authorId": "2354290518",
+          "affiliations": []
+        },
+        {
+          "authorId": "2375532570",
+          "affiliations": []
+        },
+        {
+          "authorId": "2375390476",
+          "affiliations": []
+        },
+        {
+          "authorId": "2263493641",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Recent advances in interactive video generations have demonstrated diffusion model's potential as world models by capturing complex physical dynamics and interactive behaviors. However, existing interactive world models depend on bidirectional attention and lengthy inference steps, severely limiting real-time performance. Consequently, they are hard to simulate real-world dynamics, where outcomes must update instantaneously based on historical context and current actions. To address this, we present Matrix-Game 2.0, an interactive world model generates long videos on-the-fly via few-step auto-regressive diffusion. Our framework consists of three key components: (1) A scalable data production pipeline for Unreal Engine and GTA5 environments to effectively produce massive amounts (about 1200 hours) of video data with diverse interaction annotations; (2) An action injection module that enables frame-level mouse and keyboard inputs as interactive conditions; (3) A few-step distillation based on the casual architecture for real-time and streaming video generation. Matrix Game 2.0 can generate high-quality minute-level videos across diverse scenes at an ultra-fast speed of 25 FPS. We open-source our model weights and codebase to advance research in interactive world modeling.",
+      "original_abstract": "Recent advances in interactive video generations have demonstrated diffusion model's potential as world models by capturing complex physical dynamics and interactive behaviors. However, existing interactive world models depend on bidirectional attention and lengthy inference steps, severely limiting real-time performance. Consequently, they are hard to simulate real-world dynamics, where outcomes must update instantaneously based on historical context and current actions. To address this, we present Matrix-Game 2.0, an interactive world model generates long videos on-the-fly via few-step auto-regressive diffusion. Our framework consists of three key components: (1) A scalable data production pipeline for Unreal Engine and GTA5 environments to effectively produce massive amounts (about 1200 hours) of video data with diverse interaction annotations; (2) An action injection module that enables frame-level mouse and keyboard inputs as interactive conditions; (3) A few-step distillation based on the casual architecture for real-time and streaming video generation. Matrix Game 2.0 can generate high-quality minute-level videos across diverse scenes at an ultra-fast speed of 25 FPS. We open-source our model weights and codebase to advance research in interactive world modeling.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "世界模型",
+      "matched_keywords": [
+        "world model",
+        "video generation"
+      ],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 0,
+        "popularity": 0.78,
+        "quality": 0.5,
+        "recommendation": 2.27
+      },
+      "pdf_url": "https://arxiv.org/pdf/2508.13009",
+      "arxiv_url": "https://www.semanticscholar.org/paper/32015b0f0fc091207b04b11f8b96ea8f487a3d30"
+    },
+    {
+      "arxiv_id": "2510.10125",
+      "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
+      "authors": [
+        {
+          "authorId": "2181339548",
+          "affiliations": []
+        },
+        {
+          "authorId": "2292341452",
+          "affiliations": []
+        },
+        {
+          "authorId": "2280257464",
+          "affiliations": []
+        },
+        {
+          "authorId": "2387218305",
+          "affiliations": []
+        }
+      ],
+      "affiliations": [],
+      "summary": "Generalist robot policies can now perform a wide range of manipulation skills, but evaluating and improving their ability with unfamiliar objects and instructions remains a significant challenge. Rigorous evaluation requires a large number of real-world rollouts, while systematic improvement demands additional corrective data with expert labels. Both of these processes are slow, costly, and difficult to scale. World models offer a promising, scalable alternative by enabling policies to rollout within imagination space. However, a key challenge is building a controllable world model that can handle multi-step interactions with generalist robot policies. This requires a world model compatible with modern generalist policies by supporting multi-view prediction, fine-grained action control, and consistent long-horizon interactions, which is not achieved by previous works. In this paper, we make a step forward by introducing a controllable multi-view world model that can be used to evaluate and improve the instruction-following ability of generalist robot policies. Our model maintains long-horizon consistency with a pose-conditioned memory retrieval mechanism and achieves precise action control through frame-level action conditioning. Trained on the DROID dataset (95k trajectories, 564 scenes), our model generates spatially and temporally consistent trajectories under novel scenarios and new camera placements for over 20 seconds. We show that our method can accurately rank policy performance without real-world robot rollouts. Moreover, by synthesizing successful trajectories in imagination and using them for supervised fine-tuning, our approach can improve policy success by 44.7\\%.",
+      "original_abstract": "Generalist robot policies can now perform a wide range of manipulation skills, but evaluating and improving their ability with unfamiliar objects and instructions remains a significant challenge. Rigorous evaluation requires a large number of real-world rollouts, while systematic improvement demands additional corrective data with expert labels. Both of these processes are slow, costly, and difficult to scale. World models offer a promising, scalable alternative by enabling policies to rollout within imagination space. However, a key challenge is building a controllable world model that can handle multi-step interactions with generalist robot policies. This requires a world model compatible with modern generalist policies by supporting multi-view prediction, fine-grained action control, and consistent long-horizon interactions, which is not achieved by previous works. In this paper, we make a step forward by introducing a controllable multi-view world model that can be used to evaluate and improve the instruction-following ability of generalist robot policies. Our model maintains long-horizon consistency with a pose-conditioned memory retrieval mechanism and achieves precise action control through frame-level action conditioning. Trained on the DROID dataset (95k trajectories, 564 scenes), our model generates spatially and temporally consistent trajectories under novel scenarios and new camera placements for over 20 seconds. We show that our method can accurately rank policy performance without real-world robot rollouts. Moreover, by synthesizing successful trajectories in imagination and using them for supervised fine-tuning, our approach can improve policy success by 44.7\\%.",
+      "published_date": "",
+      "categories": [],
+      "matched_domain": "世界模型",
+      "matched_keywords": [
+        "world model",
+        "imagination"
+      ],
+      "scores": {
+        "relevance": 0.8,
+        "recency": 0,
+        "popularity": 0.33,
+        "quality": 1.6,
+        "recommendation": 1.96
+      },
+      "pdf_url": "https://arxiv.org/pdf/2510.10125",
+      "arxiv_url": "https://www.semanticscholar.org/paper/1c35e2d08c749bea8029a4802270c10c1acbddc0"
+    }
+  ],
+  "total": 5
+}
